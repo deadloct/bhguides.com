@@ -166,10 +166,11 @@ export default function Guides() {
 
     function renderCategories(categories) {
         categories.sort((a, b) => a.webname.localeCompare(b.webname));
-        return [
-            renderTableOfContents(categories),
-            ...categories.map(renderCategory)
-        ]
+        const rendered = categories.length && !categories[0].isSearch ? 
+            [renderTableOfContents(categories)] :
+            [];
+        rendered.push(...categories.map(renderCategory));
+        return rendered;
     }    
 
     return (

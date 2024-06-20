@@ -176,12 +176,12 @@
 }
 
 .search-wrapper input {
-    box-sizing: border-box;
+    box-sizing: border-box !important;
     all: unset;
     border: 1px solid white;
     padding: 1rem;
     border-radius: 3px;
-    width: calc(100% - 2*1rem);
+    width: 100%;
 }
 
 @media (max-width: 1000px) {
