@@ -52,7 +52,7 @@ export default function Header() {
                     <h1>BH Guides</h1>
                     <div className={styles["logo"]}>
                         <img
-                            srcset="logo-640.jpg 640w, logo-320.jpg 320w, logo-180.jpg 180w"
+                            srcSet="logo-640.jpg 640w, logo-320.jpg 320w, logo-180.jpg 180w"
                             src="logo-640.jpg"
                             alt="BH Guides Logo"
                         />
