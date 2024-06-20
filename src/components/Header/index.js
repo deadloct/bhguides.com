@@ -42,7 +42,7 @@ export default function Header() {
         {key: "calculators-ifcr", path: "/item-find", text: "IF/CR Calculators"},
         {key: "calculator-turnrate", path: "/turn-rate", text: "Turn Rate Calculator"},
         {key: "calculator-rngme", path: "/rng-me", text: "RNG ME"},
-        {key: "billyidols-corner", path: "/billyidols-corner", text: "BillyIdol's Corner"},
+        // {key: "billyidols-corner", path: "/billyidols-corner", text: "BillyIdol's Corner"},
     ];
 
     return (
