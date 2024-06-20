@@ -1,0 +1,68 @@
+.outer-container {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.back-button-nav-row a,
+.back-button-nav-row svg {
+    vertical-align: middle;
+    font-family: Orbitron, sans-serif;
+}
+
+.back-button-nav-row a {
+    font-size: 1.4rem;
+}
+
+.back-button-nav-row a:hover {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    font-size: 1.8rem;
+    text-align: left;
+}
+
+.meta {
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+.meta-date *,
+.meta-mp4 * {
+    vertical-align: middle; 
+    white-space: nowrap;
+}
+
+.meta-mp4 a:hover {
+    text-decoration: none;
+}
+
+@media all and (max-width: 899px) {
+    .header {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .header h1 {
+        font-size: 1.6rem;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .header h1 svg {
+        display: none;
+    }
+
+    .meta {
+        margin: 0px auto;
+        padding-bottom: 30px;
+        font-size: 1.1rem;
+    }
+}

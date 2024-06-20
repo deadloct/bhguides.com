@@ -1,0 +1,43 @@
+.outer-container {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.outer-container h2, .outer-container h3 {
+    margin-top: 3rem;
+}
+
+.outer-container dl {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.outer-container dt {
+    width: 20%;
+}
+
+.outer-container dd {
+    margin-left: auto;
+    width: 79%;
+}
+
+.outer-container dd::before {
+    content: '→ ';
+}
+
+.calculator-wrapper {
+    margin: 0 20px;
+}
+
+.results {
+    margin: 2rem 0 0;
+    font-size: 1.8rem;
+}
+
+.results .output {
+    font-size: 2rem;
+}
+
+.input-num {
+    width: 100%;
+}

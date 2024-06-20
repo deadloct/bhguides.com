@@ -1,0 +1,2240 @@
+[
+    {
+        "name": "guides-ancients",
+        "webname": "Ancients",
+        "description": "Ancient crafting and skill information",
+        "guides": [
+            {
+                "name": "Antomanz and Gylymesh's Firium Pic Guide",
+                "attachments": [
+                    {
+                        "filename": "ancients-firium-antomanz-gylgymesh.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
+                "name": "Gagf and Gylgymesh's Codex Pic Guide",
+                "attachments": [
+                    {
+                        "filename": "ancients-codex-gagf-gylgymesh.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
+                "name": "Gylymesh's Poly and Elementarium Pic Guide",
+                "attachments": [
+                    {
+                        "filename": "ancients-polyelem-gylgymesh.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
+                "name": "Gylymesh's Starweave Pic Guide",
+                "attachments": [
+                    {
+                        "filename": "ancients-starweave-gylgymesh.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
+                "name": "TooT/Gool/Winter/Anto's Escarium MH Pic Guide",
+                "attachments": [
+                    {
+                        "filename": "ancients-t18-skills-toot-goolmuddy-winter-antomanz.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "guides-schematics-cards-wrld_eatr",
+        "webname": "Familiar Cards by WRLD_EATR",
+        "description": "Useful cards about popular schematics",
+        "guides": [
+            {
+                "name": "Bor'lan",
+                "attachments": [
+                    {
+                        "filename": "fusions-cards-borlan.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
+                "name": "Dryonic",
+                "attachments": [
+                    {
+                        "filename": "fusions-cards-dryonic.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
+                "name": "Jebediah",
+                "attachments": [
+                    {
+                        "filename": "fusions-cards-jebediah.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            }, 
+            {
+                "name": "Oladus",
+                "attachments": [
+                    {
+                        "filename": "fusions-cards-oladus.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
+                "name": "Shrampz",
+                "attachments": [
+                    {
+                        "filename": "fusions-cards-shrampz.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
+                "name": "Ukalis",
+                "attachments": [
+                    {
+                        "filename": "fusions-cards-ukalis.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
+                "name": "Ulairius",
+                "attachments": [
+                    {
+                        "filename": "fusions-cards-ulairius.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
+                "name": "Yemic",
+                "attachments": [
+                    {
+                        "filename": "fusions-cards-yemic.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
+                "name": "Zarlock",
+                "attachments": [
+                    {
+                        "filename": "fusions-cards-zarlock.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "guides-familiar-recommendations-neflarian",
+        "webname": "Familiar Recommendations by Neflarian",
+        "description": "Familiar recommendations by tier",
+        "guides": [
+            {
+                "name": "Tier 1 and 2 Familiars",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/watch?v=omXE2lbpmc8"
+                    }
+                ]
+            },
+            {
+                "name": "Tier 3 Familiars",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/watch?v=l0XJGc5dvc4"
+                    }
+                ]
+            },
+            {
+                "name": "Tier 4 Familiars",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/watch?v=YQyqTB9AGnI"
+                    }
+                ]
+            },
+            {
+                "name": "Raid 2 (Tier 5) Familiars",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/watch?v=fs3r_ilvG4o"
+                    }
+                ]
+            },
+            {
+                "name": "Tier 6 Familiars",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/watch?v=A0LJ_ZqD7ls"
+                    }
+                ]
+            },
+            {
+                "name": "Tier 7 Familiars",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/watch?v=5GImFKUHJl0"
+                    }
+                ]
+            },
+            {
+                "name": "Tier 8 Familiars",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/watch?v=_2_cBM5XI2Y"
+                    }
+                ]
+            },
+            {
+                "name": "Tier 9 Familiars",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/watch?v=5hTViINdfSE"
+                    }
+                ]
+            },
+            {
+                "name": "Tier 10 Familiars",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/watch?v=1s2SFDMRWfM"
+                    }
+                ]
+            }, 
+            {
+                "name": "Tier 11 Familiars",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/watch?v=8xaUK1iKd9g"
+                    }
+                ]
+            },
+            {
+                "name": "Tier 12 Familiars",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/watch?v=RsYNoenSl3I"
+                    }
+                ]
+            },
+            {
+                "name": "Tier 13 Familiars",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/watch?v=8Gby7tWkfZY"
+                    }
+                ]
+            },
+            {
+                "name": "Tier 14 Familiars",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/watch?v=MO_vFdB255g"
+                    }
+                ]
+            },
+            {
+                "name": "Tier 15 Familiars",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/watch?v=IPTDpW6qzCU"
+                    }
+                ]
+            },
+            {
+                "name": "Tier 16 Familiars",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/watch?v=rO2t_eBmP2E"
+                    }
+                ]
+            },
+            {
+                "name": "Tier 17 Familiars",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/watch?v=Gh4Nzjz-Ilc"
+                    }
+                ]
+            },
+            {
+                "name": "Tier 18 Familiars",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/watch?v=V1YMIHkU3a4"
+                    }
+                ]
+            },
+            {
+                "name": "Tier 19 Familiars",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/watch?v=dH0t7_nDvt4"
+                    }
+                ]
+            },
+            {
+                "name": "Tier 20 Familiars",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/watch?v=TNrP1bI6D6U"
+                    }
+                ]
+            },
+            {
+                "name": "Tier 21 Familiars",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/watch?v=I10CYU3ZHeg"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "guides-schematics-other",
+        "webname": "Schematics: Other",
+        "description": "Familiar fusion guides",
+        "guides": [
+            {
+                "name": "3riko's GlarzDos Pic Guide",
+                "attachments": [
+                    {
+                        "filename": "fusions-glarz-3riko.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
+                "name": "Chuck's Tier 20 Fusion Guide Google Doc",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://docs.google.com/spreadsheets/d/1WvSyVlfUnWQF5eTwUd16g1D2fp4UORoOvBK0WvoeW-4/edit?usp=sharing"
+                    }
+                ]
+            },
+            {
+                "name": "DRACARIS' Drenath Pic Guide",
+                "attachments": [
+                    {
+                        "filename": "fusions-drenath-dracaris.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
+                "name": "DRACARIS' Igneous Ra Pic Guide",
+                "attachments": [
+                    {
+                        "filename": "fusions-ra-dracaris.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
+                "name": "DRACARIS' Teithyus Pic Guide",
+                "attachments": [
+                    {
+                        "filename": "fusions-teithyus-dracaris.md",
+                        "attachmenttype": "markdown"
+                    },
+                    {
+                        "filename": "fusions-teithyus-dracaris.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
+                "name": "DRACARIS' Thundmolf Pic Guide",
+                "attachments": [
+                    {
+                        "filename": "fusions-thundmolf-dracaris.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
+                "name": "Gylgymesh's Lerky Pic Guide",
+                "attachments": [
+                    {
+                        "filename": "fusions-lerky-gylgymesh.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
+                "name": "ItsMBSCastillo's Lerky Pic Guide",
+                "attachments": [
+                    {
+                        "filename": "fusions-lerky-itsmbscastillo.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
+                "name": "ItsMBSCastillo's Ra Pic Guides",
+                "attachments": [
+                    {
+                        "filename": "fusions-ra-itsmbscastillo.jpg",
+                        "attachmenttype": "file",
+                        "contenttype": "image/jpg"
+                    },
+                    {
+                        "filename": "fusions-ra-itsmbscastillo-2.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
+                "name": "ItsMBSCastillo's Teithyus Pic Guide",
+                "attachments": [
+                    {
+                        "filename": "fusions-teithyus-itsmbscastillo.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
+                "name": "John_Hatten2's Lerky Pic Guide",
+                "attachments": [
+                    {
+                        "filename": "fusions-lerky-john_hatten2.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
+                "name": "N1ghtmaree's Kzulum Pic Guide",
+                "attachments": [
+                    {
+                        "filename": "fusions-kzulum-n1ghtmaree.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
+                "name": "ShawnBond's Lady Sparkin Pic Guide",
+                "attachments": [
+                    {
+                        "filename": "fusions-ladysparkin-shawnbond.md",
+                        "attachmenttype": "markdown"
+                    },
+                    {
+                        "filename": "fusions-ladysparkin-shawnbond.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
+                "name": "ShawnBond's Lerky Pic Guide",
+                "attachments": [
+                    {
+                        "filename": "fusions-lerky-shawnbond.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
+                "name": "ShawnBond's Teithyus Pic Guide",
+                "attachments": [
+                    {
+                        "filename": "fusions-teithyus-shawnbond.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
+                "name": "ShawnBond's Thundmolf Pic Guide",
+                "attachments": [
+                    {
+                        "filename": "fusions-thundmolf-shawnbond.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "guides-calculators",
+        "webname": "Calculators",
+        "description": "Calculators for a variety of different things in Bit Heroes",
+        "guides": [
+            {
+                "name": "Chuck's Calculators: IF, XP, Turn Rate, Luck, etc.",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://docs.google.com/spreadsheets/d/1e70LLlDEM_iaMOjiHFJBfeJAPv02tr846u-U3DGOCho/edit#gid=1512735192"
+                    }
+                ]
+            },
+            {
+                "name": "BillyIdol's Calculators (This Site)",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://bhguides.com"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "guides-content-creators",
+        "webname": "Content Creators and Streamers",
+        "description": "List of known streams and content creators",
+        "guides": [
+            {
+                "name": "antomanz's YouTube Channel",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/@antomanz"
+                    }
+                ]
+            },
+            {
+                "name": "ArcaneLD's YouTube Channel",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/@ArcaneLD"
+                    }
+                ]
+            },
+            {
+                "name": "bitverse_andy's YouTube Channel",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/@bitverse_andy"
+                    }
+                ]
+            },
+            {
+                "name": "Demi's YouTube Channel",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/@DeMiGodkingLoL"
+                    }
+                ]
+            },
+            {
+                "name": "FergusFerret's Blog",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://bit-heroes.fandom.com/wiki/User_blog:Fergusferret"
+                    }
+                ]
+            },
+            {
+                "name": "Neflarian's YouTube Channel",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/@Neflarian"
+                    }
+                ]
+            },
+            {
+                "name": "PrimeDyze's YouTube Channel",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/@GioScott"
+                    }
+                ]
+            },
+            {
+                "name": "Tdizzle's YouTube Channel",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/@bee_552"
+                    }
+                ]
+            },
+            {
+                "name": "TrippyAfro's Twitch Channel",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.twitch.tv/trippyafro"
+                    }
+                ]
+            },
+            {
+                "name": "WRLD_EATR's YouTube Channel",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/@WRLD_EATR"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "guides-general",
+        "webname": "Miscellaneous",
+        "description": "Flag guides, beginner tips, general info, etc",
+        "guides": [
+            {
+                "name": "3riko and John_Hatten2's Shop Rotation Pic Guide and Info",
+                "obsolete": "25 October 2023: Shop rotation duration doubled, items may or may not be up-to-date.",
+                "attachments": [
+                    {
+                        "filename": "general-shoprotation-3riko-john_hatten2_v2.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    },
+                    {
+                        "filename": "general-shoprotation-3riko-john_hatten2_V3.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    },
+                    {
+                        "filename": "general-shoprotation-3riko-john_hatten2.md",
+                        "attachmenttype": "markdown"
+                    }
+                ]
+            },
+            {
+                "name": "5Rupees: FAQ Megathread from Reddit",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.reddit.com/r/BitHeroes/comments/pps3pw/faq_megathread/"
+                    }
+                ]
+            },
+            {
+                "name": "Alysias' Flag Guide",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://docs.google.com/document/d/1I0CyvxX-3rNLj8aOi6DbsR3LE5SsMnAs/mobilebasic"
+                    }
+                ]
+            },
+            {
+                "name": "ChubbyDaemon: Official Wiki Beginner Guide Website",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://bit-heroes.fandom.com/wiki/Beginner_Guide"
+                    }
+                ]
+            },
+            
+            {
+                "name": "Eliealsamaan85 and Gavx's Gauntlet Boss Pic Guide",
+                "attachments": [
+                    {
+                        "filename": "general-gauntlet-eliealsamaan85-gavx.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
+                "name": "Antomanz: Experience - The Z tier Bonus",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/watch?v=7K3yoCJ8qDk"
+                    }
+                ]
+            },
+            {
+                "name": "Gylgymesh: Familiars > Pet > Brain > Accessory > Mount > Gear Text Guide",
+                "attachments": [
+                    {
+                        "filename": "general-gylgymesh-tips.md",
+                        "attachmenttype": "markdown"
+                    }
+                ]
+            },
+            {
+                "name": "Jermoshua: Jerm's Guide to Bit Heroes Google Doc",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://docs.google.com/document/d/e/2PACX-1vTCOd7uimBdWVdz4Tc02q2Krl-4prcjeJqVCyRuSJsfZl9jlkyERKwCmRh-zsvNq5m4kTEFkbJU-Tca/pub"
+                    }
+                ]
+            },
+            {
+                "name": "Maps: Fishing Island and Seasonal Towns",
+                "attachments": [
+                    {
+                        "filename": "general-map-fishing-island.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    },
+                    {
+                        "filename": "general-map-town.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    },{
+                        "filename": "general-map-fall-town.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    },
+                    {
+                        "filename": "general-map-snow-town.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
+                "name": "MaxBrand99's Fishing Pic Guide and Info",
+                "attachments": [
+                    {
+                        "filename": "general-fishing-maxbrand99-bobbers.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    },
+                    {
+                        "filename": "general-fishing-maxbrand99.md",
+                        "attachmenttype": "markdown"
+                    }
+                ]
+            },
+            {
+                "name": "Special_Delivery's Augment Info Google Doc",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://tinyurl.com/BH-Augment-Info"
+                    }
+                ]
+            },
+            {
+                "name": "Special_Delivery's Damage Type List Google Doc",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://docs.google.com/document/d/1AcuIKP6djYmngj_FhlRGhJsx9Fgm300FooFYW8hNcN8/"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "guides-t08d4",
+        "webname": "T08D4",
+        "description": "Community t08d4 Harvester strategies",
+        "guides": [
+            {
+                "name": "PocketApple8104's Harvester Google Sheet Guides",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://docs.google.com/spreadsheets/d/1wbKl8h9Tzj9zgX1AEBY4wIhmC-xjN1OzyfsfBNkepeY/edit#gid=0"
+                    },
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://docs.google.com/spreadsheets/d/1wbKl8h9Tzj9zgX1AEBY4wIhmC-xjN1OzyfsfBNkepeY/edit#gid=513928969"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+
+        "name": "guides-t09d4",
+        "webname": "T09D4",
+        "description": "Community t09d4 Starweave strategies",
+        "guides": [
+            {
+                "name": "Lqd's Starweave Google Sheet Guide",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://docs.google.com/spreadsheets/d/1KOmFbfI6nO4r67SLBsG0sS6zmIozoSQqhYuze5rZUM0/edit#gid=0"
+                    }
+                ]
+            },
+            {
+                "name": "PocketApple8104's Starweave Google Sheet Guide",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://docs.google.com/spreadsheets/d/1wbKl8h9Tzj9zgX1AEBY4wIhmC-xjN1OzyfsfBNkepeY/edit#gid=1384195086"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+
+        "name": "guides-t14d4",
+        "webname": "T14D4",
+        "description": "Community t14d4 Evolvium strategies",
+        "guides": [
+            {
+                "name": "Lqd's Evolvium Google Sheet Guide",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://docs.google.com/spreadsheets/d/1KOmFbfI6nO4r67SLBsG0sS6zmIozoSQqhYuze5rZUM0/edit#gid=323752265"
+                    }
+                ]
+            },
+            {
+                "name": "PocketApple8104's Evolvium Google Sheet Guide",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://docs.google.com/spreadsheets/d/1wbKl8h9Tzj9zgX1AEBY4wIhmC-xjN1OzyfsfBNkepeY/edit#gid=1528104620"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "guides-t15d4",
+        "webname": "T15D4",
+        "description": "Community t15d4 Firium/Flamium strategies",
+        "guides": [
+            {
+                "name": "Ee's Iron Fate PDF Guide",
+                "builds": [
+                    "Sigbiorn"
+                ],
+                "fams": [
+                    "Blinka",
+                    "Drazig",
+                    "GlarzDos",
+                    "ITrolf X"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t15-ee.pdf",
+                        "attachmenttype": "file",
+                        "contenttype": "application/pdf"
+                    }
+                ]
+            },
+            {
+                "name": "PocketApple8104's Firium Video Guide",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/watch?v=oUPGknqnRgo"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "guides-t16d4",
+        "webname": "T16D4",
+        "description": "Community t16d4 Escarium body strategies",
+        "guides": [
+            {
+                "name": "BillyIdol's Text Guide",
+                "builds": [
+                    "Einar"
+                ],
+                "fams": [
+                    "Drazig",
+                    "Oladus",
+                    "Teithyus"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t16-billyidol.md",
+                        "attachmenttype": "markdown"
+                    }
+                ]
+            },
+            {
+                "name": "Special_Delivery's Build and Team",
+                "builds": [
+                    "Seleucus",
+                    "Silverwind"
+                ],
+                "fams": [
+                    "Blinka",
+                    "Captain Babosun",
+                    "Hebbo"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t16-special_delivery-1.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    },
+                    {
+                        "filename": "d4-t16-special_delivery-2.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "guides-t17d4",
+        "webname": "T17D4",
+        "description": "Community t17d4 Clover strategies",
+        "guides": [
+            {
+                "name": "a_poor_ninja's Pic Guide",
+                "builds": [
+                    "Fyssas",
+                    "Witchum"
+                ],
+                "fams": [
+                    "GlarzDos",
+                    "Lady Sparkin",
+                    "Lerky"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t17-a_poor_ninja.jpg",
+                        "attachmenttype": "file",
+                        "contenttype": "image/jpg"
+                    }
+                ]
+            },
+            {
+                "name": "ArchangelMichael's Video",
+                "builds": [
+                    "Perkunas"
+                ],
+                "fams": [
+                    "GlarzDos",
+                    "Lady Sparkin",
+                    "Lerky"
+                ],
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/watch?v=jsVGkAngeRU"
+                    }
+                ]
+            },
+            {
+                "name": "BillyIdol, JoeBu, and ZombieSlayer13's Pic Guide",
+                "builds": [
+                    "Fyssas",
+                    "Witchum"
+                ],
+                "fams": [
+                    "Lady Sparkin",
+                    "Lerky",
+                    "Teithyus"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t17-billyidol_joebu_zombieslayer.jpg",
+                        "attachmenttype": "file",
+                        "contenttype": "image/jpg"
+                    }
+                ]
+            },
+            {
+                "name": "BillyIdol's Text Guide and Video",
+                "builds": [
+                    "Fyssas",
+                    "Witchum"
+                ],
+                "fams": [
+                    "Lady Sparkin",
+                    "Lerky",
+                    "Teithyus"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t17-billyidol.md",
+                        "attachmenttype": "markdown"
+                    }
+                ]
+            },
+            {
+                "name": "Melody (Choco)'s PDF Guide",
+                "builds": [
+                    "Aeneas",
+                    "Thundercracker"
+                ],
+                "fams": [
+                    "GlarzDos",
+                    "Blinka",
+                    "Ulairius"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t17-chocomints_clover_guide.pdf",
+                        "attachmenttype": "file",
+                        "contenttype": "application/pdf"
+                    }
+                ]
+            },
+            {
+                "name": "Crow's Pic Guide",
+                "builds": [
+                    "Torch",
+                    "Witchum"
+                ],
+                "fams": [
+                    "Lady Sparkin",
+                    "Lerky",
+                    "Teithyus"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t17-crow.jpg",
+                        "attachmenttype": "file",
+                        "contenttype": "image/jpg"
+                    }
+                ]
+            },
+            {
+                "name": "cybermuffin's Pic Guide",
+                "builds": [
+                    "Aeneas",
+                    "Thundercracker"
+                ],
+                "fams": [
+                    "GlarzDos",
+                    "Lady Sparkin"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t17-cybermuffin.jpg",
+                        "attachmenttype": "file",
+                        "contenttype": "image/jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Other Builds/Comps (Ballbreaker, Darkhand6, Dispel1, PAINisGOD93, Techno)",
+                "builds": [],
+                "fams": [
+                    "Blinka",
+                    "GlarzDos",
+                    "Oladus",
+                    "Teithyus"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t17-ballbreaker.jpg",
+                        "attachmenttype": "file",
+                        "contenttype": "image/jpg"
+                    },
+                    {
+                        "filename": "d4-t17-darkhand6_2.jpg",
+                        "attachmenttype": "file",
+                        "contenttype": "image/jpg"
+                    },
+                    {
+                        "filename": "d4-t17-dispel1.jpg",
+                        "attachmenttype": "file",
+                        "contenttype": "image/jpg"
+                    },
+                    {
+                        "filename": "d4-t17-painisgod93.jpg",
+                        "attachmenttype": "file",
+                        "contenttype": "image/jpg"
+                    },
+                    {
+                        "filename": "d4-t17-techno.jpg",
+                        "attachmenttype": "file",
+                        "contenttype": "image/jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Fyra's Aeneas Pic Guide",
+                "builds": [
+                    "Aeneas"
+                ],
+                "fams": [
+                    "Lady Sparkin",
+                    "Lerky",
+                    "Teithyus"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t17-fyra.jpg",
+                        "attachmenttype": "file",
+                        "contenttype": "image/jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Fyra's RW/SW Pic Guide",
+                "builds": [
+                    "Road Warrior",
+                    "Silverwind"
+                ],
+                "fams": [
+                    "Shrampz"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t17-fyra-rwsw.jpg",
+                        "attachmenttype": "file",
+                        "contenttype": "image/jpg"
+                    },
+                    {
+                        "filename": "d4-t17-fyra-rwsw.md",
+                        "attachmenttype": "markdown"
+                    }
+                ]
+            },
+            {
+                "name": "Goku's Pic Guide",
+                "builds": [
+                    "Aeneas"
+                ],
+                "fams": [
+                    "Blinka",
+                    "GlarzDos",
+                    "Teithyus"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t17-goku.jpg",
+                        "attachmenttype": "file",
+                        "contenttype": "image/jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Gylgymesh's Pic Guide",
+                "builds": [
+                    "Makridi",
+                    "Thundercracker"
+                ],
+                "fams": [
+                    "GlarzDos",
+                    "Ignatus Ra",
+                    "Teithyus"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t17-gylgymesh.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
+                "name": "Hael's Pic Guide",
+                "builds": [
+                    "Aeneas"
+                ],
+                "fams": [
+                    "Blinka",
+                    "Drelvy",
+                    "GlarzDos"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t17-hael.jpg",
+                        "attachmenttype": "file",
+                        "contenttype": "image/jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Josiah_4's PDF Guide",
+                "builds": [
+                    "Aeneas"
+                ],
+                "fams": [
+                    "Blinka",
+                    "GlarzDos",
+                    "Teithyus"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t17-josiah_4.pdf",
+                        "attachmenttype": "file",
+                        "contenttype": "application/pdf"
+                    }
+                ]
+            },
+            {
+                "name": "Kruste's Pic Guide",
+                "builds": [
+                    "Aeneas",
+                    "Thundercracker"
+                ],
+                "fams": [
+                    "Blinka",
+                    "GlarzDos",
+                    "Teithyus"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t17-kruste.jpg",
+                        "attachmenttype": "file",
+                        "contenttype": "image/jpg"
+                    }
+                ]
+            },
+            {
+                "name": "MrRager's Text Guide",
+                "builds": [
+                    "Aeneas"
+                ],
+                "fams": [
+                    "GlarzDos",
+                    "Oladus",
+                    "Teithyus"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t17-mrrager.md",
+                        "attachmenttype": "markdown"
+                    }
+                ]
+            },
+            {
+                "name": "PrimeDyze's Video",
+                "builds": [
+                    "Aeneas",
+                    "Thundercracker"
+                ],
+                "fams": [
+                    "Blinka",
+                    "GlarzDos",
+                    "Kimusaba"
+                ],
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/watch?v=nv7SnG9Mnrk"
+                    }
+                ]
+            },
+            {
+                "name": "Smolder's Pic Guide",
+                "builds": [
+                    "Fyssas",
+                    "Witchum"
+                ],
+                "fams": [
+                    "Lady Sparkin",
+                    "Lerky",
+                    "Teithyus"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t17-smolder.jpg",
+                        "attachmenttype": "file",
+                        "contenttype": "image/jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Toad's Pic Guide",
+                "builds": [
+                    "Silverwind"
+                ],
+                "fams": [
+                    "Blinka",
+                    "Croundy",
+                    "Penguita"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t17-toad.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
+                "name": "Tolton's Pic Guide",
+                "builds": [
+                    "Aeneas",
+                    "Hector"
+                ],
+                "fams": [
+                    "GlarzDos",
+                    "Kimusaba",
+                    "Lady Sparkin"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t17-tolton.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
+                "name": "VesaN's Pic Guide",
+                "builds": [
+                    "Fyssas",
+                    "Torch",
+                    "Witchum"
+                ],
+                "fams": [
+                    "Lady Sparkin",
+                    "Lerky",
+                    "Teithyus"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t17-vesan.jpg",
+                        "attachmenttype": "file",
+                        "contenttype": "image/jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Youreprettycute's Pic Guide",
+                "builds": [
+                    "Aeneas"
+                ],
+                "fams": [],
+                "attachments": [
+                    {
+                        "filename": "d4-t17-youreprettycute.jpg",
+                        "attachmenttype": "file",
+                        "contenttype": "image/jpg"
+                    }
+                ]
+            },
+            {
+                "name": "ZENICKS's Pic Guide",
+                "builds": [
+                    "Aeneas"
+                ],
+                "fams": [
+                    "GlarzDos",
+                    "Teithyus"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t17-zenicks.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "guides-t18d4",
+        "webname": "T18D4",
+        "description": "Community t18d4 Escarium mainhand strategies",
+        "guides": [
+            {
+                "name": "BillyIdol's Text Guide",
+                "builds": [
+                    "Witchum"
+                ],
+                "fams": [
+                    "Lerky",
+                    "Teithyus"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t18-billyidol.md",
+                        "attachmenttype": "markdown"
+                    }
+                ]
+            },
+            {
+                "name": "Bisamratte's Pic Guide",
+                "builds": [
+                    "Makridi"
+                ],
+                "fams": [
+                    "Oladus",
+                    "Teithyus",
+                    "Ukalis"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t18-bisamratte.jpg",
+                        "attachmenttype": "file",
+                        "contenttype": "image/jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Ember's PDF Guide",
+                "builds": [
+                    "Aeneas",
+                    "Pompadour",
+                    "Thundercracker"
+                ],
+                "fams": [
+                    "Oladus",
+                    "Ulairius"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t18-ember.pdf",
+                        "attachmenttype": "file",
+                        "contenttype": "application/pdf"
+                    }
+                ]
+            },
+            {
+                "name": "Goku's Pic Guide",
+                "builds": [
+                    "Witchum"
+                ],
+                "fams": [
+                    "Drazig",
+                    "Lerky",
+                    "Teithyus"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t18-goku.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
+                "name": "Huen11 and ZombieSlayer13's Pic Guide",
+                "builds": [
+                    "Witchum"
+                ],
+                "fams": [
+                    "Lady Sparkin",
+                    "Lerky",
+                    "Teithyus"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t18-huen11_zombieslayer13.jpg",
+                        "attachmenttype": "file",
+                        "contenttype": "image/jpg"
+                    }
+                ]
+            },
+            {
+                "name": "JDizzle's Mostly Solo PDF Guide",
+                "builds": [
+                    "Witchum"
+                ],
+                "fams": [
+                    "Flunder",
+                    "Ulairius"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t18-jdizzle.pdf",
+                        "attachmenttype": "file",
+                        "contenttype": "application/pdf"
+                    }
+                ]
+            },
+            {
+                "name": "Toad's Pic Guide",
+                "builds": [
+                    "Aeneas"
+                ],
+                "fams": [
+                    "Lerky",
+                    "Oladus",
+                    "Teithyus"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t18-toad.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "guides-t19d4",
+        "webname": "T19D4",
+        "description": "Community t19d4 W3-4TY strategies",
+        "guides": [
+            {
+                "name": "Adhesive81's W3-4TY PDF Guide",
+                "builds": [
+                    "Ancient Speed Bait"
+                ],
+                "fams": [
+                    "Bleeximum",
+                    "Flunder",
+                    "Lady Sparkin"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t19-adhesive81.pdf",
+                        "attachmenttype": "file",
+                        "contenttype": "application/pdf"
+                    }
+                ]
+            },
+            {
+                "name": "Antomanz's Pic Guide",
+                "builds": [
+                    "Ancient Speed Bait"
+                ],
+                "fams": [
+                    "Teithyus",
+                    "Thundmolf"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t19-antomanz.jpg",
+                        "attachmenttype": "file",
+                        "contenttype": "image/jpg"
+                    }
+                ]
+            },
+            {
+                "name": "BillyIdol's Text Guide",
+                "builds": [
+                    "Ancient Speed Bait"
+                ],
+                "fams": [
+                    "Kimusaba",
+                    "Lady Sparkin",
+                    "Teithyus"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t19-billyidol.md",
+                        "attachmenttype": "markdown"
+                    }
+                ]
+            },
+            {
+                "name": "Blanquiito and ItsMBSCastillo's PDF and Video Guide",
+                "build": ["Skramblegg", "Skyent"],
+                "fams": [
+                    "Bleeximum",
+                    "Gello",
+                    "Kimusaba",
+                    "Teithyus"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t19-blanquiito.pdf",
+                        "attachmenttype": "file",
+                        "contenttype": "application/pdf"
+                    },
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/watch?v=2cx3uUCtiTE&ab_channel=ItsMBSCastilloBitH%C3%A9roes"
+                    }
+                ]
+            },
+            {
+                "name": "Captain_Crunchie's PDF Guide",
+                "builds": [
+                    "Ancient Speed Bait"
+                ],
+                "fams": [
+                    "Flakit",
+                    "Lerky",
+                    "Teithyus"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t19-captaincrunchie.pdf",
+                        "attachmenttype": "file",
+                        "contenttype": "application/pdf"
+                    }
+                ]
+            },
+            {
+                "name": "Commander's Pic Guide",
+                "builds": [
+                    "Ancient Speed Bait",
+                    "Aeneas"
+                ],
+                "fams": [
+                    "Astrogobby",
+                    "Gello"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t19-commander.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
+                "name": "Dude_WTF's Text Guide",
+                "builds": [
+                    "Firent"
+                ],
+                "fams": [
+                    "Kimusaba",
+                    "Teithyus"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t19-dudewtf.md",
+                        "attachmenttype": "markdown"
+                    }
+                ]
+            },
+            {
+                "name": "Ember's PDF Guide",
+                "builds": [
+                    "Skyent"
+                ],
+                "fams": [
+                    "Bleeximum",
+                    "Lady Sparkin",
+                    "Renacuaj"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t19-ember.pdf",
+                        "attachmenttype": "file",
+                        "contenttype": "application/pdf"
+                    }
+                ]
+            },
+            {
+                "name": "Fyra's PDF Guide",
+                "builds": [
+                    "Aeneas"
+                ],
+                "fams": [
+                    "Blinka",
+                    "Gello",
+                    "Teithyus"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t19-fyra.pdf",
+                        "attachmenttype": "file",
+                        "contenttype": "application/pdf"
+                    }
+                ]
+            },
+            {
+                "name": "JoeBu's Flunder Video",
+                "builds": [
+                    "Ancient Speed Bait"
+                ],
+                "fams": [
+                    "Flunder",
+                    "Gello"
+                ],
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/watch?v=Y4n7pCw51vQ"
+                    }
+                ]
+            },
+            {
+                "name": "JoeBu, BillyIdol, and ZombieSlayer13's Pic Guide",
+                "builds": [
+                    "Ancient Speed Bait"
+                ],
+                "fams": [
+                    "Bleeximum",
+                    "Gello",
+                    "Lady Sparkin"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t19-joebu_zombieslayer13.jpg",
+                        "attachmenttype": "file",
+                        "contenttype": "image/jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Maddbz's PDF Guide",
+                "builds": [
+                    "Skyent"
+                ],
+                "fams": [
+                    "Captain Babosun",
+                    "Lerky",
+                    "Ulairius"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t19-maddbz.pdf",
+                        "attachmenttype": "file",
+                        "contenttype": "application/pdf"
+                    }
+                ]
+            },
+            {
+                "name": "McSploosh's Build, Team, and Summary",
+                "builds": [
+                    "Ancient Speed Bait"
+                ],
+                "fams": [
+                    "Oladus",
+                    "Teithyus"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t19-mcsploosh.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
+                "name": "MrRager's Build and Text Summary",
+                "builds": [
+                    "Ancient Speed Bait"
+                ],
+                "fams": [
+                    "Bleeximum",
+                    "Demeter",
+                    "Kimusaba"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t19-mrrager.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    },
+                    {
+                        "filename": "d4-t19-mrrager.md",
+                        "attachmenttype": "markdown"
+                    }
+                ]
+            },
+            {
+                "name": "n1ghtmaree's text guide (Shield & Magmerang, with bad familiars)",
+                "builds": [
+                    "Firent"
+                ],
+                "fams": [
+                    "Brutow",
+                    "GlarzDos",
+                    "Flunder"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t19-n1ghtmaree.md",
+                        "attachmenttype": "markdown"
+                    },
+                    {
+                        "filename": "d4-t19-n1ghtmaree-team.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
+                "name": "Orcaaa's Build and Text Summary",
+                "builds": [
+                    "Ancient Speed Bait"
+                ],
+                "fams": [
+                    "Flunder",
+                    "Gello"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t19-orcaaa-1.jpg",
+                        "attachmenttype": "file",
+                        "contenttype": "image/jpg"
+                    },
+                    {
+                        "filename": "d4-t19-orcaaa-2.md",
+                        "attachmenttype": "markdown"
+                    }
+                ]
+            },
+            {
+                "name": "PrimeDyze's Video",
+                "builds": [
+                    "Skyent"
+                ],
+                "fams": [
+                    "Kimusaba",
+                    "Lerky",
+                    "Murbi"
+                ],
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/watch?v=BEdltEjz2-M"
+                    }
+                ]
+            },
+            {
+                "name": "RoastyChicken's Team, Build, and Strategy",
+                "builds": [
+                    "Ancient Speed Bait"
+                ],
+                "fams": [
+                    "Bleeximum",
+                    "Ignatus Ra",
+                    "Teithyus"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t19-roastychicken.md",
+                        "attachmenttype": "markdown"
+                    },
+                    {
+                        "filename": "d4-t19-roastychicken-team.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    },
+                    {
+                        "filename": "d4-t19-roastychicken-build.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
+                "name": "ShawnBond's Pic Guide",
+                "builds": [
+                    "Aeneas",
+                    "Ancient Speed Bait"
+                ],
+                "fams": [
+                    "Teithyus",
+                    "Thundmolf"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t19-shawnbond.jpg",
+                        "attachmenttype": "file",
+                        "contenttype": "image/jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Sizz",
+                "builds": [
+                    "Witchum"
+                ],
+                "fams": [
+                    "Lady Sparkin",
+                    "Lerky",
+                    "Teithyus"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t19-sizz.pdf",
+                        "attachmenttype": "file",
+                        "contenttype": "application/pdf"
+                    }
+                ]
+            },
+            {
+                "name": "Toad's Pic Guide",
+                "builds": [
+                    "Aeneas"
+                ],
+                "fams": [
+                    "Blinka",
+                    "Gello",
+                    "Teithyus"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t19-toad.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
+                "name": "UnseenAxes's Pic and Text Guide",
+                "builds": [
+                    "Skramblegg"
+                ],
+                "fams": [
+                    "Teithyus"
+                ],
+                "obsolete": "14 October 2023: Skramblegg redirection nerf negatively impacted the set's interaction with Heart of Escarium.",
+                "attachments": [
+                    {
+                        "filename": "d4-t19-unseenaxes.md",
+                        "attachmenttype": "markdown"
+                    },
+                    {
+                        "filename": "d4-t19-unseenaxes.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "guides-t20d4",
+        "webname": "T20D4",
+        "description": "Community t20d4 Sacramentum strategies",
+        "guides": [
+            {
+                "name": "Blanquiito and ItsMBSCastillo's PDF and Video Guide",
+                "build": ["Skramblegg", "Skyent"],
+                "fams": [
+                    "Bleeximum",
+                    "Gello",
+                    "Kimusaba",
+                    "Teithyus"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t20-blanquiito.pdf",
+                        "attachmenttype": "file",
+                        "contenttype": "application/pdf"
+                    },
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://www.youtube.com/watch?v=3F9vJBAom6M&ab_channel=ItsMBSCastilloBitHéroes"
+                    }
+                ]
+            },
+            {
+                "name": "Ember's PDF Guide",
+                "builds": ["Skyent"],
+                "fams": [
+                    "Bleeximum",
+                    "Kimusaba",
+                    "Lerky"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t20-ember.pdf",
+                        "attachmenttype": "file",
+                        "contenttype": "application/pdf"
+                    }
+                ]
+            },
+            {
+                "name": "Melody (Choco)'s Text Guide",
+                "builds": ["Skyent"],
+                "fams": [
+                    "Bleeximum",
+                    "Lerky"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t20-melody.md",
+                        "attachmenttype": "markdown"
+                    }
+                ]
+            },
+            {
+                "name": "Mochi's Pic Guide",
+                "builds": [
+                    "Skramblegg"
+                ],
+                "fams": [
+                    "Wincrash"
+                ],
+                "obsolete": "14 October 2023: Skramblegg redirection nerf negatively impacted the set's interaction with Heart of Escarium.",
+                "attachments": [
+                    {
+                        "filename": "d4-t20-mochi.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
+                "name": "RoastyChicken's Pic Guide (First Clear!)",
+                "builds": [
+                    "Ancient Speed Bait"
+                ],
+                "fams": [
+                    "Teithyus"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t20-roastychicken.jpg",
+                        "attachmenttype": "file",
+                        "contenttype": "image/jpg"
+                    }
+                ]
+            },
+            {
+                "name": "ZombieSlayer13's Pic Guide",
+                "builds": [
+                    "Ancient Speed Bait"
+                ],
+                "fams": [
+                    "Teithyus"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t20-zombieslayer.jpg",
+                        "attachmenttype": "file",
+                        "contenttype": "image/jpg"
+                    }
+                ]
+            },
+            {
+                "name": "UnseenAxes's Text Guide",
+                "builds": [
+                    "Skramblegg"
+                ],
+                "fams": [
+                    "Teithyus"
+                ],
+                "obsolete": "14 October 2023: Skramblegg redirection nerf negatively impacted the set's interaction with Heart of Escarium.",
+                "attachments": [
+                    {
+                        "filename": "d4-t20-unseenaxes.md",
+                        "attachmenttype": "markdown"
+                    },
+                    {
+                        "filename": "d4-t20-unseenaxes.jpg",
+                        "attachmenttype": "file",
+                        "contenttype": "image/jpg"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "guides-t21d4",
+        "webname": "T21D4",
+        "description": "Community t21d4 Evermore/Nevermore strategies",
+        "guides": [
+            {
+                "name": "Adhesive81 and Olivernoko's Pic Guide",
+                "builds": [
+                    "Ancient Speed Bait"
+                ],
+                "fams": [
+                    "Kimusaba",
+                    "Volthai"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t21-adhesive81-olivernoko-1.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    },
+                    {
+                        "filename": "d4-t21-adhesive81-olivernoko-2.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
+                "name": "fohpo's Pic Guide",
+                "builds": [
+                    "Ancient Speed Bait"
+                ],
+                "fams": [
+                    "Bleeximum",
+                    "Kimusaba",
+                    "Kzulum",
+                    "Lerky",
+                    "Volthai"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t21-fohpo.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
+                "name": "Goolmuddy's Text and Pic Guide",
+                "builds": [
+                    "Ancient Speed Bait"
+                ],
+                "fams": [
+                    "Kimusaba",
+                    "Kzulum"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t21-goolmuddy.md",
+                        "attachmenttype": "markdown"
+                    },
+                    {
+                        "filename": "d4-t21-goolmuddy-player.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    },
+                    {
+                        "filename": "d4-t21-goolmuddy-team.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
+                "name": "ItsMBSCastillo's Pic Guide",
+                "builds": [
+                    "Ancient Speed Bait"
+                ],
+                "fams": [
+                    "Bleeximum",
+                    "Lerky"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t21-itsmbscastillo.png",
+                        "attachmenttype": "file",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
+                "name": "ShawnBond's Text Guide",
+                "builds": [
+                    "Ancient Speed Bait"
+                ],
+                "fams": [
+                    "Kimusaba",
+                    "Lerky"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t21-shawnbond.md",
+                        "attachmenttype": "markdown"
+                    }
+                ]
+            },
+            {
+                "name": "Sizz's Pic Guide",
+                "builds": [
+                    "Ancient Speed Bait"
+                ],
+                "fams": [
+                    "Kimusaba",
+                    "Volthai"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t21-sizz.jpg",
+                        "attachmenttype": "file",
+                        "contenttype": "image/jpg"
+                    }
+                ]
+            },
+            {
+                "name": "ZombieSlayer13's Pic Guide",
+                "builds": [
+                    "Ancient Speed Bait"
+                ],
+                "fams": [
+                    "Kimusaba",
+                    "Lerky"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t21-zombieslayer13.jpg",
+                        "attachmenttype": "file",
+                        "contenttype": "image/jpg"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "guides-nft",
+        "webname": "NFT",
+        "description": "Information about BitVerse and Immutable NFTs",
+        "guides": [
+            {
+                "name": "Mentle88's NFT Guide",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://docs.google.com/document/d/19XwRGuJZxMngUYqPBYHlLQQmGTpZun0Y7OMOHFR0t3s/"
+                    }
+                ]
+            },
+            {
+                "name": "Whitepaper: Kongregate's official web3 specification for BitVerse NFTs and $BPXL",
+                "attachments": [
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://kongregate.gitbook.io/bitverse"
+                    }
+                ]
+            }
+        ]
+    }
+]

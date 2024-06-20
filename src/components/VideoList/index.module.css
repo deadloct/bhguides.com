@@ -1,0 +1,47 @@
+.outer-container {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.year-blocks h3 {
+    text-align: center;
+}
+
+.year-blocks ul {
+    padding-left: 15px;
+}
+
+.year-blocks ul li {
+    list-style-type: none;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.year-block {
+    margin: 50px 0;
+}
+
+.year-block:first-child {
+    margin: 0 0 50px;
+}
+
+.year-block p {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.year-block .date {
+    font-size: 0.8rem;
+    font-style: italic;
+    margin-bottom: 1rem;
+} 
+
+@media all and (max-width: 599px) {
+    .year-block h2 {
+        font-size: 1.2rem;
+    }
+
+    .year-block li {
+        font-size: 1.1rem;
+    }
+}

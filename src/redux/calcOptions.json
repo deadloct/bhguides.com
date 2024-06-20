@@ -1,0 +1,149 @@
+{
+    "runes": {
+        "default": 37.5,
+        "options": [
+            { "value": 0, "text": "Not Item Find" },
+            { "value": 7.5, "text": "Common" },
+            { "value": 15, "text": "Rare" },
+            { "value": 22.5, "text": "Epic" },
+            { "value": 30, "text": "Legendary" },
+            { "value": 37.5, "text": "Mythic" }
+        ]
+    },
+    "guild": {
+        "default": 13,
+        "options": [
+            { "value": 0, "text": "No Bonus - Rank 0" },
+            { "value": 3, "text": "3% - Rank 1" },
+            { "value": 5, "text": "5% - Rank 2" },
+            { "value": 8, "text": "8% - Rank 3" },
+            { "value": 10, "text": "10% - Rank 4" },
+            { "value": 13, "text": "13% - Rank 5" }
+        ]
+    },
+    "consumables": {
+        "default": "500-bit",
+        "groups": {
+            "By Name": [
+                { "value": "0-none", "text": "No Bonus (0%)" },
+                { "value": "350-anni", "text": "Annigor (350%)" },
+                { "value": "50-avg", "text": "Average Scroll (Blue) (50%)" },
+                { "value": "500-bit", "text": "Bitgor (500%)" },
+                { "value": "200-bub", "text": "Bubgor (200%)" },
+                { "value": "600-buc", "text": "Bucgor (600%)" },
+                { "value": "200-byte", "text": "Bytegor (200%)" },
+                { "value": "75-broc", "text": "Broccoli (75%)" },
+                { "value": "75-coco", "text": "Coco (75%)" },
+                { "value": "900-col", "text": "Colgor (900%)" },
+                { "value": "75-delicious", "text": "Delicious Feast (75%)" },
+                { "value": "75-glori", "text": "Glorious Feast (75%)" },
+                { "value": "200-tome", "text": "Item Find Tome (Gold) (200%)" },
+                { "value": "750-kongi", "text": "Kongigor (750%)" },
+                { "value": "25-minor", "text": "Minor Scroll (Green) (25%)" },
+                { "value": "100-major", "text": "Major Scroll (Red) (100%)" },
+                { "value": "500-oda", "text": "Odagor (500%)" },
+                { "value": "750-sun", "text": "Sungor (750%)" },
+                { "value": "150-ss", "text": "Super Scroll (150%)" },
+                { "value": "1200-ultra", "text": "Ultragor (1200%)" },
+                { "value": "250-week", "text": "Weeklong 168-hour gor (250%)" }
+            ],
+            "By Amount": [
+                { "value": "25", "text": "25%" },
+                { "value": "50", "text": "50%" },
+                { "value": "75", "text": "75%" },
+                { "value": "100", "text": "100%" },
+                { "value": "150", "text": "150%" },
+                { "value": "200", "text": "200%" },
+                { "value": "250", "text": "250%" },
+                { "value": "300", "text": "300%" },
+                { "value": "350", "text": "350%" },
+                { "value": "500", "text": "500%" },
+                { "value": "600", "text": "600%" },
+                { "value": "750", "text": "750%" },
+                { "value": "800", "text": "800%" },
+                { "value": "900", "text": "900%" },
+                { "value": "1200", "text": "1200%" }
+            ]
+        }
+    },
+    "daily": {
+        "default": "75-sun",
+        "options": [
+            { "value": "0-m", "text": "Monday" },
+            { "value": "45-t", "text": "Tuesday" },
+            { "value": "0-w", "text": "Wednesday" },
+            { "value": "0-r", "text": "Thursday" },
+            { "value": "0-f", "text": "Friday" },
+            { "value": "45-sat", "text": "Saturday" },
+            { "value": "75-sun", "text": "Sunday" }
+        ]
+    },
+    "adgor": {
+        "default": 50,
+        "options": [
+            { "value": "0", "text": "None" },
+            { "value": "50", "text": "Adgor/Permagor" }
+        ]
+    },
+    "encounter": {
+        "default": "5-raid",
+        "groups": {
+            "Dungeons": [
+                { "value": "1.5-dun", "text": "Dungeon-Normal" },
+                { "value": "3-dun", "text": "Dungeon-Hard" },
+                { "value": "4.5-dun", "text": "Dungeon-Heroic" },
+                { "value": "3-dun-d4", "text": "Dungeon-D4" }
+            ],
+            "Expedition": [
+                { "value": "1-exp", "text": "Expedition 1 Badge" },
+                { "value": "2-exp", "text": "Expedition 2 Badges" },
+                { "value": "2-exp-3tokens", "text": "Expedition 3 Badges" },
+                { "value": "3-exp", "text": "Expedition 4 Badges" },
+                { "value": "3.5-exp", "text": "Expedition 5 Badges" }
+            ],
+            "Invasion": [
+                { "value": "1-inv", "text": "Invasion - Any Amount" }
+            ],
+            "PVP": [
+                { "value": "1-tix", "text": "Tickets - Any Amount" }
+            ],
+            "Raids": [
+                { "value": "1-raid", "text": "Raid-Normal" },
+                { "value": "3-raid", "text": "Raid-Hard" },
+                { "value": "5-raid", "text": "Raid-Heroic" }
+            ],
+            "Trials/Gauntlet": [
+                { "value": "1-tg", "text": "T/G 1 Token" },
+                { "value": "2-tg-old", "text": "T/G 2 Tokens (Low IF)" },
+                { "value": "2-tg-old-3tokens", "text": "T/G 3 Tokens (Low IF)" },
+                { "value": "3-tg-old", "text": "T/G 4 Tokens (Low IF)" },
+                { "value": "3.5-tg-old", "text": "T/G 5 Tokens (Low IF)" },
+                { "value": "2.25-tg-boosted", "text": "T/G 2 Tokens (High IF)" },
+                { "value": "2.5-tg-boosted-3tokens", "text": "T/G 3 Tokens (High IF)" },
+                { "value": "3.75-tg-boosted", "text": "T/G 4 Tokens (High IF)" },
+                { "value": "4.5-tg-boosted", "text": "T/G 5 Tokens (High IF)" }
+            ],
+            "World Boss": [
+                { "value": "1-wb", "text": "WB-Normal" },
+                { "value": "1.25-wb", "text": "WB-Hard" },
+                { "value": "1.5-wb", "text": "WB-Heroic" }
+            ]
+        }
+    },
+    "encounterCapRate": {
+        "default": "2-raid",
+        "groups": {
+            "Dungeons": [
+                { "value": "1-dun", "text": "Dungeon-Normal" },
+                { "value": "2-dun", "text": "Dungeon-Hard" },
+                { "value": "3-dun", "text": "Dungeon-Heroic" },
+                { "value": "1.5-dun-d4", "text": "Dungeon-D4" }
+            ],
+            "Raids": [
+                { "value": "1-raid", "text": "Raid-Normal" },
+                { "value": "1.5-raid", "text": "Raid-Hard" },
+                { "value": "2-raid", "text": "Raid-Heroic" }
+            ]
+        }
+    } 
+}
