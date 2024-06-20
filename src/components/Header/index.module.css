@@ -4,11 +4,11 @@
     text-align: center;
     width: 100%;
     color: rgb(30, 30, 30);
-    background-color: #fdd379;
+    background-color: var(--header-background-color);
 }
 
 .site-header * {
-    color: rgb(30, 30, 30);
+    color: var(--header-text-color);
 }
 
 .site-header p {
@@ -31,7 +31,7 @@
 }
 
 .site-header nav {
-    background-color: #fdd379;
+    background-color: var(--header-background-color);
 }
 
 .site-header nav ul {
@@ -53,13 +53,13 @@
 .site-header nav a,
 .site-header nav a:visited {
   text-decoration: none;
-  color: rgb(30, 30, 30);
+  color: var(--header-text-color);
 }
 
 .site-header nav a:active,
 .site-header nav a:hover {
   text-decoration: underline;
-  color: rgb(30, 30, 30);
+  color: var(--header-text-color);
 }
 
 .menu-toggle {

@@ -51,11 +51,13 @@ export default function Header() {
                 <div className={styles["site-title-row"]}>
                     <h1>BH Guides</h1>
                     <div className={styles["logo"]}>
-                        <img
-                            srcSet="logo-640.jpg 640w, logo-320.jpg 320w, logo-180.jpg 180w"
-                            src="logo-640.jpg"
-                            alt="BH Guides Logo"
-                        />
+                        <Link to="/">
+                            <img
+                                srcSet="logo-640.jpg 640w, logo-320.jpg 320w, logo-180.jpg 180w"
+                                src="logo-640.jpg"
+                                alt="BH Guides Logo"
+                            />
+                        </Link>
                     </div>
                     <div onClick={toggle} className={styles["menu-toggle"]}>
                         {visible ?

@@ -1,13 +1,12 @@
 :root {
   --main-background-color: rgb(30, 30, 30);
   --main-text-color: white;
-  --main-link-color: #9ef0ff;
-  --hover-link-color: #7cebff;
-  --app-link-color: #61dafb;
+  --main-link-color: rgb(87, 182, 208);
+  --hover-link-color: rgb(97, 207, 237);
+  --app-link-color: var(--main-link-color);
 
   --header-background-color: #fdd379;
-  --header-text-color: ;
-  --header-bottom-border-color: #19263f;
+  --header-text-color: var(--main-background-color);
 
   --footer-background-color: #282c34;
   --footer-text-color: white;
@@ -19,6 +18,7 @@
   --alert-text: var(--main-text-color);
 }
 
+/*
 @media (prefers-color-scheme: dark) {
   :root {
     --main-background-color: #282c34;
@@ -41,6 +41,7 @@
     --alert-text: var(--main-text-color);
   }
 }
+*/
 
 body {
   -webkit-font-smoothing: antialiased;
