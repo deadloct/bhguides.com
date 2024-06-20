@@ -49,7 +49,14 @@ export default function Header() {
         <>
             <header className={headerClasses.join(" ")}>
                 <div className={styles["site-title-row"]}>
-                    <h1><Link to="/">BH Guides</Link></h1>
+                    <h1>BH Guides</h1>
+                    <div className={styles["logo"]}>
+                        <img
+                            srcset="logo-640.jpg 640w, logo-320.jpg 320w, logo-180.jpg 180w"
+                            src="logo-640.jpg"
+                            alt="BH Guides Logo"
+                        />
+                    </div>
                     <div onClick={toggle} className={styles["menu-toggle"]}>
                         {visible ?
                             <ClearIcon fontSize={"inherit"} className={styles["menu-icon"]} /> :

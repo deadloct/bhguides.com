@@ -42,8 +42,13 @@
 }
 
 .bubble.ext-link-risk {
-    border: 2px solid #f5f77c;
-    color: #f5f77c;
+    border: 2px solid rgb(150, 150, 150);
+    color: rgb(150, 150, 150);
+}
+
+.bubble.ext-link-risk:hover {
+    border: 2px solid white;
+    color: white;
 }
 
 .bubble.search-error {

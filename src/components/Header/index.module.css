@@ -16,6 +16,21 @@
     margin: 0;
 }
 
+.site-title-row h1 {
+    display: none;
+}
+
+.site-title-row .logo {
+    margin: 0;
+    padding: 0;
+    height: 160px;
+    margin: 0.5rem;
+}
+
+.site-title-row .logo img {
+    width: 160px;
+}
+
 .site-header nav ul {
     list-style-type: none;
     display: flex;
@@ -48,9 +63,15 @@
         align-items: center;
     }
 
-    .site-title-row h1 {
-        font-size: 2rem;
-        line-height: 2.6rem;
+    .site-title-row .logo {
+        margin: 0;
+        padding: 0;
+        height: 80px;
+        margin: 0;
+    }
+    
+    .site-title-row .logo img {
+        width: 80px;
     }
 
     .menu-toggle {
