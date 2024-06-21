@@ -2032,18 +2032,19 @@
                 ]
             },
             {
-                "name": "ZombieSlayer13's Pic Guide",
+                "name": "Special_Delivery's PDF Guide",
                 "builds": [
                     "Ancient Speed Bait"
                 ],
                 "fams": [
-                    "Teithyus"
+                    "Bleeximum",
+                    "Lerky"
                 ],
                 "attachments": [
                     {
-                        "filename": "d4-t20-zombieslayer.jpg",
-                        "attachmenttype": "image",
-                        "contenttype": "image/jpg"
+                        "filename": "d4-t20-special_delivery.pdf",
+                        "attachmenttype": "pdf",
+                        "contenttype": "application/pdf"
                     }
                 ]
             },
@@ -2063,6 +2064,22 @@
                     },
                     {
                         "filename": "d4-t20-unseenaxes.jpg",
+                        "attachmenttype": "image",
+                        "contenttype": "image/jpg"
+                    }
+                ]
+            },
+            {
+                "name": "ZombieSlayer13's Pic Guide",
+                "builds": [
+                    "Ancient Speed Bait"
+                ],
+                "fams": [
+                    "Teithyus"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t20-zombieslayer.jpg",
                         "attachmenttype": "image",
                         "contenttype": "image/jpg"
                     }
