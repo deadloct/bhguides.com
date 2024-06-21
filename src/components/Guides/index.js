@@ -1,27 +1,33 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
+import { useSelector } from "react-redux";
 import { HashLink as Link } from 'react-router-hash-link';
 import Container from '@mui/material/Container';
 
 import styles from "./index.module.css";
-import data from "./data.json";
 import Search from "./search";
+import Lightbox from "./lightbox";
 
 import ArrowCircleUpIcon from '@mui/icons-material/ArrowCircleUp';
 import ArticleIcon from '@mui/icons-material/Article';
 import CancelIcon from '@mui/icons-material/Cancel';
 import ImageIcon from '@mui/icons-material/Image';
 import LaunchIcon from '@mui/icons-material/Launch';
+import PictureAsPdfIcon from '@mui/icons-material/PictureAsPdf';
 import WarningAmberIcon from '@mui/icons-material/WarningAmber';
 
-const search = new Search(data);
-
 export default function Guides() {
+    const guides = useSelector((state) => state.guides);
+    const categories = useMemo(() => [...guides], [guides]); // Just use redux for initial state
+    const search = useMemo(() => new Search(categories), [categories]);
+
     const [searchTerm, setSearchTerm] = useState("");
-    const [results, setResults] = useState(data);
+    const [results, setResults] = useState(categories);
+    const [lightboxVisible, setLightboxVisible] = useState(false);
+    const [lightboxFile, setLightboxFile] = useState("");
 
     useEffect(() => {
         if (searchTerm === "") {
-            setResults(data);
+            setResults(categories);
             return;
         }
 
@@ -33,7 +39,13 @@ export default function Guides() {
             "isSearch": true,
         };
         setResults([category]);
-    }, [searchTerm]);
+    }, [categories, search, searchTerm]);
+
+    const openLightbox = attachment => {
+        setLightboxFile(attachment.filename);
+        setLightboxVisible(true);
+    };
+    const hideLightbox = () => setLightboxVisible(false);
 
     function obsolete(guide) {
         if (guide.obsolete && guide.obsolete.length) {
@@ -71,10 +83,19 @@ export default function Guides() {
 
     function attachment(item, index) {
         switch (item.attachmenttype) {
-            case "file":
+            case "image":
+                return (
+                    <li key={`item-${index}`} className={`${styles["attachment-item"]} ${styles["attachment-item-img"]}`} onClick={() => openLightbox(item)}>
+                        <ImageIcon /> 
+                        <span className={styles["att-name"]}>{item.filename}</span>
+                        <span className={styles["att-type"]}>{`(${item.contenttype})`}</span>
+                    </li>
+                );
+            
+            case "pdf":
                 return (
                     <li key={`item-${index}`} className={styles["attachment-item"]}>
-                        <ImageIcon /> 
+                        <PictureAsPdfIcon /> 
                         <a href={`/guide-files/${item.filename}`} target="_BLANK" rel="noreferrer">{item.filename}</a> 
                         <span className={styles["att-type"]}>{`(${item.contenttype})`}</span>
                     </li>
@@ -200,7 +221,7 @@ export default function Guides() {
                 <p>Thanks to anybody else that helped but was not mentioned because I forgot!</p>
             </footer>
             <div className={styles["back-home"]}><Link to={"/#top"} title="Scroll to Top"><ArrowCircleUpIcon fontSize="large" /></Link></div>
-            <script src="script.js"></script>
+            <Lightbox visible={lightboxVisible} file={lightboxFile} hide={hideLightbox} />
         </Container>
     );
 }

@@ -5,7 +5,7 @@ export default class Search {
         this.index = {};
         this.guides = [];
 
-        this.buildIndex(categories);
+        this.buildIndex([...categories]);
     }
 
     buildIndex(categories) {

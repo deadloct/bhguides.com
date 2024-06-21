@@ -145,8 +145,19 @@
     vertical-align: middle;
 }
 
-.attachment-item a {
+.attachment-item-img {
+    cursor: pointer;
+}
+
+.attachment-item a,
+.attachment-item .att-name {
     vertical-align: middle;
+    color: var(--main-link-color);
+}
+
+.attachment-item .att-name:hover {
+    color: var(--hover-link-color);
+    text-decoration: underline;
 }
 
 .attachment-item .att-type {

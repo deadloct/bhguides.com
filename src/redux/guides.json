@@ -9,7 +9,7 @@
                 "attachments": [
                     {
                         "filename": "ancients-firium-antomanz-gylgymesh.png",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/png"
                     }
                 ]
@@ -19,7 +19,7 @@
                 "attachments": [
                     {
                         "filename": "ancients-codex-gagf-gylgymesh.png",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/png"
                     }
                 ]
@@ -29,7 +29,7 @@
                 "attachments": [
                     {
                         "filename": "ancients-polyelem-gylgymesh.png",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/png"
                     }
                 ]
@@ -39,7 +39,7 @@
                 "attachments": [
                     {
                         "filename": "ancients-starweave-gylgymesh.png",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/png"
                     }
                 ]
@@ -49,7 +49,7 @@
                 "attachments": [
                     {
                         "filename": "ancients-t18-skills-toot-goolmuddy-winter-antomanz.png",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/png"
                     }
                 ]
@@ -66,7 +66,7 @@
                 "attachments": [
                     {
                         "filename": "fusions-cards-borlan.png",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/png"
                     }
                 ]
@@ -76,7 +76,7 @@
                 "attachments": [
                     {
                         "filename": "fusions-cards-dryonic.png",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/png"
                     }
                 ]
@@ -86,7 +86,7 @@
                 "attachments": [
                     {
                         "filename": "fusions-cards-jebediah.png",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/png"
                     }
                 ]
@@ -96,7 +96,7 @@
                 "attachments": [
                     {
                         "filename": "fusions-cards-oladus.png",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/png"
                     }
                 ]
@@ -106,7 +106,7 @@
                 "attachments": [
                     {
                         "filename": "fusions-cards-shrampz.png",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/png"
                     }
                 ]
@@ -116,7 +116,7 @@
                 "attachments": [
                     {
                         "filename": "fusions-cards-ukalis.png",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/png"
                     }
                 ]
@@ -126,7 +126,7 @@
                 "attachments": [
                     {
                         "filename": "fusions-cards-ulairius.png",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/png"
                     }
                 ]
@@ -136,7 +136,7 @@
                 "attachments": [
                     {
                         "filename": "fusions-cards-yemic.png",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/png"
                     }
                 ]
@@ -146,7 +146,7 @@
                 "attachments": [
                     {
                         "filename": "fusions-cards-zarlock.png",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/png"
                     }
                 ]
@@ -350,7 +350,7 @@
                 "attachments": [
                     {
                         "filename": "fusions-glarz-3riko.png",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/png"
                     }
                 ]
@@ -369,7 +369,7 @@
                 "attachments": [
                     {
                         "filename": "fusions-drenath-dracaris.png",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/png"
                     }
                 ]
@@ -379,7 +379,7 @@
                 "attachments": [
                     {
                         "filename": "fusions-ra-dracaris.png",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/png"
                     }
                 ]
@@ -393,7 +393,7 @@
                     },
                     {
                         "filename": "fusions-teithyus-dracaris.png",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/png"
                     }
                 ]
@@ -403,7 +403,7 @@
                 "attachments": [
                     {
                         "filename": "fusions-thundmolf-dracaris.png",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/png"
                     }
                 ]
@@ -413,7 +413,7 @@
                 "attachments": [
                     {
                         "filename": "fusions-lerky-gylgymesh.png",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/png"
                     }
                 ]
@@ -423,7 +423,7 @@
                 "attachments": [
                     {
                         "filename": "fusions-lerky-itsmbscastillo.png",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/png"
                     }
                 ]
@@ -433,12 +433,12 @@
                 "attachments": [
                     {
                         "filename": "fusions-ra-itsmbscastillo.jpg",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/jpg"
                     },
                     {
                         "filename": "fusions-ra-itsmbscastillo-2.png",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/png"
                     }
                 ]
@@ -448,7 +448,7 @@
                 "attachments": [
                     {
                         "filename": "fusions-teithyus-itsmbscastillo.png",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/png"
                     }
                 ]
@@ -458,7 +458,7 @@
                 "attachments": [
                     {
                         "filename": "fusions-lerky-john_hatten2.png",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/png"
                     }
                 ]
@@ -468,7 +468,7 @@
                 "attachments": [
                     {
                         "filename": "fusions-kzulum-n1ghtmaree.png",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/png"
                     }
                 ]
@@ -482,7 +482,7 @@
                     },
                     {
                         "filename": "fusions-ladysparkin-shawnbond.png",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/png"
                     }
                 ]
@@ -492,7 +492,7 @@
                 "attachments": [
                     {
                         "filename": "fusions-lerky-shawnbond.png",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/png"
                     }
                 ]
@@ -502,7 +502,7 @@
                 "attachments": [
                     {
                         "filename": "fusions-teithyus-shawnbond.png",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/png"
                     }
                 ]
@@ -512,7 +512,7 @@
                 "attachments": [
                     {
                         "filename": "fusions-thundmolf-shawnbond.png",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/png"
                     }
                 ]
@@ -652,12 +652,12 @@
                 "attachments": [
                     {
                         "filename": "general-shoprotation-3riko-john_hatten2_v2.png",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/png"
                     },
                     {
                         "filename": "general-shoprotation-3riko-john_hatten2_V3.png",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/png"
                     },
                     {
@@ -699,7 +699,7 @@
                 "attachments": [
                     {
                         "filename": "general-gauntlet-eliealsamaan85-gavx.png",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/png"
                     }
                 ]
@@ -736,21 +736,21 @@
                 "attachments": [
                     {
                         "filename": "general-map-fishing-island.png",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/png"
                     },
                     {
                         "filename": "general-map-town.png",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/png"
                     },{
                         "filename": "general-map-fall-town.png",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/png"
                     },
                     {
                         "filename": "general-map-snow-town.png",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/png"
                     }
                 ]
@@ -760,7 +760,7 @@
                 "attachments": [
                     {
                         "filename": "general-fishing-maxbrand99-bobbers.png",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/png"
                     },
                     {
@@ -880,7 +880,7 @@
                 "attachments": [
                     {
                         "filename": "d4-t15-ee.pdf",
-                        "attachmenttype": "file",
+                        "attachmenttype": "pdf",
                         "contenttype": "application/pdf"
                     }
                 ]
@@ -932,12 +932,12 @@
                 "attachments": [
                     {
                         "filename": "d4-t16-special_delivery-1.png",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/png"
                     },
                     {
                         "filename": "d4-t16-special_delivery-2.png",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/png"
                     }
                 ]
@@ -963,7 +963,7 @@
                 "attachments": [
                     {
                         "filename": "d4-t17-a_poor_ninja.jpg",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/jpg"
                     }
                 ]
@@ -999,7 +999,7 @@
                 "attachments": [
                     {
                         "filename": "d4-t17-billyidol_joebu_zombieslayer.jpg",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/jpg"
                     }
                 ]
@@ -1036,7 +1036,7 @@
                 "attachments": [
                     {
                         "filename": "d4-t17-chocomints_clover_guide.pdf",
-                        "attachmenttype": "file",
+                        "attachmenttype": "pdf",
                         "contenttype": "application/pdf"
                     }
                 ]
@@ -1055,7 +1055,7 @@
                 "attachments": [
                     {
                         "filename": "d4-t17-crow.jpg",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/jpg"
                     }
                 ]
@@ -1073,7 +1073,7 @@
                 "attachments": [
                     {
                         "filename": "d4-t17-cybermuffin.jpg",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/jpg"
                     }
                 ]
@@ -1090,27 +1090,27 @@
                 "attachments": [
                     {
                         "filename": "d4-t17-ballbreaker.jpg",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/jpg"
                     },
                     {
                         "filename": "d4-t17-darkhand6_2.jpg",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/jpg"
                     },
                     {
                         "filename": "d4-t17-dispel1.jpg",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/jpg"
                     },
                     {
                         "filename": "d4-t17-painisgod93.jpg",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/jpg"
                     },
                     {
                         "filename": "d4-t17-techno.jpg",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/jpg"
                     }
                 ]
@@ -1128,7 +1128,7 @@
                 "attachments": [
                     {
                         "filename": "d4-t17-fyra.jpg",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/jpg"
                     }
                 ]
@@ -1145,7 +1145,7 @@
                 "attachments": [
                     {
                         "filename": "d4-t17-fyra-rwsw.jpg",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/jpg"
                     },
                     {
@@ -1167,7 +1167,7 @@
                 "attachments": [
                     {
                         "filename": "d4-t17-goku.jpg",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/jpg"
                     }
                 ]
@@ -1186,7 +1186,7 @@
                 "attachments": [
                     {
                         "filename": "d4-t17-gylgymesh.png",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/png"
                     }
                 ]
@@ -1204,7 +1204,7 @@
                 "attachments": [
                     {
                         "filename": "d4-t17-hael.jpg",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/jpg"
                     }
                 ]
@@ -1222,7 +1222,7 @@
                 "attachments": [
                     {
                         "filename": "d4-t17-josiah_4.pdf",
-                        "attachmenttype": "file",
+                        "attachmenttype": "pdf",
                         "contenttype": "application/pdf"
                     }
                 ]
@@ -1241,7 +1241,7 @@
                 "attachments": [
                     {
                         "filename": "d4-t17-kruste.jpg",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/jpg"
                     }
                 ]
@@ -1295,7 +1295,7 @@
                 "attachments": [
                     {
                         "filename": "d4-t17-smolder.jpg",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/jpg"
                     }
                 ]
@@ -1313,7 +1313,7 @@
                 "attachments": [
                     {
                         "filename": "d4-t17-toad.png",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/png"
                     }
                 ]
@@ -1332,7 +1332,7 @@
                 "attachments": [
                     {
                         "filename": "d4-t17-tolton.png",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/png"
                     }
                 ]
@@ -1352,7 +1352,7 @@
                 "attachments": [
                     {
                         "filename": "d4-t17-vesan.jpg",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/jpg"
                     }
                 ]
@@ -1366,7 +1366,7 @@
                 "attachments": [
                     {
                         "filename": "d4-t17-youreprettycute.jpg",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/jpg"
                     }
                 ]
@@ -1383,7 +1383,7 @@
                 "attachments": [
                     {
                         "filename": "d4-t17-zenicks.png",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/png"
                     }
                 ]
@@ -1424,7 +1424,7 @@
                 "attachments": [
                     {
                         "filename": "d4-t18-bisamratte.jpg",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/jpg"
                     }
                 ]
@@ -1443,7 +1443,7 @@
                 "attachments": [
                     {
                         "filename": "d4-t18-ember.pdf",
-                        "attachmenttype": "file",
+                        "attachmenttype": "pdf",
                         "contenttype": "application/pdf"
                     }
                 ]
@@ -1461,7 +1461,7 @@
                 "attachments": [
                     {
                         "filename": "d4-t18-goku.png",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/png"
                     }
                 ]
@@ -1479,7 +1479,7 @@
                 "attachments": [
                     {
                         "filename": "d4-t18-huen11_zombieslayer13.jpg",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/jpg"
                     }
                 ]
@@ -1496,7 +1496,7 @@
                 "attachments": [
                     {
                         "filename": "d4-t18-jdizzle.pdf",
-                        "attachmenttype": "file",
+                        "attachmenttype": "pdf",
                         "contenttype": "application/pdf"
                     }
                 ]
@@ -1514,7 +1514,7 @@
                 "attachments": [
                     {
                         "filename": "d4-t18-toad.png",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/png"
                     }
                 ]
@@ -1539,7 +1539,7 @@
                 "attachments": [
                     {
                         "filename": "d4-t19-adhesive81.pdf",
-                        "attachmenttype": "file",
+                        "attachmenttype": "pdf",
                         "contenttype": "application/pdf"
                     }
                 ]
@@ -1556,7 +1556,7 @@
                 "attachments": [
                     {
                         "filename": "d4-t19-antomanz.jpg",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/jpg"
                     }
                 ]
@@ -1590,7 +1590,7 @@
                 "attachments": [
                     {
                         "filename": "d4-t19-blanquiito.pdf",
-                        "attachmenttype": "file",
+                        "attachmenttype": "pdf",
                         "contenttype": "application/pdf"
                     },
                     {
@@ -1612,7 +1612,7 @@
                 "attachments": [
                     {
                         "filename": "d4-t19-captaincrunchie.pdf",
-                        "attachmenttype": "file",
+                        "attachmenttype": "pdf",
                         "contenttype": "application/pdf"
                     }
                 ]
@@ -1630,7 +1630,7 @@
                 "attachments": [
                     {
                         "filename": "d4-t19-commander.png",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/png"
                     }
                 ]
@@ -1664,7 +1664,7 @@
                 "attachments": [
                     {
                         "filename": "d4-t19-ember.pdf",
-                        "attachmenttype": "file",
+                        "attachmenttype": "pdf",
                         "contenttype": "application/pdf"
                     }
                 ]
@@ -1682,7 +1682,7 @@
                 "attachments": [
                     {
                         "filename": "d4-t19-fyra.pdf",
-                        "attachmenttype": "file",
+                        "attachmenttype": "pdf",
                         "contenttype": "application/pdf"
                     }
                 ]
@@ -1716,7 +1716,7 @@
                 "attachments": [
                     {
                         "filename": "d4-t19-joebu_zombieslayer13.jpg",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/jpg"
                     }
                 ]
@@ -1734,7 +1734,7 @@
                 "attachments": [
                     {
                         "filename": "d4-t19-maddbz.pdf",
-                        "attachmenttype": "file",
+                        "attachmenttype": "pdf",
                         "contenttype": "application/pdf"
                     }
                 ]
@@ -1751,7 +1751,7 @@
                 "attachments": [
                     {
                         "filename": "d4-t19-mcsploosh.png",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/png"
                     }
                 ]
@@ -1769,7 +1769,7 @@
                 "attachments": [
                     {
                         "filename": "d4-t19-mrrager.png",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/png"
                     },
                     {
@@ -1795,7 +1795,7 @@
                     },
                     {
                         "filename": "d4-t19-n1ghtmaree-team.png",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/png"
                     }
                 ]
@@ -1812,7 +1812,7 @@
                 "attachments": [
                     {
                         "filename": "d4-t19-orcaaa-1.jpg",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/jpg"
                     },
                     {
@@ -1855,12 +1855,12 @@
                     },
                     {
                         "filename": "d4-t19-roastychicken-team.png",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/png"
                     },
                     {
                         "filename": "d4-t19-roastychicken-build.png",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/png"
                     }
                 ]
@@ -1878,7 +1878,7 @@
                 "attachments": [
                     {
                         "filename": "d4-t19-shawnbond.jpg",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/jpg"
                     }
                 ]
@@ -1896,7 +1896,7 @@
                 "attachments": [
                     {
                         "filename": "d4-t19-sizz.pdf",
-                        "attachmenttype": "file",
+                        "attachmenttype": "pdf",
                         "contenttype": "application/pdf"
                     }
                 ]
@@ -1914,7 +1914,7 @@
                 "attachments": [
                     {
                         "filename": "d4-t19-toad.png",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/png"
                     }
                 ]
@@ -1935,7 +1935,7 @@
                     },
                     {
                         "filename": "d4-t19-unseenaxes.png",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/png"
                     }
                 ]
@@ -1959,7 +1959,7 @@
                 "attachments": [
                     {
                         "filename": "d4-t20-blanquiito.pdf",
-                        "attachmenttype": "file",
+                        "attachmenttype": "pdf",
                         "contenttype": "application/pdf"
                     },
                     {
@@ -1979,7 +1979,7 @@
                 "attachments": [
                     {
                         "filename": "d4-t20-ember.pdf",
-                        "attachmenttype": "file",
+                        "attachmenttype": "pdf",
                         "contenttype": "application/pdf"
                     }
                 ]
@@ -2010,7 +2010,7 @@
                 "attachments": [
                     {
                         "filename": "d4-t20-mochi.png",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/png"
                     }
                 ]
@@ -2026,7 +2026,7 @@
                 "attachments": [
                     {
                         "filename": "d4-t20-roastychicken.jpg",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/jpg"
                     }
                 ]
@@ -2042,7 +2042,7 @@
                 "attachments": [
                     {
                         "filename": "d4-t20-zombieslayer.jpg",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/jpg"
                     }
                 ]
@@ -2063,7 +2063,7 @@
                     },
                     {
                         "filename": "d4-t20-unseenaxes.jpg",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/jpg"
                     }
                 ]
@@ -2087,12 +2087,12 @@
                 "attachments": [
                     {
                         "filename": "d4-t21-adhesive81-olivernoko-1.png",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/png"
                     },
                     {
                         "filename": "d4-t21-adhesive81-olivernoko-2.png",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/png"
                     }
                 ]
@@ -2112,7 +2112,7 @@
                 "attachments": [
                     {
                         "filename": "d4-t21-fohpo.png",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/png"
                     }
                 ]
@@ -2133,12 +2133,12 @@
                     },
                     {
                         "filename": "d4-t21-goolmuddy-player.png",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/png"
                     },
                     {
                         "filename": "d4-t21-goolmuddy-team.png",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/png"
                     }
                 ]
@@ -2155,7 +2155,7 @@
                 "attachments": [
                     {
                         "filename": "d4-t21-itsmbscastillo.png",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/png"
                     }
                 ]
@@ -2188,7 +2188,7 @@
                 "attachments": [
                     {
                         "filename": "d4-t21-sizz.jpg",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/jpg"
                     }
                 ]
@@ -2205,7 +2205,7 @@
                 "attachments": [
                     {
                         "filename": "d4-t21-zombieslayer13.jpg",
-                        "attachmenttype": "file",
+                        "attachmenttype": "image",
                         "contenttype": "image/jpg"
                     }
                 ]
