@@ -969,6 +969,25 @@
                 ]
             },
             {
+                "name": "Adhesive81's Picture Guide",
+                "builds": [
+                    "Firent"
+                ],
+                "fams": [
+                    "Blinka",
+                    "GlarzDos",
+                    "ITrolf X",
+                    "Teithyus"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t17-adhesive81.png",
+                        "attachmenttype": "image",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
+            {
                 "name": "ArchangelMichael's Video",
                 "builds": [
                     "Perkunas"
@@ -1395,6 +1414,25 @@
         "webname": "T18D4",
         "description": "Community t18d4 Escarium mainhand strategies",
         "guides": [
+            {
+                "name": "Adhesive81's Picture Guide",
+                "builds": [
+                    "Firent"
+                ],
+                "fams": [
+                    "Blinka",
+                    "Flunder",
+                    "ITrolf X",
+                    "Teithyus"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t18-adhesive81.png",
+                        "attachmenttype": "image",
+                        "contenttype": "image/png"
+                    }
+                ]
+            },
             {
                 "name": "BillyIdol's Text Guide",
                 "builds": [

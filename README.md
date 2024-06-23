@@ -18,7 +18,18 @@ To run the very few unit tests:
 npm test
 ```
 
+## Adding a Guide
+
+To add a guide:
+
+1. If there are files, add them to `public/guide-files`. Note the (mediocre) naming conventions and try to follow them.
+2. Add an entry for the guide in `src/redux/guides.json`. Usually best to just copy another guide. Note that some guides have extra metadata, like the build and familiars used.
+
 ## Videos
+
+> **NOTE THAT THESE ARE NOT CURRENTLY LIVE ON THE WEBSITE**
+> 
+> I had a section of the site dedicated to some old videos of mine (BillyIdol on BH), but the site is now a community resource rather than a personal blog. I plan to bring the video functionality back as part of the guides page; leaving the instructions here for future reference.
 
 While the screenshots on the site are saved in the repository for convenience, the videos on the site are not stored here to save space. The source videos should be placed in public/video and then HLS streams for them can be generated using [this script](https://gist.github.com/maitrungduc1410/9c640c61a7871390843af00ae1d8758e), which I found randomly on Google and love.  I'm fairly certain that I've only changed the renditions block at the top to:
 
