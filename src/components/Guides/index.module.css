@@ -145,7 +145,8 @@
     vertical-align: middle;
 }
 
-.attachment-item-img {
+.attachment-item-img,
+.attachment-item-markdown{
     cursor: pointer;
 }
 

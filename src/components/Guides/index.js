@@ -6,6 +6,7 @@ import Container from '@mui/material/Container';
 import styles from "./index.module.css";
 import Search from "./search";
 import Lightbox from "./lightbox";
+import Markdown from "./markdown";
 
 import ArrowCircleUpIcon from '@mui/icons-material/ArrowCircleUp';
 import ArticleIcon from '@mui/icons-material/Article';
@@ -24,6 +25,9 @@ export default function Guides() {
     const [results, setResults] = useState(categories);
     const [lightboxVisible, setLightboxVisible] = useState(false);
     const [lightboxFile, setLightboxFile] = useState("");
+    const [markdownVisible, setMarkdownVisible] = useState(false);
+    const [markdownFile, setMarkdownFile] = useState("");
+    const [markdownName, setMarkdownName] = useState("");
 
     useEffect(() => {
         if (searchTerm === "") {
@@ -46,6 +50,13 @@ export default function Guides() {
         setLightboxVisible(true);
     };
     const hideLightbox = () => setLightboxVisible(false);
+
+    const openMarkdown = attachment => {
+        setMarkdownFile(attachment.filename);
+        setMarkdownName(attachment.filename);
+        setMarkdownVisible(true);
+    };
+    const hideMarkdown = () => setMarkdownVisible(false);
 
     function obsolete(guide) {
         if (guide.obsolete && guide.obsolete.length) {
@@ -103,9 +114,9 @@ export default function Guides() {
 
             case "markdown":
                 return (
-                    <li key={`item-${index}`} className={styles["attachment-item"]}>
+                    <li key={`item-${index}`} className={`${styles["attachment-item"]} ${styles["attachment-item-markdown"]}`} onClick={() => openMarkdown(item)}>
                         <ArticleIcon /> 
-                        <a href={`/guide-files/${item.filename}`} target="_BLANK" rel="noreferrer">{item.filename}</a> 
+                        <span className={styles["att-name"]}>{item.filename}</span>
                         <span className={styles["att-type"]}>(markdown/text)</span>
                     </li>
                 );
@@ -222,6 +233,7 @@ export default function Guides() {
             </footer>
             <div className={styles["back-home"]}><Link to={"/#top"} title="Scroll to Top"><ArrowCircleUpIcon fontSize="large" /></Link></div>
             <Lightbox visible={lightboxVisible} file={lightboxFile} hide={hideLightbox} />
+            <Markdown visible={markdownVisible} file={markdownFile} name={markdownName} hide={hideMarkdown} />
         </Container>
     );
 }
