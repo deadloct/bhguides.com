@@ -809,6 +809,13 @@
             },
             {
                 "name": "Youreprettycute's In-Tier Pic and Text Guide",
+                "builds": [
+                    "Inferno"
+                ],
+                "fams": [
+                    "Bobodom",
+                    "Drazig"
+                ],
                 "attachments": [
                     {
                         "filename": "d4-t8-youreprettycute.md",
