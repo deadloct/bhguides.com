@@ -806,6 +806,20 @@
                         "link": "https://docs.google.com/spreadsheets/d/1wbKl8h9Tzj9zgX1AEBY4wIhmC-xjN1OzyfsfBNkepeY/edit#gid=513928969"
                     }
                 ]
+            },
+            {
+                "name": "Youreprettycute's In-Tier Pic and Text Guide",
+                "attachments": [
+                    {
+                        "filename": "d4-t8-youreprettycute.md",
+                        "attachmenttype": "markdown"
+                    },
+                    {
+                        "filename": "d4-t8-youreprettycute.png",
+                        "attachmenttype": "image",
+                        "contenttype": "image/png"
+                    }
+                ]
             }
         ]
     },
