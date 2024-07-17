@@ -791,7 +791,7 @@
     },
     {
         "name": "guides-t08d4",
-        "webname": "T08D4",
+        "webname": "T08D4 / Z07D4",
         "description": "Community t08d4 Harvester strategies",
         "guides": [
             {
@@ -833,7 +833,7 @@
     {
 
         "name": "guides-t09d4",
-        "webname": "T09D4",
+        "webname": "T09D4 / Z08D4",
         "description": "Community t09d4 Starweave strategies",
         "guides": [
             {
@@ -858,8 +858,44 @@
     },
     {
 
+        "name": "guides-t12d4",
+        "webname": "T12D4 / Z11D4",
+        "description": "Community t12d4 Ladener Broom strategies",
+        "guides": [
+            {
+                "name": "Vanterio's Text, Pic, and Video Guide",
+                "builds": [
+                    "Raiju"
+                ],
+                "fams": [
+                    "Blinka",
+                    "Drazig",
+                    "Gello",
+                    "Grandpa Hef",
+                    "Oladus"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t12-vanterio.md",
+                        "attachmenttype": "markdown"
+                    },
+                    {
+                        "filename": "d4-t12-vanterio.png",
+                        "attachmenttype": "image",
+                        "contenttype": "image/png"
+                    },
+                    {
+                        "attachmenttype": "link",
+                        "link": "https://youtube.com/playlist?list=PLHpQl7TbewxI3c9kDcHdhrCyd8N3e9rkK&feature=shared"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+
         "name": "guides-t14d4",
-        "webname": "T14D4",
+        "webname": "T14D4 / Z13D4",
         "description": "Community t14d4 Evolvium strategies",
         "guides": [
             {
@@ -884,7 +920,7 @@
     },
     {
         "name": "guides-t15d4",
-        "webname": "T15D4",
+        "webname": "T15D4 / Z14D4",
         "description": "Community t15d4 Firium/Flamium strategies",
         "guides": [
             {
@@ -919,7 +955,7 @@
     },
     {
         "name": "guides-t16d4",
-        "webname": "T16D4",
+        "webname": "T16D4 / Z15D4",
         "description": "Community t16d4 Escarium body strategies",
         "guides": [
             {
@@ -967,7 +1003,7 @@
     },
     {
         "name": "guides-t17d4",
-        "webname": "T17D4",
+        "webname": "T17D4 / Z16D4",
         "description": "Community t17d4 Clover strategies",
         "guides": [
             {
@@ -1432,7 +1468,7 @@
     },
     {
         "name": "guides-t18d4",
-        "webname": "T18D4",
+        "webname": "T18D4 / Z17D4",
         "description": "Community t18d4 Escarium mainhand strategies",
         "guides": [
             {
@@ -1582,7 +1618,7 @@
     },
     {
         "name": "guides-t19d4",
-        "webname": "T19D4",
+        "webname": "T19D4 / Z18D4",
         "description": "Community t19d4 W3-4TY strategies",
         "guides": [
             {
@@ -2003,7 +2039,7 @@
     },
     {
         "name": "guides-t20d4",
-        "webname": "T20D4",
+        "webname": "T20D4 / Z19D4",
         "description": "Community t20d4 Sacramentum strategies",
         "guides": [
             {
@@ -2148,7 +2184,7 @@
     },
     {
         "name": "guides-t21d4",
-        "webname": "T21D4",
+        "webname": "T21D4 / Z20D4",
         "description": "Community t21d4 Evermore/Nevermore strategies",
         "guides": [
             {
