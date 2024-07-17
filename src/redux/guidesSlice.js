@@ -1,6 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-
-const guides = require("./guides.json");
+import guides from "./guides.json";
 
 export const guidesSlice = createSlice({
     name: "guides",

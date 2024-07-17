@@ -11,7 +11,7 @@ export default function VideoJSWrapper(props) {
         responsive: true,
         fluid: true,
         sources: [{
-            src: `${process.env.PUBLIC_URL}/video/${video.hls}`,
+            src: `/video/${video.hls}`,
             type: "application/x-mpegURL"
         }]
     });

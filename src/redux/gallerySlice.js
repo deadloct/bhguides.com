@@ -1,6 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-
-const groups = require("./gallery.json");
+import groups from "./gallery.json";
 
 export const gallerySlice = createSlice({
     name: "gallery",

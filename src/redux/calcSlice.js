@@ -1,6 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-
-const options = require("./calcOptions.json");
+import options from "./calcOptions.json";
 
 export const calcSlice = createSlice({
     name: "calc",

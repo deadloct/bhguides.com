@@ -1,6 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-
-const db = require("./videos.json");
+import db from "./videos.json";
 
 export const videoSlice = createSlice({
     name: "videos",

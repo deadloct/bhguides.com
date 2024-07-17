@@ -91,7 +91,7 @@ export default function Pics() {
                 <ImageList variant="standard" cols={3} gap={8}>
                     {images.map(image => {
                         const p = pathParse(`/screenshots/${image.file}`);
-                        const common = `${process.env.PUBLIC_URL}/${p.dir}/${p.name}`;
+                        const common = `/${p.dir}/${p.name}`;
                         const thumb = common + Suffix.Thumb + p.ext;
                         // const low = common + Suffix.Low + p.ext;
                         // const med = common + Suffix.Medium + p.ext;
