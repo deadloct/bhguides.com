@@ -11,9 +11,9 @@ import styles from "./index.module.css";
 export default function Tools() {
     return (
         <Container className={styles["outer-container"]} maxWidth="md">
-            <StandardIFCalc />
-            <Divider />
             <SimpleIFCalc />
+            <Divider />
+            <StandardIFCalc />
             <Divider />
             <CaptureRateCalc />
             <Divider />

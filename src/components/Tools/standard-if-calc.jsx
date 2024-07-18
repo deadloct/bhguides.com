@@ -8,7 +8,14 @@ import MenuItem from '@mui/material/MenuItem';
 import Select from '@mui/material/Select';
 
 import styles from "./index.module.css";
-import { calcIF, cleanVal, getEncounterIFForDisplay, getIFEquation, VerticalSpacing } from "./utils";
+import {
+    calcIF,
+    cleanVal,
+    getEncounterIFForDisplay,
+    getIFEquation,
+    SardinexEventOverride,
+    VerticalSpacing,
+} from "./utils";
 
 export default function StandardIFCalc() {
     const options = useSelector((state) => state.calc.options);
@@ -171,7 +178,8 @@ export default function StandardIFCalc() {
                             label="Daily Bonus Multiplier"
                             onChange={handleInputChange}
                         >
-                            <MenuItem key="daily-mult-1x" value={1}>1x</MenuItem>
+                            <MenuItem key="daily-mult-1x" value={1}>None</MenuItem>
+                            <MenuItem key="daily-mult-override" value={SardinexEventOverride}>Sardinex Blanket {SardinexEventOverride}% Override</MenuItem>
                             <MenuItem key="daily-mult-2x" value={2}>2x</MenuItem>
                             <MenuItem key="daily-mult-3x" value={3}>3x</MenuItem>
                             <MenuItem key="daily-mult-4x" value={4}>4x</MenuItem>
