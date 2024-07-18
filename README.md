@@ -6,7 +6,7 @@ As mentioned on the website, the calculators are based on [a JSFiddle provided b
 
 ## Running Locally
 
-As a very standard [create-react-app](https://create-react-app.dev/) app, this requires node.js and npm to build and run. To get going, just pop open a shell and type:
+As a very standard [React](https://react.dev/) app, this requires node.js and npm to build and run. To get going, just pop open a shell and type:
 
 ```bash
 npm start
