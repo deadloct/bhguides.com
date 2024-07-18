@@ -6,7 +6,7 @@ import Input from '@mui/material/Input';
 import Slider from '@mui/material/Slider';
 
 import styles from "./index.module.css";
-import { ReactComponent as TurnRateEqnSVG } from './turn-rate-equation.svg';
+import TurnRateEqnSVG from './turn-rate-equation.svg?react';
 
 const defaultValues = {
     power: 20000,
@@ -155,7 +155,7 @@ export default function TurnRateCalc() {
             </blockquote>
 
             <h3>Equation</h3>
-            <TurnRateEqnSVG />
+            <div className={styles.equation}><TurnRateEqnSVG /></div>
             <dl>
                 <dt>P</dt>
                 <dd>Power</dd>

@@ -14,7 +14,7 @@ export default function MarkdownModal({ file, name, visible, hide }) {
     const [title, setTitle] = useState("");
     const [loading, setLoading] = useState(true);
 
-    const full = `${process.env.PUBLIC_URL}/guide-files/${file}`;
+    const full = `/guide-files/${file}`;
 
     useEffect(() => {
         async function loadMarkdown() {

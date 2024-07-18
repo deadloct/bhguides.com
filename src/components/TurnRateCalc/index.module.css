@@ -41,3 +41,11 @@
 .input-num {
     width: 100%;
 }
+
+.equation svg {
+    color: white;
+    fill: currentColor;
+    width: 300px;
+    max-width: 90%;
+    height: 75px;
+}
