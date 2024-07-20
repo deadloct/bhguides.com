@@ -13,6 +13,11 @@ import { calcIF } from './utils';
         result: 600,
     },
     {
+        desc: "calc if: bitgor on raids on Sunday with no IF runes",
+        params: { rune1: 0, rune2: 0, guild: 13, consumable: 500, daily: 75, adgor: 50, encounter: 5, dailyMult: 1 },
+        result: 3690,
+    },
+    {
         desc: "calc if: bitgor in wb heroic",
         params: { rune1: 0, rune2: 0, guild: 0, consumable: 500, daily: 0, adgor: 0, encounter: 1.5, dailyMult: 1 },
         result: 900,
