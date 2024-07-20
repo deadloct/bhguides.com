@@ -19,7 +19,7 @@ export function getIFEquation(vals) {
     const daily = vals.dailyMult === SardinexEventOverride ?
         `eventOverride:(${SardinexEventOverride})` :
         `daily*event-multiplier:(${vals.daily}*${vals.dailyMult})`;
-    return `(rune:${vals.rune1} + rune:${vals.rune2} + guild:${vals.guild} + consumable:${vals.consumable} + adgor:${vals.adgor} + ${daily}) * (1 + encounter:${vals.encounter-1})`;
+    return `(base:100 + rune:${vals.rune1} + rune:${vals.rune2} + guild:${vals.guild} + consumable:${vals.consumable} + adgor:${vals.adgor} + ${daily}) * (1 + encounter:${vals.encounter-1})`;
 }
 
 export function cleanVal(val) {
