@@ -2080,6 +2080,25 @@
                 ]
             },
             {
+                "name": "Infermis' Text and Pic Strategy",
+                "builds": ["Ancient Speed Bait"],
+                "fams": [
+                    "Kimusaba",
+                    "Lerky"
+                ],
+                "attachments": [
+                    {
+                        "filename": "d4-t20-infermis.md",
+                        "attachmenttype": "markdown"
+                    },
+                    {
+                        "filename": "d4-t20-infermis.jpg",
+                        "attachmenttype": "image",
+                        "contenttype": "image/jpg"
+                    }
+                ]
+            },
+            {
                 "name": "Melody (Choco)'s Text Guide",
                 "builds": ["Skyent"],
                 "fams": [
