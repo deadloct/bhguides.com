@@ -1,11 +1,12 @@
 import { createSlice } from "@reduxjs/toolkit";
-import guides from "./guides.json";
+import data from "./guides.json";
 
 export const guidesSlice = createSlice({
     name: "guides",
-    initialState: [
-        ...guides,
-    ],
+    initialState: {
+        "index": [...data.index],
+        "guides": {...data.guides},
+    },
     reducers: {},
 });
 

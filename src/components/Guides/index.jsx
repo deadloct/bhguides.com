@@ -17,12 +17,14 @@ import PictureAsPdfIcon from '@mui/icons-material/PictureAsPdf';
 import WarningAmberIcon from '@mui/icons-material/WarningAmber';
 
 export default function Guides() {
-    const guides = useSelector((state) => state.guides);
-    const categories = useMemo(() => [...guides], [guides]); // Just use redux for initial state
+    const guides = useSelector((state) => state.guides.guides);
+    const guideIndex = useSelector((state) => state.guides.index);
+
+    const categories = useMemo(() => ({...guides}), [guides]); // Just use redux for initial state
     const search = useMemo(() => new Search(categories), [categories]);
 
     const [searchTerm, setSearchTerm] = useState("");
-    const [results, setResults] = useState(categories);
+    const [searchResults, setSearchResults] = useState(null);
     const [lightboxVisible, setLightboxVisible] = useState(false);
     const [lightboxFile, setLightboxFile] = useState("");
     const [markdownVisible, setMarkdownVisible] = useState(false);
@@ -31,18 +33,17 @@ export default function Guides() {
 
     useEffect(() => {
         if (searchTerm === "") {
-            setResults(categories);
+            setSearchResults(null);
             return;
         }
 
         const results = search.Find(searchTerm);
-        const category = {
-            "name": `Results for "${searchTerm}"`,
+        setSearchResults({
+            "webname": `Results for "${searchTerm}"`,
             "description": "",
             "guides": results,
             "isSearch": true,
-        };
-        setResults([category]);
+        });
     }, [categories, search, searchTerm]);
 
     const openLightbox = attachment => {
@@ -92,11 +93,11 @@ export default function Guides() {
         return "";
     }
 
-    function attachment(item, index) {
+    function attachment(item, i) {
         switch (item.attachmenttype) {
             case "image":
                 return (
-                    <li key={`item-${index}`} className={`${styles["attachment-item"]} ${styles["attachment-item-img"]}`} onClick={() => openLightbox(item)}>
+                    <li key={`item-${i}`} className={`${styles["attachment-item"]} ${styles["attachment-item-img"]}`} onClick={() => openLightbox(item)}>
                         <ImageIcon /> 
                         <span className={styles["att-name"]}>{item.filename}</span>
                         <span className={styles["att-type"]}>{`(${item.contenttype})`}</span>
@@ -105,7 +106,7 @@ export default function Guides() {
             
             case "pdf":
                 return (
-                    <li key={`item-${index}`} className={styles["attachment-item"]}>
+                    <li key={`item-${i}`} className={styles["attachment-item"]}>
                         <PictureAsPdfIcon /> 
                         <a href={`/guide-files/${item.filename}`} target="_BLANK" rel="noreferrer">{item.filename}</a> 
                         <span className={styles["att-type"]}>{`(${item.contenttype})`}</span>
@@ -114,7 +115,7 @@ export default function Guides() {
 
             case "markdown":
                 return (
-                    <li key={`item-${index}`} className={`${styles["attachment-item"]} ${styles["attachment-item-markdown"]}`} onClick={() => openMarkdown(item)}>
+                    <li key={`item-${i}`} className={`${styles["attachment-item"]} ${styles["attachment-item-markdown"]}`} onClick={() => openMarkdown(item)}>
                         <ArticleIcon /> 
                         <span className={styles["att-name"]}>{item.filename}</span>
                         <span className={styles["att-type"]}>(markdown/text)</span>
@@ -123,7 +124,7 @@ export default function Guides() {
 
             case "link":
                 return (
-                    <li key={`item-${index}`} className={styles["attachment-item"]}>
+                    <li key={`item-${i}`} className={styles["attachment-item"]}>
                         <LaunchIcon /> 
                         <a href={`${item.link}`} target="_BLANK" rel="noreferrer">{item.link}</a> 
                         <span className={styles["att-type"]}>(external link)</span>
@@ -161,31 +162,66 @@ export default function Guides() {
         );
     }
 
-    function categoryName(category) {
-        return category.webname || category.name.replace("guides-", "").replace("-", " ").trim();
-    }
+    function renderGuidesForCategory(catID, cat, i, hasParent) {
+        const header = hasParent ?
+            (<h3 id={`${catID}`}>{cat.webname}</h3>) : 
+            (<h2 id={`${catID}`}>{cat.webname}</h2>); 
 
-    function categoryAnchor(category) {
-        return category.isSearch ? 'search-results' : category.name;
-    }
+        let results;
+        if (cat.guides.length > 0) {
+            results = (<ul>{cat.guides.map((g, i) => renderGuide(g, i, cat.isSearch))}</ul>);
+        } else {
+            results = cat.isSearch ?
+                <p>There are no matched guides for your search.</p> :
+                <p>There are no guides in this category"</p>;
+        }
 
-    function renderCategory(category, i) {
-        const items = category.guides.map((g, i) => renderGuide(g, i, category.isSearch));
         return (
-            <div key={`${categoryAnchor(category)}-${i}`}>
-                <h2 id={`${categoryAnchor(category)}`}>{categoryName(category)}</h2>
-                <div className={styles["category-description"]}>{category.description}</div>
-                <ul>{items}</ul>
+            <div key={`${catID}-${i}`}>
+                {header} 
+                <div className={styles["category-description"]}>{cat.description}</div>
+                {results}
             </div>
         );
     }
 
-    function renderTableOfContents(categories) {
-        const items = categories
-            .map((category, i) => {
-                const anchor = categoryAnchor(category);
-                const name = categoryName(category);
-                return <li key={`toc-${i}`}><Link to={`/#${anchor}`}>{name}</Link></li>;
+    function renderCategoriesForIndex(indexEntry, i, depth = 0) {
+        if (!indexEntry.children) {
+            return renderGuidesForCategory(indexEntry.id, categories[indexEntry.id], i, depth > 0);
+        }
+
+        return (
+            <div key={`${indexEntry.id}-${i}`}>
+                <h2 id={`${indexEntry.id}`}>{indexEntry.name}</h2>
+                <ul>{
+                    indexEntry.children.map((child, i) => {
+                        return renderCategoriesForIndex(child, i, depth+1);
+                    })
+                }</ul>
+            </div>
+        );
+    }
+
+    function renderTableOfContents() {
+        const items = guideIndex 
+            .map((item, i) => {
+                const anchor = item.id;
+                const name = item.name || categories[anchor].webname;
+                let children;
+                if (item.children && item.children.length > 0) {
+                    children = item.children.map((child, i) => {
+                        const anchor = child.id;
+                        const name = child.name || categories[anchor].webname;
+                        return <li className={styles["toc-child"]} key={`toc-${i}`}><Link to={`#${anchor}`}>{name}</Link></li>;
+                    });
+                }
+
+                return (
+                    <li key={`toc-${i}`}>
+                        <Link to={`#${anchor}`}>{name}</Link>
+                        {children !== undefined && <ul>{children}</ul>}
+                    </li>
+                );
             })
 
         return (
@@ -196,13 +232,17 @@ export default function Guides() {
         );
     }
 
-    function renderCategories(categories) {
-        categories.sort((a, b) => a.webname.localeCompare(b.webname));
-        const rendered = categories.length && !categories[0].isSearch ? 
-            [renderTableOfContents(categories)] :
-            [];
-        rendered.push(...categories.map(renderCategory));
-        return rendered;
+    function render() {
+        if (searchResults !== null) {
+            return renderGuidesForCategory("search-results", searchResults, 0, false);
+        }
+
+        return (
+            <>
+                {renderTableOfContents(guideIndex)}
+                {...guideIndex.map((indexEntry, i) => renderCategoriesForIndex(indexEntry, i))}
+            </>
+        );
     }    
 
     return (
@@ -218,8 +258,8 @@ export default function Guides() {
                 </div>
             </header> 
             <section className={styles["content"]}>
-                <div className={styles["results"]} id="results">
-                    {renderCategories(results)} 
+                <div className={styles["searchResults"]} id="searchResults">
+                    {render()} 
                 </div>
             </section>
             <footer>

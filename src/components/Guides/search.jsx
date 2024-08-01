@@ -5,16 +5,17 @@ export default class Search {
         this.index = {};
         this.guides = [];
 
-        this.buildIndex([...categories]);
+        this.buildIndex({...categories});
     }
 
     buildIndex(categories) {
-        for (const cat of categories) {
-            for (const guide of cat.guides) {
+        for (const catname in categories) {
+            const cat = categories[catname];
+            for (const guide of categories[catname].guides) {
                 let guideIndex = this.guides.length;
                 this.guides.push({
                     ...guide,
-                    categoryName: cat.webname,
+                    categoryName: catname,
                 });
 
                 const getValues = (object, parents = []) => Object.assign({}, ...Object
@@ -29,7 +30,7 @@ export default class Search {
                 const searchable = Object.values(getValues(guide));
                 const tokens = searchable
                     .join(" ")
-                    .concat(" ", cat.webname, " ", cat.description)
+                    .concat(" ", catname, " ", cat.description)
                     .toLowerCase()
                     .replace(/[^a-zA-Z0-9]/g, " ")
                     .replace(/\s+/g, " ")
