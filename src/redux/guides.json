@@ -18,9 +18,10 @@
             {"id": "t21d4"}
         ]},
         {"id": "fams-schematics", "name": "Familiars and Schematics", "children": [
-            {"id": "schematics-other"},
+            {"id": "familiar-comparisons-manbearpig"},
             {"id": "familiar-recommendations-neflarian"},
-            {"id": "schematics-cards-wrld_eatr"}
+            {"id": "schematics-cards-wrld_eatr"},
+            {"id": "schematics-other"}
         ]},
         {"id": "misc"},
         {"id": "nft"}
@@ -171,6 +172,22 @@
                     "attachments": [
                         {
                             "filename": "fusions-cards-zarlock.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        }
+                    ]
+                }
+            ]
+        },
+        "familiar-comparisons-manbearpig": {
+            "webname": "Familiar Comparisons by ManBearPig",
+            "description": "Comparisons of different classes of familiars",
+            "guides": [
+                {
+                    "name": "Baits",
+                    "attachments": [
+                        {
+                            "filename": "fusions-manbearpig-baits.png",
                             "attachmenttype": "image",
                             "contenttype": "image/png"
                         }
@@ -929,6 +946,20 @@
                             "link": "https://docs.google.com/spreadsheets/d/1wbKl8h9Tzj9zgX1AEBY4wIhmC-xjN1OzyfsfBNkepeY/edit#gid=1384195086"
                         }
                     ]
+                },
+                {
+                    "name": "Youreprettycute's In-Tier Pic and Text Guide",
+                    "attachments": [
+                        {
+                            "filename": "d4-t9-youreprettycute.md",
+                            "attachmenttype": "markdown"
+                        },
+                        {
+                            "filename": "d4-t9-youreprettycute.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        }
+                    ]
                 }
             ]
         },
@@ -1164,6 +1195,24 @@
                         {
                             "filename": "d4-t17-billyidol.md",
                             "attachmenttype": "markdown"
+                        }
+                    ]
+                },
+                {
+                    "name": "Equilibrandt's PDF Guide",
+                    "builds": [
+                        "Aeneas",
+                        "Makridi"
+                    ],
+                    "fams": [
+                        "GlarzDos",
+                        "Kimusaba"
+                    ],
+                    "attachments": [
+                        {
+                            "filename": "d4-t17-equilibrandt.pdf",
+                            "attachmenttype": "pdf",
+                            "contenttype": "application/pdf"
                         }
                     ]
                 },
