@@ -693,6 +693,16 @@
                     ]
                 },
                 {
+                    "name": "AlbacorePrism: Battle Priority",
+                    "attachments": [
+                        {
+                            "filename": "general-battle-priority-albacoreprism.pdf",
+                            "attachmenttype": "pdf",
+                            "contenttype": "application/pdf"
+                        }
+                    ]
+                },
+                {
                     "name": "Alysias' Flag Guide",
                     "attachments": [
                         {
@@ -890,7 +900,28 @@
             "description": "Community t08d4 Harvester strategies",
             "guides": [
                 {
-                    "name": "PocketApple8104's Harvester Google Sheet Guides",
+                    "name": "Barloow1987's Pic and Text Guide",
+                    "builds": [
+                        "Inferno"
+                    ],
+                    "fams": [
+                        "Drazig",
+                        "Drya"
+                    ],
+                    "attachments": [
+                        {
+                            "filename": "d4-t8-barlooow1987.md",
+                            "attachmenttype": "markdown"
+                        },
+                        {
+                            "filename": "d4-t8-barlooow1987.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        }
+                    ]
+                },
+                {
+                    "name": "PocketApple8104's Google Sheet Guides",
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -899,6 +930,23 @@
                         {
                             "attachmenttype": "link",
                             "link": "https://docs.google.com/spreadsheets/d/1wbKl8h9Tzj9zgX1AEBY4wIhmC-xjN1OzyfsfBNkepeY/edit#gid=513928969"
+                        }
+                    ]
+                },
+                {
+                    "name": "Vanterio's Video Guide",
+                    "builds": [
+                        "Obliteration",
+                        "Night Walker"
+                    ],
+                    "fams": [
+                        "Bobodom",
+                        "Drazig"
+                    ],
+                    "attachments": [
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://youtu.be/mXyURlbZLy0?feature=shared"
                         }
                     ]
                 },
@@ -2476,6 +2524,15 @@
                         {
                             "attachmenttype": "link",
                             "link": "https://docs.google.com/document/d/19XwRGuJZxMngUYqPBYHlLQQmGTpZun0Y7OMOHFR0t3s/"
+                        }
+                    ]
+                },
+                {
+                    "name": "Neflarians's Video Guide to NFTs",
+                    "attachments": [
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://www.youtube.com/watch?v=IovNx03eaCk"
                         }
                     ]
                 },
