@@ -1,13 +1,13 @@
 {
     "name": "bhguides.com",
     "homepage": "https://bhguides.com",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "private": true,
     "dependencies": {
         "@emotion/react": "^11.10.0",
         "@emotion/styled": "^11.10.0",
-        "@mui/icons-material": "^5.8.4",
-        "@mui/material": "^5.10.1",
+        "@mui/icons-material": "^6.x.x",
+        "@mui/material": "^6.x.x",
         "@reduxjs/toolkit": "^1.8.5",
         "@testing-library/jest-dom": "^5.16.5",
         "@testing-library/react": "^13.3.0",
