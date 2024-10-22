@@ -1,7 +1,7 @@
 {
     "name": "bhguides.com",
     "homepage": "https://bhguides.com",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "private": true,
     "dependencies": {
         "@emotion/react": "^11.10.0",
@@ -17,7 +17,6 @@
         "react-hook-videojs": "^3.0.2",
         "react-modal-image": "^2.6.0",
         "react-redux": "^8.0.2",
-        "react-router-hash-link": "^2.4.3",
         "video.js": "^7.20.2",
         "web-vitals": "^2.1.4"
     },
@@ -48,7 +47,7 @@
     "devDependencies": {
         "@vitejs/plugin-react": "^4.3.1",
         "react-markdown": "^9.0.1",
-        "react-router-dom": "^6.3.0",
+        "react-router-dom": "^6.27.0",
         "use-debounce": "^10.0.0",
         "vite": "^5.3.4",
         "vite-plugin-svgr": "^4.2.0",
