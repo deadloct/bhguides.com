@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from "react";
 
 import Container from '@mui/material/Container';
-import Grid from '@mui/material/Grid';
+import Grid from '@mui/material/Grid2';
 import Input from '@mui/material/Input';
+import TextField from '@mui/material/TextField';
 import Slider from '@mui/material/Slider';
 
 import styles from "./index.module.css";
@@ -17,7 +18,7 @@ const defaultValues = {
 const limits = {
     power: { min: 0, max: 120000 },
     agility: { min: 0, max: 120000 },
-    speed: { min: 0, max: 150 },
+    speed: { min: 0, max: 125 },
 };
 
 export default function TurnRateCalc() {
@@ -63,7 +64,8 @@ export default function TurnRateCalc() {
 
     function getInputHandler(name) {
         return e => {
-            let v = e.target.value === "" ? limits[name].min : limit(parseInt(e.target.value), name);
+            let v = e.target.value === "" ? limits[name].min : limit(parseFloat(e.target.value), name);
+
             setSliderValues({
                 ...sliderValues,
                 [name]: v,
@@ -96,47 +98,83 @@ export default function TurnRateCalc() {
 
             <div className={styles["calculator-wrapper"]}>
                 <Grid container justify="center" direction="column">
-                    <Grid item>
-                        <Grid container item justifyContent="space-between" direction="row">
-                            <Grid item><label>Power</label></Grid>
-                            <Grid item>
-                                <Input
-                                    value={inputDisplayValues.power}
-                                    onChange={getInputHandler("power")}
-                                    onBlur={getBlurHandler("power")}
-                                    inputProps={{ step: 100, min: limits.power.min, max: limits.power.max, type: 'number' }}
-                                />
-                            </Grid>
+                    <Grid>
+                        <Grid container justifyContent="space-between" direction="row">
+                            <label>Power</label>
+                            <TextField
+                                type="number"
+                                variant="standard"
+                                slotProps={{
+                                    inputLabel: {
+                                        shrink: true,
+                                    },
+                                    htmlInput: {
+                                        step: 100,
+                                        min: limits.power.min,
+                                        max: limits.power.max,
+                                    }
+                                }}
+                                style={{
+                                    width: "65px",
+                                }}
+                                value={inputDisplayValues.power}
+                                onChange={getInputHandler("power")}
+                                onBlur={getBlurHandler("power")}
+                            />
                         </Grid>
-                        <Slider value={sliderValues.power} min={0} max={120000} valueLabelDisplay="auto" onChange={getSliderHandler("power")} />
+                        <Slider value={sliderValues.power} min={limits.power.min} max={limits.power.max} valueLabelDisplay="auto" onChange={getSliderHandler("power")} />
                     </Grid>
-                    <Grid item>
-                        <Grid container item justifyContent="space-between" direction="row">
-                            <Grid item><label>Agility</label></Grid>
-                            <Grid item>
-                                <Input
-                                    value={inputDisplayValues.agility}
-                                    onChange={getInputHandler("agility")}
-                                    onBlur={getBlurHandler("agility")}
-                                    inputProps={{ step: 100, min: limits.agility.min, max: limits.agility.max, type: 'number' }}
-                                />
-                            </Grid>
+                    <Grid>
+                        <Grid container justifyContent="space-between" direction="row">
+                            <label>Agility</label>
+                            <TextField
+                                type="number"
+                                variant="standard"
+                                slotProps={{
+                                    inputLabel: {
+                                        shrink: true,
+                                    },
+                                    htmlInput: {
+                                        step: 100,
+                                        min: limits.agility.min,
+                                        max: limits.agility.max,
+                                    }
+                                }}
+                                style={{
+                                    width: "65px",
+                                }}
+                                value={inputDisplayValues.agility}
+                                onChange={getInputHandler("agility")}
+                                onBlur={getBlurHandler("agility")}
+                            />
                         </Grid>
-                        <Slider value={sliderValues.agility} min={0} max={120000} valueLabelDisplay="auto" onChange={getSliderHandler("agility")} />
+                        <Slider value={sliderValues.agility} min={limits.agility.min} max={limits.agility.max} valueLabelDisplay="auto" onChange={getSliderHandler("agility")} />
                     </Grid>
-                    <Grid item>
-                        <Grid container item justifyContent="space-between" direction="row">
-                            <Grid item><label>Speed</label></Grid>
-                            <Grid item>
-                                <Input
-                                    value={inputDisplayValues.speed}
-                                    onChange={getInputHandler("speed")}
-                                    onBlur={getBlurHandler("speed")}
-                                    inputProps={{ step: 100, min: limits.speed.min, max: limits.speed.max, type: 'number' }}
-                                />
-                            </Grid>
+                    <Grid>
+                        <Grid container justifyContent="space-between" direction="row">
+                            <label>Speed</label>
+                            <TextField
+                                type="number"
+                                variant="standard"
+                                slotProps={{
+                                    inputLabel: {
+                                        shrink: true,
+                                    },
+                                    htmlInput: {
+                                        step: 1,
+                                        min: limits.speed.min,
+                                        max: limits.speed.max,
+                                    },
+                                }}
+                                style={{
+                                    width: "65px",
+                                }}
+                                value={inputDisplayValues.speed}
+                                onChange={getInputHandler("speed")}
+                                onBlur={getBlurHandler("speed")}
+                            />
                         </Grid>
-                        <Slider value={sliderValues.speed} min={0} max={300} valueLabelDisplay="auto" onChange={getSliderHandler("speed")} />
+                        <Slider value={sliderValues.speed} min={limits.speed.min} max={limits.speed.max} step={0.1} valueLabelDisplay="auto" onChange={getSliderHandler("speed")} />
                     </Grid>
                 </Grid>
             </div>
