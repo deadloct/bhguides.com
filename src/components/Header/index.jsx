@@ -53,8 +53,8 @@ export default function Header() {
                     <div className={styles["logo"]}>
                         <Link to="/">
                             <img
-                                srcSet="logo-640.jpg 640w, logo-320.jpg 320w, logo-180.jpg 180w"
-                                src="logo-640.jpg"
+                                srcSet="/logo-640.jpg 640w, /logo-320.jpg 320w, /logo-180.jpg 180w"
+                                src="/logo-640.jpg"
                                 alt="BH Guides Logo"
                             />
                         </Link>
