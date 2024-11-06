@@ -1,10 +1,14 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useDebounce } from "use-debounce";
 
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import Container from '@mui/material/Container';
+import Divider from '@mui/material/Divider';
 import FormControl from '@mui/material/FormControl';
+import InputLabel from '@mui/material/InputLabel';
+import MenuItem from '@mui/material/MenuItem';
+import Select from '@mui/material/Select';
 import TextField from '@mui/material/TextField';
 
 import Table from '@mui/material/Table';
@@ -21,13 +25,37 @@ import styles from "./index.module.css";
 import { VerticalSpacing } from "../Tools/utils";
 
 export default function RNGME() {
+    const LegChance = {
+        small: 0.001,
+        large: 0.034,
+        mega: 0.213,
+    };
+
+    const DefaultPrices = {
+        small: 180,
+        large: 750,
+        mega: 5100,
+    };
+
+    const [eggCount, setEggCount] = useState(1);
+    const [eggSize, setEggSize] = useState("large");
+    const [eggGems, setEggGems] = useState(DefaultPrices["large"]);
+    const [eggChance, setEggChance] = useState(0);
+    const [totalEggGems, setTotalEggGems] = useState(DefaultPrices["large"]);
+
     const [rawWinChance, setRawWinChance] = useState(20);
     const [winChance] = useDebounce(rawWinChance, 500);
-
     const [rawGameCount, setRawGameCount] = useState(10000);
     const [gameCount] = useDebounce(rawGameCount, 500);
-
     const [results, setResults] = useState(null);
+
+    useEffect(() => {
+        const prob = LegChance[eggSize];
+        const overall = 1 - Math.pow(1 - prob, eggCount);
+        const pct = `${(overall * 100).toFixed(4)}%`;
+        setTotalEggGems(eggCount * eggGems);
+        setEggChance(pct);
+    }, [eggCount, eggSize, eggGems])
 
     function getRandomInt(min, max) {
         min = Math.ceil(min);
@@ -200,11 +228,84 @@ export default function RNGME() {
         );
     }
 
+    function handleEggSizeChange(e) {
+        const val = e.target.value;
+        setEggSize(val);
+        setEggGems(DefaultPrices[val]);
+    }
+
     return (
         <Container className={styles["outer-container"]} maxWidth="md">
-            <section id="rng-me">
-                <h2>RNG ME!</h2>
-                <p>See how bad Shrampz persuades can really get!</p>
+            <section id="pets">
+                <h2>Pets and Accessories</h2>
+                <p>Fishing for a legendary? Here are your chances!</p>
+                <Box mt={VerticalSpacing} flexDirection="column">
+                    <FormControl fullWidth>
+                        <TextField id="count"
+                            name="count"
+                            label="Count"
+                            type="number"
+                            min="1"
+                            onChange={e => setEggCount(e.target.value)}
+                            defaultValue="1"
+                        />
+                    </FormControl>
+                </Box>
+                <Box mt={VerticalSpacing} flexDirection="column">
+                    <FormControl fullWidth>
+                        <Select id="size"
+                            name="size"
+                            defaultValue="large"
+                            label=""
+                            onChange={handleEggSizeChange}
+                        >
+                            <MenuItem key={1} value="small">Small</MenuItem>   
+                            <MenuItem key={2} value="large">Large/Hyper</MenuItem>   
+                            <MenuItem key={3} value="mega">Mega</MenuItem>   
+                        </Select>
+                    </FormControl>
+                </Box>
+                <Box mt={VerticalSpacing} flexDirection="column">
+                    <FormControl fullWidth>
+                        <TextField id="price"
+                            name="price"
+                            label="Gem Price Per Item"
+                            type="number"
+                            min="1"
+                            onChange={e => setEggGems(e.target.value)}
+                            value={eggGems}
+                        />
+                    </FormControl>
+                </Box>
+                <Box mt={VerticalSpacing} flexDirection="column"> 
+                    <TableContainer component={Paper}>
+                        <Table size="small">
+                            <TableHead>
+                                <TableRow> 
+                                    <TableCell>Count</TableCell>
+                                    <TableCell>Size</TableCell>
+                                    <TableCell>Gems</TableCell>
+                                    <TableCell>Leg Chance</TableCell>
+                                </TableRow>
+                            </TableHead>
+                            <TableBody>
+                                <TableRow>
+                                    <TableCell>{eggCount}</TableCell>
+                                    <TableCell className={styles["size"]}>{eggSize}</TableCell>
+                                    <TableCell>{totalEggGems}</TableCell>
+                                    <TableCell>{eggChance}</TableCell>
+                                </TableRow>
+                            </TableBody>
+                        </Table>
+                    </TableContainer>
+                </Box>
+            </section>
+
+            <Divider />
+
+            <section id="fams">
+                <h2>Familiar Persuades</h2>
+                <p><em>"Why did Grampz reject me 10 times in a row?! 20% chance my ass!" --noobs</em></p>
                 <Box mt={VerticalSpacing} flexDirection="column">
                     <FormControl fullWidth>
                         <TextField id="win-chance"
@@ -224,13 +325,13 @@ export default function RNGME() {
                     <FormControl fullWidth>
                         <TextField id="game-count"
                             name="game-count"
-                            label="Game Count"
+                            label="Number of Persuade Attempts"
                             type="number"
                             placeholder="i.e. 1000"
                             min="0"
                             onChange={handleGameCountChange}
                             defaultValue={gameCount}
-                            helperText="Large numbers on slow computers can crash your browser. YMMV but I start seeing performance degredation at around 1 million."
+                            helperText="Large numbers on slow computers can crash your browser. YMMV but I start seeing performance degredation at around 10 million."
                         />
                     </FormControl>
                 </Box>

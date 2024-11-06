@@ -3,6 +3,14 @@
     margin-bottom: 3rem;
 }
 
+.outer-container section {
+    margin: 3rem 0;
+}
+
+.size {
+    text-transform: capitalize;
+}
+
 .roll-button {
     display: flex;
     flex-direction: row;
