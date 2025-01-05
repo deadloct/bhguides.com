@@ -1,6 +1,6 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { useSelector } from "react-redux";
-import { Link, useNavigate } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 import Container from '@mui/material/Container';
 
 import styles from "./index.module.css";
@@ -30,22 +30,6 @@ export default function Guides() {
     const [markdownVisible, setMarkdownVisible] = useState(false);
     const [markdownFile, setMarkdownFile] = useState("");
     const [markdownName, setMarkdownName] = useState("");
-
-    // redirect old hash router links site-wide (assumes guides is still at the "/" path)
-    let navigate = useNavigate();
-    useEffect(() => {
-        if (location.hash.startsWith('#/')) {
-            navigate(location.hash.replace('#', ''));
-        }
-    }, []);
-
-    // handle deep guide links
-    useEffect(() => {
-        if(window.location.hash && window.location.hash.length > 1) {
-            const el = document.getElementById(window.location.hash.slice(1));
-            if (el) el.scrollIntoView();
-        }
-    }, []);
 
     useEffect(() => {
         if (searchTerm === "") {
@@ -228,13 +212,13 @@ export default function Guides() {
                     children = item.children.map((child, i) => {
                         const anchor = child.id;
                         const name = child.name || categories[anchor].webname;
-                        return <li className={styles["toc-child"]} key={`toc-${i}`}><a href={`#${anchor}`}>{name}</a></li>;
+                        return <li className={styles["toc-child"]} key={`toc-${i}`}><HashLink to={`#${anchor}`}>{name}</HashLink></li>;
                     });
                 }
 
                 return (
                     <li key={`toc-${i}`}>
-                        <a href={`#${anchor}`}>{name}</a>
+                        <HashLink to={`#${anchor}`}>{name}</HashLink>
                         {children !== undefined && <ul>{children}</ul>}
                     </li>
                 );
@@ -287,7 +271,7 @@ export default function Guides() {
                 <p><strong>Honorable Mentions:</strong> Hip224, Robskino</p>
                 <p>Thanks to anybody else that helped but was not mentioned because I forgot!</p>
             </footer>
-            <div className={styles["back-home"]}><a href="#top" title="Scroll to Top"><ArrowCircleUpIcon fontSize="large" /></a></div>
+            <div className={styles["back-home"]}><HashLink to={"#top"}><ArrowCircleUpIcon fontSize="large" /></HashLink></div>
             <Lightbox visible={lightboxVisible} file={lightboxFile} hide={hideLightbox} />
             <Markdown visible={markdownVisible} file={markdownFile} name={markdownName} hide={hideMarkdown} />
         </Container>
