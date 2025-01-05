@@ -14,7 +14,7 @@ function App() {
             mode: 'dark',
         },
     })
-        
+
     return (
         <ThemeProvider theme={theme}>
             <CssBaseline />
