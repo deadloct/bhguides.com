@@ -32,6 +32,14 @@ export default function Guides() {
     const [markdownName, setMarkdownName] = useState("");
 
     useEffect(() => {
+        const parts = window.location.hash.split("#")
+        if (parts.length > 2) {
+            const el = document.getElementById(parts[parts.length - 1]);
+            if (el) el.scrollIntoView();
+        }
+    }, []);
+
+    useEffect(() => {
         if (searchTerm === "") {
             setSearchResults(null);
             return;
