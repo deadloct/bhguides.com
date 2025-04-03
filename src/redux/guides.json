@@ -2326,7 +2326,7 @@
                     ]
                 },
                 {
-                    "name": "PrimeDyze's Stream and Pic Guide (pic by ZombieSlayer13)",
+                    "name": "PrimeDyze's Video and Pic Guide (pic by ZombieSlayer13)",
                     "builds": [
                         "Protoplague"
                     ],
@@ -2335,13 +2335,13 @@
                     ],
                     "attachments": [
                         {
+                            "attachmenttype": "link",
+                            "link": "https://youtu.be/uZdyjY6Wy8I?si=8d4csNfy2tstg3Zv"
+                        },
+                        {
                             "filename": "d4-t20-primedyze-zombieslayer13.jpg",
                             "attachmenttype": "image",
                             "contenttype": "image/jpg"
-                        },
-                        {
-                            "attachmenttype": "link",
-                            "link": "https://www.youtube.com/live/CxzGm8vuA5c"
                         }
                     ]
                 },
