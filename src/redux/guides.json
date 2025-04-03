@@ -2326,6 +2326,22 @@
                     ]
                 },
                 {
+                    "name": "PrimeDyze's Pic Guide by ZombieSlayer13",
+                    "builds": [
+                        "Protoplague"
+                    ],
+                    "fams": [
+                        "Kimusaba"
+                    ],
+                    "attachments": [
+                        {
+                            "filename": "d4-t20-primedyze-zombieslayer13.jpg",
+                            "attachmenttype": "image",
+                            "contenttype": "image/jpg"
+                        }
+                    ]
+                },
+                {
                     "name": "UnseenAxes's Text Guide",
                     "builds": [
                         "Skramblegg"
