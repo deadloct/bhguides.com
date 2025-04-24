@@ -1911,6 +1911,23 @@
                     ]
                 },
                 {
+                    "name": "EdwardGenius' Budget Speedbait Guide",
+                    "builds": [
+                        "Ancient Speed Bait"
+                    ],
+                    "fams": [
+                        "Bleeximum",
+                        "Lerky"
+                    ],
+                    "attachments": [
+                        {
+                            "filename": "d4-t19-edwardgenius.pdf",
+                            "attachmenttype": "pdf",
+                            "contenttype": "application/pdf"
+                        }
+                    ]
+                },
+                {
                     "name": "Ember's PDF Guide",
                     "builds": [
                         "Skyent"
