@@ -1125,6 +1125,24 @@
                     ]
                 },
                 {
+                    "name": "Fr3sTy7's In-Tier PDF Guide",
+                    "builds": [
+                        "Einar"
+                    ],
+                    "fams": [
+                        "Blinka",
+                        "Oladus",
+                        "Ulairius"
+                    ],
+                    "attachments": [
+                        {
+                            "filename": "d4-t16-fr3sTy7.pdf",
+                            "attachmenttype": "pdf",
+                            "contenttype": "application/pdf"
+                        }
+                    ]
+                },
+                {
                     "name": "Special_Delivery's Build and Team",
                     "builds": [
                         "Seleucus",
