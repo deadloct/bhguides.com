@@ -1283,6 +1283,24 @@
                     ]
                 },
                 {
+                    "name": "iiTicTac's PDF Guide", 
+                    "builds": [
+                        "Aeneas"
+                    ],
+                    "fams": [
+                        "GlarzDos",
+                        "ITrolf X"
+                    ],
+                    "attachments": [
+                        {
+                            "filename": "d4-t17-iiTicTac.pdf",
+                            "attachmenttype": "pdf",
+                            "contenttype": "application/pdf"
+                        }
+                    ],
+                    "keywords": ["tictac", "tic", "tac"]
+                },
+                {
                     "name": "Melody (Choco)'s PDF Guide",
                     "builds": [
                         "Aeneas",

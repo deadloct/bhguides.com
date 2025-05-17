@@ -261,7 +261,11 @@ export default function Guides() {
                 </div>
                 <div className={`${styles["bubble"]} ${styles["ext-link-risk"]}`}>
                     <WarningAmberIcon />
-                    <div className={styles["bubble-message"]}>Follow external links at your own risk</div>
+                    <div className={styles["bubble-message"]}>
+                        Please be aware that any external links found on this site or within the guides lead to third-party websites
+                        that are not managed or monitored by bhguides.com. We cannot guarantee their safety or reliability.
+                        Visit these links at your own discretion and risk.
+                    </div>
                     <WarningAmberIcon />
                 </div>
             </header> 
@@ -272,7 +276,7 @@ export default function Guides() {
             </section>
             <footer>
                 <h2>Credits</h2>
-                <p><strong>Guide Authors:</strong> 3riko, 5Rupees, a_poor_ninja, Adhesive81, AlbacorePrism, Alysias, Antomanz, Ballbreaker, Barlooow1987, BillyIdol, Bisamratte, Bitverse_Andy, Blanquiito, Captain_Crunchie, ChubbyDaemon, Chuck, Colb, Commander, Crow, CyberMuffin, DarkHand6, Dispel1, Dracaris, Dude_WTF, EdwardGenius, Ee, Eliealsamaan85, Ember, Equilibrandt, FergusFerret, fohpo, Fr3sTy7, Fyra, Gagf, Gavx, Goku, Goolmuddy, Gylgymesh, Hæl (aka Hael on this page), Huen11, Infermis, ItsMBSCastillo, JDizzle, Jermoshua, JoeBu, John_Hatten2, josiah_4, kruste, Lqd, Maddbz, ManBearPig, MaxBrand99, McSploosh, Melody (Choco), Mentle88, MrRager, Mochi, Neflarian, n1ghtmaree, Olivernoko, Orcaaa, PAINisGOD93, PocketApple8104, PrimeDyze, RoastyChicken, ShawnBond, Sizz, Smolder, Special_Delivery, Tarnym, Techno, Toad, Tolton, TooT, TrippyAfro, UnseenAxes, Vanterio, VesaN, Winter, WRLD_EATR, Youreprettycute, ZENICKS, and ZombieSlayer13</p>
+                <p><strong>Guide Authors:</strong> 3riko, 5Rupees, a_poor_ninja, Adhesive81, AlbacorePrism, Alysias, Antomanz, Ballbreaker, Barlooow1987, BillyIdol, Bisamratte, Bitverse_Andy, Blanquiito, Captain_Crunchie, ChubbyDaemon, Chuck, Colb, Commander, Crow, CyberMuffin, DarkHand6, Dispel1, Dracaris, Dude_WTF, EdwardGenius, Ee, Eliealsamaan85, Ember, Equilibrandt, FergusFerret, fohpo, Fr3sTy7, Fyra, Gagf, Gavx, Goku, Goolmuddy, Gylgymesh, Hæl (aka Hael on this page), Huen11, iiTicTac, Infermis, ItsMBSCastillo, JDizzle, Jermoshua, JoeBu, John_Hatten2, josiah_4, kruste, Lqd, Maddbz, ManBearPig, MaxBrand99, McSploosh, Melody (Choco), Mentle88, MrRager, Mochi, Neflarian, n1ghtmaree, Olivernoko, Orcaaa, PAINisGOD93, PocketApple8104, PrimeDyze, RoastyChicken, ShawnBond, Sizz, Smolder, Special_Delivery, Tarnym, Techno, Toad, Tolton, TooT, TrippyAfro, UnseenAxes, Vanterio, VesaN, Winter, WRLD_EATR, Youreprettycute, ZENICKS, and ZombieSlayer13</p>
                 <p><strong>Idea for Original Guides Discord Bot:</strong> Trogburn</p>
                 <p><strong>Coding:</strong> BillyIdol • <a href="https://github.com/deadloct/bhguides.com">Source on GitHub</a></p>
                 <p><strong>Initial Data Aggregation:</strong> BillyIdol, ShawnBond, Trogdor, and ZombieSlayer13</p>
