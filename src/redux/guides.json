@@ -1265,61 +1265,6 @@
                     ]
                 },
                 {
-                    "name": "Equilibrandt's PDF Guide",
-                    "builds": [
-                        "Aeneas",
-                        "Makridi"
-                    ],
-                    "fams": [
-                        "GlarzDos",
-                        "Kimusaba"
-                    ],
-                    "attachments": [
-                        {
-                            "filename": "d4-t17-equilibrandt.pdf",
-                            "attachmenttype": "pdf",
-                            "contenttype": "application/pdf"
-                        }
-                    ]
-                },
-                {
-                    "name": "iiTicTac's PDF Guide", 
-                    "builds": [
-                        "Aeneas"
-                    ],
-                    "fams": [
-                        "GlarzDos",
-                        "ITrolf X"
-                    ],
-                    "attachments": [
-                        {
-                            "filename": "d4-t17-iiTicTac.pdf",
-                            "attachmenttype": "pdf",
-                            "contenttype": "application/pdf"
-                        }
-                    ],
-                    "keywords": ["tictac", "tic", "tac"]
-                },
-                {
-                    "name": "Melody (Choco)'s PDF Guide",
-                    "builds": [
-                        "Aeneas",
-                        "Thundercracker"
-                    ],
-                    "fams": [
-                        "GlarzDos",
-                        "Blinka",
-                        "Ulairius"
-                    ],
-                    "attachments": [
-                        {
-                            "filename": "d4-t17-chocomints_clover_guide.pdf",
-                            "attachmenttype": "pdf",
-                            "contenttype": "application/pdf"
-                        }
-                    ]
-                },
-                {
                     "name": "Crow's Pic Guide",
                     "builds": [
                         "Torch",
@@ -1357,39 +1302,20 @@
                     ]
                 },
                 {
-                    "name": "Other Builds/Comps (Ballbreaker, Darkhand6, Dispel1, PAINisGOD93, Techno)",
-                    "builds": [],
+                    "name": "Equilibrandt's PDF Guide",
+                    "builds": [
+                        "Aeneas",
+                        "Makridi"
+                    ],
                     "fams": [
-                        "Blinka",
                         "GlarzDos",
-                        "Oladus",
-                        "Teithyus"
+                        "Kimusaba"
                     ],
                     "attachments": [
                         {
-                            "filename": "d4-t17-ballbreaker.jpg",
-                            "attachmenttype": "image",
-                            "contenttype": "image/jpg"
-                        },
-                        {
-                            "filename": "d4-t17-darkhand6_2.jpg",
-                            "attachmenttype": "image",
-                            "contenttype": "image/jpg"
-                        },
-                        {
-                            "filename": "d4-t17-dispel1.jpg",
-                            "attachmenttype": "image",
-                            "contenttype": "image/jpg"
-                        },
-                        {
-                            "filename": "d4-t17-painisgod93.jpg",
-                            "attachmenttype": "image",
-                            "contenttype": "image/jpg"
-                        },
-                        {
-                            "filename": "d4-t17-techno.jpg",
-                            "attachmenttype": "image",
-                            "contenttype": "image/jpg"
+                            "filename": "d4-t17-equilibrandt.pdf",
+                            "attachmenttype": "pdf",
+                            "contenttype": "application/pdf"
                         }
                     ]
                 },
@@ -1469,6 +1395,7 @@
                         }
                     ]
                 },
+
                 {
                     "name": "Hael's Pic Guide",
                     "builds": [
@@ -1486,6 +1413,24 @@
                             "contenttype": "image/jpg"
                         }
                     ]
+                },
+                {
+                    "name": "iiTicTac's PDF Guide", 
+                    "builds": [
+                        "Aeneas"
+                    ],
+                    "fams": [
+                        "GlarzDos",
+                        "ITrolf X"
+                    ],
+                    "attachments": [
+                        {
+                            "filename": "d4-t17-iiTicTac.pdf",
+                            "attachmenttype": "pdf",
+                            "contenttype": "application/pdf"
+                        }
+                    ],
+                    "keywords": ["tictac", "tic", "tac"]
                 },
                 {
                     "name": "Josiah_4's PDF Guide",
@@ -1521,6 +1466,25 @@
                             "filename": "d4-t17-kruste.jpg",
                             "attachmenttype": "image",
                             "contenttype": "image/jpg"
+                        }
+                    ]
+                },
+                {
+                    "name": "Melody (Choco)'s PDF Guide",
+                    "builds": [
+                        "Aeneas",
+                        "Thundercracker"
+                    ],
+                    "fams": [
+                        "GlarzDos",
+                        "Blinka",
+                        "Ulairius"
+                    ],
+                    "attachments": [
+                        {
+                            "filename": "d4-t17-chocomints_clover_guide.pdf",
+                            "attachmenttype": "pdf",
+                            "contenttype": "application/pdf"
                         }
                     ]
                 },
@@ -1663,6 +1627,43 @@
                             "filename": "d4-t17-zenicks.png",
                             "attachmenttype": "image",
                             "contenttype": "image/png"
+                        }
+                    ]
+                },
+                {
+                    "name": "Other Builds/Comps (Ballbreaker, Darkhand6, Dispel1, PAINisGOD93, Techno)",
+                    "builds": [],
+                    "fams": [
+                        "Blinka",
+                        "GlarzDos",
+                        "Oladus",
+                        "Teithyus"
+                    ],
+                    "attachments": [
+                        {
+                            "filename": "d4-t17-ballbreaker.jpg",
+                            "attachmenttype": "image",
+                            "contenttype": "image/jpg"
+                        },
+                        {
+                            "filename": "d4-t17-darkhand6_2.jpg",
+                            "attachmenttype": "image",
+                            "contenttype": "image/jpg"
+                        },
+                        {
+                            "filename": "d4-t17-dispel1.jpg",
+                            "attachmenttype": "image",
+                            "contenttype": "image/jpg"
+                        },
+                        {
+                            "filename": "d4-t17-painisgod93.jpg",
+                            "attachmenttype": "image",
+                            "contenttype": "image/jpg"
+                        },
+                        {
+                            "filename": "d4-t17-techno.jpg",
+                            "attachmenttype": "image",
+                            "contenttype": "image/jpg"
                         }
                     ]
                 }
