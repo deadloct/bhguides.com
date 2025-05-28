@@ -1,6 +1,9 @@
 {
     "index": [
         {"id": "beginner"},
+        {"id": "builds", "name": "Builds", "children": [
+            {"id": "build-guides-by-zombieslayer13"}
+        ]},
         {"id": "calculators"},
         {"id": "content-creators"},
         {"id": "d4s-ancients", "name": "D4s and Ancients", "children": [
@@ -400,7 +403,8 @@
                     "attachments": [
                         {
                             "attachmenttype": "link",
-                            "link": "https://docs.google.com/spreadsheets/d/1WvSyVlfUnWQF5eTwUd16g1D2fp4UORoOvBK0WvoeW-4/edit?usp=sharing"
+                            "link": "https://docs.google.com/spreadsheets/d/1whRaLT_fSoY_Ph8BCHsYwEwjuJuFX6w69Cx3dJdbR8k/edit?gid=768638951#gid=768638951",
+                            "original-link": "https://docs.google.com/spreadsheets/d/1WvSyVlfUnWQF5eTwUd16g1D2fp4UORoOvBK0WvoeW-4/edit?gid=768638951#gid=768638951"
                         }
                     ]
                 },
@@ -794,6 +798,287 @@
                 }
             ]
         },
+        "build-guides-by-zombieslayer13": {
+            "webname": "Build Guides by ZombieSlayer13",
+            "description": "These guides were compiled, created, and formatted by ZombieSlayer13.",
+            "guides": [
+                {
+                    "name": "Pompadour - Beef WB",
+                    "builds": [ "Pompadour" ],
+                    "attachments": [
+                        {
+                            "filename": "builds-ZombieSlayer13-pompadour-beef-wb.jpg",
+                            "attachmenttype": "image",
+                            "contenttype": "image/jpg"
+                        }
+                    ]
+                },
+                {
+                    "name": "Witchum - Offensive WB",
+                    "builds": ["Witchum"],
+                    "attachments": [
+                        {
+                            "filename": "builds-ZombieSlayer13-witchum-offensive-wb.jpg",
+                            "attachmenttype": "image",
+                            "contenttype": "image/jpg"
+                        }
+                    ]
+                },
+                {
+                    "name": "Witchum - Defensive WB",
+                    "builds": ["Witchum"],
+                    "attachments": [
+                        {
+                            "filename": "builds-ZombieSlayer13-witchum-defensive-wb.jpg",
+                            "attachmenttype": "image",
+                            "contenttype": "image/jpg"
+                        }
+                    ]
+                },
+                {
+                    "name": "Witchum - Invasion",
+                    "builds": ["Witchum"],
+                    "attachments": [
+                        {
+                            "filename": "builds-ZombieSlayer13-witchum-invasion.jpg",
+                            "attachmenttype": "image",
+                            "contenttype": "image/jpg"
+                        }
+                    ]
+                },
+                {
+                    "name": "Witchum - General PvE",
+                    "builds": ["Witchum"],
+                    "attachments": [
+                        {
+                            "filename": "builds-ZombieSlayer13-witchum-general-pve.jpg",
+                            "attachmenttype": "image",
+                            "contenttype": "image/jpg"
+                        }
+                    ]
+                },
+                {
+                    "name": "3xtort - GVG (Nox)",
+                    "builds": ["3xtort"],
+                    "attachments": [
+                        {
+                            "filename": "builds-ZombieSlayer13-3xtort-gvg-nox.jpg",
+                            "attachmenttype": "image",
+                            "contenttype": "image/jpg"
+                        }
+                    ]
+                },
+                {
+                    "name": "3xtort - GVG (Berthro)",
+                    "builds": ["3xtort"],
+                    "attachments": [
+                        {
+                            "filename": "builds-ZombieSlayer13-3xtort-gvg-berthro.jpg",
+                            "attachmenttype": "image",
+                            "contenttype": "image/jpg"
+                        }
+                    ]
+                },
+                {
+                    "name": "3xtort - Raid",
+                    "builds": ["3xtort"],
+                    "attachments": [
+                        {
+                            "filename": "builds-ZombieSlayer13-3xtort-raid.jpg",
+                            "attachmenttype": "image",
+                            "contenttype": "image/jpg"
+                        }
+                    ]
+                },
+                {
+                    "name": "Perkunas - Defensive GVG",
+                    "builds": ["Perkunas"],
+                    "attachments": [
+                        {
+                            "filename": "builds-ZombieSlayer13-perkunas-defensive-gvg.jpg",
+                            "attachmenttype": "image",
+                            "contenttype": "image/jpg"
+                        }
+                    ]
+                },
+                {
+                    "name": "Perkunas - Offensive WB",
+                    "builds": ["Perkunas"],
+                    "attachments": [
+                        {
+                            "filename": "builds-ZombieSlayer13-perkunas-offensive-wb.jpg",
+                            "attachmenttype": "image",
+                            "contenttype": "image/jpg"
+                        }
+                    ]
+                },
+                {
+                    "name": "Skyent - GvG 3xtort Counter (DR Suit)",
+                    "builds": ["Skyent"],
+                    "attachments": [
+                        {
+                            "filename": "builds-ZombieSlayer13-skyent-gvg-3xtort-counter-dr-suit.jpg",
+                            "attachmenttype": "image",
+                            "contenttype": "image/jpg"
+                        }
+                    ]
+                },
+                {
+                    "name": "Skyent - GvG 3xtort Counter (Cyclone)",
+                    "builds": ["Skyent"],
+                    "attachments": [
+                        {
+                            "filename": "builds-ZombieSlayer13-skyent-gvg-3xtort-counter-cyclone.jpg",
+                            "attachmenttype": "image",
+                            "contenttype": "image/jpg"
+                        }
+                    ]
+                },
+                {
+                    "name": "Vamp - Seleucus 30%",
+                    "builds": ["Seleucus"],
+                    "attachments": [
+                        {
+                            "filename": "builds-ZombieSlayer13-seleucus-30-vamp.jpg",
+                            "attachmenttype": "image",
+                            "contenttype": "image/jpg"
+                        }
+                    ]
+                },
+                {
+                    "name": "Vamp - Seleucus 50%",
+                    "builds": ["Seleucus"],
+                    "attachments": [
+                        {
+                            "filename": "builds-ZombieSlayer13-seleucus-50-vamp.jpg",
+                            "attachmenttype": "image",
+                            "contenttype": "image/jpg"
+                        }
+                    ]
+                },
+                {
+                    "name": "Vamp - Winter Supercharged",
+                    "builds": ["Winter"],
+                    "attachments": [
+                        {
+                            "filename": "builds-ZombieSlayer13-Winter-supercharged-vamp.jpg",
+                            "attachmenttype": "image",
+                            "contenttype": "image/jpg"
+                        }
+                    ]
+                },
+                {
+                    "name": "Vamp - Winter",
+                    "builds": ["Winter"],
+                    "attachments": [
+                        {
+                            "filename": "builds-ZombieSlayer13-Winter-vamp.jpg",
+                            "attachmenttype": "image",
+                            "contenttype": "image/jpg"
+                        }
+                    ]
+                },
+                {
+                    "name": "Ancient UXO Power Tank - Empower",
+                    "builds": ["Ancient Tank"],
+                    "attachments": [
+                        {
+                            "filename": "builds-ZombieSlayer13-ancient-uxo-power-empower.jpg",
+                            "attachmenttype": "image",
+                            "contenttype": "image/jpg"
+                        }
+                    ]
+                },
+                {
+                    "name": "Ancient UXO Power Tank - Evade",
+                    "builds": ["Ancient Tank"],
+                    "attachments": [
+                        {
+                            "filename": "builds-ZombieSlayer13-ancient-uxo-power-evade.jpg",
+                            "attachmenttype": "image",
+                            "contenttype": "image/jpg"
+                        }
+                    ]
+                },
+                {
+                    "name": "Ancient Speed Bait (JoeBu)",
+                    "builds": ["Ancient Speed Bait"],
+                    "attachments": [
+                        {
+                            "filename": "builds-ZombieSlayer13-ancient-speedbait-JoeBu.jpg",
+                            "attachmenttype": "image",
+                            "contenttype": "image/jpg"
+                        }
+                    ]
+                },
+                {
+                    "name": "Ancient DPS (J3an/Lucca)",
+                    "builds": ["Ancient DPS"],
+                    "attachments": [
+                        {
+                            "filename": "builds-ZombieSlayer13-ancient-dps-j3an-lucca.jpg",
+                            "attachmenttype": "image",
+                            "contenttype": "image/jpg"
+                        }
+                    ]
+                },
+                {
+                    "name": "Ancient DPS - Standard",
+                    "builds": ["Ancient DPS"],
+                    "attachments": [
+                        {
+                            "filename": "builds-ZombieSlayer13-ancient-dps-standard.jpg",
+                            "attachmenttype": "image",
+                            "contenttype": "image/jpg"
+                        }
+                    ]
+                },
+                {
+                    "name": "ProtoPlague - ProtoPrime D4",
+                    "builds": ["ProtoPlague"],
+                    "attachments": [
+                        {
+                            "filename": "builds-ZombieSlayer13-protoplague-protoprime-d4.jpg",
+                            "attachmenttype": "image",
+                            "contenttype": "image/jpg"
+                        }
+                    ]
+                },
+                {
+                    "name": "ProtoPlague",
+                    "builds": ["protoPlague"],
+                    "attachments": [
+                        {
+                            "filename": "builds-ZombieSlayer13-protoplague.jpg",
+                            "attachmenttype": "image",
+                            "contenttype": "image/jpg"
+                        }
+                    ]
+                },
+                {
+                    "name": "Venturer - Evermore",
+                    "builds": ["venturer"],
+                    "attachments": [
+                        {
+                            "filename": "builds-ZombieSlayer13-venturer-evermore.jpg",
+                            "attachmenttype": "image",
+                            "contenttype": "image/jpg"
+                        }
+                    ]
+                },
+                {
+                    "name": "Venturer - Firium",
+                    "builds": ["venturer"],
+                    "attachments": [
+                        {
+                            "filename": "builds-ZombieSlayer13-venturer-firium.jpg",
+                            "attachmenttype": "image",
+                            "contenttype": "image/jpg"
+                        }
+                    ]
+                } 
+            ]
+        },
         "misc": {
             "webname": "Miscellaneous",
             "description": "Various guides that don't fit into other categories",
@@ -925,11 +1210,13 @@
                     "attachments": [
                         {
                             "attachmenttype": "link",
-                            "link": "https://docs.google.com/spreadsheets/d/1wbKl8h9Tzj9zgX1AEBY4wIhmC-xjN1OzyfsfBNkepeY/edit#gid=0"
+                            "link": "https://docs.google.com/spreadsheets/d/1YoNpZ0uuBNbInbxvfkUzgvgzD1VyxX7mokeW3jCvdRc/edit?gid=0#gid=0",
+                            "original-link": "https://docs.google.com/spreadsheets/d/1wbKl8h9Tzj9zgX1AEBY4wIhmC-xjN1OzyfsfBNkepeY/edit#gid=0"
                         },
                         {
                             "attachmenttype": "link",
-                            "link": "https://docs.google.com/spreadsheets/d/1wbKl8h9Tzj9zgX1AEBY4wIhmC-xjN1OzyfsfBNkepeY/edit#gid=513928969"
+                            "link": "https://docs.google.com/spreadsheets/d/1YoNpZ0uuBNbInbxvfkUzgvgzD1VyxX7mokeW3jCvdRc/edit?gid=513928969#gid=513928969",
+                            "original-link": "https://docs.google.com/spreadsheets/d/1wbKl8h9Tzj9zgX1AEBY4wIhmC-xjN1OzyfsfBNkepeY/edit#gid=513928969"
                         }
                     ]
                 },
@@ -982,7 +1269,8 @@
                     "attachments": [
                         {
                             "attachmenttype": "link",
-                            "link": "https://docs.google.com/spreadsheets/d/1KOmFbfI6nO4r67SLBsG0sS6zmIozoSQqhYuze5rZUM0/edit#gid=0"
+                            "link": "https://docs.google.com/spreadsheets/d/102qib1ZtwI3YJFEUK6AqLLQqXo7szXAFlCwEnmxSKOc/edit?gid=0#gid=0",
+                            "original-link": "https://docs.google.com/spreadsheets/d/1KOmFbfI6nO4r67SLBsG0sS6zmIozoSQqhYuze5rZUM0/edit#gid=0"
                         }
                     ]
                 },
@@ -991,7 +1279,8 @@
                     "attachments": [
                         {
                             "attachmenttype": "link",
-                            "link": "https://docs.google.com/spreadsheets/d/1wbKl8h9Tzj9zgX1AEBY4wIhmC-xjN1OzyfsfBNkepeY/edit#gid=1384195086"
+                            "link": "https://docs.google.com/spreadsheets/d/1YoNpZ0uuBNbInbxvfkUzgvgzD1VyxX7mokeW3jCvdRc/edit?gid=1384195086#gid=1384195086",
+                            "original-link": "https://docs.google.com/spreadsheets/d/1wbKl8h9Tzj9zgX1AEBY4wIhmC-xjN1OzyfsfBNkepeY/edit#gid=1384195086"
                         }
                     ]
                 },
@@ -1054,7 +1343,8 @@
                     "attachments": [
                         {
                             "attachmenttype": "link",
-                            "link": "https://docs.google.com/spreadsheets/d/1KOmFbfI6nO4r67SLBsG0sS6zmIozoSQqhYuze5rZUM0/edit#gid=323752265"
+                            "link": "https://docs.google.com/spreadsheets/d/102qib1ZtwI3YJFEUK6AqLLQqXo7szXAFlCwEnmxSKOc/edit?gid=323752265#gid=323752265",
+                            "original-link": "https://docs.google.com/spreadsheets/d/1KOmFbfI6nO4r67SLBsG0sS6zmIozoSQqhYuze5rZUM0/edit#gid=323752265"
                         }
                     ]
                 },
@@ -1063,7 +1353,8 @@
                     "attachments": [
                         {
                             "attachmenttype": "link",
-                            "link": "https://docs.google.com/spreadsheets/d/1wbKl8h9Tzj9zgX1AEBY4wIhmC-xjN1OzyfsfBNkepeY/edit#gid=1528104620"
+                            "link": "https://docs.google.com/spreadsheets/d/1YoNpZ0uuBNbInbxvfkUzgvgzD1VyxX7mokeW3jCvdRc/edit?gid=1528104620#gid=1528104620",
+                            "original-link": "https://docs.google.com/spreadsheets/d/1wbKl8h9Tzj9zgX1AEBY4wIhmC-xjN1OzyfsfBNkepeY/edit#gid=1528104620"
                         }
                     ]
                 }
@@ -2614,7 +2905,8 @@
                     "attachments": [
                         {
                             "attachmenttype": "link",
-                            "link": "https://docs.google.com/document/d/19XwRGuJZxMngUYqPBYHlLQQmGTpZun0Y7OMOHFR0t3s/"
+                            "link": "https://docs.google.com/document/d/1czF-6XpwhgcXQazUe1StKJJNmVpEHECO-dKl2m8hPs0/edit?tab=t.0",
+                            "original-link": "https://docs.google.com/document/d/19XwRGuJZxMngUYqPBYHlLQQmGTpZun0Y7OMOHFR0t3s/"
                         }
                     ]
                 },
