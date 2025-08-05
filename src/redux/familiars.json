@@ -1,0 +1,2546 @@
+[
+  {
+    "name": "Aaeeelooolooo",
+    "strength": 31.8,
+    "stamina": 39.0,
+    "agility": 14.2
+  },
+  {
+    "name": "Abernario",
+    "strength": 53.4,
+    "stamina": 11.4,
+    "agility": 25.2
+  },
+  {
+    "name": "Akiwa",
+    "strength": 24.0,
+    "stamina": 23.0,
+    "agility": 48.0
+  },
+  {
+    "name": "Amoaki",
+    "strength": 22.7,
+    "stamina": 32.2,
+    "agility": 5.1
+  },
+  {
+    "name": "Amrul",
+    "strength": 34.0,
+    "stamina": 18.1,
+    "agility": 32.9
+  },
+  {
+    "name": "Andie",
+    "strength": 28.9,
+    "stamina": 12.3,
+    "agility": 23.8
+  },
+  {
+    "name": "Aoife",
+    "strength": 33.1,
+    "stamina": 12.7,
+    "agility": 39.2
+  },
+  {
+    "name": "Archie",
+    "strength": 17.0,
+    "stamina": 17.0,
+    "agility": 26.0
+  },
+  {
+    "name": "Arex",
+    "strength": 21.4,
+    "stamina": 13.5,
+    "agility": 25.1
+  },
+  {
+    "name": "Asst. Oak",
+    "strength": 20.6,
+    "stamina": 29.3,
+    "agility": 15.1
+  },
+  {
+    "name": "Astally",
+    "strength": 19.0,
+    "stamina": 53.8,
+    "agility": 22.2
+  },
+  {
+    "name": "Astaroth",
+    "strength": 28.0,
+    "stamina": 36.0,
+    "agility": 26.0
+  },
+  {
+    "name": "Astrogobby",
+    "strength": 65.2,
+    "stamina": 12.3,
+    "agility": 17.5
+  },
+  {
+    "name": "Auris",
+    "strength": 25.4,
+    "stamina": 20.8,
+    "agility": 13.8
+  },
+  {
+    "name": "Basiliko",
+    "strength": 24.8,
+    "stamina": 25.1,
+    "agility": 15.1
+  },
+  {
+    "name": "Batty",
+    "strength": 24.0,
+    "stamina": 16.0,
+    "agility": 20.0
+  },
+  {
+    "name": "Baumo",
+    "strength": 16.0,
+    "stamina": 31.0,
+    "agility": 13.0
+  },
+  {
+    "name": "Bebeguin",
+    "strength": 26.3,
+    "stamina": 21.2,
+    "agility": 27.5
+  },
+  {
+    "name": "Bed Stuy",
+    "strength": 21.5,
+    "stamina": 19.7,
+    "agility": 53.8
+  },
+  {
+    "name": "Beido",
+    "strength": 33.7,
+    "stamina": 14.9,
+    "agility": 46.4
+  },
+  {
+    "name": "Birdsworth",
+    "strength": 16.5,
+    "stamina": 14.2,
+    "agility": 29.3
+  },
+  {
+    "name": "Bitos",
+    "strength": 36.4,
+    "stamina": 12.6,
+    "agility": 11.0
+  },
+  {
+    "name": "Bitzako",
+    "strength": 35.6,
+    "stamina": 11.2,
+    "agility": 18.2
+  },
+  {
+    "name": "Bjoern",
+    "strength": 22.3,
+    "stamina": 54.3,
+    "agility": 8.4
+  },
+  {
+    "name": "Blahki",
+    "strength": 43.3,
+    "stamina": 9.1,
+    "agility": 12.6
+  },
+  {
+    "name": "Blargnar",
+    "strength": 28.7,
+    "stamina": 29.7,
+    "agility": 26.6
+  },
+  {
+    "name": "Bleemax",
+    "strength": 20.2,
+    "stamina": 53.7,
+    "agility": 11.1
+  },
+  {
+    "name": "Bleeximum",
+    "strength": 20.2,
+    "stamina": 57.7,
+    "agility": 17.1
+  },
+  {
+    "name": "Blergh",
+    "strength": 27.8,
+    "stamina": 21.4,
+    "agility": 10.8
+  },
+  {
+    "name": "Blin blin",
+    "strength": 41.7,
+    "stamina": 14.8,
+    "agility": 18.5
+  },
+  {
+    "name": "Bluz",
+    "strength": 32.1,
+    "stamina": 33.2,
+    "agility": 29.7
+  },
+  {
+    "name": "Bnigmane",
+    "strength": 15.5,
+    "stamina": 39.7,
+    "agility": 19.8
+  },
+  {
+    "name": "Bobodom",
+    "strength": 30.1,
+    "stamina": 39.6,
+    "agility": 25.3
+  },
+  {
+    "name": "BooBoo",
+    "strength": 22.0,
+    "stamina": 20.0,
+    "agility": 18.0
+  },
+  {
+    "name": "Booty",
+    "strength": 26.0,
+    "stamina": 17.3,
+    "agility": 21.7
+  },
+  {
+    "name": "Bor'lan",
+    "strength": 33.8,
+    "stamina": 10.0,
+    "agility": 31.2
+  },
+  {
+    "name": "Brimber",
+    "strength": 15.0,
+    "stamina": 22.5,
+    "agility": 37.5
+  },
+  {
+    "name": "Brimbino",
+    "strength": 17.0,
+    "stamina": 25.5,
+    "agility": 42.5
+  },
+  {
+    "name": "Broky",
+    "strength": 21.0,
+    "stamina": 34.4,
+    "agility": 4.6
+  },
+  {
+    "name": "Bromm",
+    "strength": 20.0,
+    "stamina": 28.0,
+    "agility": 12.0
+  },
+  {
+    "name": "Bruagaya",
+    "strength": 44.3,
+    "stamina": 43.6,
+    "agility": 7.1
+  },
+  {
+    "name": "Bruteni",
+    "strength": 37.2,
+    "stamina": 30.9,
+    "agility": 6.9
+  },
+  {
+    "name": "Bubbo",
+    "strength": 20.0,
+    "stamina": 37.5,
+    "agility": 17.5
+  },
+  {
+    "name": "Bully",
+    "strength": 18.0,
+    "stamina": 51.0,
+    "agility": 21.0
+  },
+  {
+    "name": "Bummih",
+    "strength": 20.6,
+    "stamina": 17.3,
+    "agility": 27.1
+  },
+  {
+    "name": "Calamica",
+    "strength": 35.4,
+    "stamina": 9.4,
+    "agility": 40.2
+  },
+  {
+    "name": "CandelaBros",
+    "strength": 20.0,
+    "stamina": 15.0,
+    "agility": 25.0
+  },
+  {
+    "name": "Candelardoz",
+    "strength": 25.0,
+    "stamina": 18.8,
+    "agility": 41.2
+  },
+  {
+    "name": "Capori",
+    "strength": 32.6,
+    "stamina": 31.2,
+    "agility": 21.2
+  },
+  {
+    "name": "Capt. Wombomz",
+    "strength": 39.6,
+    "stamina": 39.6,
+    "agility": 15.8
+  },
+  {
+    "name": "Capt. Woodbeard",
+    "strength": 42.0,
+    "stamina": 21.0,
+    "agility": 27.0
+  },
+  {
+    "name": "Captain Babosun",
+    "strength": 32.0,
+    "stamina": 19.2,
+    "agility": 33.8
+  },
+  {
+    "name": "Carbonor",
+    "strength": 34.5,
+    "stamina": 13.4,
+    "agility": 12.1
+  },
+  {
+    "name": "Cereboil",
+    "strength": 21.5,
+    "stamina": 16.4,
+    "agility": 47.1
+  },
+  {
+    "name": "Cezana",
+    "strength": 22.4,
+    "stamina": 46.2,
+    "agility": 16.4
+  },
+  {
+    "name": "Chaac",
+    "strength": 39.2,
+    "stamina": 11.3,
+    "agility": 9.5
+  },
+  {
+    "name": "Cheb",
+    "strength": 32.6,
+    "stamina": 19.8,
+    "agility": 32.6
+  },
+  {
+    "name": "Chedzun Aiki",
+    "strength": 28.0,
+    "stamina": 24.5,
+    "agility": 42.5
+  },
+  {
+    "name": "Chichén",
+    "strength": 51.9,
+    "stamina": 19.8,
+    "agility": 23.3
+  },
+  {
+    "name": "Chilro",
+    "strength": 18.0,
+    "stamina": 20.0,
+    "agility": 22.0
+  },
+  {
+    "name": "Chimney",
+    "strength": 36.6,
+    "stamina": 35.4,
+    "agility": 13.0
+  },
+  {
+    "name": "Chocomyt",
+    "strength": 45.97,
+    "stamina": 18.99,
+    "agility": 29.97
+  },
+  {
+    "name": "Chooc",
+    "strength": 15.2,
+    "stamina": 35.0,
+    "agility": 9.8
+  },
+  {
+    "name": "Cicabomz",
+    "strength": 32.3,
+    "stamina": 20.1,
+    "agility": 42.6
+  },
+  {
+    "name": "Cinonyx",
+    "strength": 44.0,
+    "stamina": 21.0,
+    "agility": 35.0
+  },
+  {
+    "name": "Ciro Fer Kraa",
+    "strength": 32.7,
+    "stamina": 45.6,
+    "agility": 11.7
+  },
+  {
+    "name": "Clavid",
+    "strength": 45.3,
+    "stamina": 14.2,
+    "agility": 25.5
+  },
+  {
+    "name": "Clodius",
+    "strength": 42.1,
+    "stamina": 10.8,
+    "agility": 42.1
+  },
+  {
+    "name": "Cloubin",
+    "strength": 42.1,
+    "stamina": 42.1,
+    "agility": 10.8
+  },
+  {
+    "name": "Clouby",
+    "strength": 40.0,
+    "stamina": 40.0,
+    "agility": 10.0
+  },
+  {
+    "name": "Coldorn",
+    "strength": 33.0,
+    "stamina": 16.8,
+    "agility": 45.2
+  },
+  {
+    "name": "Columbosim",
+    "strength": 31.7,
+    "stamina": 42.1,
+    "agility": 21.2
+  },
+  {
+    "name": "Columbus",
+    "strength": 30.0,
+    "stamina": 40.0,
+    "agility": 20.0
+  },
+  {
+    "name": "Conan",
+    "strength": 26.0,
+    "stamina": 20.0,
+    "agility": 14.0
+  },
+  {
+    "name": "Coralus",
+    "strength": 26.5,
+    "stamina": 31.5,
+    "agility": 17.0
+  },
+  {
+    "name": "Coza",
+    "strength": 32.6,
+    "stamina": 25.0,
+    "agility": 17.4
+  },
+  {
+    "name": "Crius",
+    "strength": 33.0,
+    "stamina": 22.0,
+    "agility": 20.0
+  },
+  {
+    "name": "Cronus",
+    "strength": 43.0,
+    "stamina": 29.8,
+    "agility": 12.2
+  },
+  {
+    "name": "Cuerade",
+    "strength": 28.3,
+    "stamina": 25.5,
+    "agility": 31.2
+  },
+  {
+    "name": "D3-M0N",
+    "strength": 38.0,
+    "stamina": 38.0,
+    "agility": 19.0
+  },
+  {
+    "name": "DaBadge",
+    "strength": 9.4,
+    "stamina": 12.3,
+    "agility": 38.3
+  },
+  {
+    "name": "DaBossa",
+    "strength": 47.3,
+    "stamina": 50.4,
+    "agility": 2.3
+  },
+  {
+    "name": "Danelumbus",
+    "strength": 37.7,
+    "stamina": 37.1,
+    "agility": 20.2
+  },
+  {
+    "name": "Delong",
+    "strength": 35.4,
+    "stamina": 15.6,
+    "agility": 34.0
+  },
+  {
+    "name": "Demeter",
+    "strength": 38.5,
+    "stamina": 40.0,
+    "agility": 16.5
+  },
+  {
+    "name": "Demetra",
+    "strength": 46.6,
+    "stamina": 21.5,
+    "agility": 26.9
+  },
+  {
+    "name": "Dexteriuz",
+    "strength": 34.5,
+    "stamina": 20.5,
+    "agility": 20.0
+  },
+  {
+    "name": "Dillzilla",
+    "strength": 22.5,
+    "stamina": 33.8,
+    "agility": 18.7
+  },
+  {
+    "name": "Disastaroth",
+    "strength": 25.68,
+    "stamina": 17.57,
+    "agility": 51.68
+  },
+  {
+    "name": "Dourgok",
+    "strength": 30.0,
+    "stamina": 11.0,
+    "agility": 19.0
+  },
+  {
+    "name": "Dourra",
+    "strength": 38.0,
+    "stamina": 19.6,
+    "agility": 7.4
+  },
+  {
+    "name": "Dr. Walker",
+    "strength": 26.8,
+    "stamina": 25.6,
+    "agility": 32.6
+  },
+  {
+    "name": "Drazig",
+    "strength": 36.4,
+    "stamina": 22.2,
+    "agility": 36.4
+  },
+  {
+    "name": "Drek",
+    "strength": 36.2,
+    "stamina": 23.8,
+    "agility": 15.0
+  },
+  {
+    "name": "Drenath",
+    "strength": 41.7,
+    "stamina": 20.0,
+    "agility": 38.3
+  },
+  {
+    "name": "Drogginz",
+    "strength": 20.0,
+    "stamina": 25.0,
+    "agility": 15.0
+  },
+  {
+    "name": "Dropo",
+    "strength": 13.8,
+    "stamina": 37.5,
+    "agility": 23.7
+  },
+  {
+    "name": "Dullag",
+    "strength": 31.3,
+    "stamina": 18.0,
+    "agility": 35.7
+  },
+  {
+    "name": "Dunagh",
+    "strength": 36.9,
+    "stamina": 37.3,
+    "agility": 15.8
+  },
+  {
+    "name": "Duortlez",
+    "strength": 25.0,
+    "stamina": 25.0,
+    "agility": 25.0
+  },
+  {
+    "name": "Edronkin",
+    "strength": 17.0,
+    "stamina": 20.0,
+    "agility": 48.0
+  },
+  {
+    "name": "Elote + Findellow + Melv'cone",
+    "strength": 42.8,
+    "stamina": 0.0,
+    "agility": 22.0
+  },
+  {
+    "name": "Elpec",
+    "strength": 25.3,
+    "stamina": 10.6,
+    "agility": 39.1
+  },
+  {
+    "name": "Emmyt",
+    "strength": 20.0,
+    "stamina": 27.0,
+    "agility": 13.0
+  },
+  {
+    "name": "Emperor Freudrich",
+    "strength": 36.3,
+    "stamina": 38.4,
+    "agility": 10.3
+  },
+  {
+    "name": "Encherzog",
+    "strength": 35.4,
+    "stamina": 14.2,
+    "agility": 35.4
+  },
+  {
+    "name": "Ergos",
+    "strength": 12.5,
+    "stamina": 47.5,
+    "agility": 15.0
+  },
+  {
+    "name": "Es'Skelegro",
+    "strength": 19.5,
+    "stamina": 26.0,
+    "agility": 19.5
+  },
+  {
+    "name": "Es'Skeleto",
+    "strength": 18.0,
+    "stamina": 24.0,
+    "agility": 18.0
+  },
+  {
+    "name": "Es'Skeletrad",
+    "strength": 26.6,
+    "stamina": 34.0,
+    "agility": 24.4
+  },
+  {
+    "name": "FREH",
+    "strength": 13.4,
+    "stamina": 34.6,
+    "agility": 12.0
+  },
+  {
+    "name": "Falconwisp",
+    "strength": 36.8,
+    "stamina": 11.4,
+    "agility": 16.8
+  },
+  {
+    "name": "Farin",
+    "strength": 16.8,
+    "stamina": 9.8,
+    "agility": 58.4
+  },
+  {
+    "name": "Fen-Ri",
+    "strength": 19.4,
+    "stamina": 16.2,
+    "agility": 59.4
+  },
+  {
+    "name": "Feodebius",
+    "strength": 70.5,
+    "stamina": 16.6,
+    "agility": 7.9
+  },
+  {
+    "name": "Findlin",
+    "strength": 31.2,
+    "stamina": 25.0,
+    "agility": 18.8
+  },
+  {
+    "name": "Findolo",
+    "strength": 29.7,
+    "stamina": 34.0,
+    "agility": 21.3
+  },
+  {
+    "name": "Firegath",
+    "strength": 32.5,
+    "stamina": 15.6,
+    "agility": 26.9
+  },
+  {
+    "name": "Firor",
+    "strength": 50.5,
+    "stamina": 13.4,
+    "agility": 21.1
+  },
+  {
+    "name": "Firulino",
+    "strength": 39.7,
+    "stamina": 14.2,
+    "agility": 41.1
+  },
+  {
+    "name": "Flakit",
+    "strength": 45.0,
+    "stamina": 20.0,
+    "agility": 20.0
+  },
+  {
+    "name": "Flambeau",
+    "strength": 56.4,
+    "stamina": 12.3,
+    "agility": 26.3
+  },
+  {
+    "name": "Flamingo",
+    "strength": 20.0,
+    "stamina": 20.0,
+    "agility": 55.0
+  },
+  {
+    "name": "Flarmin",
+    "strength": 30.0,
+    "stamina": 19.3,
+    "agility": 25.7
+  },
+  {
+    "name": "Flauris",
+    "strength": 26.6,
+    "stamina": 14.3,
+    "agility": 24.1
+  },
+  {
+    "name": "Flipulus",
+    "strength": 70.0,
+    "stamina": 16.0,
+    "agility": 9.0
+  },
+  {
+    "name": "Flunder",
+    "strength": 56.6,
+    "stamina": 21.3,
+    "agility": 7.1
+  },
+  {
+    "name": "Flurgie",
+    "strength": 20.0,
+    "stamina": 20.0,
+    "agility": 20.0
+  },
+  {
+    "name": "Flurttlez",
+    "strength": 25.0,
+    "stamina": 25.0,
+    "agility": 25.0
+  },
+  {
+    "name": "Freektus",
+    "strength": 54.3,
+    "stamina": 16.8,
+    "agility": 13.9
+  },
+  {
+    "name": "Frestir",
+    "strength": 45.0,
+    "stamina": 22.3,
+    "agility": 32.7
+  },
+  {
+    "name": "Gak",
+    "strength": 26.0,
+    "stamina": 12.0,
+    "agility": 22.0
+  },
+  {
+    "name": "Gakgo",
+    "strength": 26.9,
+    "stamina": 38.3,
+    "agility": 19.8
+  },
+  {
+    "name": "Garekk",
+    "strength": 15.6,
+    "stamina": 49.6,
+    "agility": 19.8
+  },
+  {
+    "name": "Garzomon",
+    "strength": 30.0,
+    "stamina": 15.0,
+    "agility": 30.0
+  },
+  {
+    "name": "Gelbos",
+    "strength": 28.3,
+    "stamina": 21.3,
+    "agility": 35.4
+  },
+  {
+    "name": "Gello",
+    "strength": 29.7,
+    "stamina": 43.9,
+    "agility": 21.4
+  },
+  {
+    "name": "Gemmroid",
+    "strength": 26.6,
+    "stamina": 39.3,
+    "agility": 19.1
+  },
+  {
+    "name": "Gengie",
+    "strength": 26.2,
+    "stamina": 15.8,
+    "agility": 53.0
+  },
+  {
+    "name": "Geove",
+    "strength": 25.3,
+    "stamina": 57.0,
+    "agility": 12.7
+  },
+  {
+    "name": "GlarzDos",
+    "strength": 71.3,
+    "stamina": 17.4,
+    "agility": 6.3
+  },
+  {
+    "name": "Glubboz",
+    "strength": 42.5,
+    "stamina": 18.4,
+    "agility": 24.1
+  },
+  {
+    "name": "Gobbium",
+    "strength": 22.8,
+    "stamina": 31.0,
+    "agility": 41.2
+  },
+  {
+    "name": "Gobborco",
+    "strength": 35.5,
+    "stamina": 23.0,
+    "agility": 36.5
+  },
+  {
+    "name": "Gobby",
+    "strength": 35.0,
+    "stamina": 25.0,
+    "agility": 30.0
+  },
+  {
+    "name": "Gobby Ranger",
+    "strength": 31.0,
+    "stamina": 21.0,
+    "agility": 38.0
+  },
+  {
+    "name": "Gobelux",
+    "strength": 39.2,
+    "stamina": 23.0,
+    "agility": 32.8
+  },
+  {
+    "name": "Gobiyaki",
+    "strength": 37.3,
+    "stamina": 34.6,
+    "agility": 23.1
+  },
+  {
+    "name": "Gobo Yobo",
+    "strength": 34.8,
+    "stamina": 18.1,
+    "agility": 42.1
+  },
+  {
+    "name": "Goklax",
+    "strength": 19.4,
+    "stamina": 21.2,
+    "agility": 44.4
+  },
+  {
+    "name": "Golf",
+    "strength": 17.8,
+    "stamina": 33.7,
+    "agility": 33.5
+  },
+  {
+    "name": "Golum",
+    "strength": 20.0,
+    "stamina": 10.0,
+    "agility": 30.0
+  },
+  {
+    "name": "Gonnuthon",
+    "strength": 39.4,
+    "stamina": 33.3,
+    "agility": 17.3
+  },
+  {
+    "name": "Googamarmz",
+    "strength": 42.5,
+    "stamina": 26.6,
+    "agility": 15.9
+  },
+  {
+    "name": "Googarum",
+    "strength": 45.0,
+    "stamina": 30.0,
+    "agility": 20.0
+  },
+  {
+    "name": "Gorbon",
+    "strength": 52.5,
+    "stamina": 30.0,
+    "agility": 7.5
+  },
+  {
+    "name": "Gorbundo",
+    "strength": 55.4,
+    "stamina": 31.7,
+    "agility": 7.9
+  },
+  {
+    "name": "Gorby",
+    "strength": 25.0,
+    "stamina": 15.0,
+    "agility": 50.0
+  },
+  {
+    "name": "Gorce",
+    "strength": 40.0,
+    "stamina": 16.3,
+    "agility": 8.7
+  },
+  {
+    "name": "Gorlag",
+    "strength": 11.1,
+    "stamina": 71.2,
+    "agility": 12.7
+  },
+  {
+    "name": "Gozum",
+    "strength": 25.0,
+    "stamina": 12.5,
+    "agility": 37.5
+  },
+  {
+    "name": "Gozzy",
+    "strength": 45.9,
+    "stamina": 22.2,
+    "agility": 26.9
+  },
+  {
+    "name": "Grengey",
+    "strength": 22.5,
+    "stamina": 21.3,
+    "agility": 31.2
+  },
+  {
+    "name": "Grimolf",
+    "strength": 62.8,
+    "stamina": 9.4,
+    "agility": 17.8
+  },
+  {
+    "name": "Groger",
+    "strength": 32.9,
+    "stamina": 26.6,
+    "agility": 25.5
+  },
+  {
+    "name": "Grolum",
+    "strength": 21.7,
+    "stamina": 10.8,
+    "agility": 32.5
+  },
+  {
+    "name": "Grumber",
+    "strength": 38.2,
+    "stamina": 32.6,
+    "agility": 14.2
+  },
+  {
+    "name": "Gwelvons",
+    "strength": 31.7,
+    "stamina": 23.8,
+    "agility": 39.5
+  },
+  {
+    "name": "Gyushido",
+    "strength": 61.3,
+    "stamina": 15.3,
+    "agility": 18.4
+  },
+  {
+    "name": "Haefia",
+    "strength": 52.0,
+    "stamina": 17.6,
+    "agility": 25.4
+  },
+  {
+    "name": "Hakcax",
+    "strength": 23.7,
+    "stamina": 19.6,
+    "agility": 21.7
+  },
+  {
+    "name": "Hestia",
+    "strength": 22.4,
+    "stamina": 35.6,
+    "agility": 27.0
+  },
+  {
+    "name": "Hi Mico",
+    "strength": 11.0,
+    "stamina": 18.0,
+    "agility": 66.0
+  },
+  {
+    "name": "Humurum",
+    "strength": 38.4,
+    "stamina": 22.7,
+    "agility": 33.9
+  },
+  {
+    "name": "Hunaku",
+    "strength": 41.5,
+    "stamina": 20.0,
+    "agility": 38.5
+  },
+  {
+    "name": "Ignatus Ra",
+    "strength": 71.5,
+    "stamina": 17.0,
+    "agility": 11.5
+  },
+  {
+    "name": "Igneous",
+    "strength": 40.0,
+    "stamina": 40.0,
+    "agility": 10.0
+  },
+  {
+    "name": "Ignitia",
+    "strength": 41.4,
+    "stamina": 16.9,
+    "agility": 26.7
+  },
+  {
+    "name": "Immyt",
+    "strength": 21.7,
+    "stamina": 29.3,
+    "agility": 14.0
+  },
+  {
+    "name": "Ishirzee",
+    "strength": 14.9,
+    "stamina": 28.0,
+    "agility": 32.1
+  },
+  {
+    "name": "Itra",
+    "strength": 17.5,
+    "stamina": 35.0,
+    "agility": 22.5
+  },
+  {
+    "name": "Ives",
+    "strength": 19.0,
+    "stamina": 21.0,
+    "agility": 20.0
+  },
+  {
+    "name": "Jacked",
+    "strength": 38.3,
+    "stamina": 17.0,
+    "agility": 29.7
+  },
+  {
+    "name": "Jacklin",
+    "strength": 27.9,
+    "stamina": 17.7,
+    "agility": 49.4
+  },
+  {
+    "name": "Jeevus",
+    "strength": 35.7,
+    "stamina": 46.6,
+    "agility": 12.7
+  },
+  {
+    "name": "Jellie",
+    "strength": 19.0,
+    "stamina": 53.8,
+    "agility": 22.2
+  },
+  {
+    "name": "Jelvins",
+    "strength": 31.7,
+    "stamina": 23.7,
+    "agility": 39.6
+  },
+  {
+    "name": "Jemm",
+    "strength": 31.9,
+    "stamina": 22.3,
+    "agility": 30.8
+  },
+  {
+    "name": "Jopo",
+    "strength": 15.6,
+    "stamina": 42.5,
+    "agility": 26.9
+  },
+  {
+    "name": "Jorm",
+    "strength": 20.2,
+    "stamina": 9.5,
+    "agility": 45.3
+  },
+  {
+    "name": "Jormund",
+    "strength": 18.0,
+    "stamina": 42.0,
+    "agility": 15.0
+  },
+  {
+    "name": "Jubol",
+    "strength": 27.3,
+    "stamina": 10.4,
+    "agility": 22.3
+  },
+  {
+    "name": "Jugg",
+    "strength": 27.1,
+    "stamina": 29.3,
+    "agility": 8.6
+  },
+  {
+    "name": "Juice",
+    "strength": 22.0,
+    "stamina": 20.0,
+    "agility": 18.0
+  },
+  {
+    "name": "Junior",
+    "strength": 17.5,
+    "stamina": 45.0,
+    "agility": 12.5
+  },
+  {
+    "name": "Jurbostamp",
+    "strength": 35.5,
+    "stamina": 19.6,
+    "agility": 29.9
+  },
+  {
+    "name": "K4L31D0",
+    "strength": 30.0,
+    "stamina": 21.7,
+    "agility": 48.3
+  },
+  {
+    "name": "Kak'Ferkhan",
+    "strength": 13.5,
+    "stamina": 10.0,
+    "agility": 71.5
+  },
+  {
+    "name": "Kakulax",
+    "strength": 27.2,
+    "stamina": 19.4,
+    "agility": 48.4
+  },
+  {
+    "name": "Kakunapac",
+    "strength": 22.5,
+    "stamina": 10.1,
+    "agility": 57.4
+  },
+  {
+    "name": "Kal 9000",
+    "strength": 34.8,
+    "stamina": 19.0,
+    "agility": 41.2
+  },
+  {
+    "name": "Kaleido",
+    "strength": 32.0,
+    "stamina": 14.0,
+    "agility": 44.0
+  },
+  {
+    "name": "Kimusaba",
+    "strength": 35.7,
+    "stamina": 48.1,
+    "agility": 16.2
+  },
+  {
+    "name": "Korgz",
+    "strength": 39.6,
+    "stamina": 15.8,
+    "agility": 39.6
+  },
+  {
+    "name": "Korzamin",
+    "strength": 30.0,
+    "stamina": 13.2,
+    "agility": 16.8
+  },
+  {
+    "name": "Kov'or",
+    "strength": 35.1,
+    "stamina": 17.0,
+    "agility": 32.9
+  },
+  {
+    "name": "Krablam",
+    "strength": 12.3,
+    "stamina": 20.9,
+    "agility": 26.8
+  },
+  {
+    "name": "Krakon",
+    "strength": 29.0,
+    "stamina": 25.0,
+    "agility": 41.0
+  },
+  {
+    "name": "Krispy",
+    "strength": 19.2,
+    "stamina": 22.2,
+    "agility": 18.6
+  },
+  {
+    "name": "Krives",
+    "strength": 19.5,
+    "stamina": 21.7,
+    "agility": 23.8
+  },
+  {
+    "name": "Krusty",
+    "strength": 18.0,
+    "stamina": 20.0,
+    "agility": 22.0
+  },
+  {
+    "name": "Kzulum",
+    "strength": 35.3,
+    "stamina": 16.4,
+    "agility": 48.3
+  },
+  {
+    "name": "Lady Sparkin",
+    "strength": 19.8,
+    "stamina": 18.3,
+    "agility": 61.9
+  },
+  {
+    "name": "Lady Spin",
+    "strength": 18.8,
+    "stamina": 19.4,
+    "agility": 51.8
+  },
+  {
+    "name": "Lardoz",
+    "strength": 42.0,
+    "stamina": 23.4,
+    "agility": 29.6
+  },
+  {
+    "name": "Larssaux",
+    "strength": 32.3,
+    "stamina": 13.8,
+    "agility": 28.9
+  },
+  {
+    "name": "Leitridh",
+    "strength": 29.0,
+    "stamina": 24.7,
+    "agility": 21.3
+  },
+  {
+    "name": "Lerky",
+    "strength": 26.7,
+    "stamina": 17.2,
+    "agility": 56.1
+  },
+  {
+    "name": "Lev",
+    "strength": 21.8,
+    "stamina": 10.7,
+    "agility": 27.5
+  },
+  {
+    "name": "Loghir",
+    "strength": 32.6,
+    "stamina": 17.0,
+    "agility": 35.4
+  },
+  {
+    "name": "Lord Malakrogg",
+    "strength": 80.0,
+    "stamina": 15.0,
+    "agility": 5.0
+  },
+  {
+    "name": "Lux-0",
+    "strength": 30.6,
+    "stamina": 47.1,
+    "agility": 17.3
+  },
+  {
+    "name": "Macho Mad Dog Melly Man",
+    "strength": 55.4,
+    "stamina": 31.7,
+    "agility": 7.9
+  },
+  {
+    "name": "Mananan",
+    "strength": 13.5,
+    "stamina": 10.7,
+    "agility": 35.8
+  },
+  {
+    "name": "MaxMax",
+    "strength": 24.2,
+    "stamina": 14.6,
+    "agility": 21.2
+  },
+  {
+    "name": "Mazaco",
+    "strength": 19.7,
+    "stamina": 7.5,
+    "agility": 32.8
+  },
+  {
+    "name": "Mc Fuzzka",
+    "strength": 67.6,
+    "stamina": 16.5,
+    "agility": 10.9
+  },
+  {
+    "name": "Mc Nazca",
+    "strength": 37.7,
+    "stamina": 35.2,
+    "agility": 12.1
+  },
+  {
+    "name": "Meaty",
+    "strength": 3.2,
+    "stamina": 87.0,
+    "agility": 4.8
+  },
+  {
+    "name": "Melakir",
+    "strength": 28.8,
+    "stamina": 17.1,
+    "agility": 29.1
+  },
+  {
+    "name": "Melborg",
+    "strength": 41.2,
+    "stamina": 20.6,
+    "agility": 33.2
+  },
+  {
+    "name": "Melsson",
+    "strength": 15.8,
+    "stamina": 31.7,
+    "agility": 47.5
+  },
+  {
+    "name": "Melv'goon",
+    "strength": 26.2,
+    "stamina": 21.3,
+    "agility": 27.5
+  },
+  {
+    "name": "Melvinators",
+    "strength": 41.5,
+    "stamina": 12.6,
+    "agility": 30.9
+  },
+  {
+    "name": "Melvinsteins",
+    "strength": 31.3,
+    "stamina": 8.7,
+    "agility": 35.0
+  },
+  {
+    "name": "Melvitron",
+    "strength": 44.0,
+    "stamina": 22.0,
+    "agility": 34.0
+  },
+  {
+    "name": "Melvoo",
+    "strength": 31.7,
+    "stamina": 42.8,
+    "agility": 20.5
+  },
+  {
+    "name": "Menac",
+    "strength": 39.4,
+    "stamina": 9.8,
+    "agility": 15.8
+  },
+  {
+    "name": "Menvin",
+    "strength": 16.0,
+    "stamina": 30.0,
+    "agility": 14.0
+  },
+  {
+    "name": "Meridius",
+    "strength": 30.0,
+    "stamina": 18.0,
+    "agility": 27.0
+  },
+  {
+    "name": "Mervlin",
+    "strength": 41.8,
+    "stamina": 19.0,
+    "agility": 34.2
+  },
+  {
+    "name": "Mhelves Drillo",
+    "strength": 52.2,
+    "stamina": 18.6,
+    "agility": 24.2
+  },
+  {
+    "name": "Micane",
+    "strength": 56.0,
+    "stamina": 18.9,
+    "agility": 20.1
+  },
+  {
+    "name": "Mimeido",
+    "strength": 52.9,
+    "stamina": 10.5,
+    "agility": 31.6
+  },
+  {
+    "name": "Mimzy",
+    "strength": 50.0,
+    "stamina": 10.0,
+    "agility": 30.0
+  },
+  {
+    "name": "Minlim",
+    "strength": 42.5,
+    "stamina": 23.4,
+    "agility": 19.1
+  },
+  {
+    "name": "Moboz",
+    "strength": 35.4,
+    "stamina": 14.2,
+    "agility": 35.4
+  },
+  {
+    "name": "Mr. Bob",
+    "strength": 21.3,
+    "stamina": 32.5,
+    "agility": 21.2
+  },
+  {
+    "name": "Mr. Wasson",
+    "strength": 17.0,
+    "stamina": 26.0,
+    "agility": 17.0
+  },
+  {
+    "name": "Mummih",
+    "strength": 19.0,
+    "stamina": 16.0,
+    "agility": 25.0
+  },
+  {
+    "name": "Mummite",
+    "strength": 27.5,
+    "stamina": 26.3,
+    "agility": 21.2
+  },
+  {
+    "name": "Murbi",
+    "strength": 28.3,
+    "stamina": 36.8,
+    "agility": 19.9
+  },
+  {
+    "name": "Na'Man",
+    "strength": 27.5,
+    "stamina": 20.0,
+    "agility": 27.5
+  },
+  {
+    "name": "Naginee",
+    "strength": 25.0,
+    "stamina": 12.0,
+    "agility": 23.0
+  },
+  {
+    "name": "Narchie",
+    "strength": 18.4,
+    "stamina": 18.4,
+    "agility": 28.2
+  },
+  {
+    "name": "Naukmo",
+    "strength": 17.3,
+    "stamina": 33.6,
+    "agility": 14.1
+  },
+  {
+    "name": "Nemean",
+    "strength": 11.3,
+    "stamina": 43.8,
+    "agility": 4.9
+  },
+  {
+    "name": "Nenous",
+    "strength": 35.3,
+    "stamina": 14.4,
+    "agility": 35.3
+  },
+  {
+    "name": "Neutromixolizer Z",
+    "strength": 30.4,
+    "stamina": 10.8,
+    "agility": 18.8
+  },
+  {
+    "name": "Ninjin",
+    "strength": 38.0,
+    "stamina": 25.3,
+    "agility": 31.7
+  },
+  {
+    "name": "Nock",
+    "strength": 24.0,
+    "stamina": 10.0,
+    "agility": 26.0
+  },
+  {
+    "name": "Nockilizer",
+    "strength": 24.0,
+    "stamina": 7.2,
+    "agility": 33.8
+  },
+  {
+    "name": "Nosdomdom",
+    "strength": 24.4,
+    "stamina": 37.2,
+    "agility": 23.4
+  },
+  {
+    "name": "Octakill",
+    "strength": 21.8,
+    "stamina": 17.7,
+    "agility": 55.5
+  },
+  {
+    "name": "Ohco",
+    "strength": 33.1,
+    "stamina": 14.8,
+    "agility": 12.1
+  },
+  {
+    "name": "Oladus",
+    "strength": 56.0,
+    "stamina": 14.3,
+    "agility": 24.7
+  },
+  {
+    "name": "Olxa",
+    "strength": 35.0,
+    "stamina": 30.0,
+    "agility": 25.0
+  },
+  {
+    "name": "Olxaroth",
+    "strength": 29.6,
+    "stamina": 38.0,
+    "agility": 27.4
+  },
+  {
+    "name": "Omo",
+    "strength": 41.0,
+    "stamina": 22.7,
+    "agility": 21.3
+  },
+  {
+    "name": "Opochi",
+    "strength": 46.2,
+    "stamina": 7.4,
+    "agility": 21.4
+  },
+  {
+    "name": "Pargz",
+    "strength": 39.6,
+    "stamina": 14.2,
+    "agility": 31.2
+  },
+  {
+    "name": "Patcho",
+    "strength": 35.0,
+    "stamina": 12.5,
+    "agility": 27.5
+  },
+  {
+    "name": "Paula",
+    "strength": 25.5,
+    "stamina": 17.0,
+    "agility": 42.5
+  },
+  {
+    "name": "Peabo",
+    "strength": 29.7,
+    "stamina": 29.7,
+    "agility": 25.6
+  },
+  {
+    "name": "Pelengy",
+    "strength": 46.5,
+    "stamina": 18.7,
+    "agility": 29.8
+  },
+  {
+    "name": "Penguita",
+    "strength": 43.8,
+    "stamina": 20.4,
+    "agility": 30.8
+  },
+  {
+    "name": "Pengz",
+    "strength": 25.5,
+    "stamina": 24.1,
+    "agility": 35.4
+  },
+  {
+    "name": "Penja + Nubbo + Bruja",
+    "strength": 41.2,
+    "stamina": 0.0,
+    "agility": 25.0
+  },
+  {
+    "name": "Phony",
+    "strength": 24.3,
+    "stamina": 16.8,
+    "agility": 18.9
+  },
+  {
+    "name": "Phorbon",
+    "strength": 58.3,
+    "stamina": 33.3,
+    "agility": 8.4
+  },
+  {
+    "name": "Pilaga",
+    "strength": 12.0,
+    "stamina": 50.0,
+    "agility": 5.0
+  },
+  {
+    "name": "Poirota",
+    "strength": 28.3,
+    "stamina": 14.4,
+    "agility": 32.3
+  },
+  {
+    "name": "Polich",
+    "strength": 20.0,
+    "stamina": 32.5,
+    "agility": 22.5
+  },
+  {
+    "name": "Polly",
+    "strength": 22.7,
+    "stamina": 36.8,
+    "agility": 25.5
+  },
+  {
+    "name": "Porhius",
+    "strength": 43.0,
+    "stamina": 21.4,
+    "agility": 30.6
+  },
+  {
+    "name": "Prof. Gak",
+    "strength": 20.6,
+    "stamina": 29.3,
+    "agility": 15.1
+  },
+  {
+    "name": "Prof. Oak",
+    "strength": 19.0,
+    "stamina": 27.0,
+    "agility": 14.0
+  },
+  {
+    "name": "Quirinus",
+    "strength": 31.9,
+    "stamina": 21.3,
+    "agility": 31.8
+  },
+  {
+    "name": "Quirk",
+    "strength": 36.8,
+    "stamina": 17.0,
+    "agility": 31.2
+  },
+  {
+    "name": "Quorg",
+    "strength": 36.4,
+    "stamina": 22.2,
+    "agility": 36.4
+  },
+  {
+    "name": "R2OY",
+    "strength": 53.8,
+    "stamina": 24.1,
+    "agility": 7.1
+  },
+  {
+    "name": "Rabeat Beat",
+    "strength": 30.2,
+    "stamina": 18.2,
+    "agility": 46.6
+  },
+  {
+    "name": "Ragmar",
+    "strength": 53.8,
+    "stamina": 17.4,
+    "agility": 23.8
+  },
+  {
+    "name": "Rampante",
+    "strength": 23.9,
+    "stamina": 12.2,
+    "agility": 48.9
+  },
+  {
+    "name": "Rarzok",
+    "strength": 20.6,
+    "stamina": 47.5,
+    "agility": 26.9
+  },
+  {
+    "name": "Reaplicator",
+    "strength": 34.0,
+    "stamina": 17.0,
+    "agility": 34.0
+  },
+  {
+    "name": "Remmyt",
+    "strength": 46.8,
+    "stamina": 19.1,
+    "agility": 19.1
+  },
+  {
+    "name": "Remruade",
+    "strength": 31.7,
+    "stamina": 28.5,
+    "agility": 34.8
+  },
+  {
+    "name": "Renacuaj",
+    "strength": 72.0,
+    "stamina": 16.0,
+    "agility": 7.0
+  },
+  {
+    "name": "Rhida",
+    "strength": 21.8,
+    "stamina": 15.2,
+    "agility": 23.0
+  },
+  {
+    "name": "Rigneous",
+    "strength": 50.6,
+    "stamina": 40.1,
+    "agility": 9.3
+  },
+  {
+    "name": "Rillamaz",
+    "strength": 22.8,
+    "stamina": 33.2,
+    "agility": 19.0
+  },
+  {
+    "name": "Rina",
+    "strength": 18.8,
+    "stamina": 33.8,
+    "agility": 22.4
+  },
+  {
+    "name": "Roastevelt",
+    "strength": 66.6,
+    "stamina": 16.5,
+    "agility": 11.9
+  },
+  {
+    "name": "Robby",
+    "strength": 37.0,
+    "stamina": 26.3,
+    "agility": 31.7
+  },
+  {
+    "name": "RoboBuddy 2.0",
+    "strength": 34.0,
+    "stamina": 19.8,
+    "agility": 31.2
+  },
+  {
+    "name": "Rogomz",
+    "strength": 25.5,
+    "stamina": 43.9,
+    "agility": 15.6
+  },
+  {
+    "name": "Rolace",
+    "strength": 19.8,
+    "stamina": 42.5,
+    "agility": 22.7
+  },
+  {
+    "name": "Rolesker",
+    "strength": 28.5,
+    "stamina": 48.7,
+    "agility": 17.8
+  },
+  {
+    "name": "Rombolio",
+    "strength": 40.7,
+    "stamina": 41.7,
+    "agility": 17.6
+  },
+  {
+    "name": "Roost Fera'Kraa",
+    "strength": 31.9,
+    "stamina": 62.4,
+    "agility": 5.7
+  },
+  {
+    "name": "Rosthai",
+    "strength": 38.7,
+    "stamina": 12.2,
+    "agility": 39.1
+  },
+  {
+    "name": "Rukka",
+    "strength": 30.6,
+    "stamina": 42.7,
+    "agility": 11.7
+  },
+  {
+    "name": "Rvirnan",
+    "strength": 39.6,
+    "stamina": 19.6,
+    "agility": 35.8
+  },
+  {
+    "name": "Saerebrum",
+    "strength": 22.0,
+    "stamina": 28.0,
+    "agility": 10.0
+  },
+  {
+    "name": "Saerebrumark",
+    "strength": 13.8,
+    "stamina": 32.5,
+    "agility": 18.7
+  },
+  {
+    "name": "Saerugg",
+    "strength": 23.8,
+    "stamina": 30.3,
+    "agility": 10.9
+  },
+  {
+    "name": "Saevin",
+    "strength": 32.6,
+    "stamina": 19.8,
+    "agility": 22.6
+  },
+  {
+    "name": "Salamandra",
+    "strength": 39.7,
+    "stamina": 18.1,
+    "agility": 17.2
+  },
+  {
+    "name": "Samark",
+    "strength": 19.0,
+    "stamina": 27.0,
+    "agility": 14.0
+  },
+  {
+    "name": "Sammy",
+    "strength": 23.0,
+    "stamina": 18.0,
+    "agility": 19.0
+  },
+  {
+    "name": "Scharappie",
+    "strength": 56.6,
+    "stamina": 17.5,
+    "agility": 20.9
+  },
+  {
+    "name": "Scort",
+    "strength": 31.9,
+    "stamina": 37.2,
+    "agility": 15.9
+  },
+  {
+    "name": "Scubblez",
+    "strength": 34.0,
+    "stamina": 17.0,
+    "agility": 34.0
+  },
+  {
+    "name": "Shrampz",
+    "strength": 17.5,
+    "stamina": 45.0,
+    "agility": 12.5
+  },
+  {
+    "name": "Shroogle",
+    "strength": 28.3,
+    "stamina": 24.1,
+    "agility": 32.6
+  },
+  {
+    "name": "Skubby",
+    "strength": 45.9,
+    "stamina": 22.2,
+    "agility": 26.9
+  },
+  {
+    "name": "Socragur",
+    "strength": 34.2,
+    "stamina": 18.4,
+    "agility": 42.4
+  },
+  {
+    "name": "Solbi",
+    "strength": 32.8,
+    "stamina": 17.4,
+    "agility": 44.8
+  },
+  {
+    "name": "Sound Blasta",
+    "strength": 33.3,
+    "stamina": 32.6,
+    "agility": 9.1
+  },
+  {
+    "name": "Sprhida",
+    "strength": 19.4,
+    "stamina": 14.2,
+    "agility": 31.4
+  },
+  {
+    "name": "Sproulor",
+    "strength": 36.8,
+    "stamina": 31.2,
+    "agility": 17.0
+  },
+  {
+    "name": "Sproutlings",
+    "strength": 47.5,
+    "stamina": 34.8,
+    "agility": 12.7
+  },
+  {
+    "name": "Squibbo",
+    "strength": 46.0,
+    "stamina": 14.2,
+    "agility": 24.8
+  },
+  {
+    "name": "Stanislaos",
+    "strength": 47.2,
+    "stamina": 36.4,
+    "agility": 11.4
+  },
+  {
+    "name": "Stasson",
+    "strength": 27.5,
+    "stamina": 17.5,
+    "agility": 30.0
+  },
+  {
+    "name": "Steamby",
+    "strength": 42.8,
+    "stamina": 21.9,
+    "agility": 30.3
+  },
+  {
+    "name": "Stratos",
+    "strength": 45.2,
+    "stamina": 16.8,
+    "agility": 38.0
+  },
+  {
+    "name": "Stratulumbs",
+    "strength": 21.2,
+    "stamina": 17.6,
+    "agility": 56.2
+  },
+  {
+    "name": "Stumpie",
+    "strength": 40.0,
+    "stamina": 13.0,
+    "agility": 7.0
+  },
+  {
+    "name": "Stuvin",
+    "strength": 50.0,
+    "stamina": 16.3,
+    "agility": 8.7
+  },
+  {
+    "name": "Sugg",
+    "strength": 25.0,
+    "stamina": 27.0,
+    "agility": 8.0
+  },
+  {
+    "name": "Svirnan",
+    "strength": 75.0,
+    "stamina": 3.0,
+    "agility": 12.0
+  },
+  {
+    "name": "Svirnel",
+    "strength": 45.9,
+    "stamina": 3.2,
+    "agility": 45.9
+  },
+  {
+    "name": "Svord",
+    "strength": 20.0,
+    "stamina": 70.0,
+    "agility": 5.0
+  },
+  {
+    "name": "Talabartus",
+    "strength": 56.0,
+    "stamina": 15.0,
+    "agility": 14.0
+  },
+  {
+    "name": "Tartaru",
+    "strength": 27.0,
+    "stamina": 22.3,
+    "agility": 35.7
+  },
+  {
+    "name": "Tealkers",
+    "strength": 25.5,
+    "stamina": 43.6,
+    "agility": 15.9
+  },
+  {
+    "name": "Tearios",
+    "strength": 43.2,
+    "stamina": 8.6,
+    "agility": 33.2
+  },
+  {
+    "name": "Teithyus",
+    "strength": 41.2,
+    "stamina": 43.0,
+    "agility": 15.8
+  },
+  {
+    "name": "TermBOT 9000",
+    "strength": 74.1,
+    "stamina": 16.1,
+    "agility": 4.8
+  },
+  {
+    "name": "Terra",
+    "strength": 17.0,
+    "stamina": 19.0,
+    "agility": 24.0
+  },
+  {
+    "name": "Terrump",
+    "strength": 21.3,
+    "stamina": 23.7,
+    "agility": 30.0
+  },
+  {
+    "name": "The Clouz",
+    "strength": 37.5,
+    "stamina": 16.3,
+    "agility": 21.2
+  },
+  {
+    "name": "The Gooz",
+    "strength": 30.0,
+    "stamina": 13.0,
+    "agility": 17.0
+  },
+  {
+    "name": "Theraros",
+    "strength": 40.9,
+    "stamina": 34.5,
+    "agility": 9.6
+  },
+  {
+    "name": "Thezeron",
+    "strength": 24.5,
+    "stamina": 36.0,
+    "agility": 34.5
+  },
+  {
+    "name": "Thundmolf",
+    "strength": 76.2,
+    "stamina": 15.0,
+    "agility": 8.8
+  },
+  {
+    "name": "Thutrumech",
+    "strength": 23.6,
+    "stamina": 6.7,
+    "agility": 29.7
+  },
+  {
+    "name": "Tilge",
+    "strength": 21.3,
+    "stamina": 25.0,
+    "agility": 28.7
+  },
+  {
+    "name": "Toolbon",
+    "strength": 26.0,
+    "stamina": 15.9,
+    "agility": 33.1
+  },
+  {
+    "name": "Torg",
+    "strength": 61.7,
+    "stamina": 15.9,
+    "agility": 17.4
+  },
+  {
+    "name": "Torlag",
+    "strength": 50.7,
+    "stamina": 19.0,
+    "agility": 25.3
+  },
+  {
+    "name": "Trelpe",
+    "strength": 31.9,
+    "stamina": 13.8,
+    "agility": 29.3
+  },
+  {
+    "name": "TriloBros",
+    "strength": 28.3,
+    "stamina": 21.3,
+    "agility": 35.4
+  },
+  {
+    "name": "Triton",
+    "strength": 32.1,
+    "stamina": 10.7,
+    "agility": 32.2
+  },
+  {
+    "name": "Trixie",
+    "strength": 46.8,
+    "stamina": 19.1,
+    "agility": 19.1
+  },
+  {
+    "name": "Trombargz",
+    "strength": 40.5,
+    "stamina": 17.9,
+    "agility": 36.6
+  },
+  {
+    "name": "Troplo",
+    "strength": 35.4,
+    "stamina": 35.4,
+    "agility": 14.2
+  },
+  {
+    "name": "Tsunamogh",
+    "strength": 76.56,
+    "stamina": 15.38,
+    "agility": 7.99
+  },
+  {
+    "name": "Tukatuks",
+    "strength": 10.6,
+    "stamina": 20.0,
+    "agility": 29.4
+  },
+  {
+    "name": "Twimbo",
+    "strength": 47.5,
+    "stamina": 31.7,
+    "agility": 15.8
+  },
+  {
+    "name": "Uggs",
+    "strength": 30.0,
+    "stamina": 14.0,
+    "agility": 16.0
+  },
+  {
+    "name": "Ukalis",
+    "strength": 35.8,
+    "stamina": 22.6,
+    "agility": 36.6
+  },
+  {
+    "name": "Uzum",
+    "strength": 55.8,
+    "stamina": 9.4,
+    "agility": 24.8
+  },
+  {
+    "name": "Valkiky",
+    "strength": 11.6,
+    "stamina": 58.8,
+    "agility": 4.6
+  },
+  {
+    "name": "Vardge",
+    "strength": 18.1,
+    "stamina": 38.4,
+    "agility": 8.5
+  },
+  {
+    "name": "Vedalon",
+    "strength": 43.3,
+    "stamina": 30.8,
+    "agility": 20.9
+  },
+  {
+    "name": "Vedalumbus",
+    "strength": 43.6,
+    "stamina": 22.3,
+    "agility": 34.1
+  },
+  {
+    "name": "Velk",
+    "strength": 52.7,
+    "stamina": 17.0,
+    "agility": 15.3
+  },
+  {
+    "name": "Vernecilo",
+    "strength": 22.3,
+    "stamina": 11.8,
+    "agility": 25.9
+  },
+  {
+    "name": "Vicilios",
+    "strength": 32.8,
+    "stamina": 6.9,
+    "agility": 35.3
+  },
+  {
+    "name": "Vickoo",
+    "strength": 26.0,
+    "stamina": 17.3,
+    "agility": 21.7
+  },
+  {
+    "name": "Vicky",
+    "strength": 20.0,
+    "stamina": 18.0,
+    "agility": 22.0
+  },
+  {
+    "name": "Volazord",
+    "strength": 39.0,
+    "stamina": 19.0,
+    "agility": 32.0
+  },
+  {
+    "name": "Volthai",
+    "strength": 19.7,
+    "stamina": 16.9,
+    "agility": 63.4
+  },
+  {
+    "name": "Voluspa",
+    "strength": 40.5,
+    "stamina": 17.7,
+    "agility": 36.8
+  },
+  {
+    "name": "Vurd",
+    "strength": 16.8,
+    "stamina": 34.2,
+    "agility": 9.0
+  },
+  {
+    "name": "Vylsio",
+    "strength": 36.2,
+    "stamina": 21.4,
+    "agility": 37.4
+  },
+  {
+    "name": "Walkom",
+    "strength": 58.9,
+    "stamina": 19.0,
+    "agility": 17.1
+  },
+  {
+    "name": "Walogdr",
+    "strength": 61.0,
+    "stamina": 21.0,
+    "agility": 18.0
+  },
+  {
+    "name": "Warffin",
+    "strength": 21.3,
+    "stamina": 23.4,
+    "agility": 40.3
+  },
+  {
+    "name": "Warhead",
+    "strength": 28.7,
+    "stamina": 24.2,
+    "agility": 32.1
+  },
+  {
+    "name": "Washibot",
+    "strength": 37.06,
+    "stamina": 45.17,
+    "agility": 12.66
+  },
+  {
+    "name": "Wellon",
+    "strength": 21.3,
+    "stamina": 32.4,
+    "agility": 21.3
+  },
+  {
+    "name": "Wemmbo",
+    "strength": 47.5,
+    "stamina": 19.0,
+    "agility": 28.5
+  },
+  {
+    "name": "Wensloo",
+    "strength": 14.2,
+    "stamina": 56.6,
+    "agility": 14.2
+  },
+  {
+    "name": "Wincrash",
+    "strength": 40.0,
+    "stamina": 45.0,
+    "agility": 10.0
+  },
+  {
+    "name": "Winslar",
+    "strength": 14.2,
+    "stamina": 56.6,
+    "agility": 14.2
+  },
+  {
+    "name": "Winslobo",
+    "strength": 14.2,
+    "stamina": 56.6,
+    "agility": 14.2
+  },
+  {
+    "name": "Woberleng",
+    "strength": 30.7,
+    "stamina": 36.0,
+    "agility": 18.3
+  },
+  {
+    "name": "X4-Gombo",
+    "strength": 37.5,
+    "stamina": 37.5,
+    "agility": 15.0
+  },
+  {
+    "name": "X4-Happuff",
+    "strength": 58.9,
+    "stamina": 19.0,
+    "agility": 17.1
+  },
+  {
+    "name": "X5-T34M",
+    "strength": 50.0,
+    "stamina": 25.0,
+    "agility": 25.0
+  },
+  {
+    "name": "XL-Ombis 400",
+    "strength": 43.5,
+    "stamina": 21.0,
+    "agility": 25.5
+  },
+  {
+    "name": "Xandaire",
+    "strength": 35.4,
+    "stamina": 35.4,
+    "agility": 14.2
+  },
+  {
+    "name": "Xentho",
+    "strength": 39.6,
+    "stamina": 39.6,
+    "agility": 15.8
+  },
+  {
+    "name": "Yemic + Dryonic + Jebediah",
+    "strength": 10.0,
+    "stamina": 0.0,
+    "agility": 0.0
+  },
+  {
+    "name": "Yobo",
+    "strength": 30.8,
+    "stamina": 31.9,
+    "agility": 22.3
+  },
+  {
+    "name": "Yorlag",
+    "strength": 31.7,
+    "stamina": 28.5,
+    "agility": 34.8
+  },
+  {
+    "name": "Zagno",
+    "strength": 28.4,
+    "stamina": 44.2,
+    "agility": 22.4
+  },
+  {
+    "name": "Zahla",
+    "strength": 28.3,
+    "stamina": 42.5,
+    "agility": 14.2
+  },
+  {
+    "name": "Zammy",
+    "strength": 24.9,
+    "stamina": 19.5,
+    "agility": 20.6
+  },
+  {
+    "name": "Zina",
+    "strength": 21.3,
+    "stamina": 38.2,
+    "agility": 25.5
+  },
+  {
+    "name": "Zingo",
+    "strength": 38.8,
+    "stamina": 14.2,
+    "agility": 22.0
+  },
+  {
+    "name": "Zirg",
+    "strength": 30.0,
+    "stamina": 32.5,
+    "agility": 12.5
+  },
+  {
+    "name": "Zoak",
+    "strength": 23.8,
+    "stamina": 33.7,
+    "agility": 17.5
+  },
+  {
+    "name": "Zobblestein",
+    "strength": 35.3,
+    "stamina": 18.3,
+    "agility": 31.1
+  },
+  {
+    "name": "Zol",
+    "strength": 35.0,
+    "stamina": 30.0,
+    "agility": 25.0
+  },
+  {
+    "name": "Zordongon",
+    "strength": 49.3,
+    "stamina": 21.4,
+    "agility": 29.3
+  },
+  {
+    "name": "Zorgim",
+    "strength": 39.6,
+    "stamina": 22.7,
+    "agility": 22.7
+  },
+  {
+    "name": "Zovilby",
+    "strength": 26.9,
+    "stamina": 47.5,
+    "agility": 20.6
+  },
+  {
+    "name": "Zubbo",
+    "strength": 22.6,
+    "stamina": 42.4,
+    "agility": 19.7
+  },
+  {
+    "name": "Úlairius",
+    "strength": 25.5,
+    "stamina": 39.7,
+    "agility": 19.8
+  }
+]
