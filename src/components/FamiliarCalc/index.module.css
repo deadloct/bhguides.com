@@ -1,0 +1,42 @@
+.bubble {
+    padding: 1rem 0;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    font-weight: 100;
+    letter-spacing: 0.2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    border: 2px solid white;
+    color: white;
+}
+
+.bubble.ext-link-risk {
+    border: 2px solid rgb(150, 150, 150);
+    color: rgb(150, 150, 150);
+}
+
+.bubble.ext-link-risk:hover {
+    border: 2px solid white;
+    color: white;
+}
+
+.bubble.search-error {
+    border: 2px solid #ff5e7e;
+    color: #ff5e7e;
+}
+
+.bubble-message {
+    flex-grow: 1;
+    text-align: center;
+    overflow-wrap: anywhere;
+}
+
+.bubble svg {
+    margin: 0 2rem;
+    font-size: 1.8rem;
+    vertical-align: middle;
+    flex-grow: 0;
+}
