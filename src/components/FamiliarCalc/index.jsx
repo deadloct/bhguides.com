@@ -67,8 +67,7 @@ export default function FamiliarCalc() {
             <div className={`${styles["bubble"]} ${styles["ext-link-risk"]}`}>
                 <WarningAmberIcon />
                 <div className={styles["bubble-message"]}>
-                    The stats on this page may be broken.
-                    It also doesn't take rarity into account with the max stable slider.
+                    Some of the stats on this page are broken as I'm still cleaning the data.
                 </div>
                 <WarningAmberIcon />
             </div> 
