@@ -6,7 +6,7 @@
     "agility": 26.5
   },
   {
-    "name": "Aaeeelooolooo (Tank)",
+    "name": "Aaeeelooolooo",
     "strength": 31.8,
     "stamina": 39.0,
     "agility": 14.2
@@ -42,7 +42,7 @@
     "agility": 6.7
   },
   {
-    "name": "Akiwa (Support)",
+    "name": "Akiwa",
     "strength": 24.0,
     "stamina": 23.0,
     "agility": 48.0
@@ -66,7 +66,7 @@
     "agility": 5.1
   },
   {
-    "name": "Amrul (DPS)",
+    "name": "Amrul",
     "strength": 34.0,
     "stamina": 18.1,
     "agility": 32.9
@@ -78,7 +78,7 @@
     "agility": 6.3
   },
   {
-    "name": "Andie (DPS)",
+    "name": "Andie",
     "strength": 28.9,
     "stamina": 12.3,
     "agility": 23.8
@@ -90,7 +90,7 @@
     "agility": 28.0
   },
   {
-    "name": "Aoife (Support)",
+    "name": "Aoife",
     "strength": 33.1,
     "stamina": 12.7,
     "agility": 39.2
@@ -114,19 +114,19 @@
     "agility": 25.1
   },
   {
-    "name": "Asst. Oak (Tank)",
+    "name": "Asst. Oak",
     "strength": 20.6,
     "stamina": 29.3,
     "agility": 15.1
   },
   {
-    "name": "Astally (Tank)",
+    "name": "Astally",
     "strength": 19.0,
     "stamina": 53.8,
     "agility": 22.2
   },
   {
-    "name": "Astamus (DPS)",
+    "name": "Astamus",
     "strength": 45.2,
     "stamina": 16.8,
     "agility": 38.0
@@ -144,7 +144,7 @@
     "agility": 17.5
   },
   {
-    "name": "Astrogobby (Bait)",
+    "name": "Astrogobby",
     "strength": 65.2,
     "stamina": 12.3,
     "agility": 17.5
@@ -162,7 +162,7 @@
     "agility": 13.8
   },
   {
-    "name": "B-75 (Tank)",
+    "name": "B-75",
     "strength": 49.0,
     "stamina": 28.0,
     "agility": 18.0
@@ -186,7 +186,7 @@
     "agility": 17.3
   },
   {
-    "name": "Basiliko (Tank)",
+    "name": "Basiliko",
     "strength": 24.8,
     "stamina": 25.1,
     "agility": 15.1
@@ -216,7 +216,7 @@
     "agility": 13.0
   },
   {
-    "name": "Bebeguin (DPS)",
+    "name": "Bebeguin",
     "strength": 26.3,
     "stamina": 21.2,
     "agility": 27.5
@@ -228,13 +228,13 @@
     "agility": 19.8
   },
   {
-    "name": "Bed Stuy (Support)",
+    "name": "Bed Stuy",
     "strength": 21.5,
     "stamina": 19.7,
     "agility": 53.8
   },
   {
-    "name": "Beido (DPS)",
+    "name": "Beido",
     "strength": 33.7,
     "stamina": 14.9,
     "agility": 46.4
@@ -258,37 +258,37 @@
     "agility": 11.0
   },
   {
-    "name": "Bitzako (Support)",
+    "name": "Bitzako",
     "strength": 35.6,
     "stamina": 11.2,
     "agility": 18.2
   },
   {
-    "name": "Bjoern (Tank)",
+    "name": "Bjoern",
     "strength": 22.3,
     "stamina": 54.3,
     "agility": 8.4
   },
   {
-    "name": "Blahki (DPS)",
+    "name": "Blahki",
     "strength": 43.3,
     "stamina": 9.1,
     "agility": 12.6
   },
   {
-    "name": "Blargnar (DPS)",
+    "name": "Blargnar",
     "strength": 28.7,
     "stamina": 29.7,
     "agility": 26.6
   },
   {
-    "name": "Bleemax (Tank)",
+    "name": "Bleemax",
     "strength": 20.2,
     "stamina": 53.7,
     "agility": 11.1
   },
   {
-    "name": "Bleeximum (Tank)",
+    "name": "Bleeximum",
     "strength": 20.2,
     "stamina": 57.7,
     "agility": 17.1
@@ -300,7 +300,7 @@
     "agility": 13.3
   },
   {
-    "name": "Blemo (DPS)",
+    "name": "Blemo",
     "strength": 47.5,
     "stamina": 31.7,
     "agility": 15.8
@@ -312,19 +312,19 @@
     "agility": 10.8
   },
   {
-    "name": "Blimb (DPS)",
+    "name": "Blimb",
     "strength": 36.4,
     "stamina": 34.8,
     "agility": 23.8
   },
   {
-    "name": "Blin blin (DPS)",
+    "name": "Blin blin",
     "strength": 41.7,
     "stamina": 14.8,
     "agility": 18.5
   },
   {
-    "name": "Blinka (Support)",
+    "name": "Blinka",
     "strength": 32.0,
     "stamina": 19.0,
     "agility": 34.0
@@ -348,25 +348,25 @@
     "agility": 25.0
   },
   {
-    "name": "Blublix (DPS)",
+    "name": "Blublix",
     "strength": 60.2,
     "stamina": 19.0,
     "agility": 15.8
   },
   {
-    "name": "Blumby (DPS)",
+    "name": "Blumby",
     "strength": 49.1,
     "stamina": 23.7,
     "agility": 22.2
   },
   {
-    "name": "Bluz (Tank)",
+    "name": "Bluz",
     "strength": 32.1,
     "stamina": 33.2,
     "agility": 29.7
   },
   {
-    "name": "Bnigmane (Tank)",
+    "name": "Bnigmane",
     "strength": 15.5,
     "stamina": 39.7,
     "agility": 19.8
@@ -378,13 +378,13 @@
     "agility": 28.0
   },
   {
-    "name": "Bobodom (Tank)",
+    "name": "Bobodom",
     "strength": 30.1,
     "stamina": 39.6,
     "agility": 25.3
   },
   {
-    "name": "Bonbonk (Tank)",
+    "name": "Bonbonk",
     "strength": 31.3,
     "stamina": 37.4,
     "agility": 26.3
@@ -396,25 +396,25 @@
     "agility": 18.0
   },
   {
-    "name": "Booty (DPS)",
+    "name": "Booty",
     "strength": 26.0,
     "stamina": 17.3,
     "agility": 21.7
   },
   {
-    "name": "Bor'lan (Support)",
+    "name": "Bor'lan",
     "strength": 33.8,
     "stamina": 10.0,
     "agility": 31.2
   },
   {
-    "name": "Brimber (Tank)",
+    "name": "Brimber",
     "strength": 15.0,
     "stamina": 22.5,
     "agility": 37.5
   },
   {
-    "name": "Brimbino (DPS)",
+    "name": "Brimbino",
     "strength": 17.0,
     "stamina": 25.5,
     "agility": 42.5
@@ -438,19 +438,19 @@
     "agility": 12.0
   },
   {
-    "name": "Bronsie (Tank)",
+    "name": "Bronsie",
     "strength": 39.7,
     "stamina": 24.1,
     "agility": 21.2
   },
   {
-    "name": "Bruagaya (Tank)",
+    "name": "Bruagaya",
     "strength": 44.3,
     "stamina": 43.6,
     "agility": 7.1
   },
   {
-    "name": "Bruja (Tank)",
+    "name": "Bruja",
     "strength": 31.2,
     "stamina": 29.7,
     "agility": 24.1
@@ -462,19 +462,19 @@
     "agility": 19.8
   },
   {
-    "name": "Bruteni (Tank)",
+    "name": "Bruteni",
     "strength": 37.2,
     "stamina": 30.9,
     "agility": 6.9
   },
   {
-    "name": "Brutow (Tank)",
+    "name": "Brutow",
     "strength": 11.3,
     "stamina": 56.7,
     "agility": 17.0
   },
   {
-    "name": "Bubbo (Tank)",
+    "name": "Bubbo",
     "strength": 20.0,
     "stamina": 37.5,
     "agility": 17.5
@@ -486,7 +486,7 @@
     "agility": 21.0
   },
   {
-    "name": "Bummih (DPS)",
+    "name": "Bummih",
     "strength": 20.6,
     "stamina": 17.3,
     "agility": 27.1
@@ -504,7 +504,7 @@
     "agility": 12.3
   },
   {
-    "name": "Calamica (DPS)",
+    "name": "Calamica",
     "strength": 35.4,
     "stamina": 9.4,
     "agility": 40.2
@@ -534,7 +534,7 @@
     "agility": 25.0
   },
   {
-    "name": "Candelardoz (DPS)",
+    "name": "Candelardoz",
     "strength": 25.0,
     "stamina": 18.8,
     "agility": 41.2
@@ -546,19 +546,19 @@
     "agility": 20.0
   },
   {
-    "name": "Capori (Support)",
+    "name": "Capori",
     "strength": 32.6,
     "stamina": 31.2,
     "agility": 21.2
   },
   {
-    "name": "Capt. Gladbeard (DPS)",
+    "name": "Capt. Gladbeard",
     "strength": 57.0,
     "stamina": 15.8,
     "agility": 22.2
   },
   {
-    "name": "Capt. Wombomz (Tank)",
+    "name": "Capt. Wombomz",
     "strength": 39.6,
     "stamina": 39.6,
     "agility": 15.8
@@ -576,7 +576,7 @@
     "agility": 10.8
   },
   {
-    "name": "Captain Babosun (DPS)",
+    "name": "Captain Babosun",
     "strength": 32.0,
     "stamina": 19.2,
     "agility": 33.8
@@ -588,7 +588,7 @@
     "agility": 12.1
   },
   {
-    "name": "Cereboil (Support)",
+    "name": "Cereboil",
     "strength": 21.5,
     "stamina": 16.4,
     "agility": 47.1
@@ -600,7 +600,7 @@
     "agility": 13.1
   },
   {
-    "name": "Cezana (Tank)",
+    "name": "Cezana",
     "strength": 22.4,
     "stamina": 46.2,
     "agility": 16.4
@@ -612,25 +612,25 @@
     "agility": 9.5
   },
   {
-    "name": "Cheb (DPS)",
+    "name": "Cheb",
     "strength": 32.6,
     "stamina": 19.8,
     "agility": 32.6
   },
   {
-    "name": "Chedzun Aiki (DPS)",
+    "name": "Chedzun Aiki",
     "strength": 28.0,
     "stamina": 24.5,
     "agility": 42.5
   },
   {
-    "name": "Chefoz (DPS)",
+    "name": "Chefoz",
     "strength": 36.4,
     "stamina": 15.8,
     "agility": 42.8
   },
   {
-    "name": "Chelf (DPS)",
+    "name": "Chelf",
     "strength": 32.5,
     "stamina": 20.0,
     "agility": 32.5
@@ -648,7 +648,7 @@
     "agility": 23.3
   },
   {
-    "name": "Chich\u00e9n[5] (DPS)",
+    "name": "Chich\u00e9n[5]",
     "strength": 51.9,
     "stamina": 19.8,
     "agility": 23.3
@@ -660,13 +660,13 @@
     "agility": 22.0
   },
   {
-    "name": "Chimney (Tank)",
+    "name": "Chimney",
     "strength": 36.6,
     "stamina": 35.4,
     "agility": 13.0
   },
   {
-    "name": "Chocomyt (Hybrid: Support/DPS)",
+    "name": "Chocomyt",
     "strength": 45.97,
     "stamina": 18.99,
     "agility": 29.97
@@ -678,7 +678,7 @@
     "agility": 9.8
   },
   {
-    "name": "Cicabomz (DPS)",
+    "name": "Cicabomz",
     "strength": 32.3,
     "stamina": 20.1,
     "agility": 42.6
@@ -690,7 +690,7 @@
     "agility": 26.3
   },
   {
-    "name": "Cinonyx (DPS)",
+    "name": "Cinonyx",
     "strength": 44.0,
     "stamina": 21.0,
     "agility": 35.0
@@ -702,13 +702,13 @@
     "agility": 11.7
   },
   {
-    "name": "Clavid (DPS)",
+    "name": "Clavid",
     "strength": 45.3,
     "stamina": 14.2,
     "agility": 25.5
   },
   {
-    "name": "Clodius (DPS)",
+    "name": "Clodius",
     "strength": 42.1,
     "stamina": 10.8,
     "agility": 42.1
@@ -720,7 +720,7 @@
     "agility": 25.3
   },
   {
-    "name": "Cloubin (Tank)",
+    "name": "Cloubin",
     "strength": 42.1,
     "stamina": 42.1,
     "agility": 10.8
@@ -738,7 +738,7 @@
     "agility": 28.4
   },
   {
-    "name": "Coldorn (DPS)",
+    "name": "Coldorn",
     "strength": 33.0,
     "stamina": 16.8,
     "agility": 45.2
@@ -756,7 +756,7 @@
     "agility": 38.7
   },
   {
-    "name": "Columbosim (Tank)",
+    "name": "Columbosim",
     "strength": 31.7,
     "stamina": 42.1,
     "agility": 21.2
@@ -774,7 +774,7 @@
     "agility": 14.0
   },
   {
-    "name": "Contan (DPS)",
+    "name": "Contan",
     "strength": 51.2,
     "stamina": 5.0,
     "agility": 18.8
@@ -786,13 +786,13 @@
     "agility": 20.3
   },
   {
-    "name": "Coralus (Tank)",
+    "name": "Coralus",
     "strength": 26.5,
     "stamina": 31.5,
     "agility": 17.0
   },
   {
-    "name": "Coza (DPS)",
+    "name": "Coza",
     "strength": 32.6,
     "stamina": 25.0,
     "agility": 17.4
@@ -804,19 +804,19 @@
     "agility": 29.2
   },
   {
-    "name": "Crius (DPS)",
+    "name": "Crius",
     "strength": 33.0,
     "stamina": 22.0,
     "agility": 20.0
   },
   {
-    "name": "Cronus (DPS)",
+    "name": "Cronus",
     "strength": 43.0,
     "stamina": 29.8,
     "agility": 12.2
   },
   {
-    "name": "Croundy (Bait)",
+    "name": "Croundy",
     "strength": 71.3,
     "stamina": 15.8,
     "agility": 7.9
@@ -834,7 +834,7 @@
     "agility": 7.9
   },
   {
-    "name": "Cuerade (DPS)",
+    "name": "Cuerade",
     "strength": 28.3,
     "stamina": 25.5,
     "agility": 31.2
@@ -852,7 +852,7 @@
     "agility": 41.0
   },
   {
-    "name": "D3-M0N (DPS)",
+    "name": "D3-M0N",
     "strength": 38.0,
     "stamina": 38.0,
     "agility": 19.0
@@ -864,25 +864,25 @@
     "agility": 38.3
   },
   {
-    "name": "DaBossa (Tank)",
+    "name": "DaBossa",
     "strength": 47.3,
     "stamina": 50.4,
     "agility": 2.3
   },
   {
-    "name": "Dabird (Tank)",
+    "name": "Dabird",
     "strength": 25.0,
     "stamina": 45.0,
     "agility": 15.0
   },
   {
-    "name": "Dagdanos (DPS)",
+    "name": "Dagdanos",
     "strength": 55.0,
     "stamina": 17.7,
     "agility": 22.3
   },
   {
-    "name": "Daking (DPS)",
+    "name": "Daking",
     "strength": 36.0,
     "stamina": 20.0,
     "agility": 44.0
@@ -894,7 +894,7 @@
     "agility": 25.3
   },
   {
-    "name": "Danelumbus (Tank)",
+    "name": "Danelumbus",
     "strength": 37.7,
     "stamina": 37.1,
     "agility": 20.2
@@ -912,25 +912,25 @@
     "agility": 26.7
   },
   {
-    "name": "Delong (DPS)",
+    "name": "Delong",
     "strength": 35.4,
     "stamina": 15.6,
     "agility": 34.0
   },
   {
-    "name": "Demeter (Tank)",
+    "name": "Demeter",
     "strength": 38.5,
     "stamina": 40.0,
     "agility": 16.5
   },
   {
-    "name": "Demetra (DPS)",
+    "name": "Demetra",
     "strength": 46.6,
     "stamina": 21.5,
     "agility": 26.9
   },
   {
-    "name": "Dexteriuz (DPS)",
+    "name": "Dexteriuz",
     "strength": 34.5,
     "stamina": 20.5,
     "agility": 20.0
@@ -948,7 +948,7 @@
     "agility": 23.9
   },
   {
-    "name": "Dillzilla (Tank)",
+    "name": "Dillzilla",
     "strength": 22.5,
     "stamina": 33.8,
     "agility": 18.7
@@ -960,7 +960,7 @@
     "agility": 21.0
   },
   {
-    "name": "Disastaroth (Support)",
+    "name": "Disastaroth",
     "strength": 25.68,
     "stamina": 17.57,
     "agility": 51.68
@@ -978,7 +978,7 @@
     "agility": 19.0
   },
   {
-    "name": "Dourra (DPS)",
+    "name": "Dourra",
     "strength": 38.0,
     "stamina": 19.6,
     "agility": 7.4
@@ -1008,37 +1008,37 @@
     "agility": 11.9
   },
   {
-    "name": "Dr. Walker (Support)",
+    "name": "Dr. Walker",
     "strength": 26.8,
     "stamina": 25.6,
     "agility": 32.6
   },
   {
-    "name": "Drafgin (DPS)",
+    "name": "Drafgin",
     "strength": 55.5,
     "stamina": 7.9,
     "agility": 31.7
   },
   {
-    "name": "Drazig (DPS)",
+    "name": "Drazig",
     "strength": 36.4,
     "stamina": 22.2,
     "agility": 36.4
   },
   {
-    "name": "Drek (DPS)",
+    "name": "Drek",
     "strength": 36.2,
     "stamina": 23.8,
     "agility": 15.0
   },
   {
-    "name": "Drelvy (Tank)",
+    "name": "Drelvy",
     "strength": 25.0,
     "stamina": 47.0,
     "agility": 23.0
   },
   {
-    "name": "Drenath (DPS)",
+    "name": "Drenath",
     "strength": 41.7,
     "stamina": 20.0,
     "agility": 38.3
@@ -1062,19 +1062,19 @@
     "agility": 15.0
   },
   {
-    "name": "Drogix (Tank)",
+    "name": "Drogix",
     "strength": 32.5,
     "stamina": 30.0,
     "agility": 12.5
   },
   {
-    "name": "Dropo (Tank)",
+    "name": "Dropo",
     "strength": 13.8,
     "stamina": 37.5,
     "agility": 23.7
   },
   {
-    "name": "Drya (Tank)",
+    "name": "Drya",
     "strength": 29.7,
     "stamina": 38.0,
     "agility": 27.3
@@ -1086,13 +1086,13 @@
     "agility": 23.0
   },
   {
-    "name": "Dryonic (DPS)",
+    "name": "Dryonic",
     "strength": 36.4,
     "stamina": 36.4,
     "agility": 22.2
   },
   {
-    "name": "Dullag (Support)",
+    "name": "Dullag",
     "strength": 31.3,
     "stamina": 18.0,
     "agility": 35.7
@@ -1110,7 +1110,7 @@
     "agility": 33.3
   },
   {
-    "name": "Duortlez (DPS)",
+    "name": "Duortlez",
     "strength": 25.0,
     "stamina": 25.0,
     "agility": 25.0
@@ -1122,7 +1122,7 @@
     "agility": 17.5
   },
   {
-    "name": "Edronkin (Support)",
+    "name": "Edronkin",
     "strength": 17.0,
     "stamina": 20.0,
     "agility": 48.0
@@ -1134,19 +1134,19 @@
     "agility": 29.2
   },
   {
-    "name": "Elote (Tank)",
+    "name": "Elote",
     "strength": 22.7,
     "stamina": 51.0,
     "agility": 11.3
   },
   {
-    "name": "Elpec (Support)",
+    "name": "Elpec",
     "strength": 25.3,
     "stamina": 10.6,
     "agility": 39.1
   },
   {
-    "name": "Emdus (Tank)",
+    "name": "Emdus",
     "strength": 43.8,
     "stamina": 21.2,
     "agility": 10.0
@@ -1158,13 +1158,13 @@
     "agility": 13.0
   },
   {
-    "name": "Emperor Freudrich (Tank)",
+    "name": "Emperor Freudrich",
     "strength": 36.3,
     "stamina": 38.4,
     "agility": 10.3
   },
   {
-    "name": "Encherzog (DPS)",
+    "name": "Encherzog",
     "strength": 35.4,
     "stamina": 14.2,
     "agility": 35.4
@@ -1182,13 +1182,13 @@
     "agility": 19.0
   },
   {
-    "name": "Ergos (Tank)",
+    "name": "Ergos",
     "strength": 12.5,
     "stamina": 47.5,
     "agility": 15.0
   },
   {
-    "name": "Es'Skelegro (Tank)",
+    "name": "Es'Skelegro",
     "strength": 19.5,
     "stamina": 26.0,
     "agility": 19.5
@@ -1200,7 +1200,7 @@
     "agility": 18.0
   },
   {
-    "name": "Es'Skeletrad (Tank)",
+    "name": "Es'Skeletrad",
     "strength": 26.6,
     "stamina": 34.0,
     "agility": 24.4
@@ -1218,7 +1218,7 @@
     "agility": 12.0
   },
   {
-    "name": "Falconwisp (DPS)",
+    "name": "Falconwisp",
     "strength": 36.8,
     "stamina": 11.4,
     "agility": 16.8
@@ -1230,25 +1230,25 @@
     "agility": 30.2
   },
   {
-    "name": "Farin (DPS)",
+    "name": "Farin",
     "strength": 16.8,
     "stamina": 9.8,
     "agility": 58.4
   },
   {
-    "name": "Fati (Tank)",
+    "name": "Fati",
     "strength": 39.6,
     "stamina": 31.7,
     "agility": 23.7
   },
   {
-    "name": "Fen-Ri (DPS)",
+    "name": "Fen-Ri",
     "strength": 19.4,
     "stamina": 16.2,
     "agility": 59.4
   },
   {
-    "name": "Feodebius (Bait)",
+    "name": "Feodebius",
     "strength": 70.5,
     "stamina": 16.6,
     "agility": 7.9
@@ -1266,7 +1266,7 @@
     "agility": 23.8
   },
   {
-    "name": "Findellow (DPS)",
+    "name": "Findellow",
     "strength": 28.3,
     "stamina": 14.2,
     "agility": 42.5
@@ -1278,25 +1278,25 @@
     "agility": 17.5
   },
   {
-    "name": "Findlin (DPS)",
+    "name": "Findlin",
     "strength": 31.2,
     "stamina": 25.0,
     "agility": 18.8
   },
   {
-    "name": "Findolo (Tank)",
+    "name": "Findolo",
     "strength": 29.7,
     "stamina": 34.0,
     "agility": 21.3
   },
   {
-    "name": "Firegath (DPS)",
+    "name": "Firegath",
     "strength": 32.5,
     "stamina": 15.6,
     "agility": 26.9
   },
   {
-    "name": "Firor (Bait)",
+    "name": "Firor",
     "strength": 50.5,
     "stamina": 13.4,
     "agility": 21.1
@@ -1308,19 +1308,19 @@
     "agility": 41.1
   },
   {
-    "name": "Firulino[5] (DPS)",
+    "name": "Firulino[5]",
     "strength": 39.7,
     "stamina": 14.2,
     "agility": 41.1
   },
   {
-    "name": "Flakit (DPS)",
+    "name": "Flakit",
     "strength": 45.0,
     "stamina": 20.0,
     "agility": 20.0
   },
   {
-    "name": "Flambeau (DPS)",
+    "name": "Flambeau",
     "strength": 56.4,
     "stamina": 12.3,
     "agility": 26.3
@@ -1332,25 +1332,25 @@
     "agility": 23.5
   },
   {
-    "name": "Flamingo (DPS)",
+    "name": "Flamingo",
     "strength": 20.0,
     "stamina": 20.0,
     "agility": 55.0
   },
   {
-    "name": "Flarmin (DPS)",
+    "name": "Flarmin",
     "strength": 30.0,
     "stamina": 19.3,
     "agility": 25.7
   },
   {
-    "name": "Flauris (DPS)",
+    "name": "Flauris",
     "strength": 26.6,
     "stamina": 14.3,
     "agility": 24.1
   },
   {
-    "name": "Flipulus (Bait)",
+    "name": "Flipulus",
     "strength": 70.0,
     "stamina": 16.0,
     "agility": 9.0
@@ -1374,7 +1374,7 @@
     "agility": 21.0
   },
   {
-    "name": "Flunder (DPS)",
+    "name": "Flunder",
     "strength": 56.6,
     "stamina": 21.3,
     "agility": 7.1
@@ -1386,7 +1386,7 @@
     "agility": 20.0
   },
   {
-    "name": "Flurttlez (Tank)",
+    "name": "Flurttlez",
     "strength": 25.0,
     "stamina": 25.0,
     "agility": 25.0
@@ -1398,13 +1398,13 @@
     "agility": 41.2
   },
   {
-    "name": "Freektus (DPS)",
+    "name": "Freektus",
     "strength": 54.3,
     "stamina": 16.8,
     "agility": 13.9
   },
   {
-    "name": "Frestir (Support)",
+    "name": "Frestir",
     "strength": 45.0,
     "stamina": 22.3,
     "agility": 32.7
@@ -1416,7 +1416,7 @@
     "agility": 22.0
   },
   {
-    "name": "Gakgo (Tank)",
+    "name": "Gakgo",
     "strength": 26.9,
     "stamina": 38.3,
     "agility": 19.8
@@ -1428,13 +1428,13 @@
     "agility": 13.3
   },
   {
-    "name": "Gamby (Support)",
+    "name": "Gamby",
     "strength": 40.0,
     "stamina": 15.0,
     "agility": 40.0
   },
   {
-    "name": "Garekk (Tank)",
+    "name": "Garekk",
     "strength": 15.6,
     "stamina": 49.6,
     "agility": 19.8
@@ -1446,25 +1446,25 @@
     "agility": 33.8
   },
   {
-    "name": "Garwyn (Tank)",
+    "name": "Garwyn",
     "strength": 37.0,
     "stamina": 34.5,
     "agility": 13.5
   },
   {
-    "name": "Garzomon (DPS)",
+    "name": "Garzomon",
     "strength": 30.0,
     "stamina": 15.0,
     "agility": 30.0
   },
   {
-    "name": "Gelbos (DPS)",
+    "name": "Gelbos",
     "strength": 28.3,
     "stamina": 21.3,
     "agility": 35.4
   },
   {
-    "name": "Gello (Tank)",
+    "name": "Gello",
     "strength": 29.7,
     "stamina": 43.9,
     "agility": 21.4
@@ -1482,19 +1482,19 @@
     "agility": 18.0
   },
   {
-    "name": "Gemmroid (Tank)",
+    "name": "Gemmroid",
     "strength": 26.6,
     "stamina": 39.3,
     "agility": 19.1
   },
   {
-    "name": "Gemor (Tank)",
+    "name": "Gemor",
     "strength": 14.3,
     "stamina": 74.4,
     "agility": 6.3
   },
   {
-    "name": "Gengie (DPS)",
+    "name": "Gengie",
     "strength": 26.2,
     "stamina": 15.8,
     "agility": 53.0
@@ -1512,37 +1512,37 @@
     "agility": 34.2
   },
   {
-    "name": "Geove (Tank)",
+    "name": "Geove",
     "strength": 25.3,
     "stamina": 57.0,
     "agility": 12.7
   },
   {
-    "name": "Ghosbooboo (Tank)",
+    "name": "Ghosbooboo",
     "strength": 30.1,
     "stamina": 38.0,
     "agility": 26.9
   },
   {
-    "name": "Gingermic (DPS)",
+    "name": "Gingermic",
     "strength": 52.9,
     "stamina": 10.4,
     "agility": 31.7
   },
   {
-    "name": "GlarzDos (Bait)",
+    "name": "GlarzDos",
     "strength": 71.3,
     "stamina": 17.4,
     "agility": 6.3
   },
   {
-    "name": "Glubboz (DPS)",
+    "name": "Glubboz",
     "strength": 42.5,
     "stamina": 18.4,
     "agility": 24.1
   },
   {
-    "name": "Gobbex (Support)",
+    "name": "Gobbex",
     "strength": 20.6,
     "stamina": 19.0,
     "agility": 55.4
@@ -1554,7 +1554,7 @@
     "agility": 41.2
   },
   {
-    "name": "Gobbon (DPS)",
+    "name": "Gobbon",
     "strength": 37.0,
     "stamina": 26.3,
     "agility": 31.7
@@ -1578,13 +1578,13 @@
     "agility": 38.0
   },
   {
-    "name": "Gobby Ranger[5] (DPS)",
+    "name": "Gobby Ranger[5]",
     "strength": 31.0,
     "stamina": 21.0,
     "agility": 38.0
   },
   {
-    "name": "Gobelros (DPS)",
+    "name": "Gobelros",
     "strength": 35.0,
     "stamina": 28.0,
     "agility": 32.0
@@ -1596,7 +1596,7 @@
     "agility": 32.8
   },
   {
-    "name": "Gobelux[5] (DPS)",
+    "name": "Gobelux[5]",
     "strength": 39.2,
     "stamina": 23.0,
     "agility": 32.8
@@ -1608,13 +1608,13 @@
     "agility": 23.1
   },
   {
-    "name": "Gobo Yobo (DPS)",
+    "name": "Gobo Yobo",
     "strength": 34.8,
     "stamina": 18.1,
     "agility": 42.1
   },
   {
-    "name": "Goklax (Support)",
+    "name": "Goklax",
     "strength": 19.4,
     "stamina": 21.2,
     "agility": 44.4
@@ -1626,7 +1626,7 @@
     "agility": 18.0
   },
   {
-    "name": "Golf (DPS)",
+    "name": "Golf",
     "strength": 17.8,
     "stamina": 33.7,
     "agility": 33.5
@@ -1644,7 +1644,7 @@
     "agility": 17.3
   },
   {
-    "name": "Googamarmz (DPS)",
+    "name": "Googamarmz",
     "strength": 42.5,
     "stamina": 26.6,
     "agility": 15.9
@@ -1656,7 +1656,7 @@
     "agility": 15.0
   },
   {
-    "name": "Googarum (DPS)",
+    "name": "Googarum",
     "strength": 45.0,
     "stamina": 30.0,
     "agility": 20.0
@@ -1668,7 +1668,7 @@
     "agility": 7.5
   },
   {
-    "name": "Gorbundo (Tank)",
+    "name": "Gorbundo",
     "strength": 55.4,
     "stamina": 31.7,
     "agility": 7.9
@@ -1680,7 +1680,7 @@
     "agility": 50.0
   },
   {
-    "name": "Gorce (DPS)",
+    "name": "Gorce",
     "strength": 40.0,
     "stamina": 16.3,
     "agility": 8.7
@@ -1692,7 +1692,7 @@
     "agility": 13.5
   },
   {
-    "name": "Gorlag (Tank)",
+    "name": "Gorlag",
     "strength": 11.1,
     "stamina": 71.2,
     "agility": 12.7
@@ -1716,19 +1716,19 @@
     "agility": 6.1
   },
   {
-    "name": "Gozum (DPS)",
+    "name": "Gozum",
     "strength": 25.0,
     "stamina": 12.5,
     "agility": 37.5
   },
   {
-    "name": "Gozzy (Tank)",
+    "name": "Gozzy",
     "strength": 45.9,
     "stamina": 22.2,
     "agility": 26.9
   },
   {
-    "name": "Grampa Hef (Tank)",
+    "name": "Grampa Hef",
     "strength": 43.3,
     "stamina": 50.0,
     "agility": 6.7
@@ -1740,7 +1740,7 @@
     "agility": 11.7
   },
   {
-    "name": "Grengey (DPS)",
+    "name": "Grengey",
     "strength": 22.5,
     "stamina": 21.3,
     "agility": 31.2
@@ -1758,19 +1758,19 @@
     "agility": 24.0
   },
   {
-    "name": "Groger (Support)",
+    "name": "Groger",
     "strength": 32.9,
     "stamina": 26.6,
     "agility": 25.5
   },
   {
-    "name": "Grolum (DPS)",
+    "name": "Grolum",
     "strength": 21.7,
     "stamina": 10.8,
     "agility": 32.5
   },
   {
-    "name": "Grumber (Tank)",
+    "name": "Grumber",
     "strength": 38.2,
     "stamina": 32.6,
     "agility": 14.2
@@ -1782,19 +1782,19 @@
     "agility": 19.9
   },
   {
-    "name": "Gummy (Tank)",
+    "name": "Gummy",
     "strength": 29.7,
     "stamina": 43.9,
     "agility": 21.4
   },
   {
-    "name": "Gwelvons (DPS)",
+    "name": "Gwelvons",
     "strength": 31.7,
     "stamina": 23.8,
     "agility": 39.5
   },
   {
-    "name": "Gyushido (Bait)",
+    "name": "Gyushido",
     "strength": 61.3,
     "stamina": 15.3,
     "agility": 18.4
@@ -1806,13 +1806,13 @@
     "agility": 30.3
   },
   {
-    "name": "Haefia (Support)",
+    "name": "Haefia",
     "strength": 52.0,
     "stamina": 17.6,
     "agility": 25.4
   },
   {
-    "name": "Hakcax (DPS)",
+    "name": "Hakcax",
     "strength": 23.7,
     "stamina": 19.6,
     "agility": 21.7
@@ -1830,13 +1830,13 @@
     "agility": 8.2
   },
   {
-    "name": "Harchie (DPS)",
+    "name": "Harchie",
     "strength": 21.2,
     "stamina": 18.8,
     "agility": 35.0
   },
   {
-    "name": "Hebbo (Tank)",
+    "name": "Hebbo",
     "strength": 32.6,
     "stamina": 34.0,
     "agility": 18.4
@@ -1848,19 +1848,19 @@
     "agility": 17.5
   },
   {
-    "name": "Hestia (Tank)",
+    "name": "Hestia",
     "strength": 22.4,
     "stamina": 35.6,
     "agility": 27.0
   },
   {
-    "name": "Hi Mico (Support)",
+    "name": "Hi Mico",
     "strength": 11.0,
     "stamina": 18.0,
     "agility": 66.0
   },
   {
-    "name": "Holimenz (DPS)",
+    "name": "Holimenz",
     "strength": 43.9,
     "stamina": 17.0,
     "agility": 24.1
@@ -1878,25 +1878,25 @@
     "agility": 36.5
   },
   {
-    "name": "Humurum (DPS)",
+    "name": "Humurum",
     "strength": 38.4,
     "stamina": 22.7,
     "agility": 33.9
   },
   {
-    "name": "Hunaku (DPS)",
+    "name": "Hunaku",
     "strength": 41.5,
     "stamina": 20.0,
     "agility": 38.5
   },
   {
-    "name": "Hurgy (DPS)",
+    "name": "Hurgy",
     "strength": 31.3,
     "stamina": 37.5,
     "agility": 6.2
   },
   {
-    "name": "Ignatus Ra (Bait)",
+    "name": "Ignatus Ra",
     "strength": 71.5,
     "stamina": 17.0,
     "agility": 11.5
@@ -1908,13 +1908,13 @@
     "agility": 10.0
   },
   {
-    "name": "Ignitia (DPS)",
+    "name": "Ignitia",
     "strength": 41.4,
     "stamina": 16.9,
     "agility": 26.7
   },
   {
-    "name": "Immyt (Tank)",
+    "name": "Immyt",
     "strength": 21.7,
     "stamina": 29.3,
     "agility": 14.0
@@ -1926,13 +1926,13 @@
     "agility": 19.3
   },
   {
-    "name": "Ishirzee (Support)",
+    "name": "Ishirzee",
     "strength": 14.9,
     "stamina": 28.0,
     "agility": 32.1
   },
   {
-    "name": "Itra (Tank)",
+    "name": "Itra",
     "strength": 17.5,
     "stamina": 35.0,
     "agility": 22.5
@@ -1944,13 +1944,13 @@
     "agility": 6.4
   },
   {
-    "name": "Iva (DPS)",
+    "name": "Iva",
     "strength": 23.8,
     "stamina": 26.2,
     "agility": 25.0
   },
   {
-    "name": "Iveki (DPS)",
+    "name": "Iveki",
     "strength": 36.3,
     "stamina": 16.3,
     "agility": 22.4
@@ -1962,7 +1962,7 @@
     "agility": 20.0
   },
   {
-    "name": "Ivub (Support)",
+    "name": "Ivub",
     "strength": 25.0,
     "stamina": 12.5,
     "agility": 37.5
@@ -1980,13 +1980,13 @@
     "agility": 28.0
   },
   {
-    "name": "Jacked (DPS)",
+    "name": "Jacked",
     "strength": 38.3,
     "stamina": 17.0,
     "agility": 29.7
   },
   {
-    "name": "Jacklin (DPS)",
+    "name": "Jacklin",
     "strength": 27.9,
     "stamina": 17.7,
     "agility": 49.4
@@ -1998,7 +1998,7 @@
     "agility": 29.0
   },
   {
-    "name": "Jebediah (DPS)",
+    "name": "Jebediah",
     "strength": 34.8,
     "stamina": 17.4,
     "agility": 42.8
@@ -2010,25 +2010,25 @@
     "agility": 45.7
   },
   {
-    "name": "Jeevus (Tank)",
+    "name": "Jeevus",
     "strength": 35.7,
     "stamina": 46.6,
     "agility": 12.7
   },
   {
-    "name": "Jellie (Tank)",
+    "name": "Jellie",
     "strength": 19.0,
     "stamina": 53.8,
     "agility": 22.2
   },
   {
-    "name": "Jelvins (DPS)",
+    "name": "Jelvins",
     "strength": 31.7,
     "stamina": 23.7,
     "agility": 39.6
   },
   {
-    "name": "Jemm (DPS)",
+    "name": "Jemm",
     "strength": 31.9,
     "stamina": 22.3,
     "agility": 30.8
@@ -2040,19 +2040,19 @@
     "agility": 32.3
   },
   {
-    "name": "Jopo (Tank)",
+    "name": "Jopo",
     "strength": 15.6,
     "stamina": 42.5,
     "agility": 26.9
   },
   {
-    "name": "Jorm (DPS)",
+    "name": "Jorm",
     "strength": 20.2,
     "stamina": 9.5,
     "agility": 45.3
   },
   {
-    "name": "Jormund (Tank)",
+    "name": "Jormund",
     "strength": 18.0,
     "stamina": 42.0,
     "agility": 15.0
@@ -2064,7 +2064,7 @@
     "agility": 22.3
   },
   {
-    "name": "Jugg (DPS)",
+    "name": "Jugg",
     "strength": 27.1,
     "stamina": 29.3,
     "agility": 8.6
@@ -2082,13 +2082,13 @@
     "agility": 27.2
   },
   {
-    "name": "Junior (DPS)",
+    "name": "Junior",
     "strength": 17.5,
     "stamina": 45.0,
     "agility": 12.5
   },
   {
-    "name": "Jurbostamp (DPS)",
+    "name": "Jurbostamp",
     "strength": 35.5,
     "stamina": 19.6,
     "agility": 29.9
@@ -2100,19 +2100,19 @@
     "agility": 21.3
   },
   {
-    "name": "K4L31D0 (Support)",
+    "name": "K4L31D0",
     "strength": 30.0,
     "stamina": 21.7,
     "agility": 48.3
   },
   {
-    "name": "Kak'Ferkhan (DPS)",
+    "name": "Kak'Ferkhan",
     "strength": 13.5,
     "stamina": 10.0,
     "agility": 71.5
   },
   {
-    "name": "Kakulax (Support)",
+    "name": "Kakulax",
     "strength": 27.2,
     "stamina": 19.4,
     "agility": 48.4
@@ -2124,7 +2124,7 @@
     "agility": 57.4
   },
   {
-    "name": "Kal 9000 (DPS)",
+    "name": "Kal 9000",
     "strength": 34.8,
     "stamina": 19.0,
     "agility": 41.2
@@ -2136,7 +2136,7 @@
     "agility": 44.0
   },
   {
-    "name": "Kheli (Support)",
+    "name": "Kheli",
     "strength": 28.0,
     "stamina": 22.5,
     "agility": 34.5
@@ -2148,7 +2148,7 @@
     "agility": 6.2
   },
   {
-    "name": "Kimusaba (Tank)",
+    "name": "Kimusaba",
     "strength": 35.7,
     "stamina": 48.1,
     "agility": 16.2
@@ -2166,7 +2166,7 @@
     "agility": 21.0
   },
   {
-    "name": "Korgz (DPS)",
+    "name": "Korgz",
     "strength": 39.6,
     "stamina": 15.8,
     "agility": 39.6
@@ -2184,13 +2184,13 @@
     "agility": 31.0
   },
   {
-    "name": "Kov'or (DPS)",
+    "name": "Kov'or",
     "strength": 35.1,
     "stamina": 17.0,
     "agility": 32.9
   },
   {
-    "name": "Kr Ty (DPS)",
+    "name": "Kr Ty",
     "strength": 25.0,
     "stamina": 24.0,
     "agility": 26.0
@@ -2208,13 +2208,13 @@
     "agility": 21.3
   },
   {
-    "name": "Krakon (DPS)",
+    "name": "Krakon",
     "strength": 29.0,
     "stamina": 25.0,
     "agility": 41.0
   },
   {
-    "name": "Kringle (DPS)",
+    "name": "Kringle",
     "strength": 39.2,
     "stamina": 19.0,
     "agility": 36.8
@@ -2226,7 +2226,7 @@
     "agility": 18.6
   },
   {
-    "name": "Krives (DPS)",
+    "name": "Krives",
     "strength": 19.5,
     "stamina": 21.7,
     "agility": 23.8
@@ -2238,7 +2238,7 @@
     "agility": 26.8
   },
   {
-    "name": "Krozy (Support)",
+    "name": "Krozy",
     "strength": 28.3,
     "stamina": 17.5,
     "agility": 29.2
@@ -2250,13 +2250,13 @@
     "agility": 22.0
   },
   {
-    "name": "Kzulum (DPS)",
+    "name": "Kzulum",
     "strength": 35.3,
     "stamina": 16.4,
     "agility": 48.3
   },
   {
-    "name": "Lady Sparkin (Support)",
+    "name": "Lady Sparkin",
     "strength": 19.8,
     "stamina": 18.3,
     "agility": 61.9
@@ -2268,13 +2268,13 @@
     "agility": 51.8
   },
   {
-    "name": "Lardoz (DPS)",
+    "name": "Lardoz",
     "strength": 42.0,
     "stamina": 23.4,
     "agility": 29.6
   },
   {
-    "name": "Larssaux (Support)",
+    "name": "Larssaux",
     "strength": 32.3,
     "stamina": 13.8,
     "agility": 28.9
@@ -2292,13 +2292,13 @@
     "agility": 18.4
   },
   {
-    "name": "Leitridh (DPS)",
+    "name": "Leitridh",
     "strength": 29.0,
     "stamina": 24.7,
     "agility": 21.3
   },
   {
-    "name": "Lerky (DPS)",
+    "name": "Lerky",
     "strength": 26.7,
     "stamina": 17.2,
     "agility": 56.1
@@ -2328,7 +2328,7 @@
     "agility": 13.2
   },
   {
-    "name": "Loghir (DPS)",
+    "name": "Loghir",
     "strength": 32.6,
     "stamina": 17.0,
     "agility": 35.4
@@ -2340,13 +2340,13 @@
     "agility": 27.0
   },
   {
-    "name": "Lord Daspinor (DPS)",
+    "name": "Lord Daspinor",
     "strength": 31.2,
     "stamina": 24.0,
     "agility": 39.8
   },
   {
-    "name": "Lord Malakrogg (Bait)",
+    "name": "Lord Malakrogg",
     "strength": 80.0,
     "stamina": 15.0,
     "agility": 5.0
@@ -2364,19 +2364,19 @@
     "agility": 29.4
   },
   {
-    "name": "Lux-0 (Tank)",
+    "name": "Lux-0",
     "strength": 30.6,
     "stamina": 47.1,
     "agility": 17.3
   },
   {
-    "name": "MXO (DPS)",
+    "name": "MXO",
     "strength": 34.2,
     "stamina": 13.1,
     "agility": 37.7
   },
   {
-    "name": "Macho Mad Dog Melly Man (Tank)",
+    "name": "Macho Mad Dog Melly Man",
     "strength": 55.4,
     "stamina": 31.7,
     "agility": 7.9
@@ -2394,13 +2394,13 @@
     "agility": 17.5
   },
   {
-    "name": "Marmbo (DPS)",
+    "name": "Marmbo",
     "strength": 28.3,
     "stamina": 24.1,
     "agility": 32.6
   },
   {
-    "name": "Marnerys (DPS)",
+    "name": "Marnerys",
     "strength": 25.5,
     "stamina": 9.9,
     "agility": 49.6
@@ -2424,13 +2424,13 @@
     "agility": 32.8
   },
   {
-    "name": "Mc Fuzzka (Bait)",
+    "name": "Mc Fuzzka",
     "strength": 67.6,
     "stamina": 16.5,
     "agility": 10.9
   },
   {
-    "name": "Mc Nazca (Tank)",
+    "name": "Mc Nazca",
     "strength": 37.7,
     "stamina": 35.2,
     "agility": 12.1
@@ -2442,13 +2442,13 @@
     "agility": 25.6
   },
   {
-    "name": "McSaday Mon (DPS)",
+    "name": "McSaday Mon",
     "strength": 38.0,
     "stamina": 18.0,
     "agility": 29.0
   },
   {
-    "name": "Meaty (Tank)",
+    "name": "Meaty",
     "strength": 3.2,
     "stamina": 87.0,
     "agility": 4.8
@@ -2460,13 +2460,13 @@
     "agility": 6.1
   },
   {
-    "name": "Melakir (DPS)",
+    "name": "Melakir",
     "strength": 28.8,
     "stamina": 17.1,
     "agility": 29.1
   },
   {
-    "name": "Melborg (DPS)",
+    "name": "Melborg",
     "strength": 41.2,
     "stamina": 20.6,
     "agility": 33.2
@@ -2484,25 +2484,25 @@
     "agility": 25.0
   },
   {
-    "name": "Melsson (DPS)",
+    "name": "Melsson",
     "strength": 15.8,
     "stamina": 31.7,
     "agility": 47.5
   },
   {
-    "name": "Melv'cone (Bait)",
+    "name": "Melv'cone",
     "strength": 58.1,
     "stamina": 9.9,
     "agility": 17.0
   },
   {
-    "name": "Melv'eti (Support)",
+    "name": "Melv'eti",
     "strength": 29.7,
     "stamina": 24.1,
     "agility": 31.2
   },
   {
-    "name": "Melv'goon (DPS)",
+    "name": "Melv'goon",
     "strength": 26.2,
     "stamina": 21.3,
     "agility": 27.5
@@ -2514,7 +2514,7 @@
     "agility": 25.7
   },
   {
-    "name": "Melvinators (DPS)",
+    "name": "Melvinators",
     "strength": 41.5,
     "stamina": 12.6,
     "agility": 30.9
@@ -2526,25 +2526,25 @@
     "agility": 32.7
   },
   {
-    "name": "Melvinsteins (DPS)",
+    "name": "Melvinsteins",
     "strength": 31.3,
     "stamina": 8.7,
     "agility": 35.0
   },
   {
-    "name": "Melvitron (DPS)",
+    "name": "Melvitron",
     "strength": 44.0,
     "stamina": 22.0,
     "agility": 34.0
   },
   {
-    "name": "Melvoo (Tank)",
+    "name": "Melvoo",
     "strength": 31.7,
     "stamina": 42.8,
     "agility": 20.5
   },
   {
-    "name": "Menac (DPS)",
+    "name": "Menac",
     "strength": 39.4,
     "stamina": 9.8,
     "agility": 15.8
@@ -2562,7 +2562,7 @@
     "agility": 29.2
   },
   {
-    "name": "Meridius (Support)",
+    "name": "Meridius",
     "strength": 30.0,
     "stamina": 18.0,
     "agility": 27.0
@@ -2574,25 +2574,25 @@
     "agility": 23.4
   },
   {
-    "name": "Mervlin (DPS)",
+    "name": "Mervlin",
     "strength": 41.8,
     "stamina": 19.0,
     "agility": 34.2
   },
   {
-    "name": "Mhelves Drillo (Support)",
+    "name": "Mhelves Drillo",
     "strength": 52.2,
     "stamina": 18.6,
     "agility": 24.2
   },
   {
-    "name": "Micane (DPS)",
+    "name": "Micane",
     "strength": 56.0,
     "stamina": 18.9,
     "agility": 20.1
   },
   {
-    "name": "Mimeido (DPS)",
+    "name": "Mimeido",
     "strength": 52.9,
     "stamina": 10.5,
     "agility": 31.6
@@ -2604,7 +2604,7 @@
     "agility": 30.0
   },
   {
-    "name": "Minlim (DPS)",
+    "name": "Minlim",
     "strength": 42.5,
     "stamina": 23.4,
     "agility": 19.1
@@ -2616,7 +2616,7 @@
     "agility": 10.6
   },
   {
-    "name": "Moboz (DPS)",
+    "name": "Moboz",
     "strength": 35.4,
     "stamina": 14.2,
     "agility": 35.4
@@ -2640,13 +2640,13 @@
     "agility": 23.0
   },
   {
-    "name": "Mowhi (DPS)",
+    "name": "Mowhi",
     "strength": 51.3,
     "stamina": 15.8,
     "agility": 27.9
   },
   {
-    "name": "Mr. Bob (Tank)",
+    "name": "Mr. Bob",
     "strength": 21.3,
     "stamina": 32.5,
     "agility": 21.2
@@ -2664,13 +2664,13 @@
     "agility": 25.0
   },
   {
-    "name": "Mummite (Tank)",
+    "name": "Mummite",
     "strength": 27.5,
     "stamina": 26.3,
     "agility": 21.2
   },
   {
-    "name": "Murbi (Tank)",
+    "name": "Murbi",
     "strength": 28.3,
     "stamina": 36.8,
     "agility": 19.9
@@ -2682,7 +2682,7 @@
     "agility": 24.9
   },
   {
-    "name": "Na'Man (DPS)",
+    "name": "Na'Man",
     "strength": 27.5,
     "stamina": 20.0,
     "agility": 27.5
@@ -2700,13 +2700,13 @@
     "agility": 8.8
   },
   {
-    "name": "Narchie (DPS)",
+    "name": "Narchie",
     "strength": 18.4,
     "stamina": 18.4,
     "agility": 28.2
   },
   {
-    "name": "Naukmo (Tank)",
+    "name": "Naukmo",
     "strength": 17.3,
     "stamina": 33.6,
     "agility": 14.1
@@ -2742,7 +2742,7 @@
     "agility": 4.9
   },
   {
-    "name": "Nenous (DPS)",
+    "name": "Nenous",
     "strength": 35.3,
     "stamina": 14.4,
     "agility": 35.3
@@ -2760,13 +2760,13 @@
     "agility": 18.8
   },
   {
-    "name": "Ninjih (DPS)",
+    "name": "Ninjih",
     "strength": 23.8,
     "stamina": 20.0,
     "agility": 31.2
   },
   {
-    "name": "Ninjin (DPS)",
+    "name": "Ninjin",
     "strength": 38.0,
     "stamina": 25.3,
     "agility": 31.7
@@ -2778,19 +2778,19 @@
     "agility": 26.0
   },
   {
-    "name": "Nockilizer (DPS)",
+    "name": "Nockilizer",
     "strength": 24.0,
     "stamina": 7.2,
     "agility": 33.8
   },
   {
-    "name": "NosStorVo (Tank)",
+    "name": "NosStorVo",
     "strength": 28.5,
     "stamina": 41.2,
     "agility": 25.3
   },
   {
-    "name": "Nosdomdom (Tank)",
+    "name": "Nosdomdom",
     "strength": 24.4,
     "stamina": 37.2,
     "agility": 23.4
@@ -2802,19 +2802,19 @@
     "agility": 22.0
   },
   {
-    "name": "Nubbo (Tank)",
+    "name": "Nubbo",
     "strength": 22.7,
     "stamina": 42.5,
     "agility": 19.8
   },
   {
-    "name": "Octakill (DPS)",
+    "name": "Octakill",
     "strength": 21.8,
     "stamina": 17.7,
     "agility": 55.5
   },
   {
-    "name": "Oeviss (DPS)",
+    "name": "Oeviss",
     "strength": 40.0,
     "stamina": 20.0,
     "agility": 35.0
@@ -2832,7 +2832,7 @@
     "agility": 12.1
   },
   {
-    "name": "Oladus (Bait)",
+    "name": "Oladus",
     "strength": 56.0,
     "stamina": 14.3,
     "agility": 24.7
@@ -2844,13 +2844,13 @@
     "agility": 25.0
   },
   {
-    "name": "Olxaroth (Tank)",
+    "name": "Olxaroth",
     "strength": 29.6,
     "stamina": 38.0,
     "agility": 27.4
   },
   {
-    "name": "Omo (DPS)",
+    "name": "Omo",
     "strength": 41.0,
     "stamina": 22.7,
     "agility": 21.3
@@ -2862,7 +2862,7 @@
     "agility": 22.2
   },
   {
-    "name": "Opochi (Bait)",
+    "name": "Opochi",
     "strength": 46.2,
     "stamina": 7.4,
     "agility": 21.4
@@ -2874,13 +2874,13 @@
     "agility": 13.0
   },
   {
-    "name": "Pabot (DPS)",
+    "name": "Pabot",
     "strength": 36.8,
     "stamina": 15.6,
     "agility": 32.6
   },
   {
-    "name": "Pargz (DPS)",
+    "name": "Pargz",
     "strength": 39.6,
     "stamina": 14.2,
     "agility": 31.2
@@ -2892,25 +2892,25 @@
     "agility": 25.6
   },
   {
-    "name": "Patcho (DPS)",
+    "name": "Patcho",
     "strength": 35.0,
     "stamina": 12.5,
     "agility": 27.5
   },
   {
-    "name": "Paula (DPS)",
+    "name": "Paula",
     "strength": 25.5,
     "stamina": 17.0,
     "agility": 42.5
   },
   {
-    "name": "Peabo (DPS)",
+    "name": "Peabo",
     "strength": 29.7,
     "stamina": 29.7,
     "agility": 25.6
   },
   {
-    "name": "Pelengy (Support)",
+    "name": "Pelengy",
     "strength": 46.5,
     "stamina": 18.7,
     "agility": 29.8
@@ -2922,25 +2922,25 @@
     "agility": 29.2
   },
   {
-    "name": "Penguita (DPS)",
+    "name": "Penguita",
     "strength": 43.8,
     "stamina": 20.4,
     "agility": 30.8
   },
   {
-    "name": "Pengz (DPS)",
+    "name": "Pengz",
     "strength": 25.5,
     "stamina": 24.1,
     "agility": 35.4
   },
   {
-    "name": "Penja (DPS)",
+    "name": "Penja",
     "strength": 25.5,
     "stamina": 24.1,
     "agility": 35.4
   },
   {
-    "name": "Petti (DPS)",
+    "name": "Petti",
     "strength": 29.7,
     "stamina": 29.7,
     "agility": 25.6
@@ -2952,7 +2952,7 @@
     "agility": 18.9
   },
   {
-    "name": "Phorbon (Tank)",
+    "name": "Phorbon",
     "strength": 58.3,
     "stamina": 33.3,
     "agility": 8.4
@@ -2964,7 +2964,7 @@
     "agility": 45.5
   },
   {
-    "name": "Pilaga (Tank)",
+    "name": "Pilaga",
     "strength": 12.0,
     "stamina": 50.0,
     "agility": 5.0
@@ -2976,13 +2976,13 @@
     "agility": 12.2
   },
   {
-    "name": "Pobo (Tank)",
+    "name": "Pobo",
     "strength": 22.7,
     "stamina": 43.9,
     "agility": 18.4
   },
   {
-    "name": "Poirota (DPS)",
+    "name": "Poirota",
     "strength": 28.3,
     "stamina": 14.4,
     "agility": 32.3
@@ -3000,13 +3000,13 @@
     "agility": 21.0
   },
   {
-    "name": "Polich (Tank)",
+    "name": "Polich",
     "strength": 20.0,
     "stamina": 32.5,
     "agility": 22.5
   },
   {
-    "name": "Polly (Tank)",
+    "name": "Polly",
     "strength": 22.7,
     "stamina": 36.8,
     "agility": 25.5
@@ -3018,13 +3018,13 @@
     "agility": 29.9
   },
   {
-    "name": "Popsi Twins (DPS)",
+    "name": "Popsi Twins",
     "strength": 12.5,
     "stamina": 12.5,
     "agility": 50.0
   },
   {
-    "name": "Porhius (Support)",
+    "name": "Porhius",
     "strength": 43.0,
     "stamina": 21.4,
     "agility": 30.6
@@ -3042,13 +3042,13 @@
     "agility": 36.9
   },
   {
-    "name": "Prof Broccoli (Tank)",
+    "name": "Prof Broccoli",
     "strength": 20.0,
     "stamina": 50.0,
     "agility": 5.0
   },
   {
-    "name": "Prof. Gak (Tank)",
+    "name": "Prof. Gak",
     "strength": 20.6,
     "stamina": 29.3,
     "agility": 15.1
@@ -3060,37 +3060,37 @@
     "agility": 14.0
   },
   {
-    "name": "Prof. Pajama (Tank)",
+    "name": "Prof. Pajama",
     "strength": 41.2,
     "stamina": 21.2,
     "agility": 12.5
   },
   {
-    "name": "Prof. Snack (Tank)",
+    "name": "Prof. Snack",
     "strength": 12.5,
     "stamina": 43.8,
     "agility": 18.7
   },
   {
-    "name": "Pytris (DPS)",
+    "name": "Pytris",
     "strength": 23.8,
     "stamina": 20.0,
     "agility": 31.2
   },
   {
-    "name": "Quirinus (DPS)",
+    "name": "Quirinus",
     "strength": 31.9,
     "stamina": 21.3,
     "agility": 31.8
   },
   {
-    "name": "Quirk (DPS)",
+    "name": "Quirk",
     "strength": 36.8,
     "stamina": 17.0,
     "agility": 31.2
   },
   {
-    "name": "Quirn (Support)",
+    "name": "Quirn",
     "strength": 40.0,
     "stamina": 20.0,
     "agility": 35.0
@@ -3102,25 +3102,25 @@
     "agility": 30.0
   },
   {
-    "name": "Quorg (Support)",
+    "name": "Quorg",
     "strength": 36.4,
     "stamina": 22.2,
     "agility": 36.4
   },
   {
-    "name": "R2OY (Tank)",
+    "name": "R2OY",
     "strength": 53.8,
     "stamina": 24.1,
     "agility": 7.1
   },
   {
-    "name": "Rabeat Beat (DPS)",
+    "name": "Rabeat Beat",
     "strength": 30.2,
     "stamina": 18.2,
     "agility": 46.6
   },
   {
-    "name": "Ragmar (DPS)",
+    "name": "Ragmar",
     "strength": 53.8,
     "stamina": 17.4,
     "agility": 23.8
@@ -3132,43 +3132,43 @@
     "agility": 18.7
   },
   {
-    "name": "Raleib (DPS)",
+    "name": "Raleib",
     "strength": 33.7,
     "stamina": 14.9,
     "agility": 46.4
   },
   {
-    "name": "Rampante (DPS)",
+    "name": "Rampante",
     "strength": 23.9,
     "stamina": 12.2,
     "agility": 48.9
   },
   {
-    "name": "Rarzok (Tank)",
+    "name": "Rarzok",
     "strength": 20.6,
     "stamina": 47.5,
     "agility": 26.9
   },
   {
-    "name": "Reaplicator (DPS)",
+    "name": "Reaplicator",
     "strength": 34.0,
     "stamina": 17.0,
     "agility": 34.0
   },
   {
-    "name": "Remmyt (DPS)",
+    "name": "Remmyt",
     "strength": 46.8,
     "stamina": 19.1,
     "agility": 19.1
   },
   {
-    "name": "Remruade (DPS)",
+    "name": "Remruade",
     "strength": 31.7,
     "stamina": 28.5,
     "agility": 34.8
   },
   {
-    "name": "Renacuaj (Bait)",
+    "name": "Renacuaj",
     "strength": 72.0,
     "stamina": 16.0,
     "agility": 7.0
@@ -3186,13 +3186,13 @@
     "agility": 23.0
   },
   {
-    "name": "Rigneous (Tank)",
+    "name": "Rigneous",
     "strength": 50.6,
     "stamina": 40.1,
     "agility": 9.3
   },
   {
-    "name": "Rillamaz (Tank)",
+    "name": "Rillamaz",
     "strength": 22.8,
     "stamina": 33.2,
     "agility": 19.0
@@ -3204,31 +3204,31 @@
     "agility": 17.5
   },
   {
-    "name": "Rina (Tank)",
+    "name": "Rina",
     "strength": 18.8,
     "stamina": 33.8,
     "agility": 22.4
   },
   {
-    "name": "Roastevelt (Bait)",
+    "name": "Roastevelt",
     "strength": 66.6,
     "stamina": 16.5,
     "agility": 11.9
   },
   {
-    "name": "Robasson (DPS)",
+    "name": "Robasson",
     "strength": 26.3,
     "stamina": 26.3,
     "agility": 22.4
   },
   {
-    "name": "Robby (DPS)",
+    "name": "Robby",
     "strength": 37.0,
     "stamina": 26.3,
     "agility": 31.7
   },
   {
-    "name": "RoboBuddy 2.0 (DPS)",
+    "name": "RoboBuddy 2.0",
     "strength": 34.0,
     "stamina": 19.8,
     "agility": 31.2
@@ -3246,43 +3246,43 @@
     "agility": 12.2
   },
   {
-    "name": "Rogomz (Tank)",
+    "name": "Rogomz",
     "strength": 25.5,
     "stamina": 43.9,
     "agility": 15.6
   },
   {
-    "name": "Rokely (Tank)",
+    "name": "Rokely",
     "strength": 12.8,
     "stamina": 62.3,
     "agility": 9.9
   },
   {
-    "name": "Rolace (Tank)",
+    "name": "Rolace",
     "strength": 19.8,
     "stamina": 42.5,
     "agility": 22.7
   },
   {
-    "name": "Rolesker (Tank)",
+    "name": "Rolesker",
     "strength": 28.5,
     "stamina": 48.7,
     "agility": 17.8
   },
   {
-    "name": "Rombolio (Tank)",
+    "name": "Rombolio",
     "strength": 40.7,
     "stamina": 41.7,
     "agility": 17.6
   },
   {
-    "name": "Ronemax 600 (Bait)",
+    "name": "Ronemax 600",
     "strength": 64.1,
     "stamina": 18.0,
     "agility": 12.9
   },
   {
-    "name": "Roost Fera'Kraa (Tank)",
+    "name": "Roost Fera'Kraa",
     "strength": 31.9,
     "stamina": 62.4,
     "agility": 5.7
@@ -3300,7 +3300,7 @@
     "agility": 18.7
   },
   {
-    "name": "Rudolffin (DPS)",
+    "name": "Rudolffin",
     "strength": 41.2,
     "stamina": 12.6,
     "agility": 41.2
@@ -3312,13 +3312,13 @@
     "agility": 10.7
   },
   {
-    "name": "Rukka (Tank)",
+    "name": "Rukka",
     "strength": 30.6,
     "stamina": 42.7,
     "agility": 11.7
   },
   {
-    "name": "Rvirnan [6] (DPS)",
+    "name": "Rvirnan [6]",
     "strength": 39.6,
     "stamina": 19.6,
     "agility": 35.8
@@ -3330,7 +3330,7 @@
     "agility": 12.8
   },
   {
-    "name": "Saereboo (Tank)",
+    "name": "Saereboo",
     "strength": 15.0,
     "stamina": 47.5,
     "agility": 12.5
@@ -3342,25 +3342,25 @@
     "agility": 10.0
   },
   {
-    "name": "Saerebrumark (Tank)",
+    "name": "Saerebrumark",
     "strength": 13.8,
     "stamina": 32.5,
     "agility": 18.7
   },
   {
-    "name": "Saerugg (Tank)",
+    "name": "Saerugg",
     "strength": 23.8,
     "stamina": 30.3,
     "agility": 10.9
   },
   {
-    "name": "Saevin (DPS)",
+    "name": "Saevin",
     "strength": 32.6,
     "stamina": 19.8,
     "agility": 22.6
   },
   {
-    "name": "Salamandra (DPS)",
+    "name": "Salamandra",
     "strength": 39.7,
     "stamina": 18.1,
     "agility": 17.2
@@ -3384,7 +3384,7 @@
     "agility": 25.6
   },
   {
-    "name": "Scharappie (DPS)",
+    "name": "Scharappie",
     "strength": 56.6,
     "stamina": 17.5,
     "agility": 20.9
@@ -3396,19 +3396,19 @@
     "agility": 15.0
   },
   {
-    "name": "Scort (Tank)",
+    "name": "Scort",
     "strength": 31.9,
     "stamina": 37.2,
     "agility": 15.9
   },
   {
-    "name": "Scrooge (DPS)",
+    "name": "Scrooge",
     "strength": 42.8,
     "stamina": 19.0,
     "agility": 33.2
   },
   {
-    "name": "Scubblez (DPS)",
+    "name": "Scubblez",
     "strength": 34.0,
     "stamina": 17.0,
     "agility": 34.0
@@ -3432,13 +3432,13 @@
     "agility": 29.3
   },
   {
-    "name": "Shrampz (Tank)",
+    "name": "Shrampz",
     "strength": 17.5,
     "stamina": 45.0,
     "agility": 12.5
   },
   {
-    "name": "Shroogle (DPS)",
+    "name": "Shroogle",
     "strength": 28.3,
     "stamina": 24.1,
     "agility": 32.6
@@ -3462,25 +3462,25 @@
     "agility": 26.9
   },
   {
-    "name": "Skubby[5] (DPS)",
+    "name": "Skubby[5]",
     "strength": 45.9,
     "stamina": 22.2,
     "agility": 26.9
   },
   {
-    "name": "Sleti (Tank)",
+    "name": "Sleti",
     "strength": 20.0,
     "stamina": 50.0,
     "agility": 15.0
   },
   {
-    "name": "Smixy (DPS)",
+    "name": "Smixy",
     "strength": 25.5,
     "stamina": 19.8,
     "agility": 39.7
   },
   {
-    "name": "Socragur (DPS)",
+    "name": "Socragur",
     "strength": 34.2,
     "stamina": 18.4,
     "agility": 42.4
@@ -3498,31 +3498,31 @@
     "agility": 44.8
   },
   {
-    "name": "Solbi[5] (DPS)",
+    "name": "Solbi[5]",
     "strength": 32.8,
     "stamina": 17.4,
     "agility": 44.8
   },
   {
-    "name": "Sonord (Tank)",
+    "name": "Sonord",
     "strength": 36.0,
     "stamina": 40.0,
     "agility": 19.0
   },
   {
-    "name": "Sound Blasta (DPS)",
+    "name": "Sound Blasta",
     "strength": 33.3,
     "stamina": 32.6,
     "agility": 9.1
   },
   {
-    "name": "Sprhida (Support)",
+    "name": "Sprhida",
     "strength": 19.4,
     "stamina": 14.2,
     "agility": 31.4
   },
   {
-    "name": "Sproulor (DPS)",
+    "name": "Sproulor",
     "strength": 36.8,
     "stamina": 31.2,
     "agility": 17.0
@@ -3534,7 +3534,7 @@
     "agility": 10.7
   },
   {
-    "name": "Sproutlings (Tank)",
+    "name": "Sproutlings",
     "strength": 47.5,
     "stamina": 34.8,
     "agility": 12.7
@@ -3546,7 +3546,7 @@
     "agility": 23.3
   },
   {
-    "name": "Squibbo (Support)",
+    "name": "Squibbo",
     "strength": 46.0,
     "stamina": 14.2,
     "agility": 24.8
@@ -3558,13 +3558,13 @@
     "agility": 28.0
   },
   {
-    "name": "Stanislaos (Tank)",
+    "name": "Stanislaos",
     "strength": 47.2,
     "stamina": 36.4,
     "agility": 11.4
   },
   {
-    "name": "Stasson (DPS)",
+    "name": "Stasson",
     "strength": 27.5,
     "stamina": 17.5,
     "agility": 30.0
@@ -3576,31 +3576,31 @@
     "agility": 30.3
   },
   {
-    "name": "Steamby[5] (DPS)",
+    "name": "Steamby[5]",
     "strength": 42.8,
     "stamina": 21.9,
     "agility": 30.3
   },
   {
-    "name": "Stenon (DPS)",
+    "name": "Stenon",
     "strength": 40.0,
     "stamina": 12.5,
     "agility": 22.5
   },
   {
-    "name": "Stratos (Bait)",
+    "name": "Stratos",
     "strength": 45.2,
     "stamina": 16.8,
     "agility": 38.0
   },
   {
-    "name": "Stratulumbs (Hybrid: Support/DPS)",
+    "name": "Stratulumbs",
     "strength": 21.2,
     "stamina": 17.6,
     "agility": 56.2
   },
   {
-    "name": "Stromp (DPS)",
+    "name": "Stromp",
     "strength": 33.7,
     "stamina": 16.3,
     "agility": 35.0
@@ -3612,7 +3612,7 @@
     "agility": 7.0
   },
   {
-    "name": "Stuvin (Support)",
+    "name": "Stuvin",
     "strength": 50.0,
     "stamina": 16.3,
     "agility": 8.7
@@ -3630,7 +3630,7 @@
     "agility": 8.0
   },
   {
-    "name": "Svireal (DPS)",
+    "name": "Svireal",
     "strength": 44.3,
     "stamina": 6.4,
     "agility": 44.3
@@ -3642,7 +3642,7 @@
     "agility": 12.0
   },
   {
-    "name": "Svirnel (DPS)",
+    "name": "Svirnel",
     "strength": 45.9,
     "stamina": 3.2,
     "agility": 45.9
@@ -3654,31 +3654,31 @@
     "agility": 66.7
   },
   {
-    "name": "Svord (Tank)",
+    "name": "Svord",
     "strength": 20.0,
     "stamina": 70.0,
     "agility": 5.0
   },
   {
-    "name": "Swice (Tank)",
+    "name": "Swice",
     "strength": 22.7,
     "stamina": 36.6,
     "agility": 15.7
   },
   {
-    "name": "TUBB-005 (Tank)",
+    "name": "TUBB-005",
     "strength": 49.1,
     "stamina": 28.5,
     "agility": 17.4
   },
   {
-    "name": "Talabartus (Tank)",
+    "name": "Talabartus",
     "strength": 56.0,
     "stamina": 15.0,
     "agility": 14.0
   },
   {
-    "name": "Tartaru (DPS)",
+    "name": "Tartaru",
     "strength": 27.0,
     "stamina": 22.3,
     "agility": 35.7
@@ -3690,13 +3690,13 @@
     "agility": 15.0
   },
   {
-    "name": "Tealkers (Tank)",
+    "name": "Tealkers",
     "strength": 25.5,
     "stamina": 43.6,
     "agility": 15.9
   },
   {
-    "name": "Tearios (Support)",
+    "name": "Tearios",
     "strength": 43.2,
     "stamina": 8.6,
     "agility": 33.2
@@ -3708,13 +3708,13 @@
     "agility": 6.1
   },
   {
-    "name": "Teithyus (Tank)",
+    "name": "Teithyus",
     "strength": 41.2,
     "stamina": 43.0,
     "agility": 15.8
   },
   {
-    "name": "TermBOT 9000 (Bait)",
+    "name": "TermBOT 9000",
     "strength": 74.1,
     "stamina": 16.1,
     "agility": 4.8
@@ -3726,7 +3726,7 @@
     "agility": 24.0
   },
   {
-    "name": "Terrump (DPS)",
+    "name": "Terrump",
     "strength": 21.3,
     "stamina": 23.7,
     "agility": 30.0
@@ -3738,13 +3738,13 @@
     "agility": 45.1
   },
   {
-    "name": "The Champs (DPS)",
+    "name": "The Champs",
     "strength": 35.4,
     "stamina": 9.9,
     "agility": 39.7
   },
   {
-    "name": "The Clouz (DPS)",
+    "name": "The Clouz",
     "strength": 37.5,
     "stamina": 16.3,
     "agility": 21.2
@@ -3756,7 +3756,7 @@
     "agility": 17.0
   },
   {
-    "name": "The Master (DPS)",
+    "name": "The Master",
     "strength": 30.0,
     "stamina": 23.8,
     "agility": 41.2
@@ -3774,19 +3774,19 @@
     "agility": 14.6
   },
   {
-    "name": "Theraros (Tank)",
+    "name": "Theraros",
     "strength": 40.9,
     "stamina": 34.5,
     "agility": 9.6
   },
   {
-    "name": "Thezeron (Support)",
+    "name": "Thezeron",
     "strength": 24.5,
     "stamina": 36.0,
     "agility": 34.5
   },
   {
-    "name": "Thia (Tank)",
+    "name": "Thia",
     "strength": 32.5,
     "stamina": 19.5,
     "agility": 23.0
@@ -3798,7 +3798,7 @@
     "agility": 14.2
   },
   {
-    "name": "Thundmolf (Bait)",
+    "name": "Thundmolf",
     "strength": 76.2,
     "stamina": 15.0,
     "agility": 8.8
@@ -3816,13 +3816,13 @@
     "agility": 31.2
   },
   {
-    "name": "Tilge (DPS)",
+    "name": "Tilge",
     "strength": 21.3,
     "stamina": 25.0,
     "agility": 28.7
   },
   {
-    "name": "Tinsel (Support)",
+    "name": "Tinsel",
     "strength": 50.0,
     "stamina": 16.2,
     "agility": 8.8
@@ -3852,19 +3852,19 @@
     "agility": 38.2
   },
   {
-    "name": "Toolbon (Support)",
+    "name": "Toolbon",
     "strength": 26.0,
     "stamina": 15.9,
     "agility": 33.1
   },
   {
-    "name": "Torg (Bait)",
+    "name": "Torg",
     "strength": 61.7,
     "stamina": 15.9,
     "agility": 17.4
   },
   {
-    "name": "Torlag (DPS)",
+    "name": "Torlag",
     "strength": 50.7,
     "stamina": 19.0,
     "agility": 25.3
@@ -3882,7 +3882,7 @@
     "agility": 6.7
   },
   {
-    "name": "Trelpe (DPS)",
+    "name": "Trelpe",
     "strength": 31.9,
     "stamina": 13.8,
     "agility": 29.3
@@ -3894,25 +3894,25 @@
     "agility": 11.6
   },
   {
-    "name": "Trigginz (Tank)",
+    "name": "Trigginz",
     "strength": 25.0,
     "stamina": 31.2,
     "agility": 18.8
   },
   {
-    "name": "TriloBros (DPS)",
+    "name": "TriloBros",
     "strength": 28.3,
     "stamina": 21.3,
     "agility": 35.4
   },
   {
-    "name": "Triton (DPS)",
+    "name": "Triton",
     "strength": 32.1,
     "stamina": 10.7,
     "agility": 32.2
   },
   {
-    "name": "Trixie (DPS)",
+    "name": "Trixie",
     "strength": 46.8,
     "stamina": 19.1,
     "agility": 19.1
@@ -3924,7 +3924,7 @@
     "agility": 25.0
   },
   {
-    "name": "Trombargz (DPS)",
+    "name": "Trombargz",
     "strength": 40.5,
     "stamina": 17.9,
     "agility": 36.6
@@ -3936,7 +3936,7 @@
     "agility": 58.1
   },
   {
-    "name": "Troplo (DPS)",
+    "name": "Troplo",
     "strength": 35.4,
     "stamina": 35.4,
     "agility": 14.2
@@ -3948,7 +3948,7 @@
     "agility": 24.0
   },
   {
-    "name": "Tsunamogh (Bait)",
+    "name": "Tsunamogh",
     "strength": 76.56,
     "stamina": 15.38,
     "agility": 7.99
@@ -3966,13 +3966,13 @@
     "agility": 29.4
   },
   {
-    "name": "Turkon (Tank)",
+    "name": "Turkon",
     "strength": 45.0,
     "stamina": 45.0,
     "agility": 10.0
   },
   {
-    "name": "Twimbo (DPS)",
+    "name": "Twimbo",
     "strength": 47.5,
     "stamina": 31.7,
     "agility": 15.8
@@ -3990,7 +3990,7 @@
     "agility": 16.0
   },
   {
-    "name": "Ukalis (DPS)",
+    "name": "Ukalis",
     "strength": 35.8,
     "stamina": 22.6,
     "agility": 36.6
@@ -4014,7 +4014,7 @@
     "agility": 24.8
   },
   {
-    "name": "Valkiky (Tank)",
+    "name": "Valkiky",
     "strength": 11.6,
     "stamina": 58.8,
     "agility": 4.6
@@ -4026,7 +4026,7 @@
     "agility": 33.4
   },
   {
-    "name": "Vardge (Tank)",
+    "name": "Vardge",
     "strength": 18.1,
     "stamina": 38.4,
     "agility": 8.5
@@ -4044,19 +4044,19 @@
     "agility": 35.0
   },
   {
-    "name": "Vedalon (DPS)",
+    "name": "Vedalon",
     "strength": 43.3,
     "stamina": 30.8,
     "agility": 20.9
   },
   {
-    "name": "Vedalumbus (DPS)",
+    "name": "Vedalumbus",
     "strength": 43.6,
     "stamina": 22.3,
     "agility": 34.1
   },
   {
-    "name": "Velk (DPS)",
+    "name": "Velk",
     "strength": 52.7,
     "stamina": 17.0,
     "agility": 15.3
@@ -4068,13 +4068,13 @@
     "agility": 25.9
   },
   {
-    "name": "Vicilios (Bait)",
+    "name": "Vicilios",
     "strength": 32.8,
     "stamina": 6.9,
     "agility": 35.3
   },
   {
-    "name": "Vickoo (DPS)",
+    "name": "Vickoo",
     "strength": 26.0,
     "stamina": 17.3,
     "agility": 21.7
@@ -4092,7 +4092,7 @@
     "agility": 20.0
   },
   {
-    "name": "Vionot (Tank)",
+    "name": "Vionot",
     "strength": 28.5,
     "stamina": 42.8,
     "agility": 23.7
@@ -4104,19 +4104,19 @@
     "agility": 32.0
   },
   {
-    "name": "Volthai (Hybrid: Support/DPS)",
+    "name": "Volthai",
     "strength": 19.7,
     "stamina": 16.9,
     "agility": 63.4
   },
   {
-    "name": "Voluspa (DPS)",
+    "name": "Voluspa",
     "strength": 40.5,
     "stamina": 17.7,
     "agility": 36.8
   },
   {
-    "name": "Vomon (Tank)",
+    "name": "Vomon",
     "strength": 26.0,
     "stamina": 48.3,
     "agility": 20.7
@@ -4128,7 +4128,7 @@
     "agility": 9.0
   },
   {
-    "name": "Vylsio (Support)",
+    "name": "Vylsio",
     "strength": 36.2,
     "stamina": 21.4,
     "agility": 37.4
@@ -4140,31 +4140,31 @@
     "agility": 30.8
   },
   {
-    "name": "Walkom (DPS)",
+    "name": "Walkom",
     "strength": 58.9,
     "stamina": 19.0,
     "agility": 17.1
   },
   {
-    "name": "Walogdr (DPS)",
+    "name": "Walogdr",
     "strength": 61.0,
     "stamina": 21.0,
     "agility": 18.0
   },
   {
-    "name": "Warffin (Support)",
+    "name": "Warffin",
     "strength": 21.3,
     "stamina": 23.4,
     "agility": 40.3
   },
   {
-    "name": "Wargomyt (Tank)",
+    "name": "Wargomyt",
     "strength": 22.0,
     "stamina": 35.5,
     "agility": 17.5
   },
   {
-    "name": "Warhead (DPS)",
+    "name": "Warhead",
     "strength": 28.7,
     "stamina": 24.2,
     "agility": 32.1
@@ -4182,25 +4182,25 @@
     "agility": 29.5
   },
   {
-    "name": "Washibot (Tank)",
+    "name": "Washibot",
     "strength": 37.06,
     "stamina": 45.17,
     "agility": 12.66
   },
   {
-    "name": "Wellon (Tank)",
+    "name": "Wellon",
     "strength": 21.3,
     "stamina": 32.4,
     "agility": 21.3
   },
   {
-    "name": "Wemmbo (DPS)",
+    "name": "Wemmbo",
     "strength": 47.5,
     "stamina": 19.0,
     "agility": 28.5
   },
   {
-    "name": "Wensloo (Tank)",
+    "name": "Wensloo",
     "strength": 14.2,
     "stamina": 56.6,
     "agility": 14.2
@@ -4212,13 +4212,13 @@
     "agility": 13.7
   },
   {
-    "name": "Whoost (DPS)",
+    "name": "Whoost",
     "strength": 42.5,
     "stamina": 14.2,
     "agility": 28.3
   },
   {
-    "name": "Wincrash (Tank)",
+    "name": "Wincrash",
     "strength": 40.0,
     "stamina": 45.0,
     "agility": 10.0
@@ -4230,13 +4230,13 @@
     "agility": 20.5
   },
   {
-    "name": "Winslar (Tank)",
+    "name": "Winslar",
     "strength": 14.2,
     "stamina": 56.6,
     "agility": 14.2
   },
   {
-    "name": "Winslobo (Tank)",
+    "name": "Winslobo",
     "strength": 14.2,
     "stamina": 56.6,
     "agility": 14.2
@@ -4248,19 +4248,19 @@
     "agility": 11.7
   },
   {
-    "name": "Wizbot (DPS)",
+    "name": "Wizbot",
     "strength": 38.0,
     "stamina": 15.8,
     "agility": 41.2
   },
   {
-    "name": "Woberleng (Tank)",
+    "name": "Woberleng",
     "strength": 30.7,
     "stamina": 36.0,
     "agility": 18.3
   },
   {
-    "name": "X-M4S (DPS)",
+    "name": "X-M4S",
     "strength": 38.0,
     "stamina": 22.2,
     "agility": 34.8
@@ -4272,13 +4272,13 @@
     "agility": 15.0
   },
   {
-    "name": "X4-Happuff (DPS)",
+    "name": "X4-Happuff",
     "strength": 58.9,
     "stamina": 19.0,
     "agility": 17.1
   },
   {
-    "name": "X5-T34M (DPS)",
+    "name": "X5-T34M",
     "strength": 50.0,
     "stamina": 25.0,
     "agility": 25.0
@@ -4290,7 +4290,7 @@
     "agility": 25.5
   },
   {
-    "name": "Xandaire (Tank)",
+    "name": "Xandaire",
     "strength": 35.4,
     "stamina": 35.4,
     "agility": 14.2
@@ -4302,7 +4302,7 @@
     "agility": 13.4
   },
   {
-    "name": "Xentho (Tank)",
+    "name": "Xentho",
     "strength": 39.6,
     "stamina": 39.6,
     "agility": 15.8
@@ -4314,19 +4314,19 @@
     "agility": 27.0
   },
   {
-    "name": "Yackerz (Tank)",
+    "name": "Yackerz",
     "strength": 47.5,
     "stamina": 31.7,
     "agility": 15.8
   },
   {
-    "name": "Yemic (Tank)",
+    "name": "Yemic",
     "strength": 26.9,
     "stamina": 44.3,
     "agility": 23.8
   },
   {
-    "name": "Yenji (Tank)",
+    "name": "Yenji",
     "strength": 34.4,
     "stamina": 35.6,
     "agility": 25.0
@@ -4338,19 +4338,19 @@
     "agility": 21.0
   },
   {
-    "name": "Yingo (DPS)",
+    "name": "Yingo",
     "strength": 44.0,
     "stamina": 16.1,
     "agility": 24.9
   },
   {
-    "name": "Yobo (Tank)",
+    "name": "Yobo",
     "strength": 30.8,
     "stamina": 31.9,
     "agility": 22.3
   },
   {
-    "name": "Yorlag (DPS)",
+    "name": "Yorlag",
     "strength": 31.7,
     "stamina": 28.5,
     "agility": 34.8
@@ -4362,55 +4362,55 @@
     "agility": 33.8
   },
   {
-    "name": "Zagno (Tank)",
+    "name": "Zagno",
     "strength": 28.4,
     "stamina": 44.2,
     "agility": 22.4
   },
   {
-    "name": "Zahla (Tank)",
+    "name": "Zahla",
     "strength": 28.3,
     "stamina": 42.5,
     "agility": 14.2
   },
   {
-    "name": "Zammy (DPS)",
+    "name": "Zammy",
     "strength": 24.9,
     "stamina": 19.5,
     "agility": 20.6
   },
   {
-    "name": "Zarlock (Tank)",
+    "name": "Zarlock",
     "strength": 40.0,
     "stamina": 50.0,
     "agility": 10.0
   },
   {
-    "name": "Zina (Tank)",
+    "name": "Zina",
     "strength": 21.3,
     "stamina": 38.2,
     "agility": 25.5
   },
   {
-    "name": "Zingo (Support)",
+    "name": "Zingo",
     "strength": 38.8,
     "stamina": 14.2,
     "agility": 22.0
   },
   {
-    "name": "Zirg (Tank)",
+    "name": "Zirg",
     "strength": 30.0,
     "stamina": 32.5,
     "agility": 12.5
   },
   {
-    "name": "Zoak (Tank)",
+    "name": "Zoak",
     "strength": 23.8,
     "stamina": 33.7,
     "agility": 17.5
   },
   {
-    "name": "Zobblestein (DPS)",
+    "name": "Zobblestein",
     "strength": 35.3,
     "stamina": 18.3,
     "agility": 31.1
@@ -4428,7 +4428,7 @@
     "agility": 25.3
   },
   {
-    "name": "Zordongon (DPS)",
+    "name": "Zordongon",
     "strength": 49.3,
     "stamina": 21.4,
     "agility": 29.3
@@ -4440,13 +4440,13 @@
     "agility": 11.7
   },
   {
-    "name": "Zorgim (DPS)",
+    "name": "Zorgim",
     "strength": 39.6,
     "stamina": 22.7,
     "agility": 22.7
   },
   {
-    "name": "Zorgo (DPS)",
+    "name": "Zorgo",
     "strength": 32.6,
     "stamina": 19.8,
     "agility": 32.6
@@ -4458,19 +4458,19 @@
     "agility": 31.0
   },
   {
-    "name": "Zovilby (Tank)",
+    "name": "Zovilby",
     "strength": 26.9,
     "stamina": 47.5,
     "agility": 20.6
   },
   {
-    "name": "Zubbo (Tank)",
+    "name": "Zubbo",
     "strength": 22.6,
     "stamina": 42.4,
     "agility": 19.7
   },
   {
-    "name": "\u00dalairius (Tank)",
+    "name": "\u00dalairius",
     "strength": 25.5,
     "stamina": 39.7,
     "agility": 19.8

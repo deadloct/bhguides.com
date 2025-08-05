@@ -37,24 +37,24 @@ export default function FamiliarCalc() {
         const familiar = familiarsData.find(f => f.name === selectedFamiliar);
         if (familiar) {
             // Base familiar stats are percentages of total stats
-            const baseStrength = Math.round((totalStats * familiar.strength) / 100);
-            const baseStamina = Math.round((totalStats * familiar.stamina) / 100);
-            const baseAgility = Math.round((totalStats * familiar.agility) / 100);
+            const baseStrength = (totalStats * familiar.strength) / 100;
+            const baseStamina = (totalStats * familiar.stamina) / 100;
+            const baseAgility = (totalStats * familiar.agility) / 100;
             
             // Stable upgrades add 2% per level (max 10% at +5)
             const stableBonus = (stableCount - 1) * 0.02; // 0% at level 1, 8% at level 5
-            const stableBonusStats = Math.round(totalStats * stableBonus);
+            const stableBonusStats = totalStats * stableBonus;
             
             // Distribute stable bonus proportionally
             const totalPercentage = familiar.strength + familiar.stamina + familiar.agility;
-            const strengthBonus = Math.round((stableBonusStats * familiar.strength) / totalPercentage);
-            const staminaBonus = Math.round((stableBonusStats * familiar.stamina) / totalPercentage);
-            const agilityBonus = Math.round((stableBonusStats * familiar.agility) / totalPercentage);
+            const strengthBonus = (stableBonusStats * familiar.strength)/ totalPercentage;
+            const staminaBonus = (stableBonusStats * familiar.stamina) / totalPercentage;
+            const agilityBonus = (stableBonusStats * familiar.agility) / totalPercentage;
 
             stats = {
-                strength: baseStrength + strengthBonus,
-                stamina: baseStamina + staminaBonus,
-                agility: baseAgility + agilityBonus,
+                strength: Math.round(baseStrength + strengthBonus),
+                stamina: Math.round(baseStamina + staminaBonus),
+                agility: Math.round(baseAgility + agilityBonus),
                 familiar,
                 stableBonus: stableBonusStats
             };
