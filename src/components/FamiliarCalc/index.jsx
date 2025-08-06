@@ -2,10 +2,7 @@ import React, { useState } from 'react';
 import Container from '@mui/material/Container';
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
-import Select from '@mui/material/Select';
-import MenuItem from '@mui/material/MenuItem';
-import FormControl from '@mui/material/FormControl';
-import InputLabel from '@mui/material/InputLabel';
+import Autocomplete from '@mui/material/Autocomplete';
 import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid2';
 import Slider from '@mui/material/Slider';
@@ -15,17 +12,17 @@ import styles from "./index.module.css";
 import WarningAmberIcon from '@mui/icons-material/WarningAmber';
 
 export default function FamiliarCalc() {
-    const [selectedFamiliar, setSelectedFamiliar] = useState(familiarsData[0]?.name || '');
+    const [selectedFamiliar, setSelectedFamiliar] = useState(familiarsData[0] || null);
     const [totalStats, setTotalStats] = useState(65000);
     const [stableCount, setStableCount] = useState(1);
 
-    const handleFamiliarChange = (event) => {
-        setSelectedFamiliar(event.target.value);
+    const handleFamiliarChange = (event, newValue) => {
+        setSelectedFamiliar(newValue);
     };
 
     const handleTotalStatsChange = (event) => {
-        const value = parseInt(event.target.value) || 0;
-        setTotalStats(Math.max(0, Math.min(130000, value)));
+        const value = parseInt(event.target.value) || 1;
+        setTotalStats(Math.max(1, Math.min(130000, value)));
     };
 
     const handleStableCountChange = (event, value) => {
@@ -33,8 +30,8 @@ export default function FamiliarCalc() {
     };
 
     let stats = null;
-    if (selectedFamiliar && totalStats >= 0) {
-        const familiar = familiarsData.find(f => f.name === selectedFamiliar);
+    if (selectedFamiliar && totalStats >= 1) {
+        const familiar = selectedFamiliar;
         if (familiar) {
             // Base familiar stats are percentages of total stats
             const baseStrength = totalStats * (familiar.strength / 100);
@@ -80,20 +77,26 @@ export default function FamiliarCalc() {
             <Box sx={{ mt: 4 }}>
                 <Grid container spacing={4}>
                     <Grid xs={12}>
-                        <FormControl fullWidth>
-                            <InputLabel>Select Familiar</InputLabel>
-                            <Select
-                                value={selectedFamiliar}
-                                label="Select Familiar"
-                                onChange={handleFamiliarChange}
-                            >
-                                {familiarsData.map((familiar) => (
-                                    <MenuItem key={familiar.name} value={familiar.name}>
-                                        {familiar.name}
-                                    </MenuItem>
-                                ))}
-                            </Select>
-                        </FormControl>
+                        <Autocomplete
+                            options={familiarsData}
+                            getOptionLabel={(option) => option.name || ''}
+                            value={selectedFamiliar}
+                            onChange={handleFamiliarChange}
+                            filterOptions={(options, { inputValue }) => {
+                                return options.filter(option =>
+                                    option.name.toLowerCase().includes(inputValue.toLowerCase())
+                                );
+                            }}
+                            renderInput={(params) => (
+                                <TextField
+                                    {...params}
+                                    label="Select Familiar"
+                                    placeholder="Type to search familiars..."
+                                />
+                            )}
+                            fullWidth
+                            sx={{ minWidth: 400 }}
+                        />
                     </Grid>
                     
                     <Grid xs={12}>
@@ -104,7 +107,7 @@ export default function FamiliarCalc() {
                             value={totalStats}
                             onChange={handleTotalStatsChange}
                             inputProps={{
-                                min: 0,
+                                min: 1,
                                 max: 130000,
                                 step: 1000
                             }}
