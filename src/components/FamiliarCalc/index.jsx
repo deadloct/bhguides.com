@@ -37,9 +37,9 @@ export default function FamiliarCalc() {
         const familiar = familiarsData.find(f => f.name === selectedFamiliar);
         if (familiar) {
             // Base familiar stats are percentages of total stats
-            const baseStrength = (totalStats * familiar.strength) / 100;
-            const baseStamina = (totalStats * familiar.stamina) / 100;
-            const baseAgility = (totalStats * familiar.agility) / 100;
+            const baseStrength = totalStats * (familiar.strength / 100);
+            const baseStamina = totalStats * (familiar.stamina / 100);
+            const baseAgility = totalStats * (familiar.agility / 100);
             
             // Stable upgrades add 2% per level (max 10% at +5)
             const stableBonus = (stableCount - 1) * 0.02; // 0% at level 1, 8% at level 5
@@ -67,7 +67,7 @@ export default function FamiliarCalc() {
             <div className={`${styles["bubble"]} ${styles["ext-link-risk"]}`}>
                 <WarningAmberIcon />
                 <div className={styles["bubble-message"]}>
-                    Some of the stats on this page are broken as I'm still cleaning the data.
+                    Data was scraped from <a href="https://bit-heroes.fandom.com/wiki">the wiki</a> on 5 August 2025. Some stats are outdated.
                 </div>
                 <WarningAmberIcon />
             </div> 
