@@ -76,7 +76,7 @@ export default function FamiliarCalc() {
 
             <Box sx={{ mt: 4 }}>
                 <Grid container spacing={4}>
-                    <Grid xs={12}>
+                    <Grid size={{ xs: 12, sm: 12 }}>
                         <Autocomplete
                             options={familiarsData}
                             getOptionLabel={(option) => option.name || ''}
@@ -95,11 +95,10 @@ export default function FamiliarCalc() {
                                 />
                             )}
                             fullWidth
-                            sx={{ minWidth: 400 }}
                         />
                     </Grid>
                     
-                    <Grid xs={12}>
+                    <Grid size={{ xs: 12, sm: 12 }}>
                         <TextField
                             fullWidth
                             type="number"
@@ -114,7 +113,7 @@ export default function FamiliarCalc() {
                         />
                     </Grid>
                     
-                    <Grid xs={12}>
+                    <Grid size={{ xs: 10, sm: 10 }} offset={{ xs: 1, sm: 1 }}>
                         <span>Stable Count: +{stableCount - 1} ({(stableCount - 1) * 2}% bonus)</span>
                         <Slider
                             value={stableCount}
