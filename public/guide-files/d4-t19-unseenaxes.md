@@ -1,3 +1,5 @@
+# UnseenAxes's Pic and Text Guide
+
 **T19D4 Skramblegg Strat**
 
 _Gear:_ 4/4 Skramblegg, Heart of Escarium (Sap reforge), Clover, Dracus and Monarch's.

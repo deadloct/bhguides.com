@@ -1,3 +1,5 @@
+# MrRager's Text Guide
+
 __**MrRagers Minimal Dps Clover Clear**__
 
 __WHAT YOU NEED__

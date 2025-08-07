@@ -1,3 +1,5 @@
+# BillyIdol's Text Guide
+
 Here's the Escarium dungeon (z16d4) strategy that I used for future reference. There is probably a much better way to do this -- it took me about 10-20 tries as a full t17 DPS.
 
 **Lineup**

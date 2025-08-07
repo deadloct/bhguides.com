@@ -1,3 +1,5 @@
+# BillyIdol's Text Guide
+
 **Team**
 
 * 2x Teithyus +5

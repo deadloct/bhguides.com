@@ -1,3 +1,5 @@
+# n1ghtmaree's text guide (Shield & Magmerang, with bad familiars)
+
 **Build used**
 
 Shield of escarium (Mine was T18, just upgraded once to speed)

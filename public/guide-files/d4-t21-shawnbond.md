@@ -1,3 +1,5 @@
+# ShawnBond's Text Guide
+
 I passed using Kimu, Kimu, Lerky, Lerky, me. 
 
 Kimusaba had redirect bone, attack weakest when hit brain, damage reduction when all team alive chip, and block pumps.

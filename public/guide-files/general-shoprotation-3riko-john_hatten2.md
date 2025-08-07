@@ -1,3 +1,5 @@
+# 3riko and John_Hatten2's Shop Rotation Pic Guide and Info
+
 **← R O T A T I O N  S H E E T →**
 
 **Small adjustment/reminder for the Bit Shop**

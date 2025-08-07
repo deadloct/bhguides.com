@@ -73,7 +73,6 @@ export default function MarkdownModal({ file, name, visible, hide }) {
         <Modal className={styles["modal"]} open={visible} onClose={hide}>
             <div className={styles["wrapper"]}>
                 <div className={styles["close"]} onClick={hide}><CancelIcon /></div>
-                <h2>{title}</h2>
                 <Markdown>{body}</Markdown>
             </div>
         </Modal>

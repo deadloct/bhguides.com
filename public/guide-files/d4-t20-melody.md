@@ -1,3 +1,5 @@
+# Melody (Choco)'s Text Guide
+
 **Gear**
 
 skyent spear, skyent offhand, sp flamium, jacket, clover, weave

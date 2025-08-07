@@ -1,3 +1,5 @@
+# Gylgymesh: Familiars > Pet > Brain > Accessory > Mount > Gear Text Guide
+
 (note: many emojis from the original post might not be present below)
 
 1.) **Familiars** :power: :stamina: :agility: scale with your own :power: :stamina: :agility:  as you progress & grow. They (Familiars) also grow when you __Stable__ them. You have 2 Bor'lan - you go to the Stable & place 1 inside. Now you have 1 remaining Bor'lan w/ a +1 in stats gained! You can do this up to 5x and then have an Army of Bor'lans with great stats!

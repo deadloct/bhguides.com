@@ -27,7 +27,8 @@
             {"id": "schematics-other"}
         ]},
         {"id": "misc"},
-        {"id": "nft"}
+        {"id": "nft"},
+        {"id": "the-talisman-archives", "name": "The Talisman Archives"}
     ],
     "guides": {
         "ancients-general": {
@@ -2925,6 +2926,93 @@
                         {
                             "attachmenttype": "link",
                             "link": "https://kongregate.gitbook.io/bitverse"
+                        }
+                    ]
+                }
+            ]
+        },
+        "the-talisman-archives": {
+            "webname": "The Talisman Archives",
+            "description": "General advice and guides by Talisman",
+            "guides": [
+                {
+                    "name": "General World Boss Carry Info",
+                    "attachments": [
+                        {
+                            "filename": "talisman-general-world-boss-carry-info.md",
+                            "attachmenttype": "markdown"
+                        }
+                    ]
+                },
+                {
+                    "name": "Standard Recommended Familiar Progression",
+                    "attachments": [
+                        {
+                            "filename": "talisman-standard-recommended-familiar-progression.md",
+                            "attachmenttype": "markdown"
+                        }
+                    ]
+                },
+                {
+                    "name": "Why Ularius > Shrampz",
+                    "attachments": [
+                        {
+                            "filename": "talisman-why-ularius-greater-than-shrampz.md",
+                            "attachmenttype": "markdown"
+                        }
+                    ]
+                },
+                {
+                    "name": "General Rune Advice",
+                    "attachments": [
+                        {
+                            "filename": "talisman-general-rune-advice.md",
+                            "attachmenttype": "markdown"
+                        }
+                    ]
+                },
+                {
+                    "name": "PSA: Mega vs. Hyper/Large",
+                    "attachments": [
+                        {
+                            "filename": "talisman-mega-vs-hyper-large.md",
+                            "attachmenttype": "markdown"
+                        }
+                    ]
+                },
+                {
+                    "name": "Why are Shrampz and Bor'lan Recommended Earlygame?",
+                    "attachments": [
+                        {
+                            "filename": "talisman-why-are-shrampz-and-borlan-recommended-earlygame.md",
+                            "attachmenttype": "markdown"
+                        }
+                    ]
+                },
+                {
+                    "name": "Glarzdos vs. Oladus",
+                    "attachments": [
+                        {
+                            "filename": "talisman-glarzdos-vs-oladus.md",
+                            "attachmenttype": "markdown"
+                        }
+                    ]
+                },
+                {
+                    "name": "What Pumps Should I Hold Onto when Rolling Legendaries?",
+                    "attachments": [
+                        {
+                            "filename": "talisman-what-pumps-should-i-hold-onto-when-rolling-legendaries.md",
+                            "attachmenttype": "markdown"
+                        }
+                    ]
+                },
+                {
+                    "name": "Jdjdjid's Guide to Pushing PvP and T/G",
+                    "attachments": [
+                        {
+                            "filename": "talisman-jdjdjids-guide-to-pushing-pvp-and-tg.md",
+                            "attachmenttype": "markdown"
                         }
                     ]
                 }

@@ -1,3 +1,5 @@
+# Orcaaa's ASB Strategy
+
 > I used 2 flunders and 2 gellos
 > Flunder flunder gello me gello
 > flunder had reduction pumps, first attack evade lining, and damage increased for enemies lower than 30% chip although I don't think flunder 's augs really mattered. it was a +2

@@ -1,3 +1,5 @@
+# BillyIdol's Text Guide
+
 **Team**
 
 * 1x Lady Sparkin +0

@@ -1,3 +1,5 @@
+# Infermis' Text and Pic Strategy
+
 ## Notes
 
 * Pet is set to per turn

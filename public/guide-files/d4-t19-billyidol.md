@@ -1,3 +1,5 @@
+# BillyIdol's Text Guide
+
 _**W3-4TY Z18D4 / T19D4 Strategy**_ (Shortened to one post)
 
 JoeBu's strategy but with no deflect fams and a bit less speed.

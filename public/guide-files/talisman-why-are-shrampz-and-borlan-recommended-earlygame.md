@@ -1,0 +1,3 @@
+# Why are Shrampz and Bor'lan Recommended Earlygame?
+
+Shrampz and Bor'lan are very good earlygame familiars because they do everything you need them to for relatively cheap. There may be better options, but they are almost always much harder to make and are overall not needed to progress. Being cheap also allows you to easily Stable them in comparison to more difficult-to-obtain familiars, which is important because it makes Augments significantly stronger and boosts their base stats. For example, a fully stabled Rare fusion like Shrampz has more stats than an unstabled Epic familiar (non-fused), and their augments will be 4 times as powerful.

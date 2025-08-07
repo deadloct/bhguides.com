@@ -1,3 +1,5 @@
+# UnseenAxes's Text Guide
+
 **T20D4 Skramblegg Strat**
 
 _Gear:_ 4/4 Skramblegg, Heart of Escarium (Sap reforge), Clover, Dracus and Monarch's and Dwadin on _WHEN HIT AN ENEMY_.

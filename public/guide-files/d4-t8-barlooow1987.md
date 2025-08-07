@@ -1,3 +1,5 @@
+# Barloow1987's Pic and Text Guide
+
 Bare minimum is to have a front tank with DR 75% and a healer pet ( i used drazig +4 ) but others have used walkom.
 
 I think a must as a dps player was the shield per turn ring as it always gave a little to the supportive side.
