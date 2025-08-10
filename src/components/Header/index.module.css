@@ -45,13 +45,13 @@
 .site-header nav li {
     list-style-type: none;
     margin: 0.5rem 1rem;
-    text-transform: uppercase;
     font-size: 1.2rem;
     white-space: nowrap;
 }
 
 .site-header nav a,
 .site-header nav a:visited {
+  font-family: "Courier New", Courier, monospace;
   text-decoration: none;
   color: var(--header-text-color);
 }

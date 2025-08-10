@@ -1,11 +1,11 @@
 .outer-container {
-    margin-top: 3rem;
+    margin-top: 1rem;
     margin-bottom: 3rem;
 }
 .back-button-nav-row a,
 .back-button-nav-row svg {
     vertical-align: middle;
-    font-family: Orbitron, sans-serif;
+    font-family: sans-serif;
 }
 
 .back-button-nav-row a {

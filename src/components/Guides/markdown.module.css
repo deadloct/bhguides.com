@@ -14,7 +14,6 @@
 
 .wrapper {
     color: var(--main-text-color);
-    letter-spacing: unset;
     padding: 2rem;
     background-color: var(--modal-background-color);
 }

@@ -1,12 +1,11 @@
 .outer-container {
-    margin-top: 3rem;
+    margin-top: 1rem;
     margin-bottom: 3rem;
 }
 
 .outer-container h3 {
     margin: 3rem 0 2rem;
     text-align: center;
-    text-transform: uppercase;
 }
 
 .outer-container img {

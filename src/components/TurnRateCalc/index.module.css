@@ -1,9 +1,9 @@
 .outer-container {
-    margin-top: 3rem;
+    margin-top: 1rem;
     margin-bottom: 3rem;
 }
 
-.outer-container h2, .outer-container h3 {
+.outer-container h3 {
     margin-top: 3rem;
 }
 

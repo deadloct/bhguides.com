@@ -72,7 +72,7 @@ body {
 }
 
 body * {
-  font-family: "Baloo 2", Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Tahoma, "Helvetica Neue", Arial, sans-serif;
 }
 
 #root {
@@ -85,21 +85,19 @@ h1,
 h2,
 h3,
 h4 {
-    font-family: 'Orbitron', Times, serif;
+    font-family: "Courier New", Courier, monospace;
     font-weight: bold;
-    letter-spacing: 0.2rem;
 }
 
 h1 {
     text-align: center;
-    text-transform: uppercase;
     font-size: 2rem;
     margin: 0;
 }
 
 h1 a,
 h1 a:visited {
-  font-family: 'Orbitron', Times, serif;
+  font-family: "Courier New", Courier, monospace;
   text-decoration: none;
   color: var(--main-text-color)
 }

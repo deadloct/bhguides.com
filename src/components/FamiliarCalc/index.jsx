@@ -10,11 +10,13 @@ import familiarsData from '../../redux/familiars.json';
 
 import styles from "./index.module.css";
 import WarningAmberIcon from '@mui/icons-material/WarningAmber';
+import CloseIcon from '@mui/icons-material/Close';
 
 export default function FamiliarCalc() {
     const [selectedFamiliar, setSelectedFamiliar] = useState(familiarsData[0] || null);
     const [totalStats, setTotalStats] = useState(65000);
     const [stableCount, setStableCount] = useState(1);
+    const [disclaimerVisible, setDisclaimerVisible] = useState(true);
 
     const handleFamiliarChange = (event, newValue) => {
         setSelectedFamiliar(newValue);
@@ -28,6 +30,8 @@ export default function FamiliarCalc() {
     const handleStableCountChange = (event, value) => {
         setStableCount(value);
     };
+
+    const dismissDisclaimer = () => setDisclaimerVisible(false);
 
     let stats = null;
     if (selectedFamiliar && totalStats >= 1) {
@@ -61,13 +65,22 @@ export default function FamiliarCalc() {
     return (
         <Container maxWidth="md" sx={{ py: 4 }}>
             <h2>Familiar Stats Calculator</h2>
-            <div className={`${styles["bubble"]} ${styles["ext-link-risk"]}`}>
-                <WarningAmberIcon />
-                <div className={styles["bubble-message"]}>
-                    Data was scraped from <a href="https://bit-heroes.fandom.com/wiki">the wiki</a> on 5 August 2025. Some stats are outdated.
+            {disclaimerVisible && (
+                <div className={`${styles["bubble"]} ${styles["ext-link-risk"]}`}>
+                    <WarningAmberIcon />
+                    <div className={styles["bubble-message"]}>
+                        Data was scraped from <a href="https://bit-heroes.fandom.com/wiki">the wiki</a> on 5 August 2025. Some stats are outdated.
+                    </div>
+                    <WarningAmberIcon />
+                    <button 
+                        onClick={dismissDisclaimer} 
+                        className={styles["close-button"]}
+                        aria-label="Close disclaimer"
+                    >
+                        <CloseIcon />
+                    </button>
                 </div>
-                <WarningAmberIcon />
-            </div> 
+            )} 
             <p>
                 Calculate familiar stats based on your total stats. Select a familiar and enter your total stats 
                 to see how the percentages translate to actual stat values.
