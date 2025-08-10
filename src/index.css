@@ -1,4 +1,6 @@
-:root {
+/* Default (dark) theme */
+:root,
+:root[data-theme="dark"] {
   --main-background-color: rgb(30, 30, 30);
   --main-text-color: white;
   --main-link-color: rgb(87, 182, 208);
@@ -18,32 +20,49 @@
 
   --alert-bg: rgb(229, 231, 235);
   --alert-text: var(--main-text-color);
+
+  --secondary-text-color: rgb(150, 150, 150);
+  --tertiary-text-color: rgb(158, 188, 197);
+  --muted-text-color: #aaa;
+  
+  --error-color: #ff5e7e;
+  --warning-color: #FAA0A0;
+  --hover-background-color: rgba(255, 255, 255, 0.1);
+  --box-shadow-color: rgba(0, 0, 0, 0.2);
 }
 
-/*
-@media (prefers-color-scheme: dark) {
-  :root {
-    --main-background-color: #282c34;
-    --main-text-color: white;
-    --main-link-color: rgb(168, 168, 255);
-    --hover-link-color: rgb(104, 101, 254);
+/* Light theme */
+:root[data-theme="light"] {
+  --main-background-color: white;
+  --main-text-color: rgb(30, 30, 30);
+  --main-link-color: rgb(25, 118, 210);
+  --hover-link-color: rgb(21, 101, 192);
+  --app-link-color: var(--main-link-color);
 
-    --header-background-color: rgb(30, 30, 30);
-    --header-text-color: white;
+  --header-background-color: #fdd379;
+  --header-text-color: rgb(30, 30, 30);
 
-    --footer-background-color: rgb(30, 30, 30);
-    --footer-text-color: white;
+  --footer-background-color: rgb(248, 249, 250);
+  --footer-text-color: rgb(30, 30, 30);
 
-    --app-link-color: #61dafb;
+  --modal-background-color: white;
 
-    --blockquote-left-border: var(60, 60, 60); 
-    --blockquote-background: var(--header-background-color);
+  --blockquote-left-border: rgb(200, 200, 200);
+  --blockquote-background: rgb(248, 249, 250);
 
-    --alert-bg: var(--header-background-color);
-    --alert-text: var(--main-text-color);
-  }
+  --alert-bg: rgb(229, 231, 235);
+  --alert-text: var(--main-text-color);
+
+  --secondary-text-color: rgb(100, 100, 100);
+  --tertiary-text-color: rgb(80, 120, 140);
+  --muted-text-color: rgb(117, 117, 117);
+  
+  --error-color: #ff5e7e;
+  --warning-color: #FAA0A0;
+  --hover-background-color: rgba(0, 0, 0, 0.1);
+  --box-shadow-color: rgba(0, 0, 0, 0.2);
 }
-*/
+
 
 body {
   -webkit-font-smoothing: antialiased;

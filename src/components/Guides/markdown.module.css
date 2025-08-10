@@ -8,14 +8,20 @@
     max-height: 80vh !important;
     width: 50vw !important;
     overflow-y: scroll;
-    word-break: break-all;
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    word-break: break-word;
+    box-shadow: 0 3px 10px var(--box-shadow-color);
 }
 
 .wrapper {
-    color: white;
-    padding: 1rem;
+    color: var(--main-text-color);
+    letter-spacing: unset;
+    padding: 2rem;
     background-color: var(--modal-background-color);
+}
+
+.wrapper h1 {
+    text-transform: none;
+    font-style: normal;
 }
 
 .wrapper h2 {

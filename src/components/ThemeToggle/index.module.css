@@ -1,0 +1,132 @@
+.theme-toggle-container {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.2rem;
+}
+
+.sun-icon, .moon-icon {
+    font-size: 1.2rem !important;
+    color: var(--header-text-color);
+    transition: opacity 0.3s ease-in-out;
+}
+
+.sun-icon {
+    opacity: 1;
+}
+
+.moon-icon {
+    opacity: 0.5;
+}
+
+.toggle-switch {
+    position: relative;
+    width: 3rem;
+    height: 1.5rem;
+    background-color: var(--secondary-text-color);
+    border-radius: 0.75rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    outline: none;
+}
+
+.toggle-switch:hover {
+    background-color: var(--main-text-color);
+}
+
+.toggle-switch:focus {
+    box-shadow: 0 0 0 2px var(--hover-background-color);
+}
+
+.toggle-slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 0.75rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.toggle-thumb {
+    position: absolute;
+    top: 0.125rem;
+    width: 1.25rem;
+    height: 1.25rem;
+    background-color: var(--header-background-color);
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.toggle-slider.light .toggle-thumb {
+    transform: translateX(0.125rem);
+}
+
+.toggle-slider.dark .toggle-thumb {
+    transform: translateX(1.625rem);
+}
+
+.toggle-slider.light ~ .sun-icon {
+    opacity: 1;
+}
+
+.toggle-slider.light ~ .moon-icon {
+    opacity: 0.5;
+}
+
+.toggle-slider.dark ~ .sun-icon {
+    opacity: 0.5;
+}
+
+.toggle-slider.dark ~ .moon-icon {
+    opacity: 1;
+}
+
+/* Theme-based icon opacity */
+.theme-toggle-container:has(.toggle-slider.light) .sun-icon {
+    opacity: 1;
+}
+
+.theme-toggle-container:has(.toggle-slider.light) .moon-icon {
+    opacity: 0.5;
+}
+
+.theme-toggle-container:has(.toggle-slider.dark) .sun-icon {
+    opacity: 0.5;
+}
+
+.theme-toggle-container:has(.toggle-slider.dark) .moon-icon {
+    opacity: 1;
+}
+
+@media all and (max-width: 899px) {
+    .theme-toggle-container {
+        gap: 0.3rem;
+        padding: 0.1rem;
+    }
+    
+    .sun-icon, .moon-icon {
+        font-size: 1rem !important;
+    }
+    
+    .toggle-switch {
+        width: 2.5rem;
+        height: 1.25rem;
+        border-radius: 0.625rem;
+    }
+    
+    .toggle-thumb {
+        width: 1rem;
+        height: 1rem;
+        top: 0.125rem;
+    }
+    
+    .toggle-slider.light .toggle-thumb {
+        transform: translateX(0.125rem);
+    }
+    
+    .toggle-slider.dark .toggle-thumb {
+        transform: translateX(1.25rem);
+    }
+}

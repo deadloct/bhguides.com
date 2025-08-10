@@ -4,6 +4,7 @@ import calcSlice from "./calcSlice"
 import gallerySlice from "./gallerySlice"
 import guidesSlice from "./guidesSlice"
 import videoSlice from "./videoSlice"
+import themeSlice from "./themeSlice"
 
 export default configureStore({
     reducer: {
@@ -11,5 +12,6 @@ export default configureStore({
         gallery: gallerySlice,
         guides: guidesSlice,
         videos: videoSlice,
+        theme: themeSlice,
     },
 });

@@ -9,23 +9,23 @@
     justify-content: space-between;
     align-items: center;
 
-    border: 2px solid white;
-    color: white;
+    border: 2px solid var(--main-text-color);
+    color: var(--main-text-color);
 }
 
 .bubble.ext-link-risk {
-    border: 2px solid rgb(150, 150, 150);
-    color: rgb(150, 150, 150);
+    border: 2px solid var(--secondary-text-color);
+    color: var(--secondary-text-color);
 }
 
 .bubble.ext-link-risk:hover {
-    border: 2px solid white;
-    color: white;
+    border: 2px solid var(--main-text-color);
+    color: var(--main-text-color);
 }
 
 .bubble.search-error {
-    border: 2px solid #ff5e7e;
-    color: #ff5e7e;
+    border: 2px solid var(--error-color);
+    color: var(--error-color);
 }
 
 .bubble-message {

@@ -1,19 +1,25 @@
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import CssBaseline from "@mui/material/CssBaseline";
-
-// import useMediaQuery from '@mui/material/useMediaQuery';
+import { useMemo, useEffect } from 'react';
+import { useSelector, useDispatch } from 'react-redux';
 
 import Home from "./components/Home";
+import { setTheme } from './redux/themeSlice';
 
 function App() {
-    
-    // Enable light/dark toggle: uncommon useMediaQuery above and add useMemo
-    // const prefersDarkMode = useMediaQuery('(prefers-color-scheme: dark)');
-    const theme = createTheme({
+    const dispatch = useDispatch();
+    const themeMode = useSelector(state => state.theme.mode);
+
+    // Initialize theme attribute on mount
+    useEffect(() => {
+        document.documentElement.setAttribute('data-theme', themeMode);
+    }, [themeMode]);
+
+    const theme = useMemo(() => createTheme({
         palette: {
-            mode: 'dark',
+            mode: themeMode,
         },
-    })
+    }), [themeMode]);
 
     return (
         <ThemeProvider theme={theme}>

@@ -7,6 +7,8 @@ import styles from "./index.module.css";
 import MenuIcon from '@mui/icons-material/Menu';
 import ClearIcon from '@mui/icons-material/Clear';
 
+import ThemeToggle from '../ThemeToggle';
+
 export default function Header() {
     const [visible, setVisible] = useState(false);
     const navRef = useRef(null);
@@ -60,10 +62,13 @@ export default function Header() {
                             />
                         </Link>
                     </div>
-                    <div onClick={toggle} className={styles["menu-toggle"]}>
-                        {visible ?
-                            <ClearIcon fontSize={"inherit"} className={styles["menu-icon"]} /> :
-                            <MenuIcon fontSize={"inherit"} className={styles["menu-icon"]} />}
+                    <div className={styles["header-controls"]}>
+                        <ThemeToggle />
+                        <div onClick={toggle} className={styles["menu-toggle"]}>
+                            {visible ?
+                                <ClearIcon fontSize={"inherit"} className={styles["menu-icon"]} /> :
+                                <MenuIcon fontSize={"inherit"} className={styles["menu-icon"]} />}
+                        </div>
                     </div>
                 </div>
                 <nav ref={navRef} className={navClass}>

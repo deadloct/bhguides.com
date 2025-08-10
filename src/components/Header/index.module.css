@@ -3,7 +3,7 @@
     padding: 1rem 1rem;
     text-align: center;
     width: 100%;
-    color: rgb(30, 30, 30);
+    color: var(--header-text-color);
     background-color: var(--header-background-color);
 }
 
@@ -62,8 +62,20 @@
   color: var(--header-text-color);
 }
 
+.header-controls {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
 .menu-toggle {
     display: none;
+}
+
+@media all and (min-width: 900px) {
+    .menu-toggle {
+        display: none !important;
+    }
 }
 
 @media all and (max-width: 899px) {
