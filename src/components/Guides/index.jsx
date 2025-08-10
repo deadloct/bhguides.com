@@ -271,7 +271,22 @@ export default function Guides() {
         <Container key="guides" className={styles["wrapper"]} maxWidth="md">
             <header>
                 <div className={styles["search-wrapper"]}>
-                    <input type="text" placeholder="Enter search term" id="search" onChange={e => setSearchTerm(e.target.value)} />
+                    <input 
+                        type="text" 
+                        placeholder="Enter search term" 
+                        id="search" 
+                        value={searchTerm}
+                        onChange={e => setSearchTerm(e.target.value)} 
+                    />
+                    {searchTerm && (
+                        <button 
+                            className={styles["search-clear-button"]}
+                            onClick={() => setSearchTerm("")}
+                            aria-label="Clear search"
+                        >
+                            <CloseIcon />
+                        </button>
+                    )}
                 </div>
                 {disclaimerVisible && (
                     <div className={`${styles["bubble"]} ${styles["ext-link-risk"]}`}>
