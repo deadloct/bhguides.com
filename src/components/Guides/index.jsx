@@ -11,6 +11,8 @@ import Markdown from "./markdown";
 import ArrowCircleUpIcon from '@mui/icons-material/ArrowCircleUp';
 import ArticleIcon from '@mui/icons-material/Article';
 import CancelIcon from '@mui/icons-material/Cancel';
+import ExpandLessIcon from '@mui/icons-material/ExpandLess';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import ImageIcon from '@mui/icons-material/Image';
 import LaunchIcon from '@mui/icons-material/Launch';
 import PictureAsPdfIcon from '@mui/icons-material/PictureAsPdf';
@@ -30,6 +32,8 @@ export default function Guides() {
     const [markdownVisible, setMarkdownVisible] = useState(false);
     const [markdownFile, setMarkdownFile] = useState("");
     const [markdownName, setMarkdownName] = useState("");
+    const [collapsedSections, setCollapsedSections] = useState(new Set());
+    const [disclaimerVisible, setDisclaimerVisible] = useState(true);
 
     useEffect(() => {
         const parts = window.location.hash.split("#")
@@ -66,6 +70,22 @@ export default function Guides() {
         setMarkdownVisible(true);
     };
     const hideMarkdown = () => setMarkdownVisible(false);
+
+    const dismissDisclaimer = () => setDisclaimerVisible(false);
+
+    const toggleCollapse = (sectionId) => {
+        setCollapsedSections(prev => {
+            const newSet = new Set(prev);
+            if (newSet.has(sectionId)) {
+                newSet.delete(sectionId);
+            } else {
+                newSet.add(sectionId);
+            }
+            return newSet;
+        });
+    };
+
+    const isSectionCollapsed = (sectionId) => collapsedSections.has(sectionId);
 
     function obsolete(guide) {
         if (guide.obsolete && guide.obsolete.length) {
@@ -171,9 +191,22 @@ export default function Guides() {
     }
 
     function renderGuidesForCategory(catID, cat, i, hasParent) {
+        const isCollapsed = isSectionCollapsed(catID);
+        const collapseIcon = isCollapsed ? <ExpandMoreIcon /> : <ExpandLessIcon />;
+        
         const header = hasParent ?
-            (<h3 id={`${catID}`}>{cat.webname}</h3>) : 
-            (<h2 id={`${catID}`}>{cat.webname}</h2>); 
+            (
+                <h3 id={`${catID}`} className={styles["collapsible-header"]} onClick={() => toggleCollapse(catID)}>
+                    <span className={styles["section-title"]}>{cat.webname}</span>
+                    <span className={styles["collapse-icon"]}>{collapseIcon}</span>
+                </h3>
+            ) : 
+            (
+                <h2 id={`${catID}`} className={styles["collapsible-header"]} onClick={() => toggleCollapse(catID)}>
+                    <span className={styles["section-title"]}>{cat.webname}</span>
+                    <span className={styles["collapse-icon"]}>{collapseIcon}</span>
+                </h2>
+            ); 
 
         let results;
         if (cat.guides.length > 0) {
@@ -184,11 +217,24 @@ export default function Guides() {
                 <p>There are no guides in this category"</p>;
         }
 
+        // For search results, don't show collapsible header - just show results directly
+        if (cat.isSearch) {
+            return (
+                <div key={`${catID}-${i}`}>
+                    <h2>{cat.webname}</h2>
+                    <div className={styles["category-description"]}>{cat.description}</div>
+                    {results}
+                </div>
+            );
+        }
+
         return (
             <div key={`${catID}-${i}`}>
                 {header} 
-                <div className={styles["category-description"]}>{cat.description}</div>
-                {results}
+                <div className={`${styles["collapsible-content"]} ${isCollapsed ? styles["collapsed"] : ""}`}>
+                    <div className={styles["category-description"]}>{cat.description}</div>
+                    {results}
+                </div>
             </div>
         );
     }
@@ -198,14 +244,22 @@ export default function Guides() {
             return renderGuidesForCategory(indexEntry.id, categories[indexEntry.id], i, depth > 0);
         }
 
+        const isCollapsed = isSectionCollapsed(indexEntry.id);
+        const collapseIcon = isCollapsed ? <ExpandMoreIcon /> : <ExpandLessIcon />;
+
         return (
             <div key={`${indexEntry.id}-${i}`}>
-                <h2 id={`${indexEntry.id}`}>{indexEntry.name}</h2>
-                <ul>{
-                    indexEntry.children.map((child, i) => {
-                        return renderCategoriesForIndex(child, i, depth+1);
-                    })
-                }</ul>
+                <h2 id={`${indexEntry.id}`} className={styles["collapsible-header"]} onClick={() => toggleCollapse(indexEntry.id)}>
+                    <span className={styles["section-title"]}>{indexEntry.name}</span>
+                    <span className={styles["collapse-icon"]}>{collapseIcon}</span>
+                </h2>
+                <div className={`${styles["collapsible-content"]} ${isCollapsed ? styles["collapsed"] : ""}`}>
+                    <ul>{
+                        indexEntry.children.map((child, i) => {
+                            return renderCategoriesForIndex(child, i, depth+1);
+                        })
+                    }</ul>
+                </div>
             </div>
         );
     }
@@ -259,15 +313,25 @@ export default function Guides() {
                 <div className={styles["search-wrapper"]}>
                     <input type="text" placeholder="Enter search term" id="search" onChange={e => setSearchTerm(e.target.value)} />
                 </div>
-                <div className={`${styles["bubble"]} ${styles["ext-link-risk"]}`}>
-                    <WarningAmberIcon />
-                    <div className={styles["bubble-message"]}>
-                        Please be aware that any external links found on this site or within the guides lead to third-party websites
-                        that are not managed or monitored by bhguides.com. We cannot guarantee their safety or reliability.
-                        Visit these links at your own discretion and risk.
+                {disclaimerVisible && (
+                    <div className={`${styles["bubble"]} ${styles["ext-link-risk"]}`}>
+                        <WarningAmberIcon />
+                        <div className={styles["bubble-message"]}>
+                            <div>
+                                Please be aware that any external links found on this site or within the guides lead to third-party websites
+                                that are not managed or monitored by bhguides.com. We cannot guarantee their safety or reliability.
+                                Visit these links at your own discretion and risk.
+                            </div>
+                            <button 
+                                onClick={dismissDisclaimer} 
+                                className={styles["dismiss-button"]}
+                            >
+                                Dismiss
+                            </button>
+                        </div>
+                        <WarningAmberIcon />
                     </div>
-                    <WarningAmberIcon />
-                </div>
+                )}
             </header> 
             <section className={styles["content"]}>
                 <div className={styles["searchResults"]} id="searchResults">
