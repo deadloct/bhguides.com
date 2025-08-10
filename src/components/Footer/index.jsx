@@ -34,6 +34,9 @@ export default function Footer() {
         {key: "calculator-rngme", path: "/rng-me", text: "RNG ME"},
     ];
 
+
+    const d = !latestCommit ? new Date() : new Date(latestCommit.commit.committer.date);
+
     return (
         <footer className={styles["site-footer"]}>
             <Container maxWidth="md">
@@ -61,9 +64,10 @@ export default function Footer() {
                                             <GitHubIcon className={styles["github-icon"]} />
                                         </div>
                                         <div className={styles["commit-message"]}>
+                                            <strong>Most Recent Change</strong><br />
                                             {latestCommit.commit.message}
                                             <br />
-                                            <a href={latestCommit.html_url} className={styles["commit-date"]} target="_blank" rel="noopener noreferrer">{latestCommit.commit.committer.date}</a>
+                                            <a href={latestCommit.html_url} className={styles["commit-date"]} target="_blank" rel="noopener noreferrer">{d.toLocaleString()}</a>
                                             &nbsp;&ndash;&nbsp;
                                             <a href="https://github.com/deadloct/bhguides.com/commits/master/" className={styles["changelog-link"]}>Full Changelog</a>
                                         </div>

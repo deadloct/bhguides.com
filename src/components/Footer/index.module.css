@@ -99,7 +99,6 @@
     color: var(--footer-text-color);
     font-size: 0.9rem;
     line-height: 1.4;
-    margin-bottom: 0.75rem;
     word-wrap: break-word;
     white-space: pre-wrap;
 }
