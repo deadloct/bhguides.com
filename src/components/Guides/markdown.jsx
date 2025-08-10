@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Markdown from 'react-markdown';
 import Modal from '@mui/material/Modal';
+import CircularProgress from '@mui/material/CircularProgress';
 
 import styles from "./markdown.module.css";
 
@@ -22,6 +23,12 @@ export default function MarkdownModal({ file, name, visible, hide }) {
                 return;
             }
 
+            // Reset state when modal opens
+            setLoading(true);
+            setBody("");
+            setErr("");
+            setTitle("");
+
             try {
                 const resp = await fetch(full);
                 if (!resp.ok) {
@@ -40,7 +47,7 @@ export default function MarkdownModal({ file, name, visible, hide }) {
         }
 
         loadMarkdown();
-    }, [full, name, err, visible]);
+    }, [full, name, visible]);
 
     if (!visible) {
         return;
@@ -51,7 +58,10 @@ export default function MarkdownModal({ file, name, visible, hide }) {
             <Modal className={styles["modal"]} open={visible} onClose={hide}>
                 <div className={styles["wrapper"]}>
                     <div className={styles["close"]}><CancelIcon /></div>
-                    <p>Loading...</p>
+                    <div className={styles["loading-container"]}>
+                        <CircularProgress />
+                        <p>Loading...</p>
+                    </div>
                 </div>
             </Modal>
         );
