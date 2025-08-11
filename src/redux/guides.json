@@ -561,6 +561,16 @@
                             "contenttype": "image/png"
                         }
                     ]
+                },
+                {
+                    "name": "ATacoTitan's Mythic Fusion Excel Spreadsheet",
+                    "attachments": [
+                        {
+                            "filename": "fusions-mythic-atacotitan.xlsx",
+                            "attachmenttype": "excel",
+                            "contenttype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+                        }
+                    ]
                 }
             ]
         },
