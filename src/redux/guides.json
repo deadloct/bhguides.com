@@ -32,11 +32,11 @@
     ],
     "guides": {
         "ancients-general": {
-            "webname": "Ancient Gear Info",
-            "description": "Ancient crafting and skill information",
+            "webname": "General D4 and Ancient Information",
+            "description": "Guides that aren't about beating a specific D4",
             "guides": [
                 {
-                    "name": "Antomanz and Gylymesh's Firium Pic Guide",
+                    "name": "Antomanz and Gylgymesh's Firium Pic Guide",
                     "attachments": [
                         {
                             "filename": "ancients-firium-antomanz-gylgymesh.png",
@@ -56,7 +56,7 @@
                     ]
                 },
                 {
-                    "name": "Gylymesh's Poly and Elementarium Pic Guide",
+                    "name": "Gylgymesh's Poly and Elementarium Pic Guide",
                     "attachments": [
                         {
                             "filename": "ancients-polyelem-gylgymesh.png",
@@ -66,7 +66,7 @@
                     ]
                 },
                 {
-                    "name": "Gylymesh's Starweave Pic Guide",
+                    "name": "Gylgymesh's Starweave Pic Guide",
                     "attachments": [
                         {
                             "filename": "ancients-starweave-gylgymesh.png",
@@ -82,6 +82,15 @@
                             "filename": "ancients-t18-skills-toot-goolmuddy-winter-antomanz.png",
                             "attachmenttype": "image",
                             "contenttype": "image/png"
+                        }
+                    ]
+                },
+                {
+                    "name": "Gylgymesh's D4 and Ancients Spreadsheet",
+                    "attachments": [
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://docs.google.com/spreadsheets/d/1S2YwK79tIQMg5FVEMjTD42iAQqRo4ik9V9P2W_VPjyI/"
                         }
                     ]
                 }
