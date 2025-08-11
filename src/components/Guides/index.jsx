@@ -14,6 +14,7 @@ import CancelIcon from '@mui/icons-material/Cancel';
 import CloseIcon from '@mui/icons-material/Close';
 import ImageIcon from '@mui/icons-material/Image';
 import LaunchIcon from '@mui/icons-material/Launch';
+import MicrosoftIcon from '@mui/icons-material/Microsoft';
 import PictureAsPdfIcon from '@mui/icons-material/PictureAsPdf';
 import WarningAmberIcon from '@mui/icons-material/WarningAmber';
 
@@ -141,6 +142,15 @@ export default function Guides() {
                         <LaunchIcon /> 
                         <a href={`${item.link}`} target="_BLANK" rel="noreferrer">{item.link}</a> 
                         <span className={styles["att-type"]}>(external link)</span>
+                    </li>
+                );
+            
+            case "excel":
+                return (
+                    <li key={`item-${i}`} className={styles["attachment-item"]}>
+                        <MicrosoftIcon /> 
+                        <a href={`/guide-files/${item.filename}`} target="_BLANK" rel="noreferrer">{item.filename}</a> 
+                        <span className={styles["att-type"]}>{`(${item.contenttype})`}</span>
                     </li>
                 );
             
@@ -314,7 +324,7 @@ export default function Guides() {
             </section>
             <footer>
                 <h2>Credits</h2>
-                <p><strong>Guide Authors:</strong> 3riko, 5Rupees, a_poor_ninja, Adhesive81, AlbacorePrism, Alysias, Antomanz, Ballbreaker, Barlooow1987, BillyIdol, Bisamratte, Bitverse_Andy, Blanquiito, Captain_Crunchie, ChubbyDaemon, Chuck, Colb, Commander, Crow, CyberMuffin, DarkHand6, Dispel1, Dracaris, Dude_WTF, EdwardGenius, Ee, Eliealsamaan85, Ember, Equilibrandt, FergusFerret, fohpo, Fr3sTy7, Fyra, Gagf, Gavx, Goku, Goolmuddy, Gylgymesh, Hæl (aka Hael on this page), Huen11, iiTicTac, Infermis, ItsMBSCastillo, JDizzle, JDtheGreat, Jermoshua, JoeBu, John_Hatten2, josiah_4, kruste, Lqd, Maddbz, ManBearPig, MaxBrand99, McSploosh, Melody (Choco), Mentle88, MrRager, Mochi, Neflarian, n1ghtmaree, Olivernoko, Orcaaa, PAINisGOD93, PocketApple8104, PrimeDyze, RoastyChicken, ShawnBond, Sizz, Smolder, Special_Delivery, Talisman, Tarnym, Techno, Toad, Tolton, TooT, TrippyAfro, UnseenAxes, Vanterio, VesaN, Winter, WRLD_EATR, Youreprettycute, ZENICKS, and ZombieSlayer13</p>
+                <p><strong>Guide Authors:</strong> 3riko, 5Rupees, a_poor_ninja, Adhesive81, AlbacorePrism, Alysias, Antomanz, ATacoTitan, Ballbreaker, Barlooow1987, BillyIdol, Bisamratte, Bitverse_Andy, Blanquiito, Captain_Crunchie, ChubbyDaemon, Chuck, Colb, Commander, Crow, CyberMuffin, DarkHand6, Dispel1, Dracaris, Dude_WTF, EdwardGenius, Ee, Eliealsamaan85, Ember, Equilibrandt, FergusFerret, fohpo, Fr3sTy7, Fyra, Gagf, Gavx, Goku, Goolmuddy, Gylgymesh, Hæl (aka Hael on this page), Huen11, iiTicTac, Infermis, ItsMBSCastillo, JDizzle, JDtheGreat, Jermoshua, JoeBu, John_Hatten2, josiah_4, kruste, Lqd, Maddbz, ManBearPig, MaxBrand99, McSploosh, Melody (Choco), Mentle88, MrRager, Mochi, Neflarian, n1ghtmaree, Olivernoko, Orcaaa, PAINisGOD93, PocketApple8104, PrimeDyze, RoastyChicken, ShawnBond, Sizz, Smolder, Special_Delivery, Talisman, Tarnym, Techno, Toad, Tolton, TooT, TrippyAfro, UnseenAxes, Vanterio, VesaN, Winter, WRLD_EATR, Youreprettycute, ZENICKS, and ZombieSlayer13</p>
                 <p><strong>Idea for Original Guides Discord Bot:</strong> Trogburn</p>
                 <p><strong>Coding:</strong> BillyIdol • <a href="https://github.com/deadloct/bhguides.com">Source on GitHub</a></p>
                 <p><strong>Initial Data Aggregation:</strong> BillyIdol, ShawnBond, Trogdor, and ZombieSlayer13</p>
