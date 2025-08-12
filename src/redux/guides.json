@@ -2563,6 +2563,28 @@
                             "contenttype": "image/png"
                         }
                     ]
+                },
+                {
+                    "name": "Talisman's Broke Person Protoplague Guide",
+                    "builds": [
+                        "Protoplague"
+                    ],
+                    "fams": [
+                        "GlarzDos",
+                        "Oladus",
+                        "Winslar"
+                    ],
+                    "attachments": [
+                        {
+                            "filename": "d4-t19-talisman.md",
+                            "attachmenttype": "markdown"
+                        },
+                        {
+                            "filename": "d4-t19-talisman.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        }
+                    ]
                 }
             ]
         },
