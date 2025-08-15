@@ -11,15 +11,16 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Architecture Overview
 
-This is a React 18 single-page application for bhguides.com, a community resource for Beat Hazard guides, videos, and game calculators.
+This is a React 18 single-page application for bhguides.com, a community resource for Beat Hazard guides and game calculators.
 
 ### Tech Stack
 - **Frontend Framework**: React 18 with Material-UI v6
 - **Build Tool**: Vite
 - **State Management**: Redux Toolkit
-- **Routing**: React Router (HashRouter)
+- **Routing**: React Router DOM v6 (HashRouter)
 - **Styling**: CSS Modules + Material-UI components
 - **Testing**: Vitest
+- **Markdown Support**: react-markdown v9
 
 ### Key Application Structure
 
@@ -30,9 +31,8 @@ This is a React 18 single-page application for bhguides.com, a community resourc
 
 **Redux Store** (`src/redux/store.js`):
 - `calc` - Calculator options and state
-- `gallery` - Photo gallery state  
-- `guides` - Game guides data and search functionality
-- `videos` - Video content management
+- `guides` - Game guides data and search functionality  
+- `theme` - Theme management (dark/light mode)
 
 **Major Feature Components**:
 - `Guides/` - Main guides browser with search, lightbox, and markdown rendering
@@ -40,7 +40,9 @@ This is a React 18 single-page application for bhguides.com, a community resourc
 - `TurnRateCalc/` - Turn rate calculation tool
 - `FamiliarCalc/` - Familiar damage calculator  
 - `RNGME/` - Random number generation utility
-- `Video/` - Video player with HLS streaming support
+- `Header/` - Navigation header with theme toggle
+- `Footer/` - Site footer
+- `ThemeToggle/` - Dark/light theme switching component
 
 ### Data Sources
 
@@ -48,12 +50,9 @@ This is a React 18 single-page application for bhguides.com, a community resourc
 - `guides.json` - All guide metadata, categories, and file references
 - `familiars.json` - Familiar stats for calculator
 - `calcOptions.json` - Calculator configuration options
-- `gallery.json` - Photo gallery metadata
-- `videos.json` - Video metadata and streaming info
 
 **Public Assets**:
 - `public/guide-files/` - Guide images, PDFs, and markdown files
-- `public/video/` - Video files with HLS streams for adaptive playback
 - `public/screenshots/` - Categorized screenshots (bugs, drops, shop, other)
 
 ### Adding New Guides
@@ -68,10 +67,17 @@ The guides system includes custom in-memory search indexing that processes guide
 
 - CSS Modules for component-specific styling (`*.module.css`)
 - Material-UI components with dark theme throughout
-- Redux hooks (`useSelector`) for state access
+- Redux hooks (`useSelector`, `useDispatch`) for state access
 - React Router HashLink for smooth scrolling navigation
 - Custom lightbox and markdown rendering components
+- Modular component structure with dedicated folders
 
 ### Testing
 
 Limited test coverage currently exists - main test file is `src/components/Tools/utils.spec.js` for calculator utilities.
+
+### Recent Changes
+
+- Removed video playback functionality and related components
+- Simplified Redux store to focus on core features (calc, guides, theme)
+- Updated dependencies to latest versions (React 18, Material-UI v6, Vite 5)
