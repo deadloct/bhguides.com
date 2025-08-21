@@ -10,6 +10,7 @@
             {"id": "ancients-general"},
             {"id": "t08d4"},
             {"id": "t09d4"},
+            {"id": "t10d4"},
             {"id": "t12d4"},
             {"id": "t14d4"},
             {"id": "t15d4"},
@@ -1315,6 +1316,28 @@
                             "filename": "d4-t9-youreprettycute.png",
                             "attachmenttype": "image",
                             "contenttype": "image/png"
+                        }
+                    ]
+                }
+            ]
+        },
+        "t10d4": {
+            "webname": "T10D4 / Z09D4",
+            "description": "Community t10d4 Polychromatic Blaster strategies",
+            "guides": [
+                {
+                    "name": "Gagf's Polychromatic Blaster Google Sheet Guide",
+                    "builds": [
+                        "Earthen Might"
+                    ],
+                    "fams": [
+                        "Croundy",
+                        "Drazig"
+                    ],
+                    "attachments": [
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://docs.google.com/spreadsheets/d/1jpIghTeSnI-SMM3185gxfSEF7VuZKF4A5V45l2XuixE/edit?gid=894387049#gid=894387049"
                         }
                     ]
                 }
