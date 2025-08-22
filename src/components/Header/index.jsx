@@ -45,14 +45,13 @@ export default function Header() {
         {key: "calculator-turnrate", path: "/turn-rate", text: "Turn Rate Calculator"},
         {key: "calculator-familiar", path: "/familiar-calc", text: "Familiar Calculator"},
         {key: "calculator-rngme", path: "/rng-me", text: "RNG ME"},
-        // {key: "billyidols-corner", path: "/#/billyidols-corner", text: "BillyIdol's Corner"},
     ];
 
     return (
         <>
             <header className={headerClasses.join(" ")}>
                 <div className={styles["site-title-row"]}>
-                    <h1>BH Guides</h1>
+                    <h1>Bit Heroes Guides</h1>
                     <div className={styles["logo"]}>
                         <Link to="/">
                             <img

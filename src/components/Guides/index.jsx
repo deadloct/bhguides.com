@@ -280,6 +280,11 @@ export default function Guides() {
     return (
         <Container key="guides" className={styles["wrapper"]} maxWidth="md">
             <header>
+                <p className={styles["guides-description"]}>
+                    This site showcases guides from legendary Bit Heroes community members.
+                    Level up your gameplay with optimal familiar fusion strategies, dungeon
+                    conquest tactics, and complete mastery of this retro 8-bit adventure.
+                </p>
                 <div className={styles["search-wrapper"]}>
                     <input 
                         type="text" 
@@ -298,24 +303,6 @@ export default function Guides() {
                         </button>
                     )}
                 </div>
-                {disclaimerVisible && (
-                    <div className={`${styles["bubble"]} ${styles["ext-link-risk"]}`}>
-                        <WarningAmberIcon />
-                        <div className={styles["bubble-message"]}>
-                            Please be aware that any external links found on this site or within the guides lead to third-party websites
-                            that are not managed or monitored by bhguides.com. We cannot guarantee their safety or reliability.
-                            Visit these links at your own discretion and risk.
-                        </div>
-                        <WarningAmberIcon />
-                        <button 
-                            onClick={dismissDisclaimer} 
-                            className={styles["close-button"]}
-                            aria-label="Close disclaimer"
-                        >
-                            <CloseIcon />
-                        </button>
-                    </div>
-                )}
             </header> 
             <section className={styles["content"]}>
                 <div className={styles["searchResults"]} id="searchResults">
@@ -332,6 +319,21 @@ export default function Guides() {
                 <p>Thanks to anybody else that helped but was not mentioned because I forgot!</p>
             </footer>
             <div className={styles["back-home"]}><HashLink to={"#top"}><ArrowCircleUpIcon fontSize="large" /></HashLink></div>
+            {disclaimerVisible && (
+                <div className={styles["floating-disclaimer"]}>
+                    <WarningAmberIcon fontSize="small" />
+                    <span className={styles["disclaimer-text"]}>
+                        External links lead to third-party sites. Visit at your own risk.
+                    </span>
+                    <button 
+                        onClick={dismissDisclaimer} 
+                        className={styles["disclaimer-close"]}
+                        aria-label="Close disclaimer"
+                    >
+                        <CloseIcon fontSize="small" />
+                    </button>
+                </div>
+            )}
             <Lightbox visible={lightboxVisible} file={lightboxFile} hide={hideLightbox} />
             <Markdown visible={markdownVisible} file={markdownFile} name={markdownName} hide={hideMarkdown} />
         </Container>
