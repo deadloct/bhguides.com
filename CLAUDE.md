@@ -11,7 +11,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Architecture Overview
 
-This is a React 18 single-page application for bhguides.com, a community resource for Beat Hazard guides and game calculators.
+This is a React 18 single-page application for bhguides.com, a community resource for Bit Heroes guides and game calculators.
 
 ### Tech Stack
 - **Frontend Framework**: React 18 with Material-UI v6
