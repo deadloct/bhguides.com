@@ -241,7 +241,7 @@
                     ]
                 },
                 {
-                    "name": "Raid 2 (Tier 5) Familiars",
+                    "name": "Tier 5 Familiars",
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -390,6 +390,78 @@
                         {
                             "attachmenttype": "link",
                             "link": "https://www.youtube.com/watch?v=I10CYU3ZHeg"
+                        }
+                    ]
+                },
+                {
+                    "name": "World Boss: Project Goodall Familiars",
+                    "attachments": [
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://www.youtube.com/watch?v=y34pneoKPvM"
+                        }
+                    ]
+                },
+                {
+                    "name": "Invasion: Rumble Familiars",
+                    "attachments": [
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://www.youtube.com/watch?v=y34pneoKPvM"
+                        }
+                    ]
+                },
+                {
+                    "name": "Invasion: Revenge of the Turkey Familiars",
+                    "attachments": [
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://www.youtube.com/watch?v=bhn8kXoCGcU"
+                        }
+                    ]
+                },
+                {
+                    "name": "Invasion: Papoz Familiars",
+                    "attachments": [
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://www.youtube.com/watch?v=D5LRi2L7TQ8"
+                        }
+                    ]
+                },
+                {
+                    "name": "Invasion: Jelly Familiars",
+                    "attachments": [
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://www.youtube.com/watch?v=Ni3RnQK259o"
+                        }
+                    ]
+                },
+                {
+                    "name": "Invasion: Holiday Familiars",
+                    "attachments": [
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://www.youtube.com/watch?v=7ab8MoU7DNQ"
+                        }
+                    ]
+                },
+                {
+                    "name": "Invasion: Ninja Familiars",
+                    "attachments": [
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://www.youtube.com/watch?v=CImTy6lREKE"
+                        }
+                    ]
+                },
+                {
+                    "name": "Invasion: Zombo Familiars",
+                    "attachments": [
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://www.youtube.com/watch?v=zHFeMZuOVhc"
                         }
                     ]
                 }

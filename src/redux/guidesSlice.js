@@ -1,9 +1,17 @@
 import { createSlice } from "@reduxjs/toolkit";
 import data from "./guides.json";
 
-// Sort guides alphabetically
+// Natural/alphanumeric sorting function that handles numbers within strings correctly
+const naturalSort = (a, b) => {
+    return a.localeCompare(b, undefined, { 
+        numeric: true, 
+        sensitivity: 'base' 
+    });
+};
+
+// Sort guides using natural/alphanumeric sorting
 Object.keys(data.guides).forEach(k => {
-    data.guides[k].guides.sort((a, b) => a.name.localeCompare(b.name));
+    data.guides[k].guides.sort((a, b) => naturalSort(a.name, b.name));
 });
 
 export const guidesSlice = createSlice({
