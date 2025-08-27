@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import Link from "next/link";
 import { useState, useEffect } from "react";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import { Container, Grid } from '@mui/material';
@@ -47,7 +47,7 @@ export default function Footer() {
                                 <li key="title"><strong>Site Navigation</strong></li>
                                 {navs.map((nav, i) => (
                                     <li key={nav.key}>
-                                        <Link to={nav.path}>{nav.text}</Link>
+                                        <Link href={nav.path}>{nav.text}</Link>
                                     </li>
                                 ))}
                             </ul>

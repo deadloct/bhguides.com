@@ -1,7 +1,7 @@
 {
     "name": "bhguides.com",
     "homepage": "https://bhguides.com",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "private": true,
     "dependencies": {
         "@emotion/react": "^11.10.0",
@@ -12,23 +12,24 @@
         "@testing-library/jest-dom": "^5.16.5",
         "@testing-library/react": "^13.3.0",
         "@testing-library/user-event": "^13.5.0",
+        "next": "^15.5.2",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
         "react-modal-image": "^2.6.0",
         "react-redux": "^8.0.2",
-        "react-router-hash-link": "^2.4.3",
         "web-vitals": "^2.1.4"
     },
     "scripts": {
-        "start": "vite",
-        "build": "vite build",
-        "serve": "vite preview",
-        "test": "vitest"
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "export": "next export",
+        "test": "vitest --watch",
+        "test:ci": "vitest run"
     },
     "eslintConfig": {
         "extends": [
-            "react-app",
-            "react-app/jest"
+            "next/core-web-vitals"
         ]
     },
     "browserslist": {
@@ -44,9 +45,11 @@
         ]
     },
     "devDependencies": {
+        "@svgr/webpack": "^8.1.0",
         "@vitejs/plugin-react": "^4.3.1",
+        "eslint": "^9.34.0",
+        "eslint-config-next": "^15.5.2",
         "react-markdown": "^9.0.1",
-        "react-router-dom": "^6.27.0",
         "use-debounce": "^10.0.0",
         "vite": "^5.3.4",
         "vite-plugin-svgr": "^4.2.0",
