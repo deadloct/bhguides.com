@@ -2,31 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://bhguides.com/</loc>
-    <lastmod>2025-08-22</lastmod>
+    <lastmod>2025-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://bhguides.com/#/item-find</loc>
-    <lastmod>2025-08-22</lastmod>
+    <loc>https://bhguides.com/item-find</loc>
+    <lastmod>2025-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://bhguides.com/#/turn-rate</loc>
-    <lastmod>2025-08-22</lastmod>
+    <loc>https://bhguides.com/turn-rate</loc>
+    <lastmod>2025-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://bhguides.com/#/familiar-calc</loc>
-    <lastmod>2025-08-22</lastmod>
+    <loc>https://bhguides.com/familiar-calc</loc>
+    <lastmod>2025-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://bhguides.com/#/rng-me</loc>
-    <lastmod>2025-08-22</lastmod>
+    <loc>https://bhguides.com/rng-me</loc>
+    <lastmod>2025-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
