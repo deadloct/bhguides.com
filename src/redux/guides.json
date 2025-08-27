@@ -3021,6 +3021,22 @@
                             "contenttype": "image/jpg"
                         }
                     ]
+                },
+                {
+                    "name": "Lord_Adman's Video and Text Guide",
+                    "builds": [
+                        "Ancient Speed Bait"
+                    ],
+                    "fams": [
+                        "Kimusaba",
+                        "Lerky"
+                    ],
+                    "attachments": [
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://www.youtube.com/watch?v=JqShVkxfILc&ab_channel=Lord_Adman"
+                        }
+                    ]
                 }
             ]
         },
