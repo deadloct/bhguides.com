@@ -35,16 +35,3 @@
     color: var(--alert-text);
 }
 
-/* Fix z-index issue with Material-UI inputs appearing above mobile nav */
-:global(.MuiFormControl-root),
-:global(.MuiTextField-root),
-:global(.MuiInputBase-root),
-:global(.MuiSelect-root) {
-    z-index: 0 !important;
-}
-
-:global(.MuiPopper-root),
-:global(.MuiMenu-root),
-:global(.MuiModal-root) {
-    z-index: 0 !important;
-}

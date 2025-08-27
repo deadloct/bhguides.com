@@ -1,6 +1,10 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const getInitialTheme = () => {
+  if (typeof window === 'undefined') {
+    return 'dark'; // Default for SSR
+  }
+  
   const savedTheme = localStorage.getItem('bhguides-theme');
   if (savedTheme) {
     return savedTheme;
@@ -23,17 +27,17 @@ const themeSlice = createSlice({
   reducers: {
     toggleTheme: (state) => {
       state.mode = state.mode === 'light' ? 'dark' : 'light';
-      localStorage.setItem('bhguides-theme', state.mode);
-      
-      // Update CSS variables
-      document.documentElement.setAttribute('data-theme', state.mode);
+      if (typeof window !== 'undefined') {
+        localStorage.setItem('bhguides-theme', state.mode);
+        document.documentElement.setAttribute('data-theme', state.mode);
+      }
     },
     setTheme: (state, action) => {
       state.mode = action.payload;
-      localStorage.setItem('bhguides-theme', state.mode);
-      
-      // Update CSS variables
-      document.documentElement.setAttribute('data-theme', state.mode);
+      if (typeof window !== 'undefined') {
+        localStorage.setItem('bhguides-theme', state.mode);
+        document.documentElement.setAttribute('data-theme', state.mode);
+      }
     },
   },
 });

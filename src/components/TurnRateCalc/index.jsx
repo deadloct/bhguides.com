@@ -7,7 +7,7 @@ import TextField from '@mui/material/TextField';
 import Slider from '@mui/material/Slider';
 
 import styles from "./index.module.css";
-import TurnRateEqnSVG from './turn-rate-equation.svg?react';
+import TurnRateEqnSVG from './turn-rate-equation.svg';
 
 const defaultValues = {
     power: 20000,
@@ -185,7 +185,7 @@ export default function TurnRateCalc() {
             </p>
 
             <h3>General Information</h3>
-            <p>Contrary to popular belief, your turn rate isn't just agility!</p>
+            <p>Contrary to popular belief, your turn rate isn&apos;t just agility!</p>
             <p>Quote from the <a href="https://bit-heroes.fandom.com/wiki/Mechanics">BH Wiki:</a></p>
             <blockquote cite="https://bit-heroes.fandom.com/wiki/Mechanics">
                 As of 3/26/2017: Agility has been reworked. Turn rates are now based on a sum of power and agility.
@@ -206,7 +206,7 @@ export default function TurnRateCalc() {
             <h3>What do I need to know?</h3>
             <p>
                 The more power your character has, the slower they will be. Turn rate is inversely proportional to your
-                power because it's the denominator in the equation above.
+                power because it&apos;s the denominator in the equation above.
             </p>
             <p>
                 Speed bonuses act as a multiplier for your turn rate. For example if there was one build with 0% speed

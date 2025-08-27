@@ -25,11 +25,6 @@ import styles from "./index.module.css";
 import { VerticalSpacing } from "../Tools/utils";
 
 export default function RNGME() {
-    const LegChance = {
-        small: 0.001,
-        large: 0.034,
-        mega: 0.213,
-    };
 
     const DefaultPrices = {
         small: 180,
@@ -50,6 +45,11 @@ export default function RNGME() {
     const [results, setResults] = useState(null);
 
     useEffect(() => {
+        const LegChance = {
+            small: 0.001,
+            large: 0.034,
+            mega: 0.213,
+        };
         const prob = LegChance[eggSize];
         const overall = 1 - Math.pow(1 - prob, eggCount);
         const pct = `${(overall * 100).toFixed(4)}%`;
@@ -305,7 +305,7 @@ export default function RNGME() {
 
             <section id="fams">
                 <h2>Familiar Persuades</h2>
-                <p><em>"Why did Grampz reject me 10 times in a row?! 20% chance my ass!" --noobs</em></p>
+                <p><em>&quot;Why did Grampz reject me 10 times in a row?! 20% chance my ass!&quot; --noobs</em></p>
                 <Box mt={VerticalSpacing} flexDirection="column">
                     <FormControl fullWidth>
                         <TextField id="win-chance"

@@ -1,0 +1,13 @@
+/* Fix z-index issue with Material-UI inputs appearing above mobile nav */
+.MuiFormControl-root,
+.MuiTextField-root,
+.MuiInputBase-root,
+.MuiSelect-root {
+    z-index: 0 !important;
+}
+
+.MuiPopper-root,
+.MuiMenu-root,
+.MuiModal-root {
+    z-index: 0 !important;
+}

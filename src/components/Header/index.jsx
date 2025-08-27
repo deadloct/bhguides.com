@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
+import Image from "next/image";
 import useMediaQuery from '@mui/material/useMediaQuery'
 
 import styles from "./index.module.css";
@@ -53,11 +54,13 @@ export default function Header() {
                 <div className={styles["site-title-row"]}>
                     <h1>Bit Heroes Guides</h1>
                     <div className={styles["logo"]}>
-                        <Link to="/">
-                            <img
-                                srcSet="/logo-640.jpg 640w, /logo-320.jpg 320w, /logo-180.jpg 180w"
+                        <Link href="/">
+                            <Image
                                 src="/logo-640.jpg"
                                 alt="BH Guides Logo"
+                                width={640}
+                                height={180}
+                                sizes="(max-width: 320px) 180w, (max-width: 640px) 320w, 640w"
                             />
                         </Link>
                     </div>
@@ -74,7 +77,7 @@ export default function Header() {
                     <ul>
                         {navs.map((nav, i) => (
                             <li key={nav.key}>
-                                <Link to={nav.path} onFocus={focus} onBlur={blur} onClick={toggle}>{nav.text}</Link>
+                                <Link href={nav.path} onFocus={focus} onBlur={blur} onClick={toggle}>{nav.text}</Link>
                             </li>
                         ))}
                     </ul>

@@ -4,20 +4,20 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Development Commands
 
-- **Start development server**: `npm start` - Runs Vite dev server
-- **Build for production**: `npm run build` - Creates production build in `build/` directory  
-- **Preview production build**: `npm run serve` - Serves the built application locally
+- **Start development server**: `npm run dev` - Runs Next.js dev server with SSR
+- **Build for production**: `npm run build` - Creates static export in `out/` directory  
+- **Start production server**: `npm start` - Serves the built application
 - **Run tests**: `npm test` - Runs unit tests using Vitest
 
 ## Architecture Overview
 
-This is a React 18 single-page application for bhguides.com, a community resource for Bit Heroes guides and game calculators.
+This is a React 18 server-side rendered application for bhguides.com, a community resource for Bit Heroes guides and game calculators.
 
 ### Tech Stack
 - **Frontend Framework**: React 18 with Material-UI v6
-- **Build Tool**: Vite
+- **Build Tool**: Next.js with static export
 - **State Management**: Redux Toolkit
-- **Routing**: React Router DOM v6 (HashRouter)
+- **Routing**: Next.js Pages Router (file-based routing)
 - **Styling**: CSS Modules + Material-UI components
 - **Testing**: Vitest
 - **Markdown Support**: react-markdown v9
@@ -25,9 +25,9 @@ This is a React 18 single-page application for bhguides.com, a community resourc
 ### Key Application Structure
 
 **Main App Flow**:
-- `src/App.jsx` - Root component with Material-UI dark theme setup
-- `src/components/Home/index.jsx` - Main router component with HashRouter
-- Default route (`/`) renders the Guides component
+- `pages/_app.js` - Root component with Material-UI theme setup and Redux Provider
+- `pages/index.js` - Home page that renders the Guides component
+- File-based routing with individual pages for each route
 
 **Redux Store** (`src/redux/store.js`):
 - `calc` - Calculator options and state

@@ -1,6 +1,5 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { useSelector } from "react-redux";
-import { HashLink } from 'react-router-hash-link';
 import Container from '@mui/material/Container';
 
 import styles from "./index.module.css";
@@ -194,7 +193,7 @@ export default function Guides() {
         } else {
             results = cat.isSearch ?
                 <p>There are no matched guides for your search.</p> :
-                <p>There are no guides in this category"</p>;
+                <p>There are no guides in this category</p>;
         }
 
         // For search results, don't show header separately - just show results directly
@@ -244,13 +243,13 @@ export default function Guides() {
                     children = item.children.map((child, i) => {
                         const anchor = child.id;
                         const name = child.name || categories[anchor].webname;
-                        return <li className={styles["toc-child"]} key={`toc-${i}`}><HashLink to={`#${anchor}`}>{name}</HashLink></li>;
+                        return <li className={styles["toc-child"]} key={`toc-${i}`}><a href={`#${anchor}`}>{name}</a></li>;
                     });
                 }
 
                 return (
                     <li key={`toc-${i}`}>
-                        <HashLink to={`#${anchor}`}>{name}</HashLink>
+                        <a href={`#${anchor}`}>{name}</a>
                         {children !== undefined && <ul>{children}</ul>}
                     </li>
                 );
@@ -318,7 +317,7 @@ export default function Guides() {
                 <p><strong>Honorable Mentions:</strong> Hip224, Robskino</p>
                 <p>Thanks to anybody else that helped but was not mentioned because I forgot!</p>
             </footer>
-            <div className={styles["back-home"]}><HashLink to={"#top"}><ArrowCircleUpIcon fontSize="large" /></HashLink></div>
+            <div className={styles["back-home"]}><a href={"#top"}><ArrowCircleUpIcon fontSize="large" /></a></div>
             {disclaimerVisible && (
                 <div className={styles["floating-disclaimer"]}>
                     <WarningAmberIcon fontSize="small" />
