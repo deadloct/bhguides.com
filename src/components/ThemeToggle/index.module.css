@@ -1,8 +1,10 @@
 .theme-toggle-container {
     display: flex;
+    justify-content: center;
     align-items: center;
     gap: 0.5rem;
     padding: 0.2rem;
+    margin-bottom: 3rem;
 }
 
 .sun-icon, .moon-icon {

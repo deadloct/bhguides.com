@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { useState, useEffect } from "react";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import { Container, Grid } from '@mui/material';
@@ -83,9 +84,19 @@ export default function Footer() {
                 </Grid>
             </Container>
             <div className={styles["theme-toggle-container"]}>
+                <p><strong>Toggle Light &amp; Dark Mode</strong></p>
                 <ThemeToggle />
             </div>
-            <p>This site is not affiliated in any way with Kongregate, Juppiomenz, or Bit Heroes.</p>
+            <div className={styles["footer-logo"]}>
+                <p><strong>The Best Logo Ever</strong></p>
+                <Image
+                    src="/logo-bit-320.png"
+                    alt="BH Guides Logo"
+                    width={200}
+                    height={200}
+                />
+            </div>
+            <p className={styles["non-affiliation"]}>This site is not affiliated with Monumental, Kongregate, or Juppiomenz.</p>
         </footer>
     );
 }
