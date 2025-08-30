@@ -39,7 +39,7 @@ This is a React 18 server-side rendered application for bhguides.com, a communit
 - `Tools/` - Item find calculators (capture rate, standard IF, simple IF)
 - `TurnRateCalc/` - Turn rate calculation tool
 - `FamiliarCalc/` - Familiar damage calculator  
-- `RNGME/` - Random number generation utility
+- `Eggs/` - Egg and accessory chest calculator
 - `Header/` - Navigation header with theme toggle
 - `Footer/` - Site footer
 - `ThemeToggle/` - Dark/light theme switching component

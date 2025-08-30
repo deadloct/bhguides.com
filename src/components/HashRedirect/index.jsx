@@ -17,7 +17,7 @@ const HashRedirect = () => {
                 '#/item-find': '/item-find',
                 '#/turn-rate': '/turn-rate', 
                 '#/familiar-calc': '/familiar-calc',
-                '#/rng-me': '/rng-me'
+                '#/rng-me': '/eggs'
             };
 
             // Find matching route by checking if hash starts with any known route

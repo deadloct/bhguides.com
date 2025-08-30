@@ -18,7 +18,7 @@ import Paper from '@mui/material/Paper';
 import styles from "./index.module.css";
 import { VerticalSpacing } from "../Tools/utils";
 
-export default function RNGME() {
+export default function Eggs() {
 
     const DefaultPrices = {
         small: 180,
@@ -52,7 +52,7 @@ export default function RNGME() {
     }
 
     return (
-        <Container className={styles["outer-container"]} maxWidth="md" key="rngmecontainer">
+        <Container className={styles["outer-container"]} maxWidth="md" key="eggscontainer">
             <section id="pets">
                 <h2>Egg and Accessory Chest Calculator</h2>
                 <p>Fishing for a legendary? Here are your chances!</p>

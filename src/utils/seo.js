@@ -27,10 +27,10 @@ const ROUTE_META = {
         description: "Calculate familiar stats given a players stats to optimize familiar and fusions for maximum effectiveness in Bit Heroes.",
         keywords: "Bit Heroes familiar calculator, damage calculator, familiar and fusion information, familiar optimization"
     },
-    "/rng-me": {
-        title: "RNG Tool - Bit Heroes Guides", 
-        description: "Random number generation utility for Bit Heroes players. Generate random numbers for various game mechanics and decisions.",
-        keywords: "random number generator, RNG, Bit Heroes RNG, gaming utility"
+    "/eggs": {
+        title: "Egg Calculator - Bit Heroes Guides", 
+        description: "Calculate egg opening chances and legendary drop rates for Bit Heroes. Optimize your egg opening strategy.",
+        keywords: "Bit Heroes egg calculator, legendary drop rates, egg opening, pet eggs, accessory chests"
     }
 };
 

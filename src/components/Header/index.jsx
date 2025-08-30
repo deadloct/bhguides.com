@@ -44,7 +44,7 @@ export default function Header() {
         {key: "calculators-ifcr", path: "/item-find", text: "Item Find"},
         {key: "calculator-turnrate", path: "/turn-rate", text: "Turn Rate"},
         {key: "calculator-familiar", path: "/familiar-calc", text: "Fams"},
-        {key: "calculator-rngme", path: "/rng-me", text: "Eggs"},
+        {key: "calculator-eggs", path: "/eggs", text: "Eggs"},
     ];
 
     return (
