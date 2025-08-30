@@ -61,20 +61,20 @@ export default function Footer() {
                                 {loading ? (
                                     <div className={styles["loading-badge"]}>Loading...</div>
                                 ) : latestCommit ? (
-                                    <div className={styles["commit-container"]}>
-                                        <div className={styles["commit-header"]}>
-                                            <GitHubIcon className={styles["github-icon"]} />
+                                        <div className={styles["commit-container"]}>
+                                            <div className={styles["commit-header"]}>
+                                                <GitHubIcon className={styles["github-icon"]} />
+                                            </div>
+                                            <div className={styles["commit-message"]}>
+                                                <strong>Most Recent Change</strong>
+                                                <br />
+                                                {latestCommit.commit.message}
+                                                <br />
+                                                <a href={latestCommit.html_url} className={styles["commit-date"]} target="_blank" rel="noopener noreferrer">{d.toLocaleString()}</a>
+                                                &nbsp;&ndash;&nbsp;
+                                                <a href="https://github.com/deadloct/bhguides.com/commits/master/" className={styles["changelog-link"]}>Full Changelog</a>
+                                            </div>
                                         </div>
-                                        <div className={styles["commit-message"]}>
-                                            <strong>Most Recent Change</strong><br />
-                                            {latestCommit.commit.message}
-                                            <br />
-                                            <a href={latestCommit.html_url} className={styles["commit-date"]} target="_blank" rel="noopener noreferrer">{d.toLocaleString()}</a>
-                                            &nbsp;&ndash;&nbsp;
-                                            <a href="https://github.com/deadloct/bhguides.com/commits/master/" className={styles["changelog-link"]}>Full Changelog</a>
-                                        </div>
-                                        
-                                    </div>
                                 ) : (
                                     <div className={styles["error-badge"]}>Unable to load commit</div>
                                 )}
