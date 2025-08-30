@@ -83,10 +83,12 @@ export default function Footer() {
                     </Grid>
                 </Grid>
             </Container>
+            {/* Light mode disabled temporarily
             <div className={styles["theme-toggle-container"]}>
                 <p><strong>Toggle Light &amp; Dark Mode</strong></p>
                 <ThemeToggle />
             </div>
+            */}
             <div className={styles["footer-logo"]}>
                 <p><strong>The Best Logo Ever</strong></p>
                 <Image

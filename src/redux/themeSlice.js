@@ -1,19 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const getInitialTheme = () => {
-  if (typeof window === 'undefined') {
-    return 'dark'; // Default for SSR
-  }
-  
-  const savedTheme = localStorage.getItem('bhguides-theme');
-  if (savedTheme) {
-    return savedTheme;
-  }
-  
-  if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) {
-    return 'light';
-  }
-  
+  // Light mode disabled - always return dark
   return 'dark';
 };
 
