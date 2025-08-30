@@ -7,8 +7,8 @@
   --hover-link-color: rgb(97, 207, 237);
   --app-link-color: var(--main-link-color);
 
-  --header-background-color: #fdd379;
-  --header-text-color: var(--main-background-color);
+  --theme-toggle-background-color: #282c34;
+  --header-text-color: rgb(30, 30, 30);
 
   --footer-background-color: #282c34;
   --footer-text-color: white;
@@ -39,7 +39,7 @@
   --hover-link-color: rgb(21, 101, 192);
   --app-link-color: var(--main-link-color);
 
-  --header-background-color: #fdd379;
+  --theme-toggle-background-color: white;
   --header-text-color: rgb(30, 30, 30);
 
   --footer-background-color: rgb(248, 249, 250);
@@ -85,7 +85,6 @@ h1,
 h2,
 h3,
 h4 {
-    font-family: "Courier New", Courier, monospace;
     font-weight: bold;
 }
 
@@ -97,7 +96,6 @@ h1 {
 
 h1 a,
 h1 a:visited {
-  font-family: "Courier New", Courier, monospace;
   text-decoration: none;
   color: var(--main-text-color)
 }

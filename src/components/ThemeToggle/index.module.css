@@ -53,7 +53,7 @@
     top: 0.125rem;
     width: 1.25rem;
     height: 1.25rem;
-    background-color: var(--header-background-color);
+    background-color: var(--theme-toggle-background-color);
     border-radius: 50%;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease-in-out;

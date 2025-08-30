@@ -1,3 +1,8 @@
+.outer-container {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
 .bubble {
     padding: 1rem 0;
     margin: 1rem 0;

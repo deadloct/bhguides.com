@@ -4,7 +4,14 @@
     text-align: center;
     width: 100%;
     color: var(--header-text-color);
-    background-color: var(--header-background-color);
+    background-image: url('/header-background-full.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .site-header * {
@@ -22,17 +29,17 @@
 .site-title-row .logo {
     margin: 0;
     padding: 0;
-    height: 160px;
     margin: 0.5rem;
 }
 
 .site-title-row .logo img {
-    width: 160px;
+    width: 360px;
     height: auto;
 }
 
-.site-header nav {
-    background-color: var(--header-background-color);
+.site-header .nav-wrapper {
+    display: flex;
+    flex-direction: row;
 }
 
 .site-header nav ul {
@@ -40,27 +47,26 @@
     display: flex;
     justify-content: center;
     padding-left: 0;
-    margin: 0;
+    margin: 0 1rem 0 0;
 }
 
 .site-header nav li {
     list-style-type: none;
     margin: 0.5rem 1rem;
-    font-size: 1.2rem;
     white-space: nowrap;
 }
 
 .site-header nav a,
 .site-header nav a:visited {
-  font-family: "Courier New", Courier, monospace;
-  text-decoration: none;
-  color: var(--header-text-color);
+    text-decoration: none;
+    color: var(--header-text-color);
+    font-weight: bold;
+    font-size: 1.2rem;
 }
 
 .site-header nav a:active,
 .site-header nav a:hover {
-  text-decoration: underline;
-  color: var(--header-text-color);
+    color: var(--header-text-color);
 }
 
 .header-controls {
@@ -74,13 +80,13 @@
     display: none;
 }
 
-@media all and (min-width: 900px) {
+@media all and (min-width: 1000px) {
     .menu-toggle {
         display: none !important;
     }
 }
 
-@media all and (max-width: 899px) {
+@media all and (max-width: 999px) {
     .site-header {
         position: relative;
     }
@@ -92,15 +98,8 @@
         align-items: center;
     }
 
-    .site-title-row .logo {
-        margin: 0;
-        padding: 0;
-        height: 80px;
-        margin: 0;
-    }
-    
     .site-title-row .logo img {
-        width: 80px;
+        width: 240px;
         height: auto;
     }
 
@@ -124,6 +123,7 @@
         top: 100%;
         right: 0;
         border-radius: 0 0 0 20px;
+        background-color: white;
     }
     
     .site-header nav.collapsed {

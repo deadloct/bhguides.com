@@ -3,7 +3,7 @@
     margin-bottom: 3rem;
 }
 
-.outer-container section {
+.outer-container section:not(:first-child) {
     margin: 3rem 0;
 }
 

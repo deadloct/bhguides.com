@@ -235,9 +235,9 @@ export default function RNGME() {
     }
 
     return (
-        <Container className={styles["outer-container"]} maxWidth="md">
+        <Container className={styles["outer-container"]} maxWidth="md" key="rngmecontainer">
             <section id="pets">
-                <h2>Pets and Accessories</h2>
+                <h2>Egg and Accessory Chest Calculator</h2>
                 <p>Fishing for a legendary? Here are your chances!</p>
                 <Box mt={VerticalSpacing} flexDirection="column">
                     <FormControl fullWidth>

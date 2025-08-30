@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import { Container, Grid } from '@mui/material';
 import styles from "./index.module.css";
+import ThemeToggle from '../ThemeToggle';
 
 export default function Footer() {
     const [latestCommit, setLatestCommit] = useState(null);
@@ -28,10 +29,10 @@ export default function Footer() {
 
     const navs = [
         {key: "calculators-guides", path: "/", text: "Guides"},
-        {key: "calculators-ifcr", path: "/item-find", text: "IF/CR Calculators"},
-        {key: "calculator-turnrate", path: "/turn-rate", text: "Turn Rate Calculator"},
-        {key: "calculator-familiar", path: "/familiar-calc", text: "Familiar Calculator"},
-        {key: "calculator-rngme", path: "/rng-me", text: "RNG ME"},
+        {key: "calculators-ifcr", path: "/item-find", text: "Item Find"},
+        {key: "calculator-turnrate", path: "/turn-rate", text: "Turn Rate"},
+        {key: "calculator-familiar", path: "/familiar-calc", text: "Fams"},
+        {key: "calculator-rngme", path: "/rng-me", text: "Eggs"},
     ];
 
 
@@ -81,6 +82,9 @@ export default function Footer() {
                     </Grid>
                 </Grid>
             </Container>
+            <div className={styles["theme-toggle-container"]}>
+                <ThemeToggle />
+            </div>
             <p>This site is not affiliated in any way with Kongregate, Juppiomenz, or Bit Heroes.</p>
         </footer>
     );

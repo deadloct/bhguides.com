@@ -8,14 +8,13 @@ import styles from "./index.module.css";
 import MenuIcon from '@mui/icons-material/Menu';
 import ClearIcon from '@mui/icons-material/Clear';
 
-import ThemeToggle from '../ThemeToggle';
 
 export default function Header() {
     const [visible, setVisible] = useState(false);
     const navRef = useRef(null);
 
     // Pixel value matches css
-    const mobile = useMediaQuery('(max-width:899px)');
+    const mobile = useMediaQuery('(max-width:1059px)');
 
     const toggle = () => mobile && setVisible(!visible);
     const blur = () => mobile && setVisible(false);
@@ -42,30 +41,42 @@ export default function Header() {
 
     const navs = [
         {key: "calculators-guides", path: "/", text: "Guides"},
-        {key: "calculators-ifcr", path: "/item-find", text: "IF/CR Calculators"},
-        {key: "calculator-turnrate", path: "/turn-rate", text: "Turn Rate Calculator"},
-        {key: "calculator-familiar", path: "/familiar-calc", text: "Familiar Calculator"},
-        {key: "calculator-rngme", path: "/rng-me", text: "RNG ME"},
+        {key: "calculators-ifcr", path: "/item-find", text: "Item Find"},
+        {key: "calculator-turnrate", path: "/turn-rate", text: "Turn Rate"},
+        {key: "calculator-familiar", path: "/familiar-calc", text: "Fams"},
+        {key: "calculator-rngme", path: "/rng-me", text: "Eggs"},
     ];
 
     return (
         <>
             <header className={headerClasses.join(" ")}>
                 <div className={styles["site-title-row"]}>
-                    <h1>Bit Heroes Guides</h1>
                     <div className={styles["logo"]}>
                         <Link href="/">
                             <Image
-                                src="/logo-640.jpg"
+                                src="/logo-text-640.png"
                                 alt="BH Guides Logo"
                                 width={640}
                                 height={180}
                                 sizes="(max-width: 320px) 180w, (max-width: 640px) 320w, 640w"
                             />
+                            <h1>BH Guides</h1>
                         </Link>
                     </div>
+                </div>
+                    
+                <div className={styles["nav-wrapper"]}>
+                    <nav ref={navRef} className={navClass}>
+                        <ul>
+                            {navs.map((nav, i) => (
+                                <li key={nav.key}>
+                                    <Link href={nav.path} onFocus={focus} onBlur={blur} onClick={toggle}>{nav.text}</Link>
+                                </li>
+                            ))}
+                        </ul>
+                    </nav>
+
                     <div className={styles["header-controls"]}>
-                        <ThemeToggle />
                         <div onClick={toggle} className={styles["menu-toggle"]}>
                             {visible ?
                                 <ClearIcon fontSize={"inherit"} className={styles["menu-icon"]} /> :
@@ -73,15 +84,6 @@ export default function Header() {
                         </div>
                     </div>
                 </div>
-                <nav ref={navRef} className={navClass}>
-                    <ul>
-                        {navs.map((nav, i) => (
-                            <li key={nav.key}>
-                                <Link href={nav.path} onFocus={focus} onBlur={blur} onClick={toggle}>{nav.text}</Link>
-                            </li>
-                        ))}
-                    </ul>
-                </nav>
             </header>
         </>
     );

@@ -63,7 +63,7 @@ export default function FamiliarCalc() {
     }
 
     return (
-        <Container maxWidth="md" sx={{ py: 4 }}>
+        <Container key="famcalc" className={styles["outer-container"]} maxWidth="md">
             <h2>Familiar Stats Calculator</h2>
             {disclaimerVisible && (
                 <div className={`${styles["bubble"]} ${styles["ext-link-risk"]}`}>
