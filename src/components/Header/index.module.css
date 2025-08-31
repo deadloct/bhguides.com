@@ -1,6 +1,6 @@
 .site-header {
     margin: 0;
-    padding: 1rem 1rem;
+    padding: 1rem 0;
     text-align: center;
     width: 100%;
     color: var(--header-text-color);
@@ -8,6 +8,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    line-height: 4rem;
 }
 
 .site-header * {
@@ -25,7 +26,7 @@
 .site-title-row .logo {
     margin: 0;
     padding: 0;
-    margin: 0.5rem;
+    margin-right: 0.5rem;
 }
 
 .site-title-row .logo img {
@@ -94,11 +95,21 @@
         height: auto;
     }
 
+    .nav-wrapper .header-controls {
+        background-color: white;
+        border-radius: 20px 20px 0 0; /* match nav border-radius */
+    }
+
+    .nav-wrapper.collapsed .header-controls {
+        background-color: initial;
+    }
+
     .menu-toggle {
         display: initial;
         font-size: 2.6rem;
         line-height: 2.6rem;
         cursor: pointer;
+        line-height: 4rem; /* match header line-height */
     }
 
     .menu-toggle svg {
@@ -113,20 +124,23 @@
         padding: 1rem;
         z-index: 1;
         text-align: right;
-        border-radius: 20px 0 0 20px;
+        border-radius: 20px 0 20px 20px;
         background-color: white;
     }
    
-    .site-header nav.collapsed {
+    .site-header .nav-wrapper.collapsed nav {
         display: none;
     }
  
     .site-header nav ul {
         flex-direction: column;
+        margin-right: 0;
+        padding-right: 0;
     }
 
     .site-header nav li {
         margin-right: 0;
+        line-height: 1rem;
     }
 
     .site-header nav .lidivider {

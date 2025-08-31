@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
+import Container from '@mui/material/Container';
 import Link from "next/link";
 import Image from "next/image";
 import useMediaQuery from '@mui/material/useMediaQuery'
@@ -37,7 +38,10 @@ export default function Header() {
         headerClasses.push(styles["mobile"]);
     }
 
-    const navClass = mobile && !visible ? styles["collapsed"] : "";
+    const navWrapperClasses = [styles["nav-wrapper"]];
+    if (mobile && !visible) {
+        navWrapperClasses.push(styles["collapsed"]);
+    }
 
     const navs = [
         {key: "calculators-guides", path: "/", text: "Guides"},
@@ -48,7 +52,7 @@ export default function Header() {
     ];
 
     return (
-        <>
+        <Container key="header-container" className={styles["wrapper"]} maxWidth="md">
             <header className={headerClasses.join(" ")}>
                 <div className={styles["site-title-row"]}>
                     <div className={styles["logo"]}>
@@ -64,9 +68,9 @@ export default function Header() {
                         </Link>
                     </div>
                 </div>
-                    
-                <div className={styles["nav-wrapper"]}>
-                    <nav ref={navRef} className={navClass}>
+
+                <div className={navWrapperClasses.join(" ")}>
+                    <nav ref={navRef}>
                         <ul>
                             {navs.map((nav, i) => (
                                 <li key={nav.key}>
@@ -85,6 +89,6 @@ export default function Header() {
                     </div>
                 </div>
             </header>
-        </>
+        </Container>
     );
 }
