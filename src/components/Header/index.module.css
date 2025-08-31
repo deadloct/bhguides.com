@@ -127,7 +127,7 @@
 
     .site-header nav {
         position: absolute;
-        top: calc(100% - 1rem);
+        top: calc(100% - 2rem);
         right: 0;
         padding: 1rem;
         z-index: 1;
