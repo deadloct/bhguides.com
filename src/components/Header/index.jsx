@@ -39,8 +39,8 @@ export default function Header() {
     }
 
     const navWrapperClasses = [styles["nav-wrapper"]];
-    if (mobile && !visible) {
-        navWrapperClasses.push(styles["collapsed"]);
+    if (mobile && visible) {
+        navWrapperClasses.push(styles["expanded"]);
     }
 
     const navs = [

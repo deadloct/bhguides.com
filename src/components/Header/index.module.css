@@ -99,13 +99,9 @@
         height: auto;
     }
 
-    .nav-wrapper .header-controls {
+    .nav-wrapper.expanded .header-controls {
         background-color: white;
         border-radius: 20px 20px 0 0; /* match nav border-radius */
-    }
-
-    .nav-wrapper.collapsed .header-controls {
-        background-color: initial;
     }
 
     .menu-toggle {
@@ -130,10 +126,11 @@
         text-align: right;
         border-radius: 20px 0 20px 20px;
         background-color: white;
+        display: none;
     }
    
-    .site-header .nav-wrapper.collapsed nav {
-        display: none;
+    .site-header .nav-wrapper.expanded nav {
+        display: block;
     }
  
     .site-header nav ul {
