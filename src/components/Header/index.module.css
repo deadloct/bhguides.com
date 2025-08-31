@@ -50,8 +50,12 @@
 
 .site-header nav li {
     list-style-type: none;
-    margin: 0.5rem 1rem;
+    margin: 0.5rem 0.75rem;
     white-space: nowrap;
+}
+
+.site-header nav li:last-child {
+    margin-right: 0;
 }
 
 .site-header nav a,
