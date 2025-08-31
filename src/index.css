@@ -8,8 +8,10 @@
   --hover-link-color: rgb(193, 241, 254);
   --app-link-color: var(--main-link-color);
   --nav-background-color: white;
-  --nav-link-color: var(--logo-blue);
-  --nav-link-hover-color: var(--main-link-color);
+  --nav-link-color-desktop: var(--main-link-color);
+  --nav-link-hover-color-desktop: var(--hover-link-color);
+  --nav-link-color-mobile: var(--logo-blue);
+  --nav-link-hover-color-mobile: var(--main-link-color);
 
   --theme-toggle-background-color: #282c34;
   --header-text-color: white;
@@ -44,8 +46,10 @@
   --hover-link-color: rgb(21, 101, 192);
   --app-link-color: var(--main-link-color);
   --nav-background-color: var(--logo-blue);
-  --nav-link-color: white;
-  --nav-link-hover-color: rgb(173, 216, 230);
+  --nav-link-color-desktop: white;
+  --nav-link-hover-color-desktop: rgb(173, 216, 230);
+  --nav-link-color-mobile: white;
+  --nav-link-hover-color-mobile: rgb(173, 216, 230);
 
   --theme-toggle-background-color: white;
   --header-text-color: var(--logo-blue);
