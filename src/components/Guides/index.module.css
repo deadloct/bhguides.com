@@ -104,14 +104,14 @@
     font-size: 1rem;
 }
 
-.wrapper a {
+.wrapper a, .wrapper a:visited {
     color: var(--main-link-color);
     text-decoration: none;
     overflow-wrap: break-word;
 }
 
-.wrapper a:active, .wrapper a:hover, .wrapper a:visited {
-    text-decoration: underline;
+.wrapper a:active, .wrapper a:hover  {
+    color: var(--hover-link-color);
 }
 
 .content {
@@ -183,6 +183,14 @@
     margin-top: 0;
 }
 
+.category-branch-group {
+    margin: 3rem 0;
+}
+
+.category-leaf-group {
+    margin: 3rem 0;
+}
+
 .guide-item {
     padding: 1rem 0;
 }
@@ -207,9 +215,9 @@
     color: var(--main-link-color);
 }
 
+.attachment-item a:hover,
 .attachment-item .att-name:hover {
     color: var(--hover-link-color);
-    text-decoration: underline;
 }
 
 .attachment-item .att-type {

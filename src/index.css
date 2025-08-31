@@ -7,9 +7,12 @@
   --main-link-color: var(--logo-blue);
   --hover-link-color: rgb(97, 207, 237);
   --app-link-color: var(--main-link-color);
+  --nav-background-color: white;
+  --nav-link-color: var(--main-link-color);
+  --nav-link-hover-color: var(--hover-link-color);
 
   --theme-toggle-background-color: #282c34;
-  --header-text-color: var(--logo-blue);
+  --header-text-color: white;
 
   --footer-background-color: #282c34;
   --footer-text-color: white;
@@ -41,9 +44,12 @@
   --main-link-color: var(--logo-blue);
   --hover-link-color: rgb(21, 101, 192);
   --app-link-color: var(--main-link-color);
+  --nav-background-color: var(--logo-blue);
+  --nav-link-color: white;
+  --nav-link-hover-color: rgb(173, 216, 230);
 
   --theme-toggle-background-color: white;
-  --header-text-color: rgb(30, 30, 30);
+  --header-text-color: var(--logo-blue);
 
   --footer-background-color: rgb(248, 249, 250);
   --footer-text-color: rgb(30, 30, 30);
@@ -121,7 +127,6 @@ a:visited {
 
 a:active,
 a:hover {
-  text-decoration: underline;
   color: var(--hover-link-color);
 }
 

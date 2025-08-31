@@ -58,7 +58,7 @@ export default function Header() {
                     <div className={styles["logo"]}>
                         <Link href="/">
                             <Image
-                                src="/logo-text-640.png"
+                                src="/logo-text-white-640.png"
                                 alt="BH Guides Logo"
                                 width={640}
                                 height={180}

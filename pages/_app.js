@@ -32,32 +32,19 @@ function AppContent({ Component, pageProps }) {
         palette: {
             mode: themeMode,
         },
-        components: {
-            MuiOutlinedInput: {
-                styleOverrides: {
-                    notchedOutline: {
-                        borderColor: themeMode === 'light' ? 'rgba(0, 0, 0, 0.23)' : undefined,
-                    },
-                    root: {
-                        '&:hover .MuiOutlinedInput-notchedOutline': {
-                            borderColor: themeMode === 'light' ? 'rgba(0, 0, 0, 0.87)' : undefined,
-                        },
-                        '&.Mui-focused .MuiOutlinedInput-notchedOutline': {
-                            borderColor: themeMode === 'light' ? '#1976d2' : undefined,
-                        },
-                    },
-                },
-            },
-        },
     }), [themeMode]);
 
     return (
         <ThemeProvider theme={theme}>
             <CssBaseline />
-            <HashRedirect />
-            <Header />
-            <Component {...pageProps} />
-            <Footer />
+            <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
+                <HashRedirect />
+                <Header />
+                <main style={{ flex: 1 }}>
+                    <Component {...pageProps} />
+                </main>
+                <Footer />
+            </div>
         </ThemeProvider>
     );
 }

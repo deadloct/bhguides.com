@@ -12,11 +12,8 @@
 }
 
 .site-footer a,
-.site-footer a:active,
-.site-footer a:hover,
 .site-footer a:visited {
     color: var(--footer-link-color);
-    text-decoration: underline;
 }
 
 .site-footer p {

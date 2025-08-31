@@ -199,7 +199,7 @@ export default function Guides() {
         // For search results, don't show header separately - just show results directly
         if (cat.isSearch) {
             return (
-                <div key={`${catID}-${i}`}>
+                <div key={`${catID}-${i}`} className={styles["category-leaf-group"]}>
                     <h2>{cat.webname}</h2>
                     <div className={styles["category-description"]}>{cat.description}</div>
                     {results}
@@ -208,7 +208,7 @@ export default function Guides() {
         }
 
         return (
-            <div key={`${catID}-${i}`}>
+            <div key={`${catID}-${i}`} className={styles["category-leaf-group"]}>
                 {header}
                 <div className={styles["category-description"]}>{cat.description}</div>
                 {results}
@@ -222,7 +222,7 @@ export default function Guides() {
         }
 
         return (
-            <div key={`${indexEntry.id}-${i}`}>
+            <div key={`${indexEntry.id}-${i}`} className={styles["category-branch-group"]}>
                 <h2 id={`${indexEntry.id}`}>{indexEntry.name}</h2>
                 <ul>{
                     indexEntry.children.map((child, i) => {

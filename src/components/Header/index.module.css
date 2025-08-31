@@ -11,10 +11,6 @@
     line-height: 4rem;
 }
 
-.site-header * {
-    color: var(--header-text-color);
-}
-
 .site-header p {
     margin: 0;
 }
@@ -60,16 +56,15 @@
 
 .site-header nav a,
 .site-header nav a:visited {
+    color: var(--nav-link-color);
     text-decoration: none;
     font-weight: normal;
     font-size: 1.2rem;
 }
 
-.header-controls {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.5rem;
+.site-header nav a:hover,
+.site-header nav a:active {
+    color: var(--nav-link-hover-color);
 }
 
 .menu-toggle {
@@ -99,8 +94,18 @@
         height: auto;
     }
 
+    .nav-wrapper .header-controls {
+        color: var(--header-text-color);
+        fill: var(--header-text-color);
+        border-radius: 10px;
+        border: 3px solid var(--header-text-color);
+    }
+
     .nav-wrapper.expanded .header-controls {
-        background-color: white;
+        color: var(--nav-link-color);
+        fill: var(--nav-link-color);
+        background-color: var(--nav-background-color);
+        border: 3px solid var(--nav-background-color);
         border-radius: 20px 20px 0 0; /* match nav border-radius */
     }
 
@@ -110,9 +115,12 @@
         line-height: 2.6rem;
         cursor: pointer;
         line-height: 4rem; /* match header line-height */
+        padding: 0 1rem;
     }
 
     .menu-toggle svg {
+        display: inline-block;
+        line-height: 4rem; /* match header line-height */
         border-radius: 3px;
         vertical-align: middle;
     }
@@ -125,7 +133,7 @@
         z-index: 1;
         text-align: right;
         border-radius: 20px 0 20px 20px;
-        background-color: white;
+        background-color: var(--nav-background-color);
         display: none;
     }
    

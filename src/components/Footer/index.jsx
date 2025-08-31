@@ -4,7 +4,6 @@ import { useState, useEffect } from "react";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import { Container, Grid } from '@mui/material';
 import styles from "./index.module.css";
-import ThemeToggle from '../ThemeToggle';
 
 export default function Footer() {
     const [latestCommit, setLatestCommit] = useState(null);
@@ -83,12 +82,6 @@ export default function Footer() {
                     </Grid>
                 </Grid>
             </Container>
-            {/* Light mode disabled temporarily
-            <div className={styles["theme-toggle-container"]}>
-                <p><strong>Toggle Light &amp; Dark Mode</strong></p>
-                <ThemeToggle />
-            </div>
-            */}
             <div className={styles["footer-logo"]}>
                 <Image
                     src="/logo-bit-320.png"
