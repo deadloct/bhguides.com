@@ -29,7 +29,8 @@
         ]},
         {"id": "misc"},
         {"id": "nft"},
-        {"id": "the-talisman-archives", "name": "The Talisman Archives"}
+        {"id": "the-talisman-archives", "name": "The Talisman Archives"},
+        {"id": "world-boss", "name": "World Boss"}
     ],
     "guides": {
         "ancients-general": {
@@ -3167,6 +3168,22 @@
                             "attachmenttype": "markdown"
                         }
                     ]
+                }
+            ]
+        },
+        "world-boss": {
+            "webname": "World Boss",
+            "description": "World Boss strategy guides and information",
+            "guides": [
+                {
+                    "name": "Special_Delivery's Project Goodall Google Doc",
+                    "attachments": [
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://tinyurl.com/Project-Goodall-WB-Strategy"
+                        }
+                    ],
+                    "builds": ["Skyent", "Ancient Tank", "Self-Hit DPS"]
                 }
             ]
         }
