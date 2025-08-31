@@ -1,14 +1,15 @@
 /* Default (dark) theme */
 :root,
 :root[data-theme="dark"] {
+  --logo-blue: rgb(0, 83, 146);
   --main-background-color: rgb(30, 30, 30);
   --main-text-color: white;
-  --main-link-color: rgb(87, 182, 208);
+  --main-link-color: var(--logo-blue);
   --hover-link-color: rgb(97, 207, 237);
   --app-link-color: var(--main-link-color);
 
   --theme-toggle-background-color: #282c34;
-  --header-text-color: rgb(30, 30, 30);
+  --header-text-color: var(--logo-blue);
 
   --footer-background-color: #282c34;
   --footer-text-color: white;
@@ -33,9 +34,11 @@
 
 /* Light theme */
 :root[data-theme="light"] {
+  --logo-blue: rgb(0, 83, 146);
+
   --main-background-color: white;
   --main-text-color: rgb(30, 30, 30);
-  --main-link-color: rgb(25, 118, 210);
+  --main-link-color: var(--logo-blue);
   --hover-link-color: rgb(21, 101, 192);
   --app-link-color: var(--main-link-color);
 

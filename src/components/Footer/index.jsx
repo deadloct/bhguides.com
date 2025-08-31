@@ -90,15 +90,14 @@ export default function Footer() {
             </div>
             */}
             <div className={styles["footer-logo"]}>
-                <p><strong>The Best Logo Ever</strong></p>
                 <Image
                     src="/logo-bit-320.png"
                     alt="BH Guides Logo"
-                    width={200}
-                    height={200}
+                    width={120}
+                    height={120}
                 />
             </div>
-            <p className={styles["non-affiliation"]}>This site is not affiliated with Monumental, Kongregate, or Juppiomenz.</p>
+            <p className={styles["non-affiliation"]}>This site is <strong>not</strong> affiliated with Monumental, Kongregate, or Juppiomenz.</p>
         </footer>
     );
 }

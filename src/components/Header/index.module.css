@@ -4,10 +4,6 @@
     text-align: center;
     width: 100%;
     color: var(--header-text-color);
-    background-image: url('/header-background-full.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -35,7 +31,7 @@
 .site-title-row .logo img {
     width: 360px;
     height: auto;
-    filter: drop-shadow(0 0 1px rgba(0, 0, 0, 1));
+    vertical-align: middle;
 }
 
 .site-header .nav-wrapper {
@@ -60,14 +56,8 @@
 .site-header nav a,
 .site-header nav a:visited {
     text-decoration: none;
-    color: var(--header-text-color);
-    font-weight: bold;
+    font-weight: normal;
     font-size: 1.2rem;
-}
-
-.site-header nav a:active,
-.site-header nav a:hover {
-    color: var(--header-text-color);
 }
 
 .header-controls {
@@ -117,20 +107,20 @@
     }
 
     .site-header nav {
+        position: absolute;
+        top: calc(100% - 1rem);
+        right: 0;
         padding: 1rem;
         z-index: 1;
         text-align: right;
-        position: absolute;
-        top: 100%;
-        right: 0;
-        border-radius: 0 0 0 20px;
+        border-radius: 20px 0 0 20px;
         background-color: white;
     }
-    
+   
     .site-header nav.collapsed {
         display: none;
     }
-
+ 
     .site-header nav ul {
         flex-direction: column;
     }
