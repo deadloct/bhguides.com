@@ -19,9 +19,9 @@ import { VerticalSpacing } from "../Tools/utils";
 export default function Eggs() {
 
     const DefaultPrices = {
-        small: 180,
-        large: 750,
-        mega: 5100,
+        small: 200,
+        large: 700,
+        mega: 4200,
     };
 
     const [smallPrice, setSmallPrice] = useState(DefaultPrices.small);
