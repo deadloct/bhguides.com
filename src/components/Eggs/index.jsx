@@ -44,7 +44,7 @@ export default function Eggs() {
             const eggCount = Math.floor(totalGems / price);
             const prob = LegChance[size];
             const overall = eggCount > 0 ? 1 - Math.pow(1 - prob, eggCount) : 0;
-            const chance = `${(overall * 100).toFixed(4)}%`;
+            const chance = `${(overall * 100).toFixed(2)}%`;
             const remainingGems = totalGems - (eggCount * price);
             
             return {
@@ -59,6 +59,42 @@ export default function Eggs() {
     };
 
     const resultsData = calculateEggsAndChances();
+
+    const generatePercentageTable = () => {
+        const LegChance = {
+            small: 0.001,
+            large: 0.034,
+            mega: 0.213,
+        };
+
+        const prices = { small: smallPrice, large: largePrice, mega: megaPrice };
+        
+        // Calculate LCM of large and mega prices
+        const gcd = (a, b) => b === 0 ? a : gcd(b, a % b);
+        const lcm = (a, b) => (a * b) / gcd(a, b);
+        const increment = lcm(prices.large, prices.mega);
+        
+        const maxRows = Math.floor(100000 / increment);
+        const rows = [];
+        
+        for (let i = 1; i <= maxRows; i++) {
+            const gems = increment * i;
+            const row = { gems };
+            
+            ['small', 'large', 'mega'].forEach(size => {
+                const eggCount = Math.floor(gems / prices[size]);
+                const prob = LegChance[size];
+                const overall = eggCount > 0 ? 1 - Math.pow(1 - prob, eggCount) : 0;
+                row[size] = `${(overall * 100).toFixed(2)}%`;
+            });
+            
+            rows.push(row);
+        }
+        
+        return rows;
+    };
+
+    const percentageData = generatePercentageTable();
 
     return (
         <Container className={styles["outer-container"]} maxWidth="md" key="eggscontainer">
@@ -102,7 +138,8 @@ export default function Eggs() {
                         />
                     </FormControl>
                 </Box>
-                <Box mt={VerticalSpacing} flexDirection="column"> 
+                <Box mt={VerticalSpacing} flexDirection="column">
+                    <h3>Results</h3>
                     <TableContainer component={Paper}>
                         <Table size="small">
                             <TableHead>
@@ -125,6 +162,31 @@ export default function Eggs() {
                                             {result.totalCost}{result.remainingGems > 0 ? ` (${result.remainingGems} left)` : ''}
                                         </TableCell>
                                         <TableCell>{result.chance}</TableCell>
+                                    </TableRow>
+                                ))}
+                            </TableBody>
+                        </Table>
+                    </TableContainer>
+                </Box>
+                <Box mt={VerticalSpacing} flexDirection="column">
+                    <h3>Legendary Chances by Gem Amount</h3>
+                    <TableContainer component={Paper}>
+                        <Table size="small">
+                            <TableHead>
+                                <TableRow>
+                                    <TableCell>Gems</TableCell>
+                                    <TableCell>Small %</TableCell>
+                                    <TableCell>Large %</TableCell>
+                                    <TableCell>Mega %</TableCell>
+                                </TableRow>
+                            </TableHead>
+                            <TableBody>
+                                {percentageData.map((row, index) => (
+                                    <TableRow key={index}>
+                                        <TableCell>{row.gems.toLocaleString()}</TableCell>
+                                        <TableCell>{row.small}</TableCell>
+                                        <TableCell>{row.large}</TableCell>
+                                        <TableCell>{row.mega}</TableCell>
                                     </TableRow>
                                 ))}
                             </TableBody>
