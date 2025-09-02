@@ -1,10 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 import FormControl from '@mui/material/FormControl';
-import MenuItem from '@mui/material/MenuItem';
-import Select from '@mui/material/Select';
 import TextField from '@mui/material/TextField';
 
 import Table from '@mui/material/Table';
@@ -26,71 +24,79 @@ export default function Eggs() {
         mega: 5100,
     };
 
-    const [eggCount, setEggCount] = useState(1);
-    const [eggSize, setEggSize] = useState("large");
-    const [eggGems, setEggGems] = useState(DefaultPrices["large"]);
-    const [eggChance, setEggChance] = useState(0);
-    const [totalEggGems, setTotalEggGems] = useState(DefaultPrices["large"]);
+    const [smallPrice, setSmallPrice] = useState(DefaultPrices.small);
+    const [largePrice, setLargePrice] = useState(DefaultPrices.large);
+    const [megaPrice, setMegaPrice] = useState(DefaultPrices.mega);
+    const [totalGems, setTotalGems] = useState(DefaultPrices.mega);
 
-    useEffect(() => {
+    const calculateEggsAndChances = () => {
         const LegChance = {
             small: 0.001,
             large: 0.034,
             mega: 0.213,
         };
-        const prob = LegChance[eggSize];
-        const overall = 1 - Math.pow(1 - prob, eggCount);
-        const pct = `${(overall * 100).toFixed(4)}%`;
-        setTotalEggGems(eggCount * eggGems);
-        setEggChance(pct);
-    }, [eggCount, eggSize, eggGems])
 
-    function handleEggSizeChange(e) {
-        const val = e.target.value;
-        setEggSize(val);
-        setEggGems(DefaultPrices[val]);
-    }
+        const sizes = ['small', 'large', 'mega'];
+        const prices = { small: smallPrice, large: largePrice, mega: megaPrice };
+        
+        return sizes.map(size => {
+            const price = prices[size];
+            const eggCount = Math.floor(totalGems / price);
+            const prob = LegChance[size];
+            const overall = eggCount > 0 ? 1 - Math.pow(1 - prob, eggCount) : 0;
+            const chance = `${(overall * 100).toFixed(4)}%`;
+            
+            return {
+                size,
+                price,
+                eggCount,
+                chance,
+                totalCost: eggCount * price
+            };
+        });
+    };
+
+    const resultsData = calculateEggsAndChances();
 
     return (
         <Container className={styles["outer-container"]} maxWidth="md" key="eggscontainer">
             <section id="pets">
                 <h2>Egg and Accessory Chest Calculator</h2>
                 <p>Fishing for a legendary? Here are your chances!</p>
-                <Box mt={VerticalSpacing} flexDirection="column">
-                    <FormControl fullWidth>
-                        <TextField id="count"
-                            name="count"
-                            label="Count"
-                            type="number"
-                            min="1"
-                            onChange={e => setEggCount(e.target.value)}
-                            defaultValue="1"
-                        />
-                    </FormControl>
+                <Box mt={VerticalSpacing} display="flex" gap={2} flexWrap="wrap">
+                    <TextField
+                        label="Small Price"
+                        type="number"
+                        min="1"
+                        value={smallPrice}
+                        onChange={e => setSmallPrice(Number(e.target.value))}
+                        sx={{ flex: '1 1 200px', minWidth: '150px' }}
+                    />
+                    <TextField
+                        label="Large/Hyper Price"
+                        type="number"
+                        min="1"
+                        value={largePrice}
+                        onChange={e => setLargePrice(Number(e.target.value))}
+                        sx={{ flex: '1 1 200px', minWidth: '150px' }}
+                    />
+                    <TextField
+                        label="Mega Price"
+                        type="number"
+                        min="1"
+                        value={megaPrice}
+                        onChange={e => setMegaPrice(Number(e.target.value))}
+                        sx={{ flex: '1 1 200px', minWidth: '150px' }}
+                    />
                 </Box>
                 <Box mt={VerticalSpacing} flexDirection="column">
                     <FormControl fullWidth>
-                        <Select id="size"
-                            name="size"
-                            defaultValue="large"
-                            label=""
-                            onChange={handleEggSizeChange}
-                        >
-                            <MenuItem key={1} value="small">Small</MenuItem>   
-                            <MenuItem key={2} value="large">Large/Hyper</MenuItem>   
-                            <MenuItem key={3} value="mega">Mega</MenuItem>   
-                        </Select>
-                    </FormControl>
-                </Box>
-                <Box mt={VerticalSpacing} flexDirection="column">
-                    <FormControl fullWidth>
-                        <TextField id="price"
-                            name="price"
-                            label="Gem Price Per Item"
+                        <TextField
+                            label="Total Gems to Spend"
                             type="number"
                             min="1"
-                            onChange={e => setEggGems(e.target.value)}
-                            value={eggGems}
+                            value={totalGems}
+                            onChange={e => setTotalGems(Number(e.target.value))}
                         />
                     </FormControl>
                 </Box>
@@ -99,19 +105,26 @@ export default function Eggs() {
                         <Table size="small">
                             <TableHead>
                                 <TableRow> 
-                                    <TableCell>Count</TableCell>
                                     <TableCell>Size</TableCell>
-                                    <TableCell>Gems</TableCell>
+                                    <TableCell>Price Per Egg</TableCell>
+                                    <TableCell>Eggs Affordable</TableCell>
+                                    <TableCell>Gems Used</TableCell>
                                     <TableCell>Leg Chance</TableCell>
                                 </TableRow>
                             </TableHead>
                             <TableBody>
-                                <TableRow>
-                                    <TableCell>{eggCount}</TableCell>
-                                    <TableCell className={styles["size"]}>{eggSize}</TableCell>
-                                    <TableCell>{totalEggGems}</TableCell>
-                                    <TableCell>{eggChance}</TableCell>
-                                </TableRow>
+                                {resultsData.map((result) => (
+                                    <TableRow key={result.size}>
+                                        <TableCell className={styles["size"]}>
+                                            {result.size === 'small' ? 'Small' : 
+                                             result.size === 'large' ? 'Large/Hyper' : 'Mega'}
+                                        </TableCell>
+                                        <TableCell>{result.price}</TableCell>
+                                        <TableCell>{result.eggCount}</TableCell>
+                                        <TableCell>{result.totalCost}</TableCell>
+                                        <TableCell>{result.chance}</TableCell>
+                                    </TableRow>
+                                ))}
                             </TableBody>
                         </Table>
                     </TableContainer>
