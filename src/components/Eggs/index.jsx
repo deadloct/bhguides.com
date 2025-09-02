@@ -45,13 +45,15 @@ export default function Eggs() {
             const prob = LegChance[size];
             const overall = eggCount > 0 ? 1 - Math.pow(1 - prob, eggCount) : 0;
             const chance = `${(overall * 100).toFixed(4)}%`;
+            const remainingGems = totalGems - (eggCount * price);
             
             return {
                 size,
                 price,
                 eggCount,
                 chance,
-                totalCost: eggCount * price
+                totalCost: eggCount * price,
+                remainingGems
             };
         });
     };
@@ -107,8 +109,9 @@ export default function Eggs() {
                                 <TableRow> 
                                     <TableCell>Size</TableCell>
                                     <TableCell>Price Per Egg</TableCell>
-                                    <TableCell>Eggs Affordable</TableCell>
+                                    <TableCell>Eggs</TableCell>
                                     <TableCell>Gems Used</TableCell>
+                                    <TableCell>Remaining Gems</TableCell>
                                     <TableCell>Leg Chance</TableCell>
                                 </TableRow>
                             </TableHead>
@@ -122,6 +125,7 @@ export default function Eggs() {
                                         <TableCell>{result.price}</TableCell>
                                         <TableCell>{result.eggCount}</TableCell>
                                         <TableCell>{result.totalCost}</TableCell>
+                                        <TableCell>{result.remainingGems}</TableCell>
                                         <TableCell>{result.chance}</TableCell>
                                     </TableRow>
                                 ))}
