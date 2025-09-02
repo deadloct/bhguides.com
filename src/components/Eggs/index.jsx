@@ -75,7 +75,7 @@ export default function Eggs() {
                         sx={{ flex: '1 1 200px', minWidth: '150px' }}
                     />
                     <TextField
-                        label="Large/Hyper Price"
+                        label="Large Price"
                         type="number"
                         min="1"
                         value={largePrice}
@@ -108,10 +108,8 @@ export default function Eggs() {
                             <TableHead>
                                 <TableRow> 
                                     <TableCell>Size</TableCell>
-                                    <TableCell>Price Per Egg</TableCell>
                                     <TableCell>Eggs</TableCell>
-                                    <TableCell>Gems Used</TableCell>
-                                    <TableCell>Remaining Gems</TableCell>
+                                    <TableCell>Gems</TableCell>
                                     <TableCell>Leg Chance</TableCell>
                                 </TableRow>
                             </TableHead>
@@ -120,12 +118,12 @@ export default function Eggs() {
                                     <TableRow key={result.size}>
                                         <TableCell className={styles["size"]}>
                                             {result.size === 'small' ? 'Small' : 
-                                             result.size === 'large' ? 'Large/Hyper' : 'Mega'}
+                                             result.size === 'large' ? 'Large' : 'Mega'}
                                         </TableCell>
-                                        <TableCell>{result.price}</TableCell>
                                         <TableCell>{result.eggCount}</TableCell>
-                                        <TableCell>{result.totalCost}</TableCell>
-                                        <TableCell>{result.remainingGems}</TableCell>
+                                        <TableCell>
+                                            {result.totalCost}{result.remainingGems > 0 ? ` (${result.remainingGems} left)` : ''}
+                                        </TableCell>
                                         <TableCell>{result.chance}</TableCell>
                                     </TableRow>
                                 ))}
