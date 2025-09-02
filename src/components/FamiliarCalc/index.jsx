@@ -162,9 +162,9 @@ export default function FamiliarCalc() {
         return (
             <div>
                 <h2>Results</h2>
-                <p>You won <strong>{results.actualWinRate}%</strong> of the time with <strong>{results.totalWins}</strong> wins and <strong>{results.totalLosses}</strong> losses.</p>
+                <p>Your persuade rate was <strong>{results.actualWinRate}%</strong>, successfully getting <strong>{results.totalWins}</strong> fams but missing out on <strong>{results.totalLosses}</strong>.</p>
                 <p>
-                    Your absolute worst losing streak was <strong>{results.losingStreaks["worst"]}</strong>, but your best winning streak
+                    Your absolute worst fail streak was <strong>{results.losingStreaks["worst"]}</strong>, but your highest number of persuades in a row
                     was <strong>{results.winningStreaks["best"]}</strong>.
                 </p>
 
