@@ -4,7 +4,6 @@ import { useMemo, useEffect } from 'react';
 import { useSelector, useDispatch, Provider } from 'react-redux';
 import { store } from '../src/redux/store';
 import '../styles/globals.css';
-import '../src/index.css';
 
 import Header from "../src/components/Header";
 import Footer from "../src/components/Footer";
