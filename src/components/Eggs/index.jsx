@@ -396,7 +396,7 @@ export default function Eggs() {
 
                 <section id="eggs">
                     <h2>Let&apos;s open some eggs!</h2>
-                    <p><em>&quot;Why didn't I get a legendary after 30 large eggs?! 3.4% chance my ass!&quot; --frustrated players</em></p>
+                    <p><em>&quot;Why didn&apos;t I get a legendary after 30 large eggs?! 3.4% chance my ass!&quot; --frustrated players</em></p>
                     <Box mt={VerticalSpacing} flexDirection="column">
                         <FormControl fullWidth>
                             <TextField id="win-chance"
