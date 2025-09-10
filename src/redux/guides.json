@@ -2,7 +2,7 @@
     "index": [
         {"id": "beginner"},
         {"id": "builds", "name": "Builds", "children": [
-            {"id": "build-guides-by-zombieslayer13"}
+            {"id": "build-guides-primedyze-zombieslayer13"}
         ]},
         {"id": "calculators"},
         {"id": "content-creators"},
@@ -892,14 +892,28 @@
                 }
             ]
         },
-        "build-guides-by-zombieslayer13": {
-            "webname": "Build Guides by ZombieSlayer13",
-            "description": "These guides were compiled, created, and formatted by ZombieSlayer13.",
+        "build-guides-primedyze-zombieslayer13": {
+            "webname": "Build Guides by PrimeDyze and ZombieSlayer13",
+            "description": "These guides were compiled, created, and formatted by PrimeDyze and ZombieSlayer13.",
             "guides": [
                 {
-                    "name": "Pompadour - Beef WB",
+                    "name": "Build Guides Intro",
+                    "sticky": true,
+                    "attachments": [
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://www.youtube.com/watch?v=EIQkoLDgyBQ"
+                        }
+                    ]
+                },
+                {
+                    "name": "Pompadour",
                     "builds": [ "Pompadour" ],
                     "attachments": [
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://www.youtube.com/watch?v=nzw5vA7x9ws"
+                        },
                         {
                             "filename": "builds-ZombieSlayer13-pompadour-beef-wb.jpg",
                             "attachmenttype": "image",
@@ -908,42 +922,28 @@
                     ]
                 },
                 {
-                    "name": "Witchum - Offensive WB",
+                    "name": "Witchum",
                     "builds": ["Witchum"],
                     "attachments": [
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://www.youtube.com/watch?v=EfAUH-bSRnA"
+                        },
                         {
                             "filename": "builds-ZombieSlayer13-witchum-offensive-wb.jpg",
                             "attachmenttype": "image",
                             "contenttype": "image/jpg"
-                        }
-                    ]
-                },
-                {
-                    "name": "Witchum - Defensive WB",
-                    "builds": ["Witchum"],
-                    "attachments": [
+                        },
                         {
                             "filename": "builds-ZombieSlayer13-witchum-defensive-wb.jpg",
                             "attachmenttype": "image",
                             "contenttype": "image/jpg"
-                        }
-                    ]
-                },
-                {
-                    "name": "Witchum - Invasion",
-                    "builds": ["Witchum"],
-                    "attachments": [
+                        },
                         {
                             "filename": "builds-ZombieSlayer13-witchum-invasion.jpg",
                             "attachmenttype": "image",
                             "contenttype": "image/jpg"
-                        }
-                    ]
-                },
-                {
-                    "name": "Witchum - General PvE",
-                    "builds": ["Witchum"],
-                    "attachments": [
+                        },
                         {
                             "filename": "builds-ZombieSlayer13-witchum-general-pve.jpg",
                             "attachmenttype": "image",
@@ -952,31 +952,23 @@
                     ]
                 },
                 {
-                    "name": "3xtort - GVG (Nox)",
-                    "builds": ["3xtort"],
+                    "name": "3xtort",
+                    "builds": ["3xtort", "extort"],
                     "attachments": [
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://www.youtube.com/watch?v=VF-EB0HEyyM"
+                        },
                         {
                             "filename": "builds-ZombieSlayer13-3xtort-gvg-nox.jpg",
                             "attachmenttype": "image",
                             "contenttype": "image/jpg"
-                        }
-                    ]
-                },
-                {
-                    "name": "3xtort - GVG (Berthro)",
-                    "builds": ["3xtort"],
-                    "attachments": [
+                        },
                         {
                             "filename": "builds-ZombieSlayer13-3xtort-gvg-berthro.jpg",
                             "attachmenttype": "image",
                             "contenttype": "image/jpg"
-                        }
-                    ]
-                },
-                {
-                    "name": "3xtort - Raid",
-                    "builds": ["3xtort"],
-                    "attachments": [
+                        },
                         {
                             "filename": "builds-ZombieSlayer13-3xtort-raid.jpg",
                             "attachmenttype": "image",
@@ -985,20 +977,18 @@
                     ]
                 },
                 {
-                    "name": "Perkunas - Defensive GVG",
+                    "name": "Perkunas",
                     "builds": ["Perkunas"],
                     "attachments": [
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://www.youtube.com/watch?v=f7MWn2090bI"
+                        },
                         {
                             "filename": "builds-ZombieSlayer13-perkunas-defensive-gvg.jpg",
                             "attachmenttype": "image",
                             "contenttype": "image/jpg"
-                        }
-                    ]
-                },
-                {
-                    "name": "Perkunas - Offensive WB",
-                    "builds": ["Perkunas"],
-                    "attachments": [
+                        },
                         {
                             "filename": "builds-ZombieSlayer13-perkunas-offensive-wb.jpg",
                             "attachmenttype": "image",
@@ -1007,20 +997,18 @@
                     ]
                 },
                 {
-                    "name": "Skyent - GvG 3xtort Counter (DR Suit)",
-                    "builds": ["Skyent"],
+                    "name": "Skyent",
+                    "builds": ["Skyent", "meatshield"],
                     "attachments": [
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://www.youtube.com/watch?v=0yDNNw4UUYM"
+                        },
                         {
                             "filename": "builds-ZombieSlayer13-skyent-gvg-3xtort-counter-dr-suit.jpg",
                             "attachmenttype": "image",
                             "contenttype": "image/jpg"
-                        }
-                    ]
-                },
-                {
-                    "name": "Skyent - GvG 3xtort Counter (Cyclone)",
-                    "builds": ["Skyent"],
-                    "attachments": [
+                        },
                         {
                             "filename": "builds-ZombieSlayer13-skyent-gvg-3xtort-counter-cyclone.jpg",
                             "attachmenttype": "image",
@@ -1029,42 +1017,24 @@
                     ]
                 },
                 {
-                    "name": "Vamp - Seleucus 30%",
+                    "name": "Vampirism",
                     "builds": ["Seleucus"],
                     "attachments": [
                         {
                             "filename": "builds-ZombieSlayer13-seleucus-30-vamp.jpg",
                             "attachmenttype": "image",
                             "contenttype": "image/jpg"
-                        }
-                    ]
-                },
-                {
-                    "name": "Vamp - Seleucus 50%",
-                    "builds": ["Seleucus"],
-                    "attachments": [
+                        },
                         {
                             "filename": "builds-ZombieSlayer13-seleucus-50-vamp.jpg",
                             "attachmenttype": "image",
                             "contenttype": "image/jpg"
-                        }
-                    ]
-                },
-                {
-                    "name": "Vamp - Winter Supercharged",
-                    "builds": ["Winter"],
-                    "attachments": [
+                        },
                         {
                             "filename": "builds-ZombieSlayer13-Winter-supercharged-vamp.jpg",
                             "attachmenttype": "image",
                             "contenttype": "image/jpg"
-                        }
-                    ]
-                },
-                {
-                    "name": "Vamp - Winter",
-                    "builds": ["Winter"],
-                    "attachments": [
+                        },
                         {
                             "filename": "builds-ZombieSlayer13-Winter-vamp.jpg",
                             "attachmenttype": "image",
@@ -1073,20 +1043,14 @@
                     ]
                 },
                 {
-                    "name": "Ancient UXO Power Tank - Empower",
+                    "name": "Ancient UXO Power Tank",
                     "builds": ["Ancient Tank"],
                     "attachments": [
                         {
                             "filename": "builds-ZombieSlayer13-ancient-uxo-power-empower.jpg",
                             "attachmenttype": "image",
                             "contenttype": "image/jpg"
-                        }
-                    ]
-                },
-                {
-                    "name": "Ancient UXO Power Tank - Evade",
-                    "builds": ["Ancient Tank"],
-                    "attachments": [
+                        },
                         {
                             "filename": "builds-ZombieSlayer13-ancient-uxo-power-evade.jpg",
                             "attachmenttype": "image",
@@ -1095,7 +1059,7 @@
                     ]
                 },
                 {
-                    "name": "Ancient Speed Bait (JoeBu)",
+                    "name": "Ancient Speed Bait",
                     "builds": ["Ancient Speed Bait"],
                     "attachments": [
                         {
@@ -1106,20 +1070,14 @@
                     ]
                 },
                 {
-                    "name": "Ancient DPS (J3an/Lucca)",
+                    "name": "Ancient DPS",
                     "builds": ["Ancient DPS"],
                     "attachments": [
                         {
                             "filename": "builds-ZombieSlayer13-ancient-dps-j3an-lucca.jpg",
                             "attachmenttype": "image",
                             "contenttype": "image/jpg"
-                        }
-                    ]
-                },
-                {
-                    "name": "Ancient DPS - Standard",
-                    "builds": ["Ancient DPS"],
-                    "attachments": [
+                        },
                         {
                             "filename": "builds-ZombieSlayer13-ancient-dps-standard.jpg",
                             "attachmenttype": "image",
@@ -1128,20 +1086,18 @@
                     ]
                 },
                 {
-                    "name": "ProtoPlague - ProtoPrime D4",
-                    "builds": ["ProtoPlague"],
+                    "name": "Protoplague",
+                    "builds": ["Protoplague"],
                     "attachments": [
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://www.youtube.com/watch?v=cw6cXT2tfRU"
+                        },
                         {
                             "filename": "builds-ZombieSlayer13-protoplague-protoprime-d4.jpg",
                             "attachmenttype": "image",
                             "contenttype": "image/jpg"
-                        }
-                    ]
-                },
-                {
-                    "name": "ProtoPlague",
-                    "builds": ["protoPlague"],
-                    "attachments": [
+                        },
                         {
                             "filename": "builds-ZombieSlayer13-protoplague.jpg",
                             "attachmenttype": "image",
@@ -1150,27 +1106,21 @@
                     ]
                 },
                 {
-                    "name": "Venturer - Evermore",
+                    "name": "Venturer",
                     "builds": ["venturer"],
                     "attachments": [
                         {
                             "filename": "builds-ZombieSlayer13-venturer-evermore.jpg",
                             "attachmenttype": "image",
                             "contenttype": "image/jpg"
-                        }
-                    ]
-                },
-                {
-                    "name": "Venturer - Firium",
-                    "builds": ["venturer"],
-                    "attachments": [
+                        },
                         {
                             "filename": "builds-ZombieSlayer13-venturer-firium.jpg",
                             "attachmenttype": "image",
                             "contenttype": "image/jpg"
                         }
                     ]
-                } 
+                }
             ]
         },
         "misc": {

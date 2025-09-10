@@ -189,7 +189,20 @@ export default function Guides() {
 
         let results;
         if (cat.guides.length > 0) {
-            results = (<ul>{cat.guides.map((g, i) => renderGuide(g, i, cat.isSearch))}</ul>);
+            // Sort guides: sticky guides first, then alphabetically by name
+            const sortedGuides = [...cat.guides].sort((a, b) => {
+                // If one guide is sticky and the other isn't, sticky goes first
+                if (a.sticky && !b.sticky) return -1;
+                if (!a.sticky && b.sticky) return 1;
+                
+                // If both are sticky or both are not sticky, sort alphabetically by name
+                return a.name.localeCompare(b.name, undefined, { 
+                    numeric: true, 
+                    sensitivity: 'base' 
+                })
+            });
+            
+            results = (<ul>{sortedGuides.map((g, i) => renderGuide(g, i, cat.isSearch))}</ul>);
         } else {
             results = cat.isSearch ?
                 <p>There are no matched guides for your search.</p> :
