@@ -674,8 +674,20 @@
                     "name": "BillyIdol's Calculators (This Site)",
                     "attachments": [
                         {
-                            "attachmenttype": "link",
-                            "link": "https://bhguides.com"
+                            "attachmenttype": "internal-link",
+                            "link": "https://bhguides.com/item-find"
+                        },
+                        {
+                            "attachmenttype": "internal-link",
+                            "link": "https://bhguides.com/turn-rate"
+                        },
+                        {
+                            "attachmenttype": "internal-link",
+                            "link": "https://bhguides.com/familiar-calc"
+                        },
+                        {
+                            "attachmenttype": "internal-link",
+                            "link": "https://bhguides.com/eggs"
                         }
                     ]
                 }

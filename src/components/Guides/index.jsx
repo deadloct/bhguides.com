@@ -13,6 +13,7 @@ import CancelIcon from '@mui/icons-material/Cancel';
 import CloseIcon from '@mui/icons-material/Close';
 import ImageIcon from '@mui/icons-material/Image';
 import LaunchIcon from '@mui/icons-material/Launch';
+import WebhookIcon from '@mui/icons-material/Webhook';
 import MicrosoftIcon from '@mui/icons-material/Microsoft';
 import PictureAsPdfIcon from '@mui/icons-material/PictureAsPdf';
 import WarningAmberIcon from '@mui/icons-material/WarningAmber';
@@ -141,6 +142,15 @@ export default function Guides() {
                         <LaunchIcon /> 
                         <a href={`${item.link}`} target="_BLANK" rel="noreferrer">{item.link}</a> 
                         <span className={styles["att-type"]}>(external link)</span>
+                    </li>
+                );
+
+            case "internal-link":
+                return (
+                    <li key={`item-${i}`} className={styles["attachment-item"]}>
+                        <WebhookIcon /> 
+                        <a href={`${item.link}`}>{item.link}</a> 
+                        <span className={styles["att-type"]}>(internal link)</span>
                     </li>
                 );
             
