@@ -17,7 +17,7 @@ import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 
 import styles from "./index.module.css";
-import { VerticalSpacing } from "../Tools/utils";
+import { VerticalSpacing } from "../../utils/utils";
 import DieIcon from "@mui/icons-material/Casino";
 
 export default function Eggs() {

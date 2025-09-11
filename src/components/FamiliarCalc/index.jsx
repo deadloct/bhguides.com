@@ -20,7 +20,7 @@ import Paper from '@mui/material/Paper';
 import familiarsData from '../../redux/familiars.json';
 
 import styles from "./index.module.css";
-import { VerticalSpacing } from "../Tools/utils";
+import { VerticalSpacing } from "../../utils/utils";
 import WarningAmberIcon from '@mui/icons-material/WarningAmber';
 import CloseIcon from '@mui/icons-material/Close';
 import DieIcon from "@mui/icons-material/Casino";

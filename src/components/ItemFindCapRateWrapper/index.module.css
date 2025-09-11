@@ -1,0 +1,37 @@
+.outer-container {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.overview {
+    font-size: 1.4rem;
+}
+
+.suboverview {
+    font-size: 1.2rem;
+}
+
+.signature {
+    font-style: italic;
+    margin-bottom: 2.6rem;
+}
+
+.results {
+    font-size: 1.8rem;
+}
+
+.results .output {
+    font-size: 2rem;
+}
+
+.equation {
+    margin-bottom: 2.4rem;
+}
+
+.alert {
+    padding: 1rem;
+    font-size: 1.6rem;
+    background-color: var(--alert-bg);
+    color: var(--alert-text);
+}
+

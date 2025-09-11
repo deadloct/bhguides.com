@@ -10,7 +10,7 @@ import Select from '@mui/material/Select';
 import TextField from "@mui/material/TextField";
 
 import styles from "./index.module.css";
-import { cleanVal, getEncounterIFForDisplay, VerticalSpacing } from "./utils";
+import { cleanVal, getEncounterIFForDisplay, VerticalSpacing } from "../../utils/utils";
 
 export default function SimpleIFCalc() {
     const options = useSelector((state) => state.calc.options);

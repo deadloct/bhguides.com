@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import Tools from '../src/components/Tools';
+import ItemFindCapRateWrapper from '../src/components/ItemFindCapRateWrapper';
 import { updatePageMeta } from '../src/utils/seo';
 
 export default function ItemFindPage() {
@@ -7,5 +7,5 @@ export default function ItemFindPage() {
         updatePageMeta('/item-find');
     }, []);
 
-    return <Tools />;
+    return <ItemFindCapRateWrapper />;
 }

@@ -2,20 +2,17 @@ import React from "react";
 import Container from "@mui/material/Container";
 import Divider from "@mui/material/Divider";
 
-import CaptureRateCalc from "./capture-rate-calc";
-import StandardIFCalc from "./standard-if-calc";
-import SimpleIFCalc from "./simple-if-calc";
+import CaptureRate from "../CaptureRate";
+import ItemFind from "../ItemFind";
 
 import styles from "./index.module.css";
 
-export default function Tools() {
+export default function ItemFindCapRateWrapper() {
     return (
         <Container className={styles["outer-container"]} maxWidth="md">
-            <SimpleIFCalc />
+            <ItemFind />
             <Divider />
-            <StandardIFCalc />
-            <Divider />
-            <CaptureRateCalc />
+            <CaptureRate />
             <Divider />
             <p className={styles.overview}>
                 Calculators ported from <a href="https://jsfiddle.net/dchzwg90/">Archangel/Cherubim&apos;s awesome jsfiddle</a>. 

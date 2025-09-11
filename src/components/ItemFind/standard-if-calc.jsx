@@ -15,7 +15,7 @@ import {
     getIFEquation,
     SardinexEventOverride,
     VerticalSpacing,
-} from "./utils";
+} from "../../utils/utils";
 
 export default function StandardIFCalc() {
     const options = useSelector((state) => state.calc.options);

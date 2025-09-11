@@ -10,7 +10,7 @@ import Select from '@mui/material/Select';
 import TextField from "@mui/material/TextField";
 
 import styles from './index.module.css';
-import { cleanVal, VerticalSpacing } from "./utils";
+import { cleanVal, VerticalSpacing } from "../../utils/utils";
 
 export default function CaptureRateCalc() {
     const encounterOptions = useSelector((state) => state.calc.options.encounterCapRate);
