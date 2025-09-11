@@ -2856,6 +2856,22 @@
                     ]
                 },
                 {
+                    "name": "BillyIdol's Text Notes",
+                    "builds": [
+                        "Ancient Speed Bait"
+                    ],
+                    "fams": [
+                        "Kimusaba",
+                        "Lerky"
+                    ],
+                    "attachments": [
+                        {
+                            "filename": "d4-t21-billyidol.md",
+                            "attachmenttype": "markdown"
+                        }
+                    ]
+                },
+                {
                     "name": "fohpo's Pic Guide",
                     "builds": [
                         "Ancient Speed Bait"
