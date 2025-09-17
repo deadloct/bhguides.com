@@ -48,12 +48,30 @@
                     ]
                 },
                 {
+                    "name": "BillyIdol's Ancient Myth Mats Checklist",
+                    "attachments": [
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://docs.google.com/spreadsheets/d/1lsfyHLfQSHLY2zRFCIK_Rqy5GutqCksZxTzmkoETkHQ/template/preview"
+                        }
+                    ]
+                },
+                {
                     "name": "Gagf and Gylgymesh's Codex Pic Guide",
                     "attachments": [
                         {
                             "filename": "ancients-codex-gagf-gylgymesh.png",
                             "attachmenttype": "image",
                             "contenttype": "image/png"
+                        }
+                    ]
+                },
+                {
+                    "name": "Gylgymesh's D4 and Ancients Spreadsheet",
+                    "attachments": [
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://docs.google.com/spreadsheets/d/1S2YwK79tIQMg5FVEMjTD42iAQqRo4ik9V9P2W_VPjyI/"
                         }
                     ]
                 },
@@ -84,15 +102,6 @@
                             "filename": "ancients-t18-skills-toot-goolmuddy-winter-antomanz.png",
                             "attachmenttype": "image",
                             "contenttype": "image/png"
-                        }
-                    ]
-                },
-                {
-                    "name": "Gylgymesh's D4 and Ancients Spreadsheet",
-                    "attachments": [
-                        {
-                            "attachmenttype": "link",
-                            "link": "https://docs.google.com/spreadsheets/d/1S2YwK79tIQMg5FVEMjTD42iAQqRo4ik9V9P2W_VPjyI/"
                         }
                     ]
                 }
