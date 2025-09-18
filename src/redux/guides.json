@@ -2236,7 +2236,23 @@
                     ]
                 },
                 {
-                    "name": "BillyIdol's Text Guide",
+                    "name": "BillyIdol's ProtoPlague Shrampz Video",
+                    "builds": [
+                        "Protoplague"
+                    ],
+                    "fams": [
+                        "Shrampz",
+                        "Shrubbery Shrampz"
+                    ],
+                    "attachments": [
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://www.youtube.com/watch?v=qY-ThBZVVm4"
+                        }
+                    ]
+                },
+                {
+                    "name": "BillyIdol's Text Guide (Ancient Speed Bait)",
                     "builds": [
                         "Ancient Speed Bait"
                     ],
