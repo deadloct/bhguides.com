@@ -124,7 +124,13 @@
 }
 
 .footer-logo {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
+}
+
+.footer-logo p {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 0.9rem;
 }
 
 .non-affiliation {

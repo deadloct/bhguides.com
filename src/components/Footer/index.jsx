@@ -84,13 +84,16 @@ export default function Footer() {
             </Container>
             <div className={styles["footer-logo"]}>
                 <Link href="https://vgen.co/pixltoast">
-                    <Image
-                        src="/pixltoast/bhguides_logo.gif"
-                        alt="logo by pixltoast"
-                        title="logo by pixltoast"
-                        width={222}
-                        height={222}
-                    />
+                    <p>
+                        <Image
+                            src="/pixltoast/bhguides_logo.gif"
+                            alt="logo by pixltoast"
+                            title="logo by pixltoast"
+                            width={222}
+                            height={222}
+                        />
+                    </p>
+                    <p>Logo by pixltoast! Click to view their other awesome work.</p>
                 </Link>
             </div>
             <p className={styles["non-affiliation"]}>This site is <strong>not</strong> affiliated with Monumental, Kongregate, or Juppiomenz.</p>
