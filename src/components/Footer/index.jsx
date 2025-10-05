@@ -83,12 +83,15 @@ export default function Footer() {
                 </Grid>
             </Container>
             <div className={styles["footer-logo"]}>
-                <Image
-                    src="/logo-bit-320.png"
-                    alt="BH Guides Logo"
-                    width={120}
-                    height={120}
-                />
+                <Link href="https://vgen.co/pixltoast">
+                    <Image
+                        src="/pixltoast/bhguides_logo.gif"
+                        alt="logo by pixltoast"
+                        title="logo by pixltoast"
+                        width={222}
+                        height={222}
+                    />
+                </Link>
             </div>
             <p className={styles["non-affiliation"]}>This site is <strong>not</strong> affiliated with Monumental, Kongregate, or Juppiomenz.</p>
         </footer>
