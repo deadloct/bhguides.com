@@ -240,6 +240,12 @@
     "agility": 21.2
   },
   {
+    "name": "Binnertoli",
+    "strength": 52.3,
+    "stamina": 8.2,
+    "agility": 14.5
+  },
+  {
     "name": "Birdsworth",
     "strength": 16.5,
     "stamina": 14.2,
@@ -2602,6 +2608,12 @@
     "strength": 42.5,
     "stamina": 23.4,
     "agility": 19.1
+  },
+  {
+    "name": "Mir'alg",
+    "strength": 23.3,
+    "stamina": 19.5,
+    "agility": 52.2
   },
   {
     "name": "Mistral",
