@@ -11,6 +11,7 @@
             {"id": "t08d4"},
             {"id": "t09d4"},
             {"id": "t10d4"},
+            {"id": "t11d4"},
             {"id": "t12d4"},
             {"id": "t14d4"},
             {"id": "t15d4"},
@@ -1350,6 +1351,28 @@
                     ]
                 },
                 {
+                    "name": "PocketApple8104's In-Tier Starweave Videos",
+                    "builds": [
+                        "Arsenal",
+                        "Polaris"
+                    ],
+                    "fams": [
+                        "Croundy",
+                        "Drazig",
+                        "Yemic"
+                    ],
+                    "attachments": [
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://youtu.be/fi2jkGQpB3M"
+                        },
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://youtu.be/fi2jkGQpB3M?t=337"
+                        }
+                    ]
+                },
+                {
                     "name": "Youreprettycute's In-Tier Pic and Text Guide",
                     "attachments": [
                         {
@@ -1384,6 +1407,63 @@
                             "link": "https://docs.google.com/spreadsheets/d/1jpIghTeSnI-SMM3185gxfSEF7VuZKF4A5V45l2XuixE/edit?gid=894387049#gid=894387049"
                         }
                     ]
+                },
+                {
+                    "name": "PocketApple8104's In-Tier Poly Video: Tank Brute Force",
+                    "builds": [
+                        "Apocalypse"
+                    ],
+                    "fams": [
+                        "Blinka",
+                        "Croundy",
+                        "Oeviss"
+                    ],
+                    "attachments": [
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://youtu.be/mcqLANNzfPw"
+                        }
+                    ]
+                },
+                {
+                    "name": "PocketApple8104's In-Tier Poly Video: DPS Semi-Brute Force",
+                    "builds": [
+                        "Merciless"
+                    ],
+                    "fams": [
+                        "Blinka",
+                        "Croundy",
+                        "Yemic"
+                    ],
+                    "attachments": [
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://youtu.be/gU6MHRMIsO8"
+                        }
+                    ]
+                }
+            ]
+        },
+        "t11d4": {
+            "webname": "T11D4 / Z10D4 (Elem)",
+            "description": "Community t11d4 Elementarium strategies",
+            "guides": [
+                {
+                    "name": "PocketApple8104's In-Tier Elementarium Video",
+                    "builds": [
+                        "Apocalypse"
+                    ],
+                    "fams": [
+                        "Blinka",
+                        "Night Gobby",
+                        "Oeviss"
+                    ],
+                    "attachments": [
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://youtu.be/-tiKx6txHds"
+                        }
+                    ]
                 }
             ]
         },
@@ -1391,6 +1471,19 @@
             "webname": "T12D4 / Z11D4 (Broom)",
             "description": "Community t12d4 Ladener Broom strategies",
             "guides": [
+                {
+                    "name": "PocketApple8104's In-Tier Broom Video",
+                    "builds": [
+                        "Pangea"
+                    ],
+                    "fams": [],
+                    "attachments": [
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://youtu.be/ki10OPHxAfc"
+                        }
+                    ]
+                },
                 {
                     "name": "Vanterio's Text, Pic, and Video Guide",
                     "builds": [
@@ -1471,7 +1564,7 @@
                     ]
                 },
                 {
-                    "name": "PocketApple8104's Firium Video Guide",
+                    "name": "PocketApple8104's In-Tier Firium Video",
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -1517,6 +1610,23 @@
                             "filename": "d4-t16-fr3sTy7.pdf",
                             "attachmenttype": "pdf",
                             "contenttype": "application/pdf"
+                        }
+                    ]
+                },
+                {
+                    "name": "PocketApple8104's In-Tier Soul of Escarium Video",
+                    "builds": [
+                        "Einar"
+                    ],
+                    "fams": [
+                        "Blinka",
+                        "Gello",
+                        "Oladus"
+                    ],
+                    "attachments": [
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://youtu.be/F8p5Q60Yzw0"
                         }
                     ]
                 },
