@@ -1994,6 +1994,44 @@
                     ]
                 },
                 {
+                    "name": "ponymarc's In-Tier Clover Clear",
+                    "builds": [
+                        "Torch",
+                        "Witchum"
+                    ],
+                    "fams": [
+                        "Kimusaba",
+                        "Lady Sparkin",
+                        "Lerky"
+                    ],
+                    "attachments": [
+                        {
+                            "filename": "d4-t17-ponymarc.md",
+                            "attachmenttype": "markdown"
+                        },
+                        {
+                            "filename": "d4-t17-ponymarc-team.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        },
+                        {
+                            "filename": "d4-t17-ponymarc-drillo.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        },
+                        {
+                            "filename": "d4-t17-ponymarc-trombo.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        },
+                        {
+                            "filename": "d4-t17-ponymarc-gorobot-trashmobs.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        }
+                    ]
+                },
+                {
                     "name": "PrimeDyze's Video",
                     "builds": [
                         "Aeneas",
