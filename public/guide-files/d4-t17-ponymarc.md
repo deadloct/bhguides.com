@@ -58,7 +58,7 @@ Setup for Drillo:
 
 (front to back) You, kimu, Lerky, Lerky, Lady Sparkin
 
-go all ur stats into attack, you need as low HP as possible so that one def pet proc can heal you close to full HP with a crit or emp. in the setup an off acc like fobett or ascendancy (any works with emp 2) exothermic jacket is a must! or else he oneshots your whole team, do redirect meta rune, and get 75 evade with witch set and enchants/runes, when 75 evade is hit, do rest of runes and enchants into emp.
+go all ur stats into attack, you need as low HP as possible so that one def pet proc can heal you close to full HP with a crit or emp. in the setup an off acc like fobett or ascendancy (any works with emp 2) exothermic jacket is a must! or else he oneshots your whole team, do redirect metarune or kor rune for better heals as most of drillos attacks hit weakest=you. But he has a target spell thats why I did redirect meta rune to be sure my lerkys werent hit at all. get 75 evade with witch set and enchants/runes, when 75 evade is hit, do rest of runes and enchants into emp.
 
 when you enter this fight you will need full sp on both Lerkys, preferably proctection skill on yourself/kimu and full sp on sparkin aswell. you and kimusaba takes all the hits, hopefully you survive kimu redirects some of the dmg to him which helps you to stay alive aswell.
 
