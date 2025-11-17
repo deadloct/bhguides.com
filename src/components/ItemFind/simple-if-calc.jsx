@@ -15,6 +15,7 @@ import { cleanVal, getEncounterIFForDisplay, VerticalSpacing } from "../../utils
 export default function SimpleIFCalc() {
     const options = useSelector((state) => state.calc.options);
     const [output, setOutput] = useState("0%");
+    const [equation, setEquation] = useState("");
     const [infoIF, setInfoIF] = useState(0);
     const [encounterBonus, setEncounterBonus] = useState(cleanVal(options.encounter.default));
 
@@ -45,12 +46,15 @@ export default function SimpleIFCalc() {
 
     useEffect(() => {
         const timeoutID = setTimeout(() => {
-            const result = ((cleanVal(infoIFRef.current) + 100) * encounterBonusRef.current).toFixed(2);
+            const infoIFValue = cleanVal(infoIFRef.current);
+            const encounterValue = encounterBonusRef.current;
+            const result = ((infoIFValue + 100) * encounterValue).toFixed(2);
             let r = `${result}%`;
             if (result > 3500) {
                 r += " (exceeds 3500% cap)"
             }
             setOutput(r);
+            setEquation(`(info-screen-if:${infoIFValue} + base:100) * (1 + encounter:${(encounterValue-1).toFixed(2)})`);
         }, 100);
 
         return () => clearTimeout(timeoutID);
@@ -101,6 +105,8 @@ export default function SimpleIFCalc() {
                 Your item find is:<br />
                 <span id="simple-output" className={styles.output}>{output}</span>
             </p>
+
+            <p className={styles.equation}><strong>Equation:</strong> {equation}</p>
         </section>
     );
 }
