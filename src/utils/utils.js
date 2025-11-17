@@ -12,14 +12,14 @@ export function calcIF(vals) {
         vals.consumable +
         vals.adgor +
         daily;
-    return total * vals.encounter;
+    return (total * vals.encounter).toFixed(2);
 }
 
 export function getIFEquation(vals) {
     const daily = vals.dailyMult === SardinexEventOverride ?
         `eventOverride:(${SardinexEventOverride})` :
         `daily*event-multiplier:(${vals.daily}*${vals.dailyMult})`;
-    return `(base:100 + rune:${vals.rune1} + rune:${vals.rune2} + guild:${vals.guild} + consumable:${vals.consumable} + adgor:${vals.adgor} + ${daily}) * (1 + encounter:${vals.encounter-1})`;
+    return `(base:100 + rune:${vals.rune1} + rune:${vals.rune2} + guild:${vals.guild} + consumable:${vals.consumable} + adgor:${vals.adgor} + ${daily}) * (1 + encounter:${(vals.encounter-1).toFixed(2)})`;
 }
 
 export function cleanVal(val) {
@@ -40,5 +40,5 @@ export function cleanVal(val) {
 }
 
 export function getEncounterIFForDisplay(val) {
-    return (cleanVal(val)-1)*100;
+    return (cleanVal(val)-1).toFixed(2)*100;
 }
