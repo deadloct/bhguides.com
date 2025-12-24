@@ -2796,6 +2796,24 @@
                     ]
                 },
                 {
+                    "name": "skye666's In-Tier W3-4ty Guide",
+                    "builds": [
+                        "Ancient Speed Bait"
+                    ],
+                    "fams": [
+                        "Gello",
+                        "Lady Sparkin",
+                        "Voluspa"
+                    ],
+                    "attachments": [
+                        {
+                            "filename": "d4-t19-skye666.pdf",
+                            "attachmenttype": "pdf",
+                            "contenttype": "application/pdf"
+                        }
+                    ]
+                },
+                {
                     "name": "Talisman's Broke Person Protoplague Guide",
                     "builds": [
                         "Protoplague"
