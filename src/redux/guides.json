@@ -2,7 +2,8 @@
     "index": [
         {"id": "beginner"},
         {"id": "builds", "name": "Builds", "children": [
-            {"id": "build-guides-primedyze-zombieslayer13"}
+            {"id": "build-guides-primedyze-zombieslayer13"},
+            {"id": "other-build-guides"}
         ]},
         {"id": "calculators"},
         {"id": "content-creators"},
@@ -489,6 +490,16 @@
                             "filename": "fusions-glarz-3riko.png",
                             "attachmenttype": "image",
                             "contenttype": "image/png"
+                        }
+                    ]
+                },
+                {
+                    "name": "AlbacorePrism's Ignatus Ra Guide",
+                    "attachments": [
+                        {
+                            "filename": "fusions-ignatus-ra-albacoreprism.pdf",
+                            "attachmenttype": "pdf",
+                            "contenttype": "application/pdf"
                         }
                     ]
                 },
@@ -1145,6 +1156,23 @@
                 }
             ]
         },
+        "other-build-guides": {
+            "webname": "Other Build Guides",
+            "description": "Various build guides from the community",
+            "guides": [
+                {
+                    "name": "Ember's Harvester Supercharged Build Guide",
+                    "builds": [ "Harvester Supercharged DPS" ],
+                    "attachments": [
+                        {
+                            "filename": "builds-ember-supercharged-harvester.pdf",
+                            "attachmenttype": "pdf",
+                            "contenttype": "application/pdf"
+                        }
+                    ]
+                }
+            ]
+        },
         "misc": {
             "webname": "Miscellaneous",
             "description": "Various guides that don't fit into other categories",
@@ -1185,6 +1213,16 @@
                         {
                             "attachmenttype": "link",
                             "link": "https://www.youtube.com/watch?v=7K3yoCJ8qDk"
+                        }
+                    ]
+                },
+                {
+                    "name": "New Daily Calendar (January 2026) from Gylgymesh",
+                    "attachments": [
+                        {
+                            "filename": "gylgymesh-daily-calendar.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
                         }
                     ]
                 },
