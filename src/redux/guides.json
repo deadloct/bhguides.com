@@ -3375,6 +3375,24 @@
                             "attachmenttype": "markdown"
                         }
                     ]
+                },
+                {
+                    "name": "What should I use my regen on?",
+                    "attachments": [
+                        {
+                            "filename": "talisman-what-should-i-use-my-regen-on.md",
+                            "attachmenttype": "markdown"
+                        }
+                    ]
+                },
+                {
+                    "name": "A Comprehensive Intro to Pushes",
+                    "attachments": [
+                        {
+                            "filename": "talisman-a-comprehensive-intro-to-pushes.md",
+                            "attachmenttype": "markdown"
+                        }
+                    ]
                 }
             ]
         },
