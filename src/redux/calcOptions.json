@@ -119,14 +119,10 @@
             ],
             "Trials/Gauntlet": [
                 { "value": "1-tg", "text": "T/G 1 Token" },
-                { "value": "2-tg-old", "text": "T/G 2 Tokens (Low IF)" },
-                { "value": "2-tg-old-3tokens", "text": "T/G 3 Tokens (Low IF)" },
-                { "value": "3-tg-old", "text": "T/G 4 Tokens (Low IF)" },
-                { "value": "3.5-tg-old", "text": "T/G 5 Tokens (Low IF)" },
-                { "value": "2.25-tg-boosted", "text": "T/G 2 Tokens (High IF)" },
-                { "value": "2.5-tg-boosted-3tokens", "text": "T/G 3 Tokens (High IF)" },
-                { "value": "3.75-tg-boosted", "text": "T/G 4 Tokens (High IF)" },
-                { "value": "4.5-tg-boosted", "text": "T/G 5 Tokens (High IF)" }
+                { "value": "2-tg-old", "text": "T/G 2 Tokens" },
+                { "value": "2-tg-old-3tokens", "text": "T/G 3 Tokens" },
+                { "value": "3-tg-old", "text": "T/G 4 Tokens" },
+                { "value": "3.5-tg-old", "text": "T/G 5 Tokens" }
             ],
             "World Boss": [
                 { "value": "1-wb", "text": "WB-Normal" },
