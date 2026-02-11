@@ -1289,7 +1289,7 @@
             "description": "Community t08d4 Harvester strategies",
             "guides": [
                 {
-                    "name": "Barloow1987's Pic and Text Guide",
+                    "name": "Barloow1987's In-Tier Pic and Text Guide",
                     "builds": [
                         "Inferno"
                     ],
@@ -1310,7 +1310,10 @@
                     ]
                 },
                 {
-                    "name": "PocketApple8104's Google Sheet Guides",
+                    "name": "PocketApple8104's In-Tier Google Sheet Guides",
+                    "builds": [
+                        "Night Walker"
+                    ],
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -1325,7 +1328,23 @@
                     ]
                 },
                 {
-                    "name": "Vanterio's Video Guide",
+                    "name": "Mentle88's In-Tier Guide",
+                    "builds": [
+                        "Luminary"
+                    ],
+                    "fams": [
+                        "Bobodom",
+                        "Mir'alg"
+                    ],
+                    "attachments": [
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://docs.google.com/document/d/1XC4YnTigR_Zr7OOTbqd8fn6ixdRVM6g1lfsaG8TEF3g/edit?usp=sharing"
+                        }
+                    ]
+                },
+                {
+                    "name": "Vanterio's In-Tier Video Guide",
                     "builds": [
                         "Obliteration",
                         "Night Walker"
