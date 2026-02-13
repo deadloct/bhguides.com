@@ -28,6 +28,12 @@ export default function Eggs() {
         mega: 4200,
     };
 
+    const MinimumPrices = {
+        small: 50,
+        large: 200,
+        mega: 1000,
+    };
+
     const [smallPrice, setSmallPrice] = useState(DefaultPrices.small);
     const [largePrice, setLargePrice] = useState(DefaultPrices.large);
     const [megaPrice, setMegaPrice] = useState(DefaultPrices.mega);
@@ -40,6 +46,11 @@ export default function Eggs() {
     const [results, setResults] = useState(null);
 
     const calculateEggsAndChances = () => {
+        // Use minimum values for calculations even if input is lower
+        const effectiveSmallPrice = Math.max(smallPrice, MinimumPrices.small);
+        const effectiveLargePrice = Math.max(largePrice, MinimumPrices.large);
+        const effectiveMegaPrice = Math.max(megaPrice, MinimumPrices.mega);
+
         const LegChance = {
             small: 0.001,
             large: 0.034,
@@ -47,7 +58,7 @@ export default function Eggs() {
         };
 
         const sizes = ['small', 'large', 'mega'];
-        const prices = { small: smallPrice, large: largePrice, mega: megaPrice };
+        const prices = { small: effectiveSmallPrice, large: effectiveLargePrice, mega: effectiveMegaPrice };
         
         return sizes.map(size => {
             const price = prices[size];
@@ -71,13 +82,18 @@ export default function Eggs() {
     const resultsData = calculateEggsAndChances();
 
     const generatePercentageTable = () => {
+        // Use minimum values for calculations even if input is lower
+        const effectiveSmallPrice = Math.max(smallPrice, MinimumPrices.small);
+        const effectiveLargePrice = Math.max(largePrice, MinimumPrices.large);
+        const effectiveMegaPrice = Math.max(megaPrice, MinimumPrices.mega);
+
         const LegChance = {
             small: 0.001,
             large: 0.034,
             mega: 0.213,
         };
 
-        const prices = { small: smallPrice, large: largePrice, mega: megaPrice };
+        const prices = { small: effectiveSmallPrice, large: effectiveLargePrice, mega: effectiveMegaPrice };
         
         // Calculate LCM of large and mega prices
         const gcd = (a, b) => b === 0 ? a : gcd(b, a % b);
@@ -303,26 +319,47 @@ export default function Eggs() {
                     <TextField
                         label="Small Price"
                         type="number"
-                        min="1"
+                        min="50"
                         value={smallPrice}
                         onChange={e => setSmallPrice(Number(e.target.value))}
+                        onBlur={e => {
+                            const value = Number(e.target.value);
+                            if (value < MinimumPrices.small) {
+                                setSmallPrice(MinimumPrices.small);
+                            }
+                        }}
                         sx={{ flex: '1 1 200px', minWidth: '150px' }}
+                        helperText={`Minimum: ${MinimumPrices.small}`}
                     />
                     <TextField
                         label="Large Price"
                         type="number"
-                        min="1"
+                        min="200"
                         value={largePrice}
                         onChange={e => setLargePrice(Number(e.target.value))}
+                        onBlur={e => {
+                            const value = Number(e.target.value);
+                            if (value < MinimumPrices.large) {
+                                setLargePrice(MinimumPrices.large);
+                            }
+                        }}
                         sx={{ flex: '1 1 200px', minWidth: '150px' }}
+                        helperText={`Minimum: ${MinimumPrices.large}`}
                     />
                     <TextField
                         label="Mega Price"
                         type="number"
-                        min="1"
+                        min="1000"
                         value={megaPrice}
                         onChange={e => setMegaPrice(Number(e.target.value))}
+                        onBlur={e => {
+                            const value = Number(e.target.value);
+                            if (value < MinimumPrices.mega) {
+                                setMegaPrice(MinimumPrices.mega);
+                            }
+                        }}
                         sx={{ flex: '1 1 200px', minWidth: '150px' }}
+                        helperText={`Minimum: ${MinimumPrices.mega}`}
                     />
                 </Box>
                 <Box mt={VerticalSpacing} flexDirection="column">
