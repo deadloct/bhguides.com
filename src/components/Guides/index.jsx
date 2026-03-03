@@ -1,7 +1,6 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { useSelector } from "react-redux";
 import Container from '@mui/material/Container';
-import Link from "next/link";
 
 import styles from "./index.module.css";
 import Search from "./search";
@@ -12,7 +11,6 @@ import ArrowCircleUpIcon from '@mui/icons-material/ArrowCircleUp';
 import ArticleIcon from '@mui/icons-material/Article';
 import CancelIcon from '@mui/icons-material/Cancel';
 import CloseIcon from '@mui/icons-material/Close';
-import GitHubIcon from '@mui/icons-material/GitHub';
 import ImageIcon from '@mui/icons-material/Image';
 import LaunchIcon from '@mui/icons-material/Launch';
 import WebhookIcon from '@mui/icons-material/Webhook';
@@ -305,12 +303,7 @@ export default function Guides() {
         <Container key="guides" className={styles["wrapper"]} maxWidth="md">
             <header>
                 <p className={styles["guides-description"]}>
-                    Welcome to
-                    <Link href="https://github.com/deadloct/bhguides.com">
-                        <GitHubIcon className={styles["github-icon-desc"]} />
-                        bhguides.com
-                        <GitHubIcon className={styles["github-icon-desc"]} />
-                    </Link>, a community-driven repository of guides
+                    Welcome to bhguides.com, a community-driven repository of guides
                     for Kongregate&apos;s Bit Heroes Quest. The guides on this site are
                     created and maintained by dedicated players who have generously
                     documented and shared their knowledge and strategies with you all.
