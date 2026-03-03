@@ -311,7 +311,7 @@ export default function Guides() {
                         bhguides.com
                         <GitHubIcon className={styles["github-icon-desc"]} />
                     </Link>, a community-driven repository of guides
-                    for Kongregate's Bit Heroes Quest. The guides on this site are
+                    for Kongregate&apos;s Bit Heroes Quest. The guides on this site are
                     created and maintained by dedicated players who have generously
                     documented and shared their knowledge and strategies with you all.
                     Let us all dominate the jerk Porteriuz together!
