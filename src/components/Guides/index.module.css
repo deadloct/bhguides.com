@@ -292,10 +292,19 @@
 }
 
 .guides-description {
-    font-size: 1.1.rem;
+    font-size: 1.1rem;
     text-align: center;
     line-height: 1.5rem;
 }
+
+.guides-description .github-icon-desc {
+    font-size: 14px !important;
+    vertical-align: baseline;
+    display: inline-block;
+}
+.guides-description .github-icon-desc:first-child { margin: 0 0.25rem 0 0.5rem }
+.guides-description .github-icon-desc:last-child { margin: 0 0.25rem 0 0.25rem }
+
 
 .floating-disclaimer {
     position: fixed;
