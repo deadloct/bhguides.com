@@ -303,11 +303,17 @@ export default function Guides() {
         <Container key="guides" className={styles["wrapper"]} maxWidth="md">
             <header>
                 <p className={styles["guides-description"]}>
-                    Welcome to bhguides.com, a community-driven repository of guides
-                    for Kongregate&apos;s Bit Heroes Quest. The guides on this site are
-                    created and maintained by dedicated players who have generously
-                    documented and shared their knowledge and strategies with you all.
-                    Let us all dominate the jerk Porteriuz together!
+                    Welcome to the #1 community repository of guides for 
+                    Kongregate&apos;s Bit Heroes, created by dedicated players 
+                    who graciously share their knowledge and strategies. Let us all dominate the 
+                    jerk Porteriuz together!
+                </p>
+                <p className={`${styles["guides-description"]} ${styles["mobile"]}`}>
+                    <em>
+                        &ldquo;bhguides is my most frequented website by a huge margin xD&rdquo;
+                        <br />
+                        --[TMNT] ratman
+                    </em>
                 </p>
                 <div className={styles["search-wrapper"]}>
                     <input 
