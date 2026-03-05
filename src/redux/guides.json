@@ -1506,6 +1506,23 @@
             "description": "Community t11d4 Elementarium strategies",
             "guides": [
                 {
+                    "name": "Mentle88's In-Tier Guide",
+                    "builds": [
+                        "Apocalypse"
+                    ],
+                    "fams": [
+                        "Fati",
+                        "Mir'alg",
+                        "Teithyus"
+                    ],
+                    "attachments": [
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://docs.google.com/document/d/1iiI-KXnIpE97Rf6WPWecW30CWZKjlsnzKlaMhgW3xgo/edit?usp=sharing"
+                        }
+                    ]
+                },
+                {
                     "name": "PocketApple8104's In-Tier Elementarium Video",
                     "builds": [
                         "Apocalypse"
