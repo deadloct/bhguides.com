@@ -24,7 +24,6 @@
             {"id": "t21d4"}
         ]},
         {"id": "fams-schematics", "name": "Familiars and Schematics", "children": [
-            {"id": "familiar-comparisons-manbearpig"},
             {"id": "familiar-recommendations-neflarian"},
             {"id": "schematics-cards-wrld_eatr"},
             {"id": "schematics-other"}
@@ -198,22 +197,6 @@
                     "attachments": [
                         {
                             "filename": "fusions-cards-zarlock.png",
-                            "attachmenttype": "image",
-                            "contenttype": "image/png"
-                        }
-                    ]
-                }
-            ]
-        },
-        "familiar-comparisons-manbearpig": {
-            "webname": "Familiar Comparisons by ManBearPig",
-            "description": "Comparisons of different classes of familiars",
-            "guides": [
-                {
-                    "name": "Baits",
-                    "attachments": [
-                        {
-                            "filename": "fusions-manbearpig-baits.png",
                             "attachmenttype": "image",
                             "contenttype": "image/png"
                         }
@@ -603,10 +586,50 @@
                     ]
                 },
                 {
+                    "name": "Joemama's Kimusaba Components Guide",
+                    "attachments": [
+                        {
+                            "filename": "fusions-kimusaba-joemama.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        }
+                    ]
+                },
+                {
+                    "name": "Joemama's Lerky Components Guide",
+                    "attachments": [
+                        {
+                            "filename": "fusions-lerky-joemama.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        }
+                    ]
+                },
+                {
+                    "name": "Joemama's Ignatus Ra Components Guide",
+                    "attachments": [
+                        {
+                            "filename": "fusions-ra-joemama.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        }
+                    ]
+                },
+                {
                     "name": "John_Hatten2's Lerky Pic Guide",
                     "attachments": [
                         {
                             "filename": "fusions-lerky-john_hatten2.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        }
+                    ]
+                },
+                {
+                    "name": "ManBearPig's Bait Comparisons",
+                    "attachments": [
+                        {
+                            "filename": "fusions-manbearpig-baits.png",
                             "attachmenttype": "image",
                             "contenttype": "image/png"
                         }
