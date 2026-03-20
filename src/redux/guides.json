@@ -3460,6 +3460,16 @@
             "description": "World Boss strategy guides and information",
             "guides": [
                 {
+                    "name": "Gylgymesh's Gallus Apotheosis Augment Guide",
+                    "attachments": [
+                        {
+                            "filename": "wb-gallus-gylgymesh.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        }
+                    ]
+                },
+                {
                     "name": "Special_Delivery's Project Goodall Google Doc",
                     "attachments": [
                         {
