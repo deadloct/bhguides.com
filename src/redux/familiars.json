@@ -1866,6 +1866,12 @@
     "agility": 24.1
   },
   {
+    "name": "Hoplag",
+    "strength": 43.1,
+    "stamina": 38.6,
+    "agility": 13.3
+  },
+  {
     "name": "Huey",
     "strength": 20.0,
     "stamina": 50.0,

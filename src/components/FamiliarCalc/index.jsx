@@ -344,10 +344,6 @@ export default function FamiliarCalc() {
                             {stats.familiar.name} Stats
                         </Typography>
                         
-                        <Typography variant="subtitle1" color="text.secondary" gutterBottom>
-                            Rarity: {stats.familiar.rarity}
-                        </Typography>
-
                         <Grid container spacing={2} sx={{ mt: 2 }}>
                             <Grid xs={12} sm={4}>
                                 <Box sx={{ textAlign: 'center', p: 2, border: '1px solid #555', borderRadius: 1 }}>
