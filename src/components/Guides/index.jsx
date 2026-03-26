@@ -7,7 +7,6 @@ import Search from "./search";
 import Lightbox from "./lightbox";
 import Markdown from "./markdown";
 
-import ArrowCircleUpIcon from '@mui/icons-material/ArrowCircleUp';
 import ArticleIcon from '@mui/icons-material/Article';
 import CancelIcon from '@mui/icons-material/Cancel';
 import CloseIcon from '@mui/icons-material/Close';
@@ -348,7 +347,6 @@ export default function Guides() {
                 <p><strong>Honorable Mentions:</strong> Hip224, Robskino</p>
                 <p>Thanks to anybody else that helped but was not mentioned because I forgot!</p>
             </footer>
-            <div className={styles["back-home"]}><a href={"#top"}><ArrowCircleUpIcon fontSize="large" /></a></div>
             {disclaimerVisible && (
                 <div className={styles["floating-disclaimer"]}>
                     <WarningAmberIcon fontSize="small" />

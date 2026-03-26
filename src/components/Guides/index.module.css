@@ -129,27 +129,6 @@
     padding-left: 0;
 }
 
-.back-home {
-    position: fixed;
-    bottom: 1rem;
-    right: 1rem;
-}
-
-.back-home i {
-    font-size: 3rem;
-    opacity: 0.5;
-}
-
-@media (hover: hover) {
-    .back-home i:hover {
-        opacity: 1;
-        transition: opacity .2s ease-in;
-        -moz-transition: opacity .2s ease-in;
-        -webkit-transition: opacity .2s ease-in;
-        -o-transition: opacity .2s ease-in;
-    }
-}
-
 .table-of-contents {
     text-align: center;
 }

@@ -12,10 +12,18 @@ import ClearIcon from '@mui/icons-material/Clear';
 
 export default function Header() {
     const [visible, setVisible] = useState(false);
+    const [scrolled, setScrolled] = useState(false);
     const navRef = useRef(null);
 
     // Pixel value matches css
     const mobile = useMediaQuery('(max-width:1059px)');
+
+    useEffect(() => {
+        const onScroll = () => setScrolled(window.scrollY > 50);
+        onScroll();
+        window.addEventListener('scroll', onScroll, { passive: true });
+        return () => window.removeEventListener('scroll', onScroll);
+    }, []);
 
     const toggle = () => mobile && setVisible(!visible);
     const blur = () => mobile && setVisible(false);
@@ -37,6 +45,9 @@ export default function Header() {
     if (mobile) {
         headerClasses.push(styles["mobile"]);
     }
+    if (scrolled) {
+        headerClasses.push(styles["scrolled"]);
+    }
 
     const navWrapperClasses = [styles["nav-wrapper"]];
     if (mobile && visible) {
@@ -52,6 +63,7 @@ export default function Header() {
     ];
 
     return (
+        <div className={`${styles["sticky-wrapper"]}${scrolled ? ` ${styles["scrolled"]}` : ''}`}>
         <Container key="header-container" className={styles["wrapper"]} maxWidth="md">
             <header className={headerClasses.join(" ")}>
                 <div className={styles["site-title-row"]}>
@@ -90,5 +102,6 @@ export default function Header() {
                 </div>
             </header>
         </Container>
+        </div>
     );
 }
