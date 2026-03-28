@@ -1437,6 +1437,38 @@
                     "inTier": true
                 },
                 {
+                    "name": "Parad0x's In-Tier Pic and Text Guide",
+                    "builds": [
+                        "Inferno"
+                    ],
+                    "fams": [
+                        "Bobodom",
+                        "Mir'alg"
+                    ],
+                    "attachments": [
+                        {
+                            "filename": "d4-t9-parad0x.md",
+                            "attachmenttype": "markdown"
+                        },
+                        {
+                            "filename": "d4-t9-parad0x-1.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        },
+                        {
+                            "filename": "d4-t9-parad0x-2.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        },
+                        {
+                            "filename": "d4-t9-parad0x-3.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        }
+                    ],
+                    "inTier": true
+                },
+                {
                     "name": "PocketApple8104's Starweave Google Sheet Guide",
                     "attachments": [
                         {
