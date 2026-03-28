@@ -1340,7 +1340,8 @@
                             "attachmenttype": "image",
                             "contenttype": "image/png"
                         }
-                    ]
+                    ],
+                    "inTier": true
                 },
                 {
                     "name": "PocketApple8104's In-Tier Google Sheet Guides",
@@ -1358,7 +1359,8 @@
                             "link": "https://docs.google.com/spreadsheets/d/1YoNpZ0uuBNbInbxvfkUzgvgzD1VyxX7mokeW3jCvdRc/edit?gid=513928969#gid=513928969",
                             "original-link": "https://docs.google.com/spreadsheets/d/1wbKl8h9Tzj9zgX1AEBY4wIhmC-xjN1OzyfsfBNkepeY/edit#gid=513928969"
                         }
-                    ]
+                    ],
+                    "inTier": true
                 },
                 {
                     "name": "Mentle88's In-Tier Guide",
@@ -1374,7 +1376,8 @@
                             "attachmenttype": "link",
                             "link": "https://docs.google.com/document/d/1XC4YnTigR_Zr7OOTbqd8fn6ixdRVM6g1lfsaG8TEF3g/edit?usp=sharing"
                         }
-                    ]
+                    ],
+                    "inTier": true
                 },
                 {
                     "name": "Vanterio's In-Tier Video Guide",
@@ -1391,7 +1394,8 @@
                             "attachmenttype": "link",
                             "link": "https://youtu.be/mXyURlbZLy0?feature=shared"
                         }
-                    ]
+                    ],
+                    "inTier": true
                 },
                 {
                     "name": "Youreprettycute's In-Tier Pic and Text Guide",
@@ -1412,7 +1416,8 @@
                             "attachmenttype": "image",
                             "contenttype": "image/png"
                         }
-                    ]
+                    ],
+                    "inTier": true
                 }
             ]
         },
@@ -1428,7 +1433,8 @@
                             "link": "https://docs.google.com/spreadsheets/d/102qib1ZtwI3YJFEUK6AqLLQqXo7szXAFlCwEnmxSKOc/edit?gid=0#gid=0",
                             "original-link": "https://docs.google.com/spreadsheets/d/1KOmFbfI6nO4r67SLBsG0sS6zmIozoSQqhYuze5rZUM0/edit#gid=0"
                         }
-                    ]
+                    ],
+                    "inTier": true
                 },
                 {
                     "name": "PocketApple8104's Starweave Google Sheet Guide",
@@ -1438,7 +1444,8 @@
                             "link": "https://docs.google.com/spreadsheets/d/1YoNpZ0uuBNbInbxvfkUzgvgzD1VyxX7mokeW3jCvdRc/edit?gid=1384195086#gid=1384195086",
                             "original-link": "https://docs.google.com/spreadsheets/d/1wbKl8h9Tzj9zgX1AEBY4wIhmC-xjN1OzyfsfBNkepeY/edit#gid=1384195086"
                         }
-                    ]
+                    ],
+                    "inTier": true
                 },
                 {
                     "name": "PocketApple8104's In-Tier Starweave Videos",
@@ -1460,7 +1467,8 @@
                             "attachmenttype": "link",
                             "link": "https://youtu.be/fi2jkGQpB3M?t=337"
                         }
-                    ]
+                    ],
+                    "inTier": true
                 },
                 {
                     "name": "Youreprettycute's In-Tier Pic and Text Guide",
@@ -1474,7 +1482,8 @@
                             "attachmenttype": "image",
                             "contenttype": "image/png"
                         }
-                    ]
+                    ],
+                    "inTier": true
                 }
             ]
         },
@@ -1496,7 +1505,8 @@
                             "attachmenttype": "link",
                             "link": "https://docs.google.com/spreadsheets/d/1jpIghTeSnI-SMM3185gxfSEF7VuZKF4A5V45l2XuixE/edit?gid=894387049#gid=894387049"
                         }
-                    ]
+                    ],
+                    "inTier": true
                 },
                 {
                     "name": "PocketApple8104's In-Tier Poly Video: Tank Brute Force",
@@ -1513,7 +1523,8 @@
                             "attachmenttype": "link",
                             "link": "https://youtu.be/mcqLANNzfPw"
                         }
-                    ]
+                    ],
+                    "inTier": true
                 },
                 {
                     "name": "PocketApple8104's In-Tier Poly Video: DPS Semi-Brute Force",
@@ -1530,7 +1541,8 @@
                             "attachmenttype": "link",
                             "link": "https://youtu.be/gU6MHRMIsO8"
                         }
-                    ]
+                    ],
+                    "inTier": true
                 }
             ]
         },
@@ -1553,7 +1565,8 @@
                             "attachmenttype": "link",
                             "link": "https://docs.google.com/document/d/1iiI-KXnIpE97Rf6WPWecW30CWZKjlsnzKlaMhgW3xgo/edit?usp=sharing"
                         }
-                    ]
+                    ],
+                    "inTier": true
                 },
                 {
                     "name": "PocketApple8104's In-Tier Elementarium Video",
@@ -1570,7 +1583,8 @@
                             "attachmenttype": "link",
                             "link": "https://youtu.be/-tiKx6txHds"
                         }
-                    ]
+                    ],
+                    "inTier": true
                 }
             ]
         },
@@ -1589,7 +1603,8 @@
                             "attachmenttype": "link",
                             "link": "https://youtu.be/ki10OPHxAfc"
                         }
-                    ]
+                    ],
+                    "inTier": true
                 },
                 {
                     "name": "Vanterio's Text, Pic, and Video Guide",
@@ -1617,7 +1632,8 @@
                             "attachmenttype": "link",
                             "link": "https://youtube.com/playlist?list=PLHpQl7TbewxI3c9kDcHdhrCyd8N3e9rkK&feature=shared"
                         }
-                    ]
+                    ],
+                    "inTier": false
                 }
             ]
         },
@@ -1633,7 +1649,8 @@
                             "link": "https://docs.google.com/spreadsheets/d/102qib1ZtwI3YJFEUK6AqLLQqXo7szXAFlCwEnmxSKOc/edit?gid=323752265#gid=323752265",
                             "original-link": "https://docs.google.com/spreadsheets/d/1KOmFbfI6nO4r67SLBsG0sS6zmIozoSQqhYuze5rZUM0/edit#gid=323752265"
                         }
-                    ]
+                    ],
+                    "inTier": true
                 },
                 {
                     "name": "PocketApple8104's Evolvium Google Sheet Guide",
@@ -1643,7 +1660,8 @@
                             "link": "https://docs.google.com/spreadsheets/d/1YoNpZ0uuBNbInbxvfkUzgvgzD1VyxX7mokeW3jCvdRc/edit?gid=1528104620#gid=1528104620",
                             "original-link": "https://docs.google.com/spreadsheets/d/1wbKl8h9Tzj9zgX1AEBY4wIhmC-xjN1OzyfsfBNkepeY/edit#gid=1528104620"
                         }
-                    ]
+                    ],
+                    "inTier": true 
                 }
             ]
         },
@@ -1668,7 +1686,8 @@
                             "attachmenttype": "pdf",
                             "contenttype": "application/pdf"
                         }
-                    ]
+                    ],
+                    "inTier": false
                 },
                 {
                     "name": "PocketApple8104's In-Tier Firium Video",
@@ -1677,7 +1696,8 @@
                             "attachmenttype": "link",
                             "link": "https://www.youtube.com/watch?v=oUPGknqnRgo"
                         }
-                    ]
+                    ],
+                    "inTier": true
                 }
             ]
         },
@@ -1700,7 +1720,8 @@
                             "filename": "d4-t16-billyidol.md",
                             "attachmenttype": "markdown"
                         }
-                    ]
+                    ],
+                    "inTier": false
                 },
                 {
                     "name": "Fr3sTy7's In-Tier PDF Guide",
@@ -1718,7 +1739,8 @@
                             "attachmenttype": "pdf",
                             "contenttype": "application/pdf"
                         }
-                    ]
+                    ],
+                    "inTier": true
                 },
                 {
                     "name": "PocketApple8104's In-Tier Soul of Escarium Video",
@@ -1735,7 +1757,8 @@
                             "attachmenttype": "link",
                             "link": "https://youtu.be/F8p5Q60Yzw0"
                         }
-                    ]
+                    ],
+                    "inTier": true
                 },
                 {
                     "name": "Special_Delivery's Build and Team",
@@ -1759,7 +1782,8 @@
                             "attachmenttype": "image",
                             "contenttype": "image/png"
                         }
-                    ]
+                    ],
+                    "inTier": false
                 }
             ]
         },
@@ -1784,7 +1808,8 @@
                             "attachmenttype": "image",
                             "contenttype": "image/jpg"
                         }
-                    ]
+                    ],
+                    "inTier": false
                 },
                 {
                     "name": "Adhesive81's Picture Guide",
@@ -1803,7 +1828,8 @@
                             "attachmenttype": "image",
                             "contenttype": "image/png"
                         }
-                    ]
+                    ],
+                    "inTier": false
                 },
                 {
                     "name": "ArchangelMichael's Video",
@@ -1820,7 +1846,8 @@
                             "attachmenttype": "link",
                             "link": "https://www.youtube.com/watch?v=jsVGkAngeRU"
                         }
-                    ]
+                    ],
+                    "inTier": true 
                 },
                 {
                     "name": "BillyIdol, JoeBu, and ZombieSlayer13's Pic Guide",
@@ -1839,7 +1866,8 @@
                             "attachmenttype": "image",
                             "contenttype": "image/jpg"
                         }
-                    ]
+                    ],
+                    "inTier": false
                 },
                 {
                     "name": "BillyIdol's Text Guide and Video",
@@ -1857,7 +1885,8 @@
                             "filename": "d4-t17-billyidol.md",
                             "attachmenttype": "markdown"
                         }
-                    ]
+                    ],
+                    "inTier": false
                 },
                 {
                     "name": "Crow's Pic Guide",
@@ -1876,7 +1905,8 @@
                             "attachmenttype": "image",
                             "contenttype": "image/jpg"
                         }
-                    ]
+                    ],
+                    "inTier": true
                 },
                 {
                     "name": "cybermuffin's Pic Guide",
@@ -1894,7 +1924,8 @@
                             "attachmenttype": "image",
                             "contenttype": "image/jpg"
                         }
-                    ]
+                    ],
+                    "inTier": false
                 },
                 {
                     "name": "Equilibrandt's PDF Guide",
@@ -1912,7 +1943,8 @@
                             "attachmenttype": "pdf",
                             "contenttype": "application/pdf"
                         }
-                    ]
+                    ],
+                    "inTier": false
                 },
                 {
                     "name": "Fyra's Aeneas Pic Guide",
@@ -1930,7 +1962,8 @@
                             "attachmenttype": "image",
                             "contenttype": "image/jpg"
                         }
-                    ]
+                    ],
+                    "inTier": false
                 },
                 {
                     "name": "Fyra's RW/SW Pic Guide",
@@ -1951,7 +1984,8 @@
                             "filename": "d4-t17-fyra-rwsw.md",
                             "attachmenttype": "markdown"
                         }
-                    ]
+                    ],
+                    "inTier": false
                 },
                 {
                     "name": "Goku's Pic Guide",
@@ -1969,7 +2003,8 @@
                             "attachmenttype": "image",
                             "contenttype": "image/jpg"
                         }
-                    ]
+                    ],
+                    "inTier": false
                 },
                 {
                     "name": "Gylgymesh's Pic Guide",
@@ -1988,7 +2023,8 @@
                             "attachmenttype": "image",
                             "contenttype": "image/png"
                         }
-                    ]
+                    ],
+                    "inTier": false
                 },
 
                 {
@@ -2007,7 +2043,8 @@
                             "attachmenttype": "image",
                             "contenttype": "image/jpg"
                         }
-                    ]
+                    ],
+                    "inTier": false
                 },
                 {
                     "name": "iiTicTac's PDF Guide", 
@@ -2025,7 +2062,8 @@
                             "contenttype": "application/pdf"
                         }
                     ],
-                    "keywords": ["tictac", "tic", "tac"]
+                    "keywords": ["tictac", "tic", "tac"],
+                    "inTier": false
                 },
                 {
                     "name": "Josiah_4's PDF Guide",
@@ -2043,7 +2081,8 @@
                             "attachmenttype": "pdf",
                             "contenttype": "application/pdf"
                         }
-                    ]
+                    ],
+                    "inTier": false
                 },
                 {
                     "name": "Kruste's Pic Guide",
@@ -2062,7 +2101,8 @@
                             "attachmenttype": "image",
                             "contenttype": "image/jpg"
                         }
-                    ]
+                    ],
+                    "inTier": false
                 },
                 {
                     "name": "Melody (Choco)'s PDF Guide",
@@ -2081,7 +2121,8 @@
                             "attachmenttype": "pdf",
                             "contenttype": "application/pdf"
                         }
-                    ]
+                    ],
+                    "inTier": false
                 },
                 {
                     "name": "MrRager's Text Guide",
@@ -2098,7 +2139,8 @@
                             "filename": "d4-t17-mrrager.md",
                             "attachmenttype": "markdown"
                         }
-                    ]
+                    ],
+                    "inTier": false
                 },
                 {
                     "name": "ponymarc's In-Tier Clover Clear",
@@ -2136,7 +2178,8 @@
                             "attachmenttype": "image",
                             "contenttype": "image/png"
                         }
-                    ]
+                    ],
+                    "inTier": true
                 },
                 {
                     "name": "PrimeDyze's Video",
@@ -2154,7 +2197,8 @@
                             "attachmenttype": "link",
                             "link": "https://www.youtube.com/watch?v=nv7SnG9Mnrk"
                         }
-                    ]
+                    ],
+                    "inTier": false
                 },
                 {
                     "name": "Smolder's Pic Guide",
@@ -2173,7 +2217,8 @@
                             "attachmenttype": "image",
                             "contenttype": "image/jpg"
                         }
-                    ]
+                    ],
+                    "inTier": false
                 },
                 {
                     "name": "Toad's Pic Guide",
@@ -2191,7 +2236,8 @@
                             "attachmenttype": "image",
                             "contenttype": "image/png"
                         }
-                    ]
+                    ],
+                    "inTier": false
                 },
                 {
                     "name": "Tolton's Pic Guide",
@@ -2210,7 +2256,8 @@
                             "attachmenttype": "image",
                             "contenttype": "image/png"
                         }
-                    ]
+                    ],
+                    "inTier": false
                 },
                 {
                     "name": "VesaN's Pic Guide",
@@ -2230,7 +2277,8 @@
                             "attachmenttype": "image",
                             "contenttype": "image/jpg"
                         }
-                    ]
+                    ],
+                    "inTier": false
                 },
                 {
                     "name": "Youreprettycute's Pic Guide",
@@ -2244,7 +2292,8 @@
                             "attachmenttype": "image",
                             "contenttype": "image/jpg"
                         }
-                    ]
+                    ],
+                    "inTier": false
                 },
                 {
                     "name": "ZENICKS's Pic Guide",
@@ -2261,7 +2310,8 @@
                             "attachmenttype": "image",
                             "contenttype": "image/png"
                         }
-                    ]
+                    ],
+                    "inTier": false
                 },
                 {
                     "name": "Other Builds/Comps (Ballbreaker, Darkhand6, Dispel1, PAINisGOD93, Techno)",
@@ -2298,7 +2348,8 @@
                             "attachmenttype": "image",
                             "contenttype": "image/jpg"
                         }
-                    ]
+                    ],
+                    "inTier": false
                 }
             ]
         },
@@ -2323,7 +2374,8 @@
                             "attachmenttype": "image",
                             "contenttype": "image/png"
                         }
-                    ]
+                    ],
+                    "inTier": false
                 },
                 {
                     "name": "BillyIdol's Text Guide",
@@ -2339,7 +2391,8 @@
                             "filename": "d4-t18-billyidol.md",
                             "attachmenttype": "markdown"
                         }
-                    ]
+                    ],
+                    "inTier": true
                 },
                 {
                     "name": "Bisamratte's Pic Guide",
@@ -2357,7 +2410,8 @@
                             "attachmenttype": "image",
                             "contenttype": "image/jpg"
                         }
-                    ]
+                    ],
+                    "inTier": false
                 },
                 {
                     "name": "Ember's PDF Guide",
@@ -2376,7 +2430,8 @@
                             "attachmenttype": "pdf",
                             "contenttype": "application/pdf"
                         }
-                    ]
+                    ],
+                    "inTier": false
                 },
                 {
                     "name": "Goku's Pic Guide",
@@ -2394,7 +2449,8 @@
                             "attachmenttype": "image",
                             "contenttype": "image/png"
                         }
-                    ]
+                    ],
+                    "inTier": true
                 },
                 {
                     "name": "Huen11 and ZombieSlayer13's Pic Guide",
@@ -2412,7 +2468,8 @@
                             "attachmenttype": "image",
                             "contenttype": "image/jpg"
                         }
-                    ]
+                    ],
+                    "inTier": true
                 },
                 {
                     "name": "JDizzle's Mostly Solo PDF Guide",
@@ -2429,7 +2486,8 @@
                             "attachmenttype": "pdf",
                             "contenttype": "application/pdf"
                         }
-                    ]
+                    ],
+                    "inTier": false
                 },
                 {
                     "name": "Toad's Pic Guide",
@@ -2447,7 +2505,8 @@
                             "attachmenttype": "image",
                             "contenttype": "image/png"
                         }
-                    ]
+                    ],
+                    "inTier": false
                 }
             ]
         },
@@ -2471,7 +2530,8 @@
                             "attachmenttype": "pdf",
                             "contenttype": "application/pdf"
                         }
-                    ]
+                    ],
+                    "inTier": true
                 },
                 {
                     "name": "Antomanz's Pic Guide",
@@ -2488,7 +2548,8 @@
                             "attachmenttype": "image",
                             "contenttype": "image/jpg"
                         }
-                    ]
+                    ],
+                    "inTier": true
                 },
                 {
                     "name": "BillyIdol's ProtoPlague Shrampz Video",
@@ -2504,7 +2565,8 @@
                             "attachmenttype": "link",
                             "link": "https://www.youtube.com/watch?v=qY-ThBZVVm4"
                         }
-                    ]
+                    ],
+                    "inTier": false
                 },
                 {
                     "name": "BillyIdol's Text Guide (Ancient Speed Bait)",
@@ -2521,7 +2583,8 @@
                             "filename": "d4-t19-billyidol.md",
                             "attachmenttype": "markdown"
                         }
-                    ]
+                    ],
+                    "inTier": true
                 },
                 {
                     "name": "Blanquiito and ItsMBSCastillo's PDF and Video Guide",
@@ -2542,7 +2605,8 @@
                             "attachmenttype": "link",
                             "link": "https://www.youtube.com/watch?v=2cx3uUCtiTE&ab_channel=ItsMBSCastilloBitH%C3%A9roes"
                         }
-                    ]
+                    ],
+                    "inTier": false
                 },
                 {
                     "name": "Captain_Crunchie's PDF Guide",
@@ -2560,7 +2624,8 @@
                             "attachmenttype": "pdf",
                             "contenttype": "application/pdf"
                         }
-                    ]
+                    ],
+                    "inTier": true
                 },
                 {
                     "name": "Commander's Pic Guide",
@@ -2578,7 +2643,8 @@
                             "attachmenttype": "image",
                             "contenttype": "image/png"
                         }
-                    ]
+                    ],
+                    "inTier": false
                 },
                 {
                     "name": "Dude_WTF's Text Guide",
@@ -2594,7 +2660,8 @@
                             "filename": "d4-t19-dudewtf.md",
                             "attachmenttype": "markdown"
                         }
-                    ]
+                    ],
+                    "inTier": false
                 },
                 {
                     "name": "EdwardGenius' Budget Speedbait Guide",
@@ -2611,7 +2678,8 @@
                             "attachmenttype": "pdf",
                             "contenttype": "application/pdf"
                         }
-                    ]
+                    ],
+                    "inTier": true
                 },
                 {
                     "name": "Ember's PDF Guide",
@@ -2629,7 +2697,8 @@
                             "attachmenttype": "pdf",
                             "contenttype": "application/pdf"
                         }
-                    ]
+                    ],
+                    "inTier": false
                 },
                 {
                     "name": "Fyra's PDF Guide",
@@ -2647,7 +2716,8 @@
                             "attachmenttype": "pdf",
                             "contenttype": "application/pdf"
                         }
-                    ]
+                    ],
+                    "inTier": true
                 },
                 {
                     "name": "JoeBu's Flunder Video",
@@ -2663,7 +2733,8 @@
                             "attachmenttype": "link",
                             "link": "https://www.youtube.com/watch?v=Y4n7pCw51vQ"
                         }
-                    ]
+                    ],
+                    "inTier": true
                 },
                 {
                     "name": "JoeBu, BillyIdol, and ZombieSlayer13's Pic Guide",
@@ -2681,7 +2752,8 @@
                             "attachmenttype": "image",
                             "contenttype": "image/jpg"
                         }
-                    ]
+                    ],
+                    "inTier": true
                 },
                 {
                     "name": "Maddbz's PDF Guide",
@@ -2699,7 +2771,8 @@
                             "attachmenttype": "pdf",
                             "contenttype": "application/pdf"
                         }
-                    ]
+                    ],
+                    "inTier": false
                 },
                 {
                     "name": "McSploosh's Build, Team, and Summary",
@@ -2716,7 +2789,8 @@
                             "attachmenttype": "image",
                             "contenttype": "image/png"
                         }
-                    ]
+                    ],
+                    "inTier": true
                 },
                 {
                     "name": "MrRager's Build and Text Summary",
@@ -2738,7 +2812,8 @@
                             "filename": "d4-t19-mrrager.md",
                             "attachmenttype": "markdown"
                         }
-                    ]
+                    ],
+                    "inTier": true
                 },
                 {
                     "name": "n1ghtmaree's text guide (Shield & Magmerang, with bad familiars)",
@@ -2760,7 +2835,8 @@
                             "attachmenttype": "image",
                             "contenttype": "image/png"
                         }
-                    ]
+                    ],
+                    "inTier": true
                 },
                 {
                     "name": "Orcaaa's Build and Text Summary",
@@ -2781,7 +2857,8 @@
                             "filename": "d4-t19-orcaaa-2.md",
                             "attachmenttype": "markdown"
                         }
-                    ]
+                    ],
+                    "inTier": true
                 },
                 {
                     "name": "PrimeDyze's Video",
@@ -2798,7 +2875,8 @@
                             "attachmenttype": "link",
                             "link": "https://www.youtube.com/watch?v=BEdltEjz2-M"
                         }
-                    ]
+                    ],
+                    "inTier": false
                 },
                 {
                     "name": "RoastyChicken's Team, Build, and Strategy",
@@ -2825,7 +2903,8 @@
                             "attachmenttype": "image",
                             "contenttype": "image/png"
                         }
-                    ]
+                    ],
+                    "inTier": true
                 },
                 {
                     "name": "ShawnBond's Pic Guide",
@@ -2843,7 +2922,8 @@
                             "attachmenttype": "image",
                             "contenttype": "image/jpg"
                         }
-                    ]
+                    ],
+                    "inTier": true
                 },
                 {
                     "name": "Sizz",
@@ -2861,7 +2941,8 @@
                             "attachmenttype": "pdf",
                             "contenttype": "application/pdf"
                         }
-                    ]
+                    ],
+                    "inTier": true
                 },
                 {
                     "name": "Toad's Pic Guide",
@@ -2879,7 +2960,8 @@
                             "attachmenttype": "image",
                             "contenttype": "image/png"
                         }
-                    ]
+                    ],
+                    "inTier": true
                 },
                 {
                     "name": "UnseenAxes's Pic and Text Guide",
@@ -2900,7 +2982,8 @@
                             "attachmenttype": "image",
                             "contenttype": "image/png"
                         }
-                    ]
+                    ],
+                    "inTier": false
                 },
                 {
                     "name": "skye666's In-Tier W3-4ty Guide",
@@ -2918,7 +3001,8 @@
                             "attachmenttype": "pdf",
                             "contenttype": "application/pdf"
                         }
-                    ]
+                    ],
+                    "inTier": true
                 },
                 {
                     "name": "Talisman's Broke Person Protoplague Guide",
@@ -2940,7 +3024,8 @@
                             "attachmenttype": "image",
                             "contenttype": "image/png"
                         }
-                    ]
+                    ],
+                    "inTier": false
                 }
             ]
         },
@@ -2967,7 +3052,8 @@
                             "attachmenttype": "link",
                             "link": "https://www.youtube.com/watch?v=3F9vJBAom6M&ab_channel=ItsMBSCastilloBitHéroes"
                         }
-                    ]
+                    ],
+                    "inTier": false
                 },
                 {
                     "name": "Ember's PDF Guide",
@@ -2983,7 +3069,8 @@
                             "attachmenttype": "pdf",
                             "contenttype": "application/pdf"
                         }
-                    ]
+                    ],
+                    "inTier": true
                 },
                 {
                     "name": "Infermis' Text and Pic Strategy",
@@ -3002,7 +3089,8 @@
                             "attachmenttype": "image",
                             "contenttype": "image/jpg"
                         }
-                    ]
+                    ],
+                    "inTier": true
                 },
                 {
                     "name": "Melody (Choco)'s Text Guide",
@@ -3016,7 +3104,8 @@
                             "filename": "d4-t20-melody.md",
                             "attachmenttype": "markdown"
                         }
-                    ]
+                    ],
+                    "inTier": true
                 },
                 {
                     "name": "Mochi's Pic Guide",
@@ -3033,7 +3122,8 @@
                             "attachmenttype": "image",
                             "contenttype": "image/png"
                         }
-                    ]
+                    ],
+                    "inTier": false
                 },
                 {
                     "name": "RoastyChicken's Pic Guide (First Clear!)",
@@ -3049,10 +3139,11 @@
                             "attachmenttype": "image",
                             "contenttype": "image/jpg"
                         }
-                    ]
+                    ],
+                    "inTier": true
                 },
                 {
-                    "name": "Special_Delivery's PDF Guide",
+                    "name": "Special_Delivery's PDF Guide (In-Tier TS despite ring)",
                     "builds": [
                         "Ancient Speed Bait"
                     ],
@@ -3066,7 +3157,8 @@
                             "attachmenttype": "pdf",
                             "contenttype": "application/pdf"
                         }
-                    ]
+                    ],
+                    "inTier": true
                 },
                 {
                     "name": "PrimeDyze's Video and Pic Guide (pic by ZombieSlayer13)",
@@ -3086,7 +3178,8 @@
                             "attachmenttype": "image",
                             "contenttype": "image/jpg"
                         }
-                    ]
+                    ],
+                    "inTier": false
                 },
                 {
                     "name": "UnseenAxes's Text Guide",
@@ -3107,7 +3200,8 @@
                             "attachmenttype": "image",
                             "contenttype": "image/jpg"
                         }
-                    ]
+                    ],
+                    "inTier": false
                 },
                 {
                     "name": "ZombieSlayer13's Pic Guide",
@@ -3123,7 +3217,8 @@
                             "attachmenttype": "image",
                             "contenttype": "image/jpg"
                         }
-                    ]
+                    ],
+                    "inTier": true
                 }
             ]
         },
@@ -3151,7 +3246,8 @@
                             "attachmenttype": "image",
                             "contenttype": "image/png"
                         }
-                    ]
+                    ],
+                    "inTier": true
                 },
                 {
                     "name": "BillyIdol's Text Notes",
@@ -3167,7 +3263,8 @@
                             "filename": "d4-t21-billyidol.md",
                             "attachmenttype": "markdown"
                         }
-                    ]
+                    ],
+                    "inTier": true
                 },
                 {
                     "name": "fohpo's Pic Guide",
@@ -3187,7 +3284,8 @@
                             "attachmenttype": "image",
                             "contenttype": "image/png"
                         }
-                    ]
+                    ],
+                    "inTier": true
                 },
                 {
                     "name": "Goolmuddy's Text and Pic Guide",
@@ -3213,7 +3311,8 @@
                             "attachmenttype": "image",
                             "contenttype": "image/png"
                         }
-                    ]
+                    ],
+                    "inTier": true
                 },
                 {
                     "name": "ItsMBSCastillo's Pic Guide",
@@ -3230,7 +3329,8 @@
                             "attachmenttype": "image",
                             "contenttype": "image/png"
                         }
-                    ]
+                    ],
+                    "inTier": true
                 },
                 {
                     "name": "JDtheGreat's PDF Guide",
@@ -3247,7 +3347,8 @@
                             "attachmenttype": "pdf",
                             "contenttype": "application/pdf"
                         }
-                    ]
+                    ],
+                    "inTier": true
                 },
                 {
                     "name": "ShawnBond's Text Guide",
@@ -3263,7 +3364,8 @@
                             "filename": "d4-t21-shawnbond.md",
                             "attachmenttype": "markdown"
                         }
-                    ]
+                    ],
+                    "inTier": true
                 },
                 {
                     "name": "Sizz's Pic Guide",
@@ -3280,7 +3382,8 @@
                             "attachmenttype": "image",
                             "contenttype": "image/jpg"
                         }
-                    ]
+                    ],
+                    "inTier": true
                 },
                 {
                     "name": "ZombieSlayer13's Pic Guide",
@@ -3297,7 +3400,8 @@
                             "attachmenttype": "image",
                             "contenttype": "image/jpg"
                         }
-                    ]
+                    ],
+                    "inTier": true
                 },
                 {
                     "name": "Lord_Adman's Video and Text Guide",
@@ -3313,7 +3417,8 @@
                             "attachmenttype": "link",
                             "link": "https://www.youtube.com/watch?v=JqShVkxfILc&ab_channel=Lord_Adman"
                         }
-                    ]
+                    ],
+                    "inTier": true
                 }
             ]
         },
