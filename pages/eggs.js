@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import Eggs from '../src/components/Eggs';
+import EggsWrapper from '../src/components/Eggs/EggsWrapper';
 import { updatePageMeta } from '../src/utils/seo';
 
 export default function EggsPage() {
@@ -7,5 +7,5 @@ export default function EggsPage() {
         updatePageMeta('/eggs');
     }, []);
 
-    return <Eggs />;
+    return <EggsWrapper />;
 }
