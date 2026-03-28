@@ -1437,12 +1437,45 @@
                     "inTier": true
                 },
                 {
+                    "name": "Envious' In-Tier Pic and Text Guide",
+                    "builds": [
+                        "Arsenal"
+                    ],
+                    "fams": [
+                        "Bobodom",
+                        "Drazig"
+                    ],
+                    "attachments": [
+                        {
+                            "filename": "d4-t9-envious.md",
+                            "attachmenttype": "markdown"
+                        },
+                        {
+                            "filename": "d4-t9-envious-1.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        },
+                        {
+                            "filename": "d4-t9-envious-2.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        },
+                        {
+                            "filename": "d4-t9-envious-3.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        }
+                    ],
+                    "inTier": true
+                },
+                {
                     "name": "Parad0x's In-Tier Pic and Text Guide",
                     "builds": [
                         "Inferno"
                     ],
                     "fams": [
                         "Bobodom",
+                        "Drazig",
                         "Mir'alg"
                     ],
                     "attachments": [
