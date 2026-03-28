@@ -29,7 +29,7 @@ export default function Footer() {
 
     const navs = [
         {key: "calculators-guides", path: "/", text: "Guides"},
-        {key: "calculators-ifcr", path: "/item-find", text: "Item Find"},
+        {key: "calculators-ifcr", path: "/boost-calcs", text: "Boost Calcs"},
         {key: "calculator-turnrate", path: "/turn-rate", text: "Turn Rate"},
         {key: "calculator-familiar", path: "/familiar-calc", text: "Fams"},
         {key: "calculator-eggs", path: "/eggs", text: "Eggs"},

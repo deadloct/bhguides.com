@@ -1,11 +1,12 @@
 import { useEffect } from 'react';
-import ItemFindCapRateWrapper from '../src/components/ItemFindCapRateWrapper';
-import { updatePageMeta } from '../src/utils/seo';
+import { useRouter } from 'next/router';
 
-export default function ItemFindPage() {
+export default function ItemFindRedirect() {
+    const router = useRouter();
+
     useEffect(() => {
-        updatePageMeta('/item-find');
-    }, []);
+        router.replace('/boost-calcs');
+    }, [router]);
 
-    return <ItemFindCapRateWrapper />;
+    return null;
 }

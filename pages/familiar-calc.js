@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import FamiliarCalc from '../src/components/FamiliarCalc';
+import Familiars from '../src/components/Familiars';
 import { updatePageMeta } from '../src/utils/seo';
 
 export default function FamiliarCalcPage() {
@@ -7,5 +7,5 @@ export default function FamiliarCalcPage() {
         updatePageMeta('/familiar-calc');
     }, []);
 
-    return <FamiliarCalc />;
+    return <Familiars />;
 }

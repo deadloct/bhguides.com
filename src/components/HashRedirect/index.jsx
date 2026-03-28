@@ -14,7 +14,7 @@ const HashRedirect = () => {
             // Map old hash routes to new routes
             const routeMap = {
                 '#/': '/',
-                '#/item-find': '/item-find',
+                '#/item-find': '/boost-calcs',
                 '#/turn-rate': '/turn-rate', 
                 '#/familiar-calc': '/familiar-calc',
                 '#/rng-me': '/eggs'

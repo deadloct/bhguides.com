@@ -12,10 +12,10 @@ const ROUTE_META = {
         description: "Browse comprehensive Bit Heroes guides including D4/Ancient strategies, familiar and fusion information, and community-created content.",
         keywords: "Bit Heroes guides, D4 guides, ancient guides, familiar and fusion information"
     },
-    "/item-find": {
-        title: "Item Find and Capture Rate Calculators - Bit Heroes Guides",
-        description: "Calculate capture rates and item find chances for Bit Heroes. Use these tools to optimize farming strategies.",
-        keywords: "Bit Heroes calculator, item find, capture rate, farming calculator, drop rates"
+    "/boost-calcs": {
+        title: "Boost Calculators - Bit Heroes Guides",
+        description: "Calculate item find, capture rates, and boost chances for Bit Heroes. Use these tools to optimize farming strategies.",
+        keywords: "Bit Heroes calculator, item find, capture rate, farming calculator, drop rates, boost calculators"
     },
     "/turn-rate": {
         title: "Turn Rate Calculator - Bit Heroes Guides",
