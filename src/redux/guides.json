@@ -116,7 +116,7 @@
                     "name": "Bor'lan",
                     "attachments": [
                         {
-                            "filename": "fusions-cards-borlan.png",
+                            "filename": "fusion-cards-wrldeatr-borlan.png",
                             "attachmenttype": "image",
                             "contenttype": "image/png"
                         }
@@ -126,7 +126,7 @@
                     "name": "Dryonic",
                     "attachments": [
                         {
-                            "filename": "fusions-cards-dryonic.png",
+                            "filename": "fusion-cards-wrldeatr-dryonic.png",
                             "attachmenttype": "image",
                             "contenttype": "image/png"
                         }
@@ -136,17 +136,27 @@
                     "name": "Jebediah",
                     "attachments": [
                         {
-                            "filename": "fusions-cards-jebediah.png",
+                            "filename": "fusion-cards-wrldeatr-jebediah.png",
                             "attachmenttype": "image",
                             "contenttype": "image/png"
                         }
                     ]
-                }, 
+                },
+                {
+                    "name": "Lady Sparkin",
+                    "attachments": [
+                        {
+                            "filename": "fusion-cards-wrldeatr-ladysparkin.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        }
+                    ]
+                },
                 {
                     "name": "Oladus",
                     "attachments": [
                         {
-                            "filename": "fusions-cards-oladus.png",
+                            "filename": "fusion-cards-wrldeatr-oladus.png",
                             "attachmenttype": "image",
                             "contenttype": "image/png"
                         }
@@ -156,7 +166,7 @@
                     "name": "Shrampz",
                     "attachments": [
                         {
-                            "filename": "fusions-cards-shrampz.png",
+                            "filename": "fusion-cards-wrldeatr-shrampz.png",
                             "attachmenttype": "image",
                             "contenttype": "image/png"
                         }
@@ -166,7 +176,7 @@
                     "name": "Ukalis",
                     "attachments": [
                         {
-                            "filename": "fusions-cards-ukalis.png",
+                            "filename": "fusion-cards-wrldeatr-ukalis.png",
                             "attachmenttype": "image",
                             "contenttype": "image/png"
                         }
@@ -176,7 +186,7 @@
                     "name": "Ulairius",
                     "attachments": [
                         {
-                            "filename": "fusions-cards-ulairius.png",
+                            "filename": "fusion-cards-wrldeatr-ulairius.png",
                             "attachmenttype": "image",
                             "contenttype": "image/png"
                         }
@@ -186,7 +196,7 @@
                     "name": "Yemic",
                     "attachments": [
                         {
-                            "filename": "fusions-cards-yemic.png",
+                            "filename": "fusion-cards-wrldeatr-yemic.png",
                             "attachmenttype": "image",
                             "contenttype": "image/png"
                         }
@@ -196,7 +206,7 @@
                     "name": "Zarlock",
                     "attachments": [
                         {
-                            "filename": "fusions-cards-zarlock.png",
+                            "filename": "fusion-cards-wrldeatr-zarlock.png",
                             "attachmenttype": "image",
                             "contenttype": "image/png"
                         }
@@ -288,7 +298,7 @@
                             "link": "https://www.youtube.com/watch?v=1s2SFDMRWfM"
                         }
                     ]
-                }, 
+                },
                 {
                     "name": "Tier 11 Familiars",
                     "attachments": [
@@ -2112,7 +2122,7 @@
                     "inTier": false
                 },
                 {
-                    "name": "iiTicTac's PDF Guide", 
+                    "name": "iiTicTac's PDF Guide",
                     "builds": [
                         "Aeneas"
                     ],
