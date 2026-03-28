@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Subheader from '../Subheader';
 import EggCalculator from './EggCalculator';
 import EggCracker from './EggCracker';
@@ -13,13 +13,13 @@ const pages = {
     cracker: EggCracker,
 };
 
-export default function EggsWrapper() {
-    const [activePage, setActivePage] = useState('calculator');
+export default function EggsWrapper({ activeTab }) {
+    const activePage = activeTab in pages ? activeTab : 'calculator';
     const ActiveComponent = pages[activePage];
 
     return (
         <>
-            <Subheader navItems={navItems} activeKey={activePage} onSelect={setActivePage} />
+            <Subheader navItems={navItems} activeKey={activePage} basePath="/eggs" />
             <ActiveComponent />
         </>
     );

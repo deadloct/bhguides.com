@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Container from '@mui/material/Container';
 import Subheader from '../Subheader';
 import SimpleIFCalc from '../ItemFind/simple-if-calc';
@@ -62,13 +62,13 @@ const pages = {
     'cap-rate': CapRatePage,
 };
 
-export default function BoostCalcs() {
-    const [activePage, setActivePage] = useState('simple-if');
+export default function BoostCalcs({ activeTab }) {
+    const activePage = activeTab in pages ? activeTab : 'simple-if';
     const ActiveComponent = pages[activePage];
 
     return (
         <>
-            <Subheader navItems={navItems} activeKey={activePage} onSelect={setActivePage} />
+            <Subheader navItems={navItems} activeKey={activePage} basePath="/boost-calcs" />
             <ActiveComponent />
         </>
     );

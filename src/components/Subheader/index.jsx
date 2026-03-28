@@ -1,8 +1,12 @@
 import React from 'react';
+import Link from 'next/link';
 import Container from '@mui/material/Container';
 import styles from './index.module.css';
 
-export default function Subheader({ navItems, activeKey, onSelect }) {
+export default function Subheader({ navItems, activeKey, basePath }) {
+    const keys = Object.keys(navItems);
+    const defaultKey = keys[0];
+
     return (
         <div className={styles["subheader"]}>
             <Container maxWidth="md">
@@ -10,12 +14,12 @@ export default function Subheader({ navItems, activeKey, onSelect }) {
                     <ul>
                         {Object.entries(navItems).map(([key, label]) => (
                             <li key={key}>
-                                <button
+                                <Link
+                                    href={key === defaultKey ? basePath : `${basePath}/${key}`}
                                     className={`${styles["subnav-link"]}${activeKey === key ? ` ${styles["active"]}` : ''}`}
-                                    onClick={() => onSelect(key)}
                                 >
                                     {label}
-                                </button>
+                                </Link>
                             </li>
                         ))}
                     </ul>
