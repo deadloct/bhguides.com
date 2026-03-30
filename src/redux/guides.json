@@ -133,6 +133,16 @@
                     ]
                 },
                 {
+                    "name": "Gyl' Rotakan",
+                    "attachments": [
+                        {
+                            "filename": "fusion-cards-wrldeatr-gylrotakan.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        }
+                    ]
+                },
+                {
                     "name": "Jebediah",
                     "attachments": [
                         {
