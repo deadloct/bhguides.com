@@ -2663,6 +2663,37 @@
                     "inTier": false
                 },
                 {
+                    "name": "BillyIdol's (as alt ChillyIdol) Budget Proto Guide",
+                    "builds": [
+                        "Protoplague"
+                    ],
+                    "fams": [
+                        "Googie Moogienz"
+                    ],
+                    "attachments": [
+                        {
+                            "filename": "d4-t19-billyidol-proto.md",
+                            "attachmenttype": "markdown"
+                        },
+                        {
+                            "filename": "d4-t19-billyidol-proto-1.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        },
+                        {
+                            "filename": "d4-t19-billyidol-proto-2.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        },
+                        {
+                            "filename": "d4-t19-billyidol-proto-3.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        }
+                    ],
+                    "inTier": false
+                },
+                {
                     "name": "BillyIdol's Text Guide (Ancient Speed Bait)",
                     "builds": [
                         "Ancient Speed Bait"
@@ -3127,6 +3158,37 @@
             "webname": "T20D4 / Z19D4 (Sacramentum)",
             "description": "Community t20d4 Sacramentum strategies",
             "guides": [
+                {
+                    "name": "BillyIdol's (as alt ChillyIdol) Budget Proto Guide",
+                    "builds": [
+                        "Protoplague"
+                    ],
+                    "fams": [
+                        "Googie Moogienz"
+                    ],
+                    "attachments": [
+                        {
+                            "filename": "d4-t20-billyidol-proto.md",
+                            "attachmenttype": "markdown"
+                        },
+                        {
+                            "filename": "d4-t20-billyidol-proto-1.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        },
+                        {
+                            "filename": "d4-t20-billyidol-proto-2.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        },
+                        {
+                            "filename": "d4-t20-billyidol-proto-3.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        }
+                    ],
+                    "inTier": false
+                },
                 {
                     "name": "Blanquiito and ItsMBSCastillo's PDF and Video Guide",
                     "build": ["Skramblegg", "Skyent"],
