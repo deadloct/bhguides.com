@@ -308,13 +308,6 @@ export default function Guides() {
                     who graciously share their knowledge and strategies. Let us all dominate the 
                     jerk Porteriuz together!
                 </p>
-                <p className={`${styles["guides-description"]} ${styles["mobile"]}`}>
-                    <em>
-                        &ldquo;bhguides is my most frequented website by a huge margin xD&rdquo;
-                        <br />
-                        --[TMNT] ratman
-                    </em>
-                </p>
                 <div className={styles["search-wrapper"]}>
                     <input 
                         type="text" 

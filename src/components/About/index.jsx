@@ -34,6 +34,7 @@ export default function About() {
                     [DÀRK] BillyIdol
                 </cite>
             </p>
+
             <div className={styles["about-logo"]}>
                 <Link href="https://vgen.co/pixltoast">
                     <p>
@@ -47,6 +48,7 @@ export default function About() {
                     </p>
                 </Link>
             </div>
+
             <h2>Submissions</h2>
             <p>
                 For new guide submissions, please contact me on Discord and I&apos;ll
@@ -57,11 +59,21 @@ export default function About() {
                 let me know! Same goes for any other comments or concerns.
             </p>
 
+            <h2>Testimonials</h2>
+            <p className={styles["testimonial"]}>
+                    <em>
+                        &ldquo;bhguides is my most frequented website by a huge margin xD&rdquo;
+                        <br />
+                        --[TMNT] ratman
+                    </em>
+                </p>
+
             <h2>Credits</h2>
             <p><strong>Guide Authors:</strong> 3riko, 5Rupees, a_poor_ninja, Adhesive81, AlbacorePrism, Alysias, Antomanz, ATacoTitan, Ballbreaker, Barlooow1987, BillyIdol, Bisamratte, Bitverse_Andy, Blanquiito, Captain_Crunchie, ChubbyDaemon, Chuck, Colb, Commander, Crow, CyberMuffin, DarkHand6, Dispel1, Dracaris, Dude_WTF, EdwardGenius, Ee, Eliealsamaan85, Ember, Envious, Equilibrandt, FergusFerret, fohpo, Fr3sTy7, Fyra, Gagf, Gavx, Goku, Goolmuddy, Gylgymesh, Hæl (aka Hael on this page), Huen11, iiTicTac, Infermis, ItsMBSCastillo, JDizzle, JDtheGreat, Jermoshua, JoeBu, Joemama, John_Hatten2, josiah_4, kruste, Kuz55, Lord_Adman, Lqd, Maddbz, ManBearPig, MaxBrand99, McSploosh, Melody (Choco), Mentle88, MrRager, Mochi, Neflarian, n1ghtmaree, Olivernoko, Orcaaa, PAINisGOD93, Parad0x, PocketApple8104, ponymarc, PrimeDyze, RoastyChicken, ShawnBond, Sizz, skye666, Smolder, Special_Delivery, Talisman, Tarnym, Techno, Toad, Tolton, TooT, TrippyAfro, UnseenAxes, Vanterio, VesaN, Winter, WRLD_EATR, Youreprettycute, ZENICKS, and ZombieSlayer13</p>
             <p><strong>Idea for Original Guides Discord Bot:</strong> Trogburn</p>
             <p><strong>Coding:</strong> BillyIdol • <a href="https://github.com/deadloct/bhguides.com">Source on GitHub</a></p>
             <p><strong>Initial Data Aggregation:</strong> BillyIdol, ShawnBond, Trogdor, and ZombieSlayer13</p>
+            <p><strong>Logo:</strong> <Link href="https://vgen.co/pixltoast">pixltoast</Link>, gifted by ZombieSlayer13</p>
             <p><strong>Honourable Mentions:</strong> Hip224, Robskino</p>
             <p>Thanks to anybody else that helped but was not mentioned because I forgot!</p>
         </Container>
