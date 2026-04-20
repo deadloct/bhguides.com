@@ -10,7 +10,7 @@ export default function About() {
             <p>
                 Bit Heroes players often share game guides in Discord. From the
                 OG unofficial server to the official server and every
-                guild server in between, it's very difficult to find a specific guide.
+                guild server in between, it&apos;s very difficult to find a specific guide.
                 Searching is unreliable given the silos that have formed
                 within the community, and authors often omit text with their
                 uploads, making their guides unsearchable.
@@ -23,7 +23,7 @@ export default function About() {
                 That bot eventually became this website.
             </p>
             <p>
-                I'm very happy that you've made it here. Whilst it may look old-school
+                I&apos;m very happy that you&apos;ve made it here. Whilst it may look old-school
                 and rushed, I enjoy working on the site and hope that it makes your
                 Heroic life a little Bit easier. As the site is actively maintained,
                 please check back regularly for updates.
@@ -49,7 +49,7 @@ export default function About() {
             </div>
             <h2>Submissions</h2>
             <p>
-                For new guide submissions, please contact me on Discord and I'll
+                For new guide submissions, please contact me on Discord and I&apos;ll
                 happily upload it to the site.
             </p>
             <p>
