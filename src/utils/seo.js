@@ -31,6 +31,11 @@ const ROUTE_META = {
         title: "Egg Calculator - Bit Heroes Guides", 
         description: "Calculate egg opening chances and legendary drop rates for Bit Heroes. Optimize your egg opening strategy.",
         keywords: "Bit Heroes egg calculator, legendary drop rates, egg opening, pet eggs, accessory chests"
+    },
+    "/about": {
+        title: "About - Bit Heroes Guides",
+        description: "Credits and acknowledgments for the Bit Heroes Guides community resource.",
+        keywords: "Bit Heroes guides, credits, about, community"
     }
 };
 
