@@ -189,7 +189,8 @@
 }
 
 .attachment-item-img,
-.attachment-item-markdown{
+.attachment-item-markdown,
+.attachment-item-video {
     cursor: pointer;
 }
 

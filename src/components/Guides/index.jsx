@@ -11,6 +11,7 @@ import ArticleIcon from '@mui/icons-material/Article';
 import CancelIcon from '@mui/icons-material/Cancel';
 import CloseIcon from '@mui/icons-material/Close';
 import ImageIcon from '@mui/icons-material/Image';
+import SmartDisplayIcon from '@mui/icons-material/SmartDisplay';
 import LaunchIcon from '@mui/icons-material/Launch';
 import WebhookIcon from '@mui/icons-material/Webhook';
 import MicrosoftIcon from '@mui/icons-material/Microsoft';
@@ -29,6 +30,8 @@ export default function Guides() {
     const [searchResults, setSearchResults] = useState(null);
     const [lightboxVisible, setLightboxVisible] = useState(false);
     const [lightboxFile, setLightboxFile] = useState("");
+    const [lightboxType, setLightboxType] = useState("image");
+    const [lightboxContentType, setLightboxContentType] = useState("");
     const [markdownVisible, setMarkdownVisible] = useState(false);
     const [markdownFile, setMarkdownFile] = useState("");
     const [markdownName, setMarkdownName] = useState("");
@@ -59,6 +62,8 @@ export default function Guides() {
 
     const openLightbox = attachment => {
         setLightboxFile(attachment.filename);
+        setLightboxType(attachment.attachmenttype || "image");
+        setLightboxContentType(attachment.contenttype || "");
         setLightboxVisible(true);
     };
     const hideLightbox = () => setLightboxVisible(false);
@@ -133,6 +138,15 @@ export default function Guides() {
                         <ArticleIcon /> 
                         <span className={styles["att-name"]}>{item.filename}</span>
                         <span className={styles["att-type"]}>(markdown/text)</span>
+                    </li>
+                );
+
+            case "video":
+                return (
+                    <li key={`item-${i}`} className={`${styles["attachment-item"]} ${styles["attachment-item-video"]}`} onClick={() => openLightbox(item)}>
+                        <SmartDisplayIcon />
+                        <span className={styles["att-name"]}>{item.filename}</span>
+                        <span className={styles["att-type"]}>{`(${item.contenttype || "video"})`}</span>
                     </li>
                 );
 
@@ -348,7 +362,13 @@ export default function Guides() {
                     </button>
                 </div>
             )}
-            <Lightbox visible={lightboxVisible} file={lightboxFile} hide={hideLightbox} />
+            <Lightbox
+                visible={lightboxVisible}
+                file={lightboxFile}
+                type={lightboxType}
+                contentType={lightboxContentType}
+                hide={hideLightbox}
+            />
             <Markdown visible={markdownVisible} file={markdownFile} name={markdownName} hide={hideMarkdown} />
         </Container>
     );

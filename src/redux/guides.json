@@ -28,6 +28,9 @@
             {"id": "schematics-cards-wrld_eatr"},
             {"id": "schematics-other"}
         ]},
+        {"id": "flags", "name": "Flags", "children": [
+            {"id": "z15f8"}
+        ]},
         {"id": "misc"},
         {"id": "nft"},
         {"id": "the-talisman-archives", "name": "The Talisman Archives"},
@@ -726,6 +729,49 @@
                             "filename": "fusions-mythic-atacotitan.xlsx",
                             "attachmenttype": "excel",
                             "contenttype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+                        }
+                    ]
+                }
+            ]
+        },
+        "z15f8": {
+            "webname": "Z15F8: Grunturgh",
+            "description": "Guides to clear Grunturgh's Mausoleum",
+            "guides": [
+                {
+                    "name": "Gylgymesh's Guide without Cursed Calavera",
+                    "builds": [
+                        "Montezuma"
+                    ],
+                    "fams": [
+                        "Cpt. Astabeard",
+                        "xX_DarkOverlord_Xx"
+                    ],
+                    "attachments": [
+                        {
+                            "filename": "z15f8-gylgymesh-video.mp4",
+                            "attachmenttype": "video",
+                            "contenttype": "video/mp4"
+                        },
+                        {
+                            "filename": "z15f8-gylgymesh-intro.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        },
+                        {
+                            "filename": "z15f8-gylgymesh-build.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        },
+                        {
+                            "filename": "z15f8-gylgymesh-cptastabeard.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        },
+                        {
+                            "filename": "z15f8-gylgymesh-darkoverlord.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
                         }
                     ]
                 }
