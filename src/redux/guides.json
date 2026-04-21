@@ -29,6 +29,7 @@
             {"id": "schematics-other"}
         ]},
         {"id": "flags", "name": "Flags", "children": [
+            {"id": "flags-general"},
             {"id": "z15f8"}
         ]},
         {"id": "misc"},
@@ -734,9 +735,24 @@
                 }
             ]
         },
+        "flags-general": {
+            "webname": "General Flag Guides",
+            "description": "Tips for clearing a variety of flags",
+            "guides": [
+                {
+                    "name": "Alysias' Flag Guide",
+                    "attachments": [
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://docs.google.com/document/d/1I0CyvxX-3rNLj8aOi6DbsR3LE5SsMnAs/mobilebasic"
+                        }
+                    ]
+                }
+            ]
+        },
         "z15f8": {
             "webname": "Z15F8: Grunturgh",
-            "description": "Guides to clear Grunturgh's Mausoleum",
+            "description": "Guides for clearing Grunturgh's Mausoleum",
             "guides": [
                 {
                     "name": "Gylgymesh's Guide without Cursed Calavera",
@@ -929,15 +945,6 @@
                             "filename": "general-battle-priority-albacoreprism.pdf",
                             "attachmenttype": "pdf",
                             "contenttype": "application/pdf"
-                        }
-                    ]
-                },
-                {
-                    "name": "Alysias' Flag Guide",
-                    "attachments": [
-                        {
-                            "attachmenttype": "link",
-                            "link": "https://docs.google.com/document/d/1I0CyvxX-3rNLj8aOi6DbsR3LE5SsMnAs/mobilebasic"
                         }
                     ]
                 },
