@@ -152,3 +152,14 @@ blockquote {
 .MuiModal-root {
     z-index: 0 !important;
 }
+
+/* Keep hash-anchor targets visible below the sticky site header */
+:target {
+  scroll-margin-top: 5.5rem;
+}
+
+@media (max-width: 1000px) {
+  :target {
+    scroll-margin-top: 4.5rem;
+  }
+}
