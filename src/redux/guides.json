@@ -1943,6 +1943,29 @@
             "description": "Community t15d4 Firium/Flamium strategies",
             "guides": [
                 {
+                    "name": "BillyIdol's Witchum Clear Video",
+                    "builds": [
+                        "Witchum"
+                    ],
+                    "fams": [
+                        "Drazig",
+                        "Teithyus",
+                        "Walkom"
+                    ],
+                    "attachments": [
+                        {
+                            "filename": "d4-t15-billyidol.md",
+                            "attachmenttype": "markdown"
+                        },
+                        {
+                            "filename": "d4-t15-billyidol.mp4",
+                            "attachmenttype": "video",
+                            "contenttype": "video/mp4"
+                        }
+                    ],
+                    "inTier": false
+                },
+                {
                     "name": "Ee's Iron Fate PDF Guide",
                     "builds": [
                         "Sigbiorn"
