@@ -2433,6 +2433,23 @@
             "description": "Community t10d4 Polychromatic Blaster strategies",
             "guides": [
                 {
+                    "name": "Bat's Broke In-Tier Poly Clear",
+                    "builds": [
+                        "Earthen Might"
+                    ],
+                    "fams": [
+                        "Mir'alg",
+                        "Rugullotis Rumicullaris"
+                    ],
+                    "attachments": [
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://docs.google.com/document/d/1j2uEhS9cWKGmjhOjwiZ1A8xHBt_kUCKDFr_FDPrQmts/edit?tab=t.0"
+                        }
+                    ],
+                    "inTier": true
+                },
+                {
                     "name": "Gagf's Polychromatic Blaster Google Sheet Guide",
                     "builds": [
                         "Earthen Might"
