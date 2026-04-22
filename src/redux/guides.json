@@ -101,6 +101,9 @@
                     "id": "z7f8"
                 },
                 {
+                    "id": "z8f8"
+                },
+                {
                     "id": "z12f9"
                 },
                 {
@@ -1380,6 +1383,28 @@
                         {
                             "attachmenttype": "link",
                             "link": "https://www.youtube.com/watch?v=IdwHGtsP7l4"
+                        }
+                    ]
+                }
+            ]
+        },
+        "z8f8": {
+            "webname": "Z8F8 (Candelabros)",
+            "description": "Guides for clearing Candelabro's Chamber",
+            "guides": [
+                {
+                    "name": "Gavx's Bit Heroes Explained: Candelabro's Chamber",
+                    "builds": [
+                        "Trash"
+                    ],
+                    "fams": [
+                        "Scort",
+                        "Remmyt"
+                    ],
+                    "attachments": [
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://www.youtube.com/watch?v=OvqfZvPPrLg"
                         }
                     ]
                 }
