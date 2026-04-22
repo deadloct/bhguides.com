@@ -30,6 +30,8 @@
         ]},
         {"id": "flags", "name": "Flags", "children": [
             {"id": "flags-general"},
+            {"id": "z7f5"},
+            {"id": "z7f8"},
             {"id": "z15f8"}
         ]},
         {"id": "misc"},
@@ -745,6 +747,92 @@
                         {
                             "attachmenttype": "link",
                             "link": "https://docs.google.com/document/d/1I0CyvxX-3rNLj8aOi6DbsR3LE5SsMnAs/mobilebasic"
+                        }
+                    ]
+                }
+            ]
+        },
+        "z7f5": {
+            "webname": "Z7F5 (The Gooz)",
+            "description": "Guides for clearing The Gooz Thicket",
+            "guides": [
+                {
+                    "name": "BillyIdol's Gooz Guide",
+                    "builds": [
+                        "Trash"
+                    ],
+                    "fams": [
+                        "xX_DarkOverlord_Xx",
+                        "Mir'alg"
+                    ],
+                    "attachments": [
+                        {
+                            "filename": "z7f5-billyidol-thegooz.md",
+                            "attachmenttype": "markdown"
+                        },
+                        {
+                            "filename": "z7f5-billyidol-thegooz.mp4",
+                            "attachmenttype": "video",
+                            "contenttype": "video/mp4"
+                        }
+                    ]
+                },
+                {
+                    "name": "Gavx's Bit Heroes Explained: Gooz Thicket",
+                    "builds": [
+                        "Trash"
+                    ],
+                    "fams": [
+                        "Rolace",
+                        "Remmyt"
+                    ],
+                    "attachments": [
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://www.youtube.com/watch?v=_qliWqX6zhA"
+                        }
+                    ]
+                }
+            ]
+        },
+        "z7f8": {
+            "webname": "Z7F8 (King Brimby)",
+            "description": "Guides for clearing Brimby Thicket",
+            "guides": [
+                {
+                    "name": "BillyIdol's King Brimby Guide",
+                    "builds": [
+                        "Trash"
+                    ],
+                    "fams": [
+                        "xX_DarkOverlord_Xx",
+                        "Mir'alg"
+                    ],
+                    "attachments": [
+                        {
+                            "filename": "z7f8-billyidol-kingbrimby.md",
+                            "attachmenttype": "markdown"
+                        },
+                        {
+                            "filename": "z7f8-billyidol-kingbrimby.mp4",
+                            "attachmenttype": "video",
+                            "contenttype": "video/mp4"
+                        }
+                    ]
+                },
+                {
+                    "name": "Gavx's Bit Heroes Explained: Brimby Thicket",
+                    "builds": [
+                        "Trash"
+                    ],
+                    "fams": [
+                        "Rolace",
+                        "Remmyt"
+                    ],
+                    "attachments": [
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://www.youtube.com/watch?v=IdwHGtsP7l4"
                         }
                     ]
                 }
