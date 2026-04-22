@@ -29,10 +29,8 @@ export default function About() {
                 please check back regularly for updates.
             </p>
             <p>
-                <cite>
-                    Godspeed Hero,<br />
-                    [DÀRK] BillyIdol
-                </cite>
+                Godspeed Hero,<br />
+                [DÀRK] BillyIdol
             </p>
 
             <div className={styles["about-logo"]}>
