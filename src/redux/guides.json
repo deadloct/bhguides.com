@@ -32,7 +32,8 @@
             {"id": "flags-general"},
             {"id": "z7f5"},
             {"id": "z7f8"},
-            {"id": "z15f8"}
+            {"id": "z15f8"},
+            {"id": "z19f8"}
         ]},
         {"id": "misc"},
         {"id": "nft"},
@@ -876,6 +877,34 @@
                             "filename": "z15f8-gylgymesh-darkoverlord.png",
                             "attachmenttype": "image",
                             "contenttype": "image/png"
+                        }
+                    ]
+                }
+            ]
+        },
+        "z19f8": {
+            "webname": "Z19F8 (ColoraTrix)",
+            "description": "Guides for clearing the ColoraTrix flag",
+            "guides": [
+                {
+                    "name": "BillyIdol's ColoraTrix Guide",
+                    "builds": [
+                        "Aeneas",
+                        "Makridi"
+                    ],
+                    "fams": [
+                        "GlarzDos",
+                        "Ukalis"
+                    ],
+                    "attachments": [
+                        {
+                            "filename": "z19f8-billyidol-coloratrix.md",
+                            "attachmenttype": "markdown"
+                        },
+                        {
+                            "filename": "z19f8-billyidol-coloratrix.mp4",
+                            "attachmenttype": "video",
+                            "contenttype": "video/mp4"
                         }
                     ]
                 }
