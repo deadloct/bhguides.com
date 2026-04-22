@@ -101,7 +101,13 @@
                     "id": "z7f8"
                 },
                 {
+                    "id": "z12f9"
+                },
+                {
                     "id": "z15f8"
+                },
+                {
+                    "id": "z18f8"
                 },
                 {
                     "id": "z19f8"
@@ -827,7 +833,9 @@
             "guides": [
                 {
                     "name": "Admiral Yarrrlag",
-                    "roles": ["DPS"],
+                    "roles": [
+                        "DPS"
+                    ],
                     "revealed_by": "WRLD_EATR",
                     "attachments": [
                         {
@@ -843,7 +851,9 @@
                 },
                 {
                     "name": "Astalove",
-                    "roles": ["DPS"],
+                    "roles": [
+                        "DPS"
+                    ],
                     "attachments": [
                         {
                             "filename": "fusion-event-astalove.png",
@@ -854,7 +864,10 @@
                 },
                 {
                     "name": "Astasorrow",
-                    "roles": ["DPS", "Support"],
+                    "roles": [
+                        "DPS",
+                        "Support"
+                    ],
                     "revealed_by": "Neflarian",
                     "attachments": [
                         {
@@ -870,7 +883,10 @@
                 },
                 {
                     "name": "Captain Ditch",
-                    "roles": ["DPS", "Support"],
+                    "roles": [
+                        "DPS",
+                        "Support"
+                    ],
                     "revealed_by": "Bitverse_Andy",
                     "attachments": [
                         {
@@ -886,7 +902,10 @@
                 },
                 {
                     "name": "Chocomyt",
-                    "roles": ["DPS", "Support"],
+                    "roles": [
+                        "DPS",
+                        "Support"
+                    ],
                     "attachments": [
                         {
                             "filename": "fusion-event-chocomyt.png",
@@ -897,7 +916,9 @@
                 },
                 {
                     "name": "Googie Moogienz",
-                    "roles": ["Tank"],
+                    "roles": [
+                        "Tank"
+                    ],
                     "revealed_by": "WRLD_EATR",
                     "attachments": [
                         {
@@ -913,7 +934,9 @@
                 },
                 {
                     "name": "Gorbsidian",
-                    "roles": ["DPS"],
+                    "roles": [
+                        "DPS"
+                    ],
                     "revealed_by": "Bitverse_Andy",
                     "attachments": [
                         {
@@ -929,7 +952,9 @@
                 },
                 {
                     "name": "Hoplag",
-                    "roles": ["Tank"],
+                    "roles": [
+                        "Tank"
+                    ],
                     "revealed_by": "Bitverse_Andy",
                     "attachments": [
                         {
@@ -945,7 +970,9 @@
                 },
                 {
                     "name": "Jolly Shrampz",
-                    "roles": ["Tank"],
+                    "roles": [
+                        "Tank"
+                    ],
                     "attachments": [
                         {
                             "filename": "fusion-event-jolly_shrampz.png",
@@ -956,7 +983,9 @@
                 },
                 {
                     "name": "Kaleidaroth",
-                    "roles": ["DPS"],
+                    "roles": [
+                        "DPS"
+                    ],
                     "attachments": [
                         {
                             "filename": "fusion-event-kaleidaroth.png",
@@ -967,7 +996,9 @@
                 },
                 {
                     "name": "Kov'u",
-                    "roles": ["Bait"],
+                    "roles": [
+                        "Bait"
+                    ],
                     "revealed_by": "WRLD_EATR",
                     "attachments": [
                         {
@@ -983,7 +1014,10 @@
                 },
                 {
                     "name": "Kris Gemmgle",
-                    "roles": ["DPS", "Support"],
+                    "roles": [
+                        "DPS",
+                        "Support"
+                    ],
                     "revealed_by": "WRLD_EATR",
                     "attachments": [
                         {
@@ -999,7 +1033,9 @@
                 },
                 {
                     "name": "La Grimita",
-                    "roles": ["DPS"],
+                    "roles": [
+                        "DPS"
+                    ],
                     "revealed_by": "WRLD_EATR",
                     "attachments": [
                         {
@@ -1015,7 +1051,9 @@
                 },
                 {
                     "name": "Mewbbo",
-                    "roles": ["Tank"],
+                    "roles": [
+                        "Tank"
+                    ],
                     "revealed_by": "Neflarian",
                     "attachments": [
                         {
@@ -1031,7 +1069,10 @@
                 },
                 {
                     "name": "Mir'alg",
-                    "roles": ["DPS", "Support"],
+                    "roles": [
+                        "DPS",
+                        "Support"
+                    ],
                     "revealed_by": "Bitverse_Andy",
                     "attachments": [
                         {
@@ -1047,7 +1088,9 @@
                 },
                 {
                     "name": "Patcharrior",
-                    "roles": ["Tank"],
+                    "roles": [
+                        "Tank"
+                    ],
                     "revealed_by": "Bitverse_Andy",
                     "attachments": [
                         {
@@ -1063,7 +1106,9 @@
                 },
                 {
                     "name": "Q3-17-NWA",
-                    "roles": ["DPS"],
+                    "roles": [
+                        "DPS"
+                    ],
                     "revealed_by": "WRLD_EATR",
                     "attachments": [
                         {
@@ -1079,7 +1124,9 @@
                 },
                 {
                     "name": "Quinterang",
-                    "roles": ["Tank"],
+                    "roles": [
+                        "Tank"
+                    ],
                     "revealed_by": "Bitverse_Andy",
                     "attachments": [
                         {
@@ -1095,7 +1142,9 @@
                 },
                 {
                     "name": "Rabbit Blubber",
-                    "roles": ["DPS"],
+                    "roles": [
+                        "DPS"
+                    ],
                     "attachments": [
                         {
                             "filename": "fusion-event-rabbit_blubber.png",
@@ -1106,7 +1155,10 @@
                 },
                 {
                     "name": "Rugullotis Rumicullaris",
-                    "roles": ["DPS", "Support"],
+                    "roles": [
+                        "DPS",
+                        "Support"
+                    ],
                     "revealed_by": "Bitverse_Andy",
                     "attachments": [
                         {
@@ -1122,7 +1174,9 @@
                 },
                 {
                     "name": "Shrubbery Shrampz",
-                    "roles": ["Tank"],
+                    "roles": [
+                        "Tank"
+                    ],
                     "attachments": [
                         {
                             "filename": "fusion-event-shrubbery_shrampz.png",
@@ -1133,7 +1187,10 @@
                 },
                 {
                     "name": "Stumpán",
-                    "roles": ["DPS", "Support"],
+                    "roles": [
+                        "DPS",
+                        "Support"
+                    ],
                     "revealed_by": "WRLD_EATR",
                     "attachments": [
                         {
@@ -1149,7 +1206,10 @@
                 },
                 {
                     "name": "Svilluminati",
-                    "roles": ["DPS", "Support"],
+                    "roles": [
+                        "DPS",
+                        "Support"
+                    ],
                     "revealed_by": "Neflarian",
                     "attachments": [
                         {
@@ -1165,7 +1225,10 @@
                 },
                 {
                     "name": "Vedeuche",
-                    "roles": ["DPS", "Support"],
+                    "roles": [
+                        "DPS",
+                        "Support"
+                    ],
                     "revealed_by": "Neflarian",
                     "attachments": [
                         {
@@ -1181,7 +1244,9 @@
                 },
                 {
                     "name": "xX_Darkoverlord_Xx",
-                    "roles": ["Tank"],
+                    "roles": [
+                        "Tank"
+                    ],
                     "revealed_by": "Neflarian",
                     "attachments": [
                         {
@@ -1197,7 +1262,9 @@
                 },
                 {
                     "name": "Yeggi",
-                    "roles": ["Tank"],
+                    "roles": [
+                        "Tank"
+                    ],
                     "attachments": [
                         {
                             "filename": "fusion-event-yeggi.png",
@@ -1318,6 +1385,32 @@
                 }
             ]
         },
+        "z12f9": {
+            "webname": "Z12F9 (Solarsun)",
+            "description": "Guides for clearing the Solorsun flag",
+            "guides": [
+                {
+                    "name": "Pristine's Solarsun Video",
+                    "builds": [
+                        "Camouflage",
+                        "Lucernas"
+                    ],
+                    "fams": [
+                        "GlarzDos"
+                    ],
+                    "attachments": [
+                        {
+                            "filename": "z12f9-pristine-solarsun.md",
+                            "attachmenttype": "markdown"
+                        },
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://www.youtube.com/watch?v=Y6KFpcbVzzg"
+                        }
+                    ]
+                }
+            ]
+        },
         "z15f8": {
             "webname": "Z15F8 (Grunturgh)",
             "description": "Guides for clearing Grunturgh's Mausoleum",
@@ -1356,6 +1449,59 @@
                             "filename": "z15f8-gylgymesh-darkoverlord.png",
                             "attachmenttype": "image",
                             "contenttype": "image/png"
+                        }
+                    ]
+                },
+                {
+                    "name": "IanBob2's Grunt Clear",
+                    "builds": [
+                        "Perkunas"
+                    ],
+                    "fams": [
+                        "GlarzDos"
+                    ],
+                    "attachments": [
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://www.youtube.com/watch?v=-J5P8MIif7g"
+                        }
+                    ]
+                }
+            ]
+        },
+        "z18f8": {
+            "webname": "Z18F8 (ColorTeeBee)",
+            "description": "Guides for clearing the ColorTeeBee flag",
+            "guides": [
+                {
+                    "name": "Blasphemy's ColorTeeBee Clear",
+                    "builds": [
+                        "Aeneas"
+                    ],
+                    "fams": [
+                        "GlarzDos",
+                        "Ulairius"
+                    ],
+                    "attachments": [
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://www.youtube.com/watch?v=YtPf5zZ2BJU"
+                        }
+                    ]
+                },
+                {
+                    "name": "Rome's ColorTeeBee Clear",
+                    "builds": [
+                        "Aeneas"
+                    ],
+                    "fams": [
+                        "GlarzDos",
+                        "Ukalis"
+                    ],
+                    "attachments": [
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://www.youtube.com/watch?v=IxmTwl8y8Aw"
                         }
                     ]
                 }
