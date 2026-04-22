@@ -1470,11 +1470,11 @@
             ]
         },
         "z18f8": {
-            "webname": "Z18F8 (ColorTeeBee)",
-            "description": "Guides for clearing the ColorTeeBee flag",
+            "webname": "Z18F8 (Colorteebee)",
+            "description": "Guides for clearing the Colorteebee flag",
             "guides": [
                 {
-                    "name": "Blasphemy's ColorTeeBee Clear",
+                    "name": "Blasphemy's Colorteebee Clear",
                     "builds": [
                         "Aeneas"
                     ],
@@ -1490,7 +1490,7 @@
                     ]
                 },
                 {
-                    "name": "Rome's ColorTeeBee Clear",
+                    "name": "Rome's Colorteebee Clear",
                     "builds": [
                         "Aeneas"
                     ],
