@@ -929,7 +929,7 @@
                 },
                 {
                     "name": "Hoplag",
-                    "role": ["Tank"],
+                    "roles": ["Tank"],
                     "revealed_by": "Bitverse_Andy",
                     "attachments": [
                         {
