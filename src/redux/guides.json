@@ -1,44 +1,127 @@
 {
     "index": [
-        {"id": "beginner"},
-        {"id": "builds", "name": "Builds", "children": [
-            {"id": "build-guides-primedyze-zombieslayer13"},
-            {"id": "other-build-guides"}
-        ]},
-        {"id": "calculators"},
-        {"id": "content-creators"},
-        {"id": "d4s-ancients", "name": "D4s and Ancients", "children": [
-            {"id": "ancients-general"},
-            {"id": "t08d4"},
-            {"id": "t09d4"},
-            {"id": "t10d4"},
-            {"id": "t11d4"},
-            {"id": "t12d4"},
-            {"id": "t14d4"},
-            {"id": "t15d4"},
-            {"id": "t16d4"},
-            {"id": "t17d4"},
-            {"id": "t18d4"},
-            {"id": "t19d4"},
-            {"id": "t20d4"},
-            {"id": "t21d4"}
-        ]},
-        {"id": "fams-schematics", "name": "Familiars and Schematics", "children": [
-            {"id": "familiar-recommendations-neflarian"},
-            {"id": "schematics-cards-wrld_eatr"},
-            {"id": "schematics-other"}
-        ]},
-        {"id": "flags", "name": "Flags", "children": [
-            {"id": "flags-general"},
-            {"id": "z7f5"},
-            {"id": "z7f8"},
-            {"id": "z15f8"},
-            {"id": "z19f8"}
-        ]},
-        {"id": "misc"},
-        {"id": "nft"},
-        {"id": "the-talisman-archives", "name": "The Talisman Archives"},
-        {"id": "world-boss", "name": "World Boss"}
+        {
+            "id": "beginner"
+        },
+        {
+            "id": "builds",
+            "name": "Builds",
+            "children": [
+                {
+                    "id": "build-guides-primedyze-zombieslayer13"
+                },
+                {
+                    "id": "other-build-guides"
+                }
+            ]
+        },
+        {
+            "id": "calculators"
+        },
+        {
+            "id": "content-creators"
+        },
+        {
+            "id": "d4s-ancients",
+            "name": "D4s and Ancients",
+            "children": [
+                {
+                    "id": "ancients-general"
+                },
+                {
+                    "id": "t08d4"
+                },
+                {
+                    "id": "t09d4"
+                },
+                {
+                    "id": "t10d4"
+                },
+                {
+                    "id": "t11d4"
+                },
+                {
+                    "id": "t12d4"
+                },
+                {
+                    "id": "t14d4"
+                },
+                {
+                    "id": "t15d4"
+                },
+                {
+                    "id": "t16d4"
+                },
+                {
+                    "id": "t17d4"
+                },
+                {
+                    "id": "t18d4"
+                },
+                {
+                    "id": "t19d4"
+                },
+                {
+                    "id": "t20d4"
+                },
+                {
+                    "id": "t21d4"
+                }
+            ]
+        },
+        {
+            "id": "fams-schematics",
+            "name": "Familiars and Schematics",
+            "children": [
+                {
+                    "id": "familiar-recommendations-neflarian"
+                },
+                {
+                    "id": "schematics-cards-wrld_eatr"
+                },
+                {
+                    "id": "event-familiars"
+                },
+                {
+                    "id": "schematics-other"
+                }
+            ]
+        },
+        {
+            "id": "flags",
+            "name": "Flags",
+            "children": [
+                {
+                    "id": "flags-general"
+                },
+                {
+                    "id": "z7f5"
+                },
+                {
+                    "id": "z7f8"
+                },
+                {
+                    "id": "z15f8"
+                },
+                {
+                    "id": "z19f8"
+                }
+            ]
+        },
+        {
+            "id": "misc"
+        },
+        {
+            "id": "nft"
+        },
+        {
+            "id": "the-talisman-archives",
+            "name": "The Talisman Archives"
+        },
+        {
+            "id": "world-boss",
+            "name": "World Boss"
+        }
     ],
     "guides": {
         "ancients-general": {
@@ -738,6 +821,393 @@
                 }
             ]
         },
+        "event-familiars": {
+            "webname": "Event Familiars",
+            "description": "Event familiars with image references and video guides",
+            "guides": [
+                {
+                    "name": "Admiral Yarrrlag",
+                    "roles": ["DPS"],
+                    "revealed_by": "WRLD_EATR",
+                    "attachments": [
+                        {
+                            "filename": "fusion-event-admiral_yarrrlag.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        },
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://youtu.be/jZDIdPd6-W0"
+                        }
+                    ]
+                },
+                {
+                    "name": "Astalove",
+                    "roles": ["DPS"],
+                    "attachments": [
+                        {
+                            "filename": "fusion-event-astalove.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        }
+                    ]
+                },
+                {
+                    "name": "Astasorrow",
+                    "roles": ["DPS", "Support"],
+                    "revealed_by": "Neflarian",
+                    "attachments": [
+                        {
+                            "filename": "fusion-event-astasorrow.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        },
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://www.youtube.com/watch?v=4CDwp2bcshs"
+                        }
+                    ]
+                },
+                {
+                    "name": "Captain Ditch",
+                    "roles": ["DPS", "Support"],
+                    "revealed_by": "Bitverse_Andy",
+                    "attachments": [
+                        {
+                            "filename": "fusion-event-captain_ditch.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        },
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://www.youtube.com/watch?v=WIqk0Nzk_Fc"
+                        }
+                    ]
+                },
+                {
+                    "name": "Chocomyt",
+                    "roles": ["DPS", "Support"],
+                    "attachments": [
+                        {
+                            "filename": "fusion-event-chocomyt.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        }
+                    ]
+                },
+                {
+                    "name": "Googie Moogienz",
+                    "roles": ["Tank"],
+                    "revealed_by": "WRLD_EATR",
+                    "attachments": [
+                        {
+                            "filename": "fusion-event-googie_moogienz.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        },
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://www.youtube.com/watch?v=t4njX4Vb8As"
+                        }
+                    ]
+                },
+                {
+                    "name": "Gorbsidian",
+                    "roles": ["DPS"],
+                    "revealed_by": "Bitverse_Andy",
+                    "attachments": [
+                        {
+                            "filename": "fusion-event-gorbsidian.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        },
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://www.youtube.com/watch?v=fXNEC9n7-3k"
+                        }
+                    ]
+                },
+                {
+                    "name": "Hoplag",
+                    "role": ["Tank"],
+                    "revealed_by": "Bitverse_Andy",
+                    "attachments": [
+                        {
+                            "filename": "fusion-event-hoplag.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        },
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://www.youtube.com/watch?v=0ox02HqGNDE"
+                        }
+                    ]
+                },
+                {
+                    "name": "Jolly Shrampz",
+                    "roles": ["Tank"],
+                    "attachments": [
+                        {
+                            "filename": "fusion-event-jolly_shrampz.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        }
+                    ]
+                },
+                {
+                    "name": "Kaleidaroth",
+                    "roles": ["DPS"],
+                    "attachments": [
+                        {
+                            "filename": "fusion-event-kaleidaroth.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        }
+                    ]
+                },
+                {
+                    "name": "Kov'u",
+                    "roles": ["Bait"],
+                    "revealed_by": "WRLD_EATR",
+                    "attachments": [
+                        {
+                            "filename": "fusion-event-kovu.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        },
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://www.youtube.com/watch?v=SbfndKVDYN8"
+                        }
+                    ]
+                },
+                {
+                    "name": "Kris Gemmgle",
+                    "roles": ["DPS", "Support"],
+                    "revealed_by": "WRLD_EATR",
+                    "attachments": [
+                        {
+                            "filename": "fusion-event-kris_gemmgle.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        },
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://www.youtube.com/watch?v=pjSPwmb75b4"
+                        }
+                    ]
+                },
+                {
+                    "name": "La Grimita",
+                    "roles": ["DPS"],
+                    "revealed_by": "WRLD_EATR",
+                    "attachments": [
+                        {
+                            "filename": "fusion-event-la_grimita.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        },
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://www.youtube.com/watch?v=wAJnSOdSTJs"
+                        }
+                    ]
+                },
+                {
+                    "name": "Mewbbo",
+                    "roles": ["Tank"],
+                    "revealed_by": "Neflarian",
+                    "attachments": [
+                        {
+                            "filename": "fusion-event-mewbbo.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        },
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://www.youtube.com/watch?v=Rj8og-G52as"
+                        }
+                    ]
+                },
+                {
+                    "name": "Mir'alg",
+                    "roles": ["DPS", "Support"],
+                    "revealed_by": "Bitverse_Andy",
+                    "attachments": [
+                        {
+                            "filename": "fusion-event-miralg.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        },
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://www.youtube.com/watch?v=0IOQE-GGoSY"
+                        }
+                    ]
+                },
+                {
+                    "name": "Patcharrior",
+                    "roles": ["Tank"],
+                    "revealed_by": "Bitverse_Andy",
+                    "attachments": [
+                        {
+                            "filename": "fusion-event-patcharrior.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        },
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://www.youtube.com/watch?v=x8jn_0c2xOs"
+                        }
+                    ]
+                },
+                {
+                    "name": "Q3-17-NWA",
+                    "roles": ["DPS"],
+                    "revealed_by": "WRLD_EATR",
+                    "attachments": [
+                        {
+                            "filename": "fusion-event-q3_17_nwa.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        },
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://www.youtube.com/watch?v=Gl6Ys4UX4fU"
+                        }
+                    ]
+                },
+                {
+                    "name": "Quinterang",
+                    "roles": ["Tank"],
+                    "revealed_by": "Bitverse_Andy",
+                    "attachments": [
+                        {
+                            "filename": "fusion-event-quinterang.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        },
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://www.youtube.com/watch?v=wf78jegQM44"
+                        }
+                    ]
+                },
+                {
+                    "name": "Rabbit Blubber",
+                    "roles": ["DPS"],
+                    "attachments": [
+                        {
+                            "filename": "fusion-event-rabbit_blubber.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        }
+                    ]
+                },
+                {
+                    "name": "Rugullotis Rumicullaris",
+                    "roles": ["DPS", "Support"],
+                    "revealed_by": "Bitverse_Andy",
+                    "attachments": [
+                        {
+                            "filename": "fusion-event-rugullotis_rumicullaris.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        },
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://www.youtube.com/watch?v=f9nUklbrf4g"
+                        }
+                    ]
+                },
+                {
+                    "name": "Shrubbery Shrampz",
+                    "roles": ["Tank"],
+                    "attachments": [
+                        {
+                            "filename": "fusion-event-shrubbery_shrampz.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        }
+                    ]
+                },
+                {
+                    "name": "Stumpán",
+                    "roles": ["DPS", "Support"],
+                    "revealed_by": "WRLD_EATR",
+                    "attachments": [
+                        {
+                            "filename": "fusion-event-stumpan.jpeg",
+                            "attachmenttype": "image",
+                            "contenttype": "image/jpeg"
+                        },
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://www.youtube.com/watch?v=T1Mt_ehx8Mw"
+                        }
+                    ]
+                },
+                {
+                    "name": "Svilluminati",
+                    "roles": ["DPS", "Support"],
+                    "revealed_by": "Neflarian",
+                    "attachments": [
+                        {
+                            "filename": "fusion-event-svilluminati.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        },
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://www.youtube.com/watch?v=nQhMdfcQCGA"
+                        }
+                    ]
+                },
+                {
+                    "name": "Vedeuche",
+                    "roles": ["DPS", "Support"],
+                    "revealed_by": "Neflarian",
+                    "attachments": [
+                        {
+                            "filename": "fusion-event-vedeuche.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        },
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://www.youtube.com/watch?v=cPmQdPgIOwc"
+                        }
+                    ]
+                },
+                {
+                    "name": "xX_Darkoverlord_Xx",
+                    "roles": ["Tank"],
+                    "revealed_by": "Neflarian",
+                    "attachments": [
+                        {
+                            "filename": "fusion-event-xx_darkoverlord_xx.jpeg",
+                            "attachmenttype": "image",
+                            "contenttype": "image/jpeg"
+                        },
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://www.youtube.com/watch?v=jbg8P4cPvdY"
+                        }
+                    ]
+                },
+                {
+                    "name": "Yeggi",
+                    "roles": ["Tank"],
+                    "attachments": [
+                        {
+                            "filename": "fusion-event-yeggi.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        }
+                    ]
+                }
+            ]
+        },
         "flags-general": {
             "webname": "General Flag Guides",
             "description": "Tips for clearing a variety of flags",
@@ -1182,7 +1652,9 @@
                 },
                 {
                     "name": "Pompadour",
-                    "builds": [ "Pompadour" ],
+                    "builds": [
+                        "Pompadour"
+                    ],
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -1197,7 +1669,9 @@
                 },
                 {
                     "name": "Witchum",
-                    "builds": ["Witchum"],
+                    "builds": [
+                        "Witchum"
+                    ],
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -1227,7 +1701,10 @@
                 },
                 {
                     "name": "3xtort",
-                    "builds": ["3xtort", "extort"],
+                    "builds": [
+                        "3xtort",
+                        "extort"
+                    ],
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -1252,7 +1729,9 @@
                 },
                 {
                     "name": "Perkunas",
-                    "builds": ["Perkunas"],
+                    "builds": [
+                        "Perkunas"
+                    ],
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -1272,7 +1751,10 @@
                 },
                 {
                     "name": "Skyent",
-                    "builds": ["Skyent", "meatshield"],
+                    "builds": [
+                        "Skyent",
+                        "meatshield"
+                    ],
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -1292,7 +1774,9 @@
                 },
                 {
                     "name": "Vampirism",
-                    "builds": ["Seleucus"],
+                    "builds": [
+                        "Seleucus"
+                    ],
                     "attachments": [
                         {
                             "filename": "builds-ZombieSlayer13-seleucus-30-vamp.jpg",
@@ -1318,7 +1802,9 @@
                 },
                 {
                     "name": "Ancient UXO Power Tank",
-                    "builds": ["Ancient Tank"],
+                    "builds": [
+                        "Ancient Tank"
+                    ],
                     "attachments": [
                         {
                             "filename": "builds-ZombieSlayer13-ancient-uxo-power-empower.jpg",
@@ -1334,7 +1820,9 @@
                 },
                 {
                     "name": "Ancient Speed Bait",
-                    "builds": ["Ancient Speed Bait"],
+                    "builds": [
+                        "Ancient Speed Bait"
+                    ],
                     "attachments": [
                         {
                             "filename": "builds-ZombieSlayer13-ancient-speedbait-JoeBu.jpg",
@@ -1345,7 +1833,9 @@
                 },
                 {
                     "name": "Ancient DPS",
-                    "builds": ["Ancient DPS"],
+                    "builds": [
+                        "Ancient DPS"
+                    ],
                     "attachments": [
                         {
                             "filename": "builds-ZombieSlayer13-ancient-dps-j3an-lucca.jpg",
@@ -1361,7 +1851,9 @@
                 },
                 {
                     "name": "Protoplague",
-                    "builds": ["Protoplague"],
+                    "builds": [
+                        "Protoplague"
+                    ],
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -1381,7 +1873,9 @@
                 },
                 {
                     "name": "Venturer",
-                    "builds": ["venturer"],
+                    "builds": [
+                        "venturer"
+                    ],
                     "attachments": [
                         {
                             "filename": "builds-ZombieSlayer13-venturer-evermore.jpg",
@@ -1403,7 +1897,9 @@
             "guides": [
                 {
                     "name": "Ember's Harvester Supercharged Build Guide",
-                    "builds": [ "Harvester Supercharged DPS" ],
+                    "builds": [
+                        "Harvester Supercharged DPS"
+                    ],
                     "attachments": [
                         {
                             "filename": "builds-ember-supercharged-harvester.pdf",
@@ -1479,7 +1975,8 @@
                             "filename": "general-map-town.png",
                             "attachmenttype": "image",
                             "contenttype": "image/png"
-                        },{
+                        },
+                        {
                             "filename": "general-map-fall-town.png",
                             "attachmenttype": "image",
                             "contenttype": "image/png"
@@ -1934,7 +2431,7 @@
                             "original-link": "https://docs.google.com/spreadsheets/d/1wbKl8h9Tzj9zgX1AEBY4wIhmC-xjN1OzyfsfBNkepeY/edit#gid=1528104620"
                         }
                     ],
-                    "inTier": true 
+                    "inTier": true
                 }
             ]
         },
@@ -2143,7 +2640,7 @@
                             "link": "https://www.youtube.com/watch?v=jsVGkAngeRU"
                         }
                     ],
-                    "inTier": true 
+                    "inTier": true
                 },
                 {
                     "name": "BillyIdol, JoeBu, and ZombieSlayer13's Pic Guide",
@@ -2322,7 +2819,6 @@
                     ],
                     "inTier": false
                 },
-
                 {
                     "name": "Hael's Pic Guide",
                     "builds": [
@@ -2358,7 +2854,11 @@
                             "contenttype": "application/pdf"
                         }
                     ],
-                    "keywords": ["tictac", "tic", "tac"],
+                    "keywords": [
+                        "tictac",
+                        "tic",
+                        "tac"
+                    ],
                     "inTier": false
                 },
                 {
@@ -2915,7 +3415,10 @@
                 },
                 {
                     "name": "Blanquiito and ItsMBSCastillo's PDF and Video Guide",
-                    "build": ["Skramblegg", "Skyent"],
+                    "build": [
+                        "Skramblegg",
+                        "Skyent"
+                    ],
                     "fams": [
                         "Bleeximum",
                         "Gello",
@@ -3393,7 +3896,10 @@
                 },
                 {
                     "name": "Blanquiito and ItsMBSCastillo's PDF and Video Guide",
-                    "build": ["Skramblegg", "Skyent"],
+                    "build": [
+                        "Skramblegg",
+                        "Skyent"
+                    ],
                     "fams": [
                         "Bleeximum",
                         "Gello",
@@ -3415,7 +3921,9 @@
                 },
                 {
                     "name": "Ember's PDF Guide",
-                    "builds": ["Skyent"],
+                    "builds": [
+                        "Skyent"
+                    ],
                     "fams": [
                         "Bleeximum",
                         "Kimusaba",
@@ -3432,7 +3940,9 @@
                 },
                 {
                     "name": "Infermis' Text and Pic Strategy",
-                    "builds": ["Ancient Speed Bait"],
+                    "builds": [
+                        "Ancient Speed Bait"
+                    ],
                     "fams": [
                         "Kimusaba",
                         "Lerky"
@@ -3452,7 +3962,9 @@
                 },
                 {
                     "name": "Melody (Choco)'s Text Guide",
-                    "builds": ["Skyent"],
+                    "builds": [
+                        "Skyent"
+                    ],
                     "fams": [
                         "Bleeximum",
                         "Lerky"
@@ -3950,7 +4462,11 @@
                             "link": "https://tinyurl.com/Project-Goodall-WB-Strategy"
                         }
                     ],
-                    "builds": ["Skyent", "Ancient Tank", "Self-Hit DPS"]
+                    "builds": [
+                        "Skyent",
+                        "Ancient Tank",
+                        "Self-Hit DPS"
+                    ]
                 }
             ]
         }

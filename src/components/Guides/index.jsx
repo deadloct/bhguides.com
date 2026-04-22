@@ -112,6 +112,22 @@ export default function Guides() {
         return "";
     }
 
+    function roles(guide) {
+        if (guide.roles && guide.roles.length) {
+            return <div><em>Roles:</em> {guide.roles.join(", ")}</div>;
+        }
+
+        return "";
+    }
+
+    function revealedBy(guide) {
+        if (guide["revealed_by"] && guide["revealed_by"].length) {
+            return <div><em>Revealed by:</em> {guide["revealed_by"]}</div>;
+        }
+
+        return "";
+    }
+
     function attachment(item, i) {
         switch (item.attachmenttype) {
             case "image":
@@ -202,6 +218,8 @@ export default function Guides() {
                 {obsolete(guide)}
                 {fams(guide)}
                 {builds(guide)}
+                {roles(guide)}
+                {revealedBy(guide)}
                 {cat}
                 {attachments(guide)} 
             </li>
