@@ -29,10 +29,10 @@ export default class Search {
                 // From https://stackoverflow.com/a/34515563
                 const searchable = Object.values(getValues(guide));
                 const inTierPhrases = guide.inTier ? " in tier in-tier intier" : "";
-                const inFestivifluxPhrases = guide.inFestiviflux ? " festiflux festiviflux invasion sardinex event" : "";
+                const inFestivifluxPhrases = guide.inFestiviflux ? " festiflux festiviflux invasion" : "";
                 const tokens = searchable
                     .join(" ")
-                    .concat(" ", catname, inTierPhrases, inFestivifluxPhrases)
+                    .concat(" ", catname, " ", cat.description, " ", inTierPhrases, " ", inFestivifluxPhrases)
                     .toLowerCase()
                     .replace(/[^a-zA-Z0-9]/g, " ")
                     .replace(/\s+/g, " ")
