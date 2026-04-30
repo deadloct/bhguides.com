@@ -975,6 +975,26 @@
                     ]
                 },
                 {
+                    "name": "iTrolf X",
+                    "inFestiflux": true,
+                    "roles": [
+                        "Tank"
+                    ],
+                    "revealed_by": "Neflarian",
+                    "attachments": [
+                        {
+                            "filename": "fusion-event-itrolfx-temp.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        },
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://www.youtube.com/watch?v=iOAivQDuWQM"
+
+                        }
+                    ]
+                },
+                {
                     "name": "Jolly Shrampz",
                     "roles": [
                         "Tank"
@@ -1094,6 +1114,20 @@
                     ]
                 },
                 {
+                    "name": "Night Gobby",
+                    "inFestiflux": true,
+                    "roles": [
+                        "Tank"
+                    ],
+                    "attachments": [
+                        {
+                            "filename": "fusion-event-nightgobby.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        }
+                    ]
+                },
+                {
                     "name": "Patcharrior",
                     "roles": [
                         "Tank"
@@ -1209,6 +1243,25 @@
                         {
                             "attachmenttype": "link",
                             "link": "https://www.youtube.com/watch?v=T1Mt_ehx8Mw"
+                        }
+                    ]
+                },
+                {
+                    "name": "Suntealk",
+                    "inFestiflux": true,
+                    "roles": [
+                        "DPS"
+                    ],
+                    "revealed_by": "Bitverse_Andy",
+                    "attachments": [
+                        {
+                            "filename": "fusion-event-suntealk.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        },
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://www.youtube.com/watch?v=bGPxZcnaEGo"
                         }
                     ]
                 },
