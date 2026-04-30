@@ -29,9 +29,10 @@ export default class Search {
                 // From https://stackoverflow.com/a/34515563
                 const searchable = Object.values(getValues(guide));
                 const inTierPhrases = guide.inTier ? " in tier in-tier intier" : "";
+                const inFestifluxPhrases = guide.inFestiflux ? " festiflux festiviflux invasion" : "";
                 const tokens = searchable
                     .join(" ")
-                    .concat(" ", catname, " ", cat.description, inTierPhrases)
+                    .concat(" ", catname, " ", cat.description, inTierPhrases, inFestifluxPhrases)
                     .toLowerCase()
                     .replace(/[^a-zA-Z0-9]/g, " ")
                     .replace(/\s+/g, " ")

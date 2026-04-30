@@ -1305,6 +1305,25 @@
                     ]
                 },
                 {
+                    "name": "XL-Tarbis 1610B",
+                    "inFestiflux": true,
+                    "roles": [
+                        "Bait"
+                    ],
+                    "revealed_by": "Neflarian",
+                    "attachments": [
+                        {
+                            "filename": "fusion-event-xl_tarbis_1610b.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        },
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://www.youtube.com/watch?v=e75gF7I_5fE"
+                        }
+                    ]
+                },
+                {
                     "name": "xX_Darkoverlord_Xx",
                     "roles": [
                         "Tank"
