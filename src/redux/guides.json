@@ -867,6 +867,7 @@
                 },
                 {
                     "name": "Astasorrow",
+                    "inFestiflux": true,
                     "roles": [
                         "DPS",
                         "Support"
@@ -905,6 +906,7 @@
                 },
                 {
                     "name": "Chocomyt",
+                    "inFestiflux": true,
                     "roles": [
                         "DPS",
                         "Support"
@@ -919,6 +921,7 @@
                 },
                 {
                     "name": "Googie Moogienz",
+                    "inFestiflux": true,
                     "roles": [
                         "Tank"
                     ],
@@ -1072,6 +1075,7 @@
                 },
                 {
                     "name": "Mir'alg",
+                    "inFestiflux": true,
                     "roles": [
                         "DPS",
                         "Support"
@@ -1109,6 +1113,7 @@
                 },
                 {
                     "name": "Q3-17-NWA",
+                    "inFestiflux": true,
                     "roles": [
                         "DPS"
                     ],
@@ -1228,6 +1233,7 @@
                 },
                 {
                     "name": "Vedeuche",
+                    "inFestiflux": true,
                     "roles": [
                         "DPS",
                         "Support"

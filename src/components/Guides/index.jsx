@@ -18,6 +18,7 @@ import MicrosoftIcon from '@mui/icons-material/Microsoft';
 import PictureAsPdfIcon from '@mui/icons-material/PictureAsPdf';
 import WarningAmberIcon from '@mui/icons-material/WarningAmber';
 import WorkspacePremiumIcon from '@mui/icons-material/WorkspacePremium';
+import AcUnitIcon from '@mui/icons-material/AcUnit';
 
 export default function Guides() {
     const guides = useSelector((state) => state.guides.guides);
@@ -214,7 +215,7 @@ export default function Guides() {
 
         return (
             <li key={`${key(guide.name)}-${i}`} className={styles["guide-item"]}>
-                <div className={styles["guide-name"]}>{guide.name}{guide.inTier && <WorkspacePremiumIcon titleAccess="In-Tier Clear" fontSize="small" className={styles["in-tier-icon"]} />}</div>
+                <div className={styles["guide-name"]}>{guide.name}{guide.inTier && <WorkspacePremiumIcon titleAccess="In-Tier Clear" fontSize="small" className={styles["in-tier-icon"]} />}{guide.inFestiflux && <AcUnitIcon titleAccess="Also available in Festiflux Invasion" fontSize="small" className={styles["festiviflux-icon"]} />}</div>
                 {obsolete(guide)}
                 {fams(guide)}
                 {builds(guide)}
