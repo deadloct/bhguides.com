@@ -215,7 +215,7 @@ export default function Guides() {
 
         return (
             <li key={`${key(guide.name)}-${i}`} className={styles["guide-item"]}>
-                <div className={styles["guide-name"]}>{guide.name}{guide.inTier && <WorkspacePremiumIcon titleAccess="In-Tier Clear" fontSize="small" className={styles["in-tier-icon"]} />}{guide.inFestiflux && <AcUnitIcon titleAccess="Also available in Festiflux Invasion" fontSize="small" className={styles["festiviflux-icon"]} />}</div>
+                <div className={styles["guide-name"]}>{guide.name}{guide.inTier && <WorkspacePremiumIcon titleAccess="In-Tier Clear" fontSize="small" className={styles["in-tier-icon"]} />}{guide.inFestiviflux && <AcUnitIcon titleAccess="Also available in Festiviflux Invasion" fontSize="small" className={styles["festiviflux-icon"]} />}</div>
                 {obsolete(guide)}
                 {fams(guide)}
                 {builds(guide)}
