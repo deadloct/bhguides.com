@@ -2597,6 +2597,24 @@
             "description": "Community t11d4 Elementarium strategies",
             "guides": [
                 {
+                    "name": "Bat's In-Tier Elementarium Guide",
+                    "builds": [
+                        "Apocalypse"
+                    ],
+                    "fams": [
+                        "Blinka",
+                        "Rugullotis Rumicullaris",
+                        "xX_DarkOverlord_Xx"
+                    ],
+                    "attachments": [
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://docs.google.com/document/d/15ZVCSMOKu62-JO2yqOEEjN66QZpKhrscFP4YyZYfBvM/edit?tab=t.0"
+                        }
+                    ],
+                    "inTier": true
+                },
+                {
                     "name": "Mentle88's In-Tier Guide",
                     "builds": [
                         "Apocalypse"
