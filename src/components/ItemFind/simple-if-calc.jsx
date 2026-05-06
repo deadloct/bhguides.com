@@ -10,14 +10,14 @@ import Select from '@mui/material/Select';
 import TextField from "@mui/material/TextField";
 
 import styles from "./index.module.css";
-import { cleanVal, getEncounterIFForDisplay, VerticalSpacing } from "../../utils/utils";
+import { cleanVal, getEncounterIFForDisplay, getOptionValue, VerticalSpacing } from "../../utils/utils";
 
 export default function SimpleIFCalc() {
     const options = useSelector((state) => state.calc.options);
     const [output, setOutput] = useState("0%");
     const [equation, setEquation] = useState("");
     const [infoIF, setInfoIF] = useState(0);
-    const [encounterBonus, setEncounterBonus] = useState(cleanVal(options.encounter.default));
+    const [encounterBonus, setEncounterBonus] = useState(getOptionValue(options.encounter, options.encounter.default));
 
     const infoIFRef = useRef(infoIF);
     const encounterBonusRef = useRef(encounterBonus);
@@ -39,8 +39,8 @@ export default function SimpleIFCalc() {
     };
 
     const handleEncounterChange = e => {
-        const val = cleanVal(e.target.value);
-        setEncounterBonus(cleanVal(e.target.value));
+        const val = getOptionValue(options.encounter, e.target.value);
+        setEncounterBonus(val);
         encounterBonusRef.current = val;
     };
 
@@ -87,16 +87,12 @@ export default function SimpleIFCalc() {
                         label="Encounter"
                         onChange={handleEncounterChange}
                     >
-                        {Object.keys(options.encounter.groups).map((k, i) => {
-                            const items = options.encounter.groups[k].map((item, j) => (
-                                <MenuItem key={j} value={item.value}>{`${item.text} (IF: ${getEncounterIFForDisplay(item.value)}%)`}</MenuItem>
-                            ));
-
-                            return [
-                                <ListSubheader key={`${k}-${i}`}>{k}</ListSubheader>,
-                                ...items,
-                            ];
-                        })}
+                        {Object.entries(options.encounter.groups).map(([groupName, items]) => [
+                            <ListSubheader key={groupName}>{groupName}</ListSubheader>,
+                            ...Object.entries(items).map(([key, item]) => (
+                                <MenuItem key={key} value={key}>{`${item.text} (IF: ${getEncounterIFForDisplay(item.value)}%)`}</MenuItem>
+                            )),
+                        ])}
                     </Select>
                 </FormControl>
             </Box>

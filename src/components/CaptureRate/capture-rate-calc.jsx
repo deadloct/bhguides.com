@@ -10,14 +10,14 @@ import Select from '@mui/material/Select';
 import TextField from "@mui/material/TextField";
 
 import styles from './index.module.css';
-import { cleanVal, VerticalSpacing } from "../../utils/utils";
+import { cleanVal, getOptionValue, VerticalSpacing } from "../../utils/utils";
 
 export default function CaptureRateCalc() {
     const encounterOptions = useSelector((state) => state.calc.options.encounterCapRate);
 
     const [output, setOutput] = useState("0%");
     const [infoCapRate, setInfoCapRate] = useState(0);
-    const [encounterBonus, setEncounterBonus] = useState(cleanVal(encounterOptions.default));
+    const [encounterBonus, setEncounterBonus] = useState(getOptionValue(encounterOptions, encounterOptions.default));
 
     const infoCapRateRef = useRef(infoCapRate);
     const encounterBonusRef = useRef(encounterBonus);
@@ -39,19 +39,19 @@ export default function CaptureRateCalc() {
     };
 
     const handleEncounterChange = e => {
-        const val = cleanVal(e.target.value);
-        setEncounterBonus(cleanVal(e.target.value));
+        const val = getOptionValue(encounterOptions, e.target.value);
+        setEncounterBonus(val);
         encounterBonusRef.current = val;
     };
 
     useEffect(() => {
         const timeoutID = setTimeout(() => {
-            const output = (cleanVal(infoCapRateRef.current) + 100) * (cleanVal(encounterBonusRef.current));
+            const output = (cleanVal(infoCapRateRef.current) + 100) * encounterBonusRef.current;
             setOutput(`${output}%`);
         }, 100);
 
         return () => clearTimeout(timeoutID);
-    });
+    }, [infoCapRate, encounterBonus]);
 
     return (
         <section id="capture-rate-calc">
@@ -81,16 +81,12 @@ export default function CaptureRateCalc() {
                             label="Encounter"
                             onChange={handleEncounterChange}
                         >
-                            {Object.keys(encounterOptions.groups).map((k, i) => {
-                                const items = encounterOptions.groups[k].map((item, j) => (
-                                    <MenuItem key={j} value={item.value}>{item.text}</MenuItem>
-                                ));
-
-                                return [
-                                    <ListSubheader key={`${k}-${i}`}>{k}</ListSubheader>,
-                                    ...items,
-                                ];
-                            })}
+                            {Object.entries(encounterOptions.groups).map(([groupName, items]) => [
+                                <ListSubheader key={groupName}>{groupName}</ListSubheader>,
+                                ...Object.entries(items).map(([key, item]) => (
+                                    <MenuItem key={key} value={key}>{item.text}</MenuItem>
+                                )),
+                            ])}
                         </Select>
                     </FormControl>
                 </Box>

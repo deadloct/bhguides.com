@@ -26,17 +26,19 @@ export function cleanVal(val) {
     if (typeof val === "number") {
         return val;
     }
+    return Number.parseFloat(val);
+}
 
-    let actual = val;
-
-    // Support vals like 1-raid-2, where 1 is the val and the rest is just there
-    // to make option values unique.
-    if (typeof val === "string") {
-        const parts = val.split("-");
-        actual = parts[0];
+export function getOptionValue(section, key) {
+    if (section.options) {
+        return section.options[key]?.value ?? 0;
     }
-
-    return Number.parseFloat(actual);
+    for (const group of Object.values(section.groups)) {
+        if (key in group) {
+            return group[key].value;
+        }
+    }
+    return 0;
 }
 
 export function getEncounterIFForDisplay(val) {

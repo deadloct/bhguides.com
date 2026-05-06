@@ -13,6 +13,7 @@ import {
     cleanVal,
     getEncounterIFForDisplay,
     getIFEquation,
+    getOptionValue,
     SardinexEventOverride,
     VerticalSpacing,
 } from "../../utils/utils";
@@ -44,17 +45,17 @@ export default function StandardIFCalc() {
 
     useEffect(() => {
         const params = {
-            rune1: cleanVal(formValues.rune1),
-            rune2: cleanVal(formValues.rune2),
-            guild: cleanVal(formValues.guild),
-            consumable: cleanVal(formValues.consumable),
+            rune1: getOptionValue(options.runes, formValues.rune1),
+            rune2: getOptionValue(options.runes, formValues.rune2),
+            guild: getOptionValue(options.guild, formValues.guild),
+            consumable: getOptionValue(options.consumables, formValues.consumable),
             dailyMult: cleanVal(formValues.dailyMult),
-            adgor: cleanVal(formValues.adgor),
-            encounter: cleanVal(formValues.encounter),
-            
+            adgor: getOptionValue(options.adgor, formValues.adgor),
+            encounter: getOptionValue(options.encounter, formValues.encounter),
+
             // ternary is a hack for pvp if
-            daily: (formValues.daily === "0-r" && formValues.encounter === "1-tix") ?
-                100 : cleanVal(formValues.daily),
+            daily: (formValues.daily === "thursday" && formValues.encounter === "pvp-tickets") ?
+                100 : getOptionValue(options.daily, formValues.daily),
         };
         const result = calcIF(params);
 
@@ -65,7 +66,7 @@ export default function StandardIFCalc() {
 
         setOutput(r);
         setEquation(getIFEquation(params));
-    }, [formValues]);
+    }, [formValues, options]);
 
     return (
         
@@ -83,8 +84,8 @@ export default function StandardIFCalc() {
                             label="Minor Rune 1"
                             onChange={handleInputChange}
                         >
-                            {options.runes.options.map((v, i) => (
-                                <MenuItem key={i} value={v.value}>{v.text}</MenuItem>
+                            {Object.entries(options.runes.options).map(([key, v]) => (
+                                <MenuItem key={key} value={key}>{v.text}</MenuItem>
                             ))}
                         </Select>
                     </FormControl>
@@ -101,8 +102,8 @@ export default function StandardIFCalc() {
                             label="Minor Rune 2"
                             onChange={handleInputChange}
                         >
-                            {options.runes.options.map((v, i) => (
-                                <MenuItem key={i} value={v.value}>{v.text}</MenuItem>
+                            {Object.entries(options.runes.options).map(([key, v]) => (
+                                <MenuItem key={key} value={key}>{v.text}</MenuItem>
                             ))}
                         </Select>
                     </FormControl>
@@ -119,8 +120,8 @@ export default function StandardIFCalc() {
                             label="Guild Bonus"
                             onChange={handleInputChange}
                         >
-                            {options.guild.options.map((v, i) => (
-                                <MenuItem key={i} value={v.value}>{v.text}</MenuItem>
+                            {Object.entries(options.guild.options).map(([key, v]) => (
+                                <MenuItem key={key} value={key}>{v.text}</MenuItem>
                             ))}
                         </Select>
                     </FormControl>
@@ -138,13 +139,13 @@ export default function StandardIFCalc() {
                             onChange={handleInputChange}
                         >
                             <ListSubheader key="by-name">By Name</ListSubheader>
-                            {options.consumables.groups["By Name"].map((v, i) => (
-                                <MenuItem key={i} value={v.value}>{v.text}</MenuItem>
+                            {Object.entries(options.consumables.groups["By Name"]).map(([key, v]) => (
+                                <MenuItem key={key} value={key}>{v.text}</MenuItem>
                             ))}
 
                             <ListSubheader key="by-amount">By Amount</ListSubheader>
-                            {options.consumables.groups["By Amount"].map((v, i) => (
-                                <MenuItem key={i} value={v.value}>{v.text}</MenuItem>
+                            {Object.entries(options.consumables.groups["By Amount"]).map(([key, v]) => (
+                                <MenuItem key={key} value={key}>{v.text}</MenuItem>
                             ))}
                         </Select>
                     </FormControl>
@@ -161,8 +162,8 @@ export default function StandardIFCalc() {
                             label="Day"
                             onChange={handleInputChange}
                         >
-                            {options.daily.options.map((v, i) => (
-                                <MenuItem key={i} value={v.value}>{v.text}</MenuItem>
+                            {Object.entries(options.daily.options).map(([key, v]) => (
+                                <MenuItem key={key} value={key}>{v.text}</MenuItem>
                             ))}
                         </Select>
                     </FormControl>
@@ -199,8 +200,8 @@ export default function StandardIFCalc() {
                             label="Adgor/Permagor"
                             onChange={handleInputChange}
                         >
-                            {options.adgor.options.map((v, i) => (
-                                <MenuItem key={i} value={v.value}>{v.text}</MenuItem>
+                            {Object.entries(options.adgor.options).map(([key, v]) => (
+                                <MenuItem key={key} value={key}>{v.text}</MenuItem>
                             ))}
                         </Select>
                     </FormControl>
@@ -217,16 +218,12 @@ export default function StandardIFCalc() {
                             label="Encounter"
                             onChange={handleInputChange}
                         >
-                            {Object.keys(options.encounter.groups).map((k, i) => {
-                                const items = options.encounter.groups[k].map((item, j) => (
-                                    <MenuItem key={j} value={item.value}>{`${item.text} (IF: ${getEncounterIFForDisplay(item.value)}%)`}</MenuItem>
-                                ));
-
-                                return [
-                                    <ListSubheader key={`${k}-${i}`}>{k}</ListSubheader>,
-                                    ...items,
-                                ];
-                            })}
+                            {Object.entries(options.encounter.groups).map(([groupName, items]) => [
+                                <ListSubheader key={groupName}>{groupName}</ListSubheader>,
+                                ...Object.entries(items).map(([key, item]) => (
+                                    <MenuItem key={key} value={key}>{`${item.text} (IF: ${getEncounterIFForDisplay(item.value)}%)`}</MenuItem>
+                                )),
+                            ])}
                         </Select>
                     </FormControl>
                 </Box>
