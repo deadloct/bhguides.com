@@ -13,7 +13,7 @@ import styles from './index.module.css';
 import { cleanVal, getOptionValue, VerticalSpacing } from "../../utils/utils";
 
 export default function CaptureRateCalc() {
-    const encounterOptions = useSelector((state) => state.calc.options.encounterCapRate);
+    const encounterOptions = useSelector((state) => state.calc.options.captureRate.encounter);
 
     const [output, setOutput] = useState("0%");
     const [infoCapRate, setInfoCapRate] = useState(0);

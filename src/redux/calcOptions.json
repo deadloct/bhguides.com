@@ -1,149 +1,153 @@
 {
-    "runes": {
-        "default": "not-item-find",
-        "options": {
-            "not-item-find": { "text": "Not Item Find", "value": 0 },
-            "common": { "text": "Common", "value": 7.5 },
-            "rare": { "text": "Rare", "value": 15 },
-            "epic": { "text": "Epic", "value": 22.5 },
-            "legendary": { "text": "Legendary", "value": 30 },
-            "mythic": { "text": "Mythic", "value": 37.5 }
-        }
-    },
-    "guild": {
-        "default": "rank-5",
-        "options": {
-            "rank-0": { "text": "No Bonus - Rank 0", "value": 0 },
-            "rank-1": { "text": "3% - Rank 1", "value": 3 },
-            "rank-2": { "text": "5% - Rank 2", "value": 5 },
-            "rank-3": { "text": "8% - Rank 3", "value": 8 },
-            "rank-4": { "text": "10% - Rank 4", "value": 10 },
-            "rank-5": { "text": "13% - Rank 5", "value": 13 }
-        }
-    },
-    "consumables": {
-        "default": "bitgor",
-        "groups": {
-            "By Name": {
-                "no-bonus": { "text": "No Bonus (0%)", "value": 0 },
-                "annigor": { "text": "Annigor (350%)", "value": 350 },
-                "average-scroll-blue": { "text": "Average Scroll (Blue) (50%)", "value": 50 },
-                "bitgor": { "text": "Bitgor (500%)", "value": 500 },
-                "bubgor": { "text": "Bubgor (200%)", "value": 200 },
-                "bucgor": { "text": "Bucgor (600%)", "value": 600 },
-                "bytegor": { "text": "Bytegor (200%)", "value": 200 },
-                "broccoli": { "text": "Broccoli (75%)", "value": 75 },
-                "coco": { "text": "Coco (75%)", "value": 75 },
-                "colgor": { "text": "Colgor (900%)", "value": 900 },
-                "delicious-feast": { "text": "Delicious Feast (75%)", "value": 75 },
-                "glorious-feast": { "text": "Glorious Feast (75%)", "value": 75 },
-                "item-find-tome-gold": { "text": "Item Find Tome (Gold) (200%)", "value": 200 },
-                "kongigor": { "text": "Kongigor (750%)", "value": 750 },
-                "minor-scroll-green": { "text": "Minor Scroll (Green) (25%)", "value": 25 },
-                "major-scroll-red": { "text": "Major Scroll (Red) (100%)", "value": 100 },
-                "odagor": { "text": "Odagor (500%)", "value": 500 },
-                "sungor": { "text": "Sungor (750%)", "value": 750 },
-                "super-scroll": { "text": "Super Scroll (150%)", "value": 150 },
-                "ultragor": { "text": "Ultragor (1200%)", "value": 1200 },
-                "weeklong-gor": { "text": "Weeklong 168-hour gor (250%)", "value": 250 }
-            },
-            "By Amount": {
-                "25": { "text": "25%", "value": 25 },
-                "50": { "text": "50%", "value": 50 },
-                "75": { "text": "75%", "value": 75 },
-                "100": { "text": "100%", "value": 100 },
-                "150": { "text": "150%", "value": 150 },
-                "200": { "text": "200%", "value": 200 },
-                "250": { "text": "250%", "value": 250 },
-                "300": { "text": "300%", "value": 300 },
-                "350": { "text": "350%", "value": 350 },
-                "500": { "text": "500%", "value": 500 },
-                "600": { "text": "600%", "value": 600 },
-                "750": { "text": "750%", "value": 750 },
-                "800": { "text": "800%", "value": 800 },
-                "900": { "text": "900%", "value": 900 },
-                "1200": { "text": "1200%", "value": 1200 }
+    "itemFind": {
+        "runes": {
+            "default": "notItemFind",
+            "options": {
+                "notItemFind": { "text": "Not Item Find", "value": 0 },
+                "common": { "text": "Common", "value": 7.5 },
+                "rare": { "text": "Rare", "value": 15 },
+                "epic": { "text": "Epic", "value": 22.5 },
+                "legendary": { "text": "Legendary", "value": 30 },
+                "mythic": { "text": "Mythic", "value": 37.5 }
+            }
+        },
+        "guild": {
+            "default": "rank5",
+            "options": {
+                "rank0": { "text": "No Bonus - Rank 0", "value": 0 },
+                "rank1": { "text": "3% - Rank 1", "value": 3 },
+                "rank2": { "text": "5% - Rank 2", "value": 5 },
+                "rank3": { "text": "8% - Rank 3", "value": 8 },
+                "rank4": { "text": "10% - Rank 4", "value": 10 },
+                "rank5": { "text": "13% - Rank 5", "value": 13 }
+            }
+        },
+        "consumables": {
+            "default": "bitgor",
+            "groups": {
+                "By Name": {
+                    "noBonus": { "text": "No Bonus (0%)", "value": 0 },
+                    "annigor": { "text": "Annigor (350%)", "value": 350 },
+                    "averageScrollBlue": { "text": "Average Scroll (Blue) (50%)", "value": 50 },
+                    "bitgor": { "text": "Bitgor (500%)", "value": 500 },
+                    "bubgor": { "text": "Bubgor (200%)", "value": 200 },
+                    "bucgor": { "text": "Bucgor (600%)", "value": 600 },
+                    "bytegor": { "text": "Bytegor (200%)", "value": 200 },
+                    "broccoli": { "text": "Broccoli (75%)", "value": 75 },
+                    "coco": { "text": "Coco (75%)", "value": 75 },
+                    "colgor": { "text": "Colgor (900%)", "value": 900 },
+                    "deliciousFeast": { "text": "Delicious Feast (75%)", "value": 75 },
+                    "gloriousFeast": { "text": "Glorious Feast (75%)", "value": 75 },
+                    "itemFindTomeGold": { "text": "Item Find Tome (Gold) (200%)", "value": 200 },
+                    "kongigor": { "text": "Kongigor (750%)", "value": 750 },
+                    "minorScrollGreen": { "text": "Minor Scroll (Green) (25%)", "value": 25 },
+                    "majorScrollRed": { "text": "Major Scroll (Red) (100%)", "value": 100 },
+                    "odagor": { "text": "Odagor (500%)", "value": 500 },
+                    "sungor": { "text": "Sungor (750%)", "value": 750 },
+                    "superScroll": { "text": "Super Scroll (150%)", "value": 150 },
+                    "ultragor": { "text": "Ultragor (1200%)", "value": 1200 },
+                    "weeklongGor": { "text": "Weeklong 168-hour gor (250%)", "value": 250 }
+                },
+                "By Amount": {
+                    "25": { "text": "25%", "value": 25 },
+                    "50": { "text": "50%", "value": 50 },
+                    "75": { "text": "75%", "value": 75 },
+                    "100": { "text": "100%", "value": 100 },
+                    "150": { "text": "150%", "value": 150 },
+                    "200": { "text": "200%", "value": 200 },
+                    "250": { "text": "250%", "value": 250 },
+                    "300": { "text": "300%", "value": 300 },
+                    "350": { "text": "350%", "value": 350 },
+                    "500": { "text": "500%", "value": 500 },
+                    "600": { "text": "600%", "value": 600 },
+                    "750": { "text": "750%", "value": 750 },
+                    "800": { "text": "800%", "value": 800 },
+                    "900": { "text": "900%", "value": 900 },
+                    "1200": { "text": "1200%", "value": 1200 }
+                }
+            }
+        },
+        "daily": {
+            "default": "sunday",
+            "options": {
+                "monday": { "text": "Monday", "value": 0 },
+                "tuesday": { "text": "Tuesday", "value": 45 },
+                "wednesday": { "text": "Wednesday", "value": 0 },
+                "thursday": { "text": "Thursday", "value": 0 },
+                "friday": { "text": "Friday", "value": 0 },
+                "saturday": { "text": "Saturday", "value": 45 },
+                "sunday": { "text": "Sunday", "value": 75 }
+            }
+        },
+        "adgor": {
+            "default": "adgorPermagor",
+            "options": {
+                "none": { "text": "None", "value": 0 },
+                "adgorPermagor": { "text": "Adgor/Permagor", "value": 50 }
+            }
+        },
+        "encounter": {
+            "default": "raidHeroic",
+            "groups": {
+                "Dungeons": {
+                    "dungeonNormal": { "text": "Dungeon-Normal", "value": 1.5 },
+                    "dungeonHard": { "text": "Dungeon-Hard", "value": 3 },
+                    "dungeonHeroic": { "text": "Dungeon-Heroic", "value": 4.5 },
+                    "dungeonD4": { "text": "Dungeon-D4", "value": 3 }
+                },
+                "Expedition": {
+                    "expedition1Badge": { "text": "Expedition 1 Badge", "value": 1 },
+                    "expedition2Badges": { "text": "Expedition 2 Badges", "value": 2 },
+                    "expedition3Badges": { "text": "Expedition 3 Badges", "value": 2 },
+                    "expedition4Badges": { "text": "Expedition 4 Badges", "value": 3 },
+                    "expedition5Badges": { "text": "Expedition 5 Badges", "value": 3.5 }
+                },
+                "Invasion": {
+                    "invasionNoBonus": { "text": "Invasion - No Community Bonus", "value": 1 },
+                    "invasionTier1": { "text": "Invasion - Community Tier 1", "value": 1.05 },
+                    "invasionTier2": { "text": "Invasion - Community Tier 2", "value": 1.1 },
+                    "invasionTier3": { "text": "Invasion - Community Tier 3", "value": 1.2 },
+                    "invasionTier4": { "text": "Invasion - Community Tier 4", "value": 1.3 },
+                    "invasionTier5": { "text": "Invasion - Community Tier 5", "value": 1.5 }
+                },
+                "PVP": {
+                    "pvpTickets": { "text": "Tickets - Any Amount", "value": 1 }
+                },
+                "Raids": {
+                    "raidNormal": { "text": "Raid-Normal", "value": 1 },
+                    "raidHard": { "text": "Raid-Hard", "value": 3 },
+                    "raidHeroic": { "text": "Raid-Heroic", "value": 5 }
+                },
+                "Trials/Gauntlet": {
+                    "tg1Token": { "text": "T/G 1 Token", "value": 1 },
+                    "tg2Tokens": { "text": "T/G 2 Tokens", "value": 2 },
+                    "tg3Tokens": { "text": "T/G 3 Tokens", "value": 2 },
+                    "tg4Tokens": { "text": "T/G 4 Tokens", "value": 3 },
+                    "tg5Tokens": { "text": "T/G 5 Tokens", "value": 3.5 }
+                },
+                "World Boss": {
+                    "wbNormal": { "text": "WB-Normal", "value": 1 },
+                    "wbHard": { "text": "WB-Hard", "value": 1.25 },
+                    "wbHeroic": { "text": "WB-Heroic", "value": 1.5 }
+                }
             }
         }
     },
-    "daily": {
-        "default": "sunday",
-        "options": {
-            "monday": { "text": "Monday", "value": 0 },
-            "tuesday": { "text": "Tuesday", "value": 45 },
-            "wednesday": { "text": "Wednesday", "value": 0 },
-            "thursday": { "text": "Thursday", "value": 0 },
-            "friday": { "text": "Friday", "value": 0 },
-            "saturday": { "text": "Saturday", "value": 45 },
-            "sunday": { "text": "Sunday", "value": 75 }
-        }
-    },
-    "adgor": {
-        "default": "adgor-permagor",
-        "options": {
-            "none": { "text": "None", "value": 0 },
-            "adgor-permagor": { "text": "Adgor/Permagor", "value": 50 }
-        }
-    },
-    "encounter": {
-        "default": "raid-heroic",
-        "groups": {
-            "Dungeons": {
-                "dungeon-normal": { "text": "Dungeon-Normal", "value": 1.5 },
-                "dungeon-hard": { "text": "Dungeon-Hard", "value": 3 },
-                "dungeon-heroic": { "text": "Dungeon-Heroic", "value": 4.5 },
-                "dungeon-d4": { "text": "Dungeon-D4", "value": 3 }
-            },
-            "Expedition": {
-                "expedition-1-badge": { "text": "Expedition 1 Badge", "value": 1 },
-                "expedition-2-badges": { "text": "Expedition 2 Badges", "value": 2 },
-                "expedition-3-badges": { "text": "Expedition 3 Badges", "value": 2 },
-                "expedition-4-badges": { "text": "Expedition 4 Badges", "value": 3 },
-                "expedition-5-badges": { "text": "Expedition 5 Badges", "value": 3.5 }
-            },
-            "Invasion": {
-                "invasion-no-bonus": { "text": "Invasion - No Community Bonus", "value": 1 },
-                "invasion-tier-1": { "text": "Invasion - Community Tier 1", "value": 1.05 },
-                "invasion-tier-2": { "text": "Invasion - Community Tier 2", "value": 1.1 },
-                "invasion-tier-3": { "text": "Invasion - Community Tier 3", "value": 1.2 },
-                "invasion-tier-4": { "text": "Invasion - Community Tier 4", "value": 1.3 },
-                "invasion-tier-5": { "text": "Invasion - Community Tier 5", "value": 1.5 }
-            },
-            "PVP": {
-                "pvp-tickets": { "text": "Tickets - Any Amount", "value": 1 }
-            },
-            "Raids": {
-                "raid-normal": { "text": "Raid-Normal", "value": 1 },
-                "raid-hard": { "text": "Raid-Hard", "value": 3 },
-                "raid-heroic": { "text": "Raid-Heroic", "value": 5 }
-            },
-            "Trials/Gauntlet": {
-                "tg-1-token": { "text": "T/G 1 Token", "value": 1 },
-                "tg-2-tokens": { "text": "T/G 2 Tokens", "value": 2 },
-                "tg-3-tokens": { "text": "T/G 3 Tokens", "value": 2 },
-                "tg-4-tokens": { "text": "T/G 4 Tokens", "value": 3 },
-                "tg-5-tokens": { "text": "T/G 5 Tokens", "value": 3.5 }
-            },
-            "World Boss": {
-                "wb-normal": { "text": "WB-Normal", "value": 1 },
-                "wb-hard": { "text": "WB-Hard", "value": 1.25 },
-                "wb-heroic": { "text": "WB-Heroic", "value": 1.5 }
-            }
-        }
-    },
-    "encounterCapRate": {
-        "default": "raid-heroic",
-        "groups": {
-            "Dungeons": {
-                "dungeon-normal": { "text": "Dungeon-Normal", "value": 1 },
-                "dungeon-hard": { "text": "Dungeon-Hard", "value": 2 },
-                "dungeon-heroic": { "text": "Dungeon-Heroic", "value": 3 },
-                "dungeon-d4": { "text": "Dungeon-D4", "value": 1.5 }
-            },
-            "Raids": {
-                "raid-normal": { "text": "Raid-Normal", "value": 1 },
-                "raid-hard": { "text": "Raid-Hard", "value": 1.5 },
-                "raid-heroic": { "text": "Raid-Heroic", "value": 2 }
+    "captureRate": {
+        "encounter": {
+            "default": "raidHeroic",
+            "groups": {
+                "Dungeons": {
+                    "dungeonNormal": { "text": "Dungeon-Normal", "value": 1 },
+                    "dungeonHard": { "text": "Dungeon-Hard", "value": 2 },
+                    "dungeonHeroic": { "text": "Dungeon-Heroic", "value": 3 },
+                    "dungeonD4": { "text": "Dungeon-D4", "value": 1.5 }
+                },
+                "Raids": {
+                    "raidNormal": { "text": "Raid-Normal", "value": 1 },
+                    "raidHard": { "text": "Raid-Hard", "value": 1.5 },
+                    "raidHeroic": { "text": "Raid-Heroic", "value": 2 }
+                }
             }
         }
     }

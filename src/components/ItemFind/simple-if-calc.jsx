@@ -13,7 +13,7 @@ import styles from "./index.module.css";
 import { cleanVal, getEncounterIFForDisplay, getOptionValue, VerticalSpacing } from "../../utils/utils";
 
 export default function SimpleIFCalc() {
-    const options = useSelector((state) => state.calc.options);
+    const options = useSelector((state) => state.calc.options.itemFind);
     const [output, setOutput] = useState("0%");
     const [equation, setEquation] = useState("");
     const [infoIF, setInfoIF] = useState(0);

@@ -18,7 +18,7 @@ import {
 } from "../../utils/utils";
 
 export default function StandardIFCalc() {
-    const options = useSelector((state) => state.calc.options);
+    const options = useSelector((state) => state.calc.options.itemFind);
 
     const [output, setOutput] = useState("0%");
     const [equation, setEquation] = useState("");
@@ -53,7 +53,7 @@ export default function StandardIFCalc() {
             encounter: getOptionValue(options.encounter, formValues.encounter),
 
             // ternary is a hack for pvp if
-            daily: (formValues.daily === "thursday" && formValues.encounter === "pvp-tickets") ?
+            daily: (formValues.daily === "thursday" && formValues.encounter === "pvpTickets") ?
                 100 : getOptionValue(options.daily, formValues.daily),
         };
         const result = calcIF(params);
