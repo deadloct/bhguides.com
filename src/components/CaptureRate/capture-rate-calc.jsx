@@ -47,7 +47,7 @@ export default function CaptureRateCalc() {
     useEffect(() => {
         const timeoutID = setTimeout(() => {
             const output = (cleanVal(infoCapRateRef.current) + 100) * encounterBonusRef.current;
-            setOutput(`${output}%`);
+            setOutput(`${output.toFixed(2)}%`);
         }, 100);
 
         return () => clearTimeout(timeoutID);

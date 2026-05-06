@@ -10,7 +10,6 @@ import Select from '@mui/material/Select';
 import styles from "./index.module.css";
 import {
     calcIF,
-    cleanVal,
     getEncounterIFForDisplay,
     getIFEquation,
     getOptionValue,
@@ -49,7 +48,7 @@ export default function StandardIFCalc() {
             rune2: getOptionValue(options.runes, formValues.rune2),
             guild: getOptionValue(options.guild, formValues.guild),
             consumable: getOptionValue(options.consumables, formValues.consumable),
-            dailyMult: cleanVal(formValues.dailyMult),
+            dailyMult: formValues.dailyMult,
             adgor: getOptionValue(options.adgor, formValues.adgor),
             encounter: getOptionValue(options.encounter, formValues.encounter),
 
@@ -66,7 +65,7 @@ export default function StandardIFCalc() {
 
         setOutput(r);
         setEquation(getIFEquation(params));
-    }, [formValues, options]);
+    }, [formValues]);
 
     return (
         

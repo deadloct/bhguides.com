@@ -42,5 +42,5 @@ export function getOptionValue(section, key) {
 }
 
 export function getEncounterIFForDisplay(val) {
-    return (cleanVal(val)-1).toFixed(2)*100;
+    return (val-1).toFixed(2)*100;
 }
