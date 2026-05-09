@@ -80,6 +80,9 @@
                     "id": "schematics-cards-wrld_eatr"
                 },
                 {
+                    "id": "schematic-checklists-sora"
+                },
+                {
                     "id": "event-familiars"
                 },
                 {
@@ -202,6 +205,30 @@
                             "filename": "ancients-t18-skills-toot-goolmuddy-winter-antomanz.png",
                             "attachmenttype": "image",
                             "contenttype": "image/png"
+                        }
+                    ]
+                }
+            ]
+        },
+        "schematic-checklists-sora": {
+            "webname": "Schematic Checklists by Sora",
+            "description": "Google Sheets templates for your favourite fusions",
+            "guides": [
+                {
+                    "name": "Gyl' Rotakan",
+                    "attachments": [
+                        {
+                           "attachmenttype": "link",
+                            "link": "https://docs.google.com/spreadsheets/d/1nIw84e9dOcK7u3FtdrVsq-LCzSJpxU-AV6Lx66GcxDA/edit?usp=sharing"
+                        }
+                    ]
+                },
+                {
+                    "name": "Kimusaba",
+                    "attachments": [
+                        {
+                           "attachmenttype": "link",
+                            "link": "https://docs.google.com/spreadsheets/d/1nIw84e9dOcK7u3FtdrVsq-LCzSJpxU-AV6Lx66GcxDA/edit?gid=1707653598#gid=1707653598"
                         }
                     ]
                 }
