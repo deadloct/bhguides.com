@@ -4418,6 +4418,29 @@
             "description": "Community t21d4 Evermore/Nevermore strategies",
             "guides": [
                 {
+                    "name": "A3J's Wing Terminal Dungeon Guide",
+                    "builds": [
+                        "Ancient Speed Bait"
+                    ],
+                    "fams": [
+                        "Bleeximum",
+                        "Father Mauritus",
+                        "Googie Moogienz",
+                        "Kimusaba",
+                        "Kzulum",
+                        "Lerky",
+                        "Volthai"
+                    ],
+                    "attachments": [
+                        {
+                            "filename": "d4-t21-A3J.pdf",
+                            "attachmenttype": "pdf",
+                            "contenttype": "application/pdf"
+                        }
+                    ],
+                    "inTier": true
+                },
+                {
                     "name": "Adhesive81 and Olivernoko's Pic Guide",
                     "builds": [
                         "Ancient Speed Bait"
