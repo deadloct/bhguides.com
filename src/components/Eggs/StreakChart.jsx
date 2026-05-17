@@ -7,14 +7,12 @@ export default function StreakChart({ results }) {
 
     const luckyColor = isDark ? "#66bb6a" : "#2e7d32";
     const unluckyColor = isDark ? "#ef5350" : "#c62828";
-    const axisColor = isDark ? "#b0b0b0" : "#555";
     const gridColor = isDark ? "#333" : "#ddd";
     const labelColor = theme.palette.text.primary;
 
-    const overallMax = Math.max(results.bestWinStreak, results.worstLossStreak);
-    const buckets = pickBuckets(overallMax);
+    const hasAnyData = results.bestWinStreak > 0 || results.worstLossStreak > 0;
 
-    if (buckets.length === 0) {
+    if (!hasAnyData) {
         return (
             <p style={{ color: labelColor, fontStyle: "italic" }}>
                 Not enough data to chart — try a larger number of attempts.
@@ -22,188 +20,181 @@ export default function StreakChart({ results }) {
         );
     }
 
+    return (
+        <div style={{ display: "flex", flexDirection: "column", gap: 20 }}>
+            <Panel
+                title="Lucky streaks"
+                subtitle="Consecutive eggs with a legendary"
+                max={results.bestWinStreak}
+                counts={results.winStreakCounts}
+                color={luckyColor}
+                gridColor={gridColor}
+                labelColor={labelColor}
+                emptyLabel="No lucky streaks recorded."
+            />
+            <Panel
+                title="Unlucky streaks"
+                subtitle="Consecutive eggs with no legendary"
+                max={results.worstLossStreak}
+                counts={results.lossStreakCounts}
+                color={unluckyColor}
+                gridColor={gridColor}
+                labelColor={labelColor}
+                emptyLabel="No unlucky streaks recorded."
+            />
+        </div>
+    );
+}
+
+function Panel({ title, subtitle, max, counts, color, gridColor, labelColor, emptyLabel }) {
+    const buckets = pickBuckets(max);
+
+    const header = (
+        <div style={{ marginBottom: 4 }}>
+            <div style={{ color: labelColor, fontWeight: 600 }}>
+                {title} <span style={{ fontWeight: 400, opacity: 0.75 }}>
+                    — longest: {max.toLocaleString()} {max === 1 ? "egg" : "eggs"}
+                </span>
+            </div>
+            <div style={{ color: labelColor, fontSize: 12, opacity: 0.7 }}>{subtitle}</div>
+        </div>
+    );
+
+    if (buckets.length === 0) {
+        return (
+            <div>
+                {header}
+                <p style={{ color: labelColor, fontStyle: "italic", margin: 0 }}>{emptyLabel}</p>
+            </div>
+        );
+    }
+
     const data = buckets.map(([start, end]) => ({
-        start,
-        end,
-        label: start === end ? String(start) : `${start}-${end}`,
-        lucky: start <= results.bestWinStreak ? rangeCount(results.winStreakCounts, start, end) : null,
-        unlucky: start <= results.worstLossStreak ? rangeCount(results.lossStreakCounts, start, end) : null,
+        label: start === end ? start.toLocaleString() : `${start.toLocaleString()}–${end.toLocaleString()}`,
+        count: rangeCount(counts, start, end),
     }));
 
-    const maxLucky = Math.max(1, ...data.map(d => d.lucky || 0));
-    const maxUnlucky = Math.max(1, ...data.map(d => d.unlucky || 0));
+    const maxCount = Math.max(1, ...data.map(d => d.count));
+    const ticks = niceTicks(maxCount, 4);
+    const niceMax = ticks[ticks.length - 1];
 
     const width = 720;
-    const margin = { top: 50, right: 80, bottom: 40, left: 80 };
+    const margin = { top: 28, right: 24, bottom: 36, left: 130 };
     const rowH = 28;
     const innerH = buckets.length * rowH;
     const innerW = width - margin.left - margin.right;
     const height = margin.top + innerH + margin.bottom;
-    const centerX = margin.left + innerW / 2;
-    const halfW = innerW / 2;
     const barH = Math.min(20, rowH * 0.7);
 
-    const luckyTicks = niceTicks(maxLucky, 3);
-    const unluckyTicks = niceTicks(maxUnlucky, 3);
-    const niceLuckyMax = luckyTicks[luckyTicks.length - 1];
-    const niceUnluckyMax = unluckyTicks[unluckyTicks.length - 1];
-
     const yForIndex = (idx) => margin.top + idx * rowH + rowH / 2;
+    const xForValue = (v) => margin.left + (v / niceMax) * innerW;
 
     return (
-        <svg
-            viewBox={`0 0 ${width} ${height}`}
-            width="100%"
-            style={{ maxWidth: width, height: "auto", display: "block" }}
-            role="img"
-            aria-label="Diverging bar chart of lucky and unlucky streak counts"
-        >
-            {unluckyTicks.map((v, i) => {
-                if (v === 0) return null;
-                const x = centerX - (v / niceUnluckyMax) * halfW;
-                return (
-                    <g key={`ut-${i}`}>
-                        <line x1={x} x2={x} y1={margin.top} y2={margin.top + innerH} stroke={gridColor} strokeDasharray="2 3" />
-                        <text x={x} y={margin.top - 6} textAnchor="middle" fontSize="11" fill={labelColor}>
-                            {v}
-                        </text>
-                    </g>
-                );
-            })}
-            {luckyTicks.map((v, i) => {
-                if (v === 0) return null;
-                const x = centerX + (v / niceLuckyMax) * halfW;
-                return (
-                    <g key={`lt-${i}`}>
-                        <line x1={x} x2={x} y1={margin.top} y2={margin.top + innerH} stroke={gridColor} strokeDasharray="2 3" />
-                        <text x={x} y={margin.top - 6} textAnchor="middle" fontSize="11" fill={labelColor}>
-                            {v}
-                        </text>
-                    </g>
-                );
-            })}
+        <div>
+            {header}
+            <svg
+                viewBox={`0 0 ${width} ${height}`}
+                width="100%"
+                style={{ maxWidth: width, height: "auto", display: "block" }}
+                role="img"
+                aria-label={`${title}: distribution of streak lengths`}
+            >
+                {ticks.map((v, i) => {
+                    const x = xForValue(v);
+                    const isZero = v === 0;
+                    return (
+                        <g key={`t-${i}`}>
+                            <line
+                                x1={x}
+                                x2={x}
+                                y1={margin.top}
+                                y2={margin.top + innerH}
+                                stroke={isZero ? labelColor : gridColor}
+                                strokeOpacity={isZero ? 0.6 : 1}
+                                strokeWidth={isZero ? 1.5 : 1}
+                                strokeDasharray={isZero ? "" : "2 3"}
+                            />
+                            <text
+                                x={x}
+                                y={margin.top - 8}
+                                textAnchor="middle"
+                                fontSize="11"
+                                fill={labelColor}
+                            >
+                                {v.toLocaleString()}
+                            </text>
+                        </g>
+                    );
+                })}
 
-            <line
-                x1={centerX}
-                x2={centerX}
-                y1={margin.top}
-                y2={margin.top + innerH}
-                stroke={axisColor}
-                strokeWidth="1.5"
-            />
-
-            {data.map((d, idx) => (
+                {data.map((d, idx) => (
+                    <text
+                        key={`y-${d.label}`}
+                        x={margin.left - 8}
+                        y={yForIndex(idx)}
+                        textAnchor="end"
+                        dominantBaseline="middle"
+                        fontSize="11"
+                        fontWeight="600"
+                        fill={labelColor}
+                    >
+                        {d.label}
+                    </text>
+                ))}
                 <text
-                    key={`y-${d.label}`}
-                    x={margin.left - 8}
-                    y={yForIndex(idx)}
-                    textAnchor="end"
-                    dominantBaseline="middle"
-                    fontSize="11"
-                    fontWeight="600"
+                    transform={`translate(14, ${margin.top + innerH / 2}) rotate(-90)`}
+                    textAnchor="middle"
+                    fontSize="12"
                     fill={labelColor}
                 >
-                    {d.label}
+                    Eggs in streak
                 </text>
-            ))}
-            <text
-                transform={`translate(14, ${margin.top + innerH / 2}) rotate(-90)`}
-                textAnchor="middle"
-                fontSize="12"
-                fill={labelColor}
-            >
-                Eggs in streak
-            </text>
 
-            {data.map((d, idx) => {
-                if (d.unlucky === null) return null;
-                const w = (d.unlucky / niceUnluckyMax) * halfW;
-                const y = yForIndex(idx) - barH / 2;
-                const textWidth = String(d.unlucky).length * 7 + 8;
-                const insideBar = w >= textWidth;
-                return (
-                    <g key={`u-${d.label}`}>
-                        <rect
-                            x={centerX - w}
-                            y={y}
-                            width={w}
-                            height={barH}
-                            fill={unluckyColor}
-                            rx="2"
-                        >
-                            <title>{`Unlucky streaks of ${d.label} eggs: ${d.unlucky}`}</title>
-                        </rect>
-                        {d.unlucky > 0 && (
-                            <text
-                                x={insideBar ? centerX - 4 : centerX - w - 4}
-                                y={yForIndex(idx)}
-                                textAnchor="end"
-                                dominantBaseline="middle"
-                                fontSize="11"
-                                fill={insideBar ? "#fff" : labelColor}
+                {data.map((d, idx) => {
+                    const w = (d.count / niceMax) * innerW;
+                    const y = yForIndex(idx) - barH / 2;
+                    const text = d.count.toLocaleString();
+                    const textWidth = text.length * 7 + 8;
+                    const insideBar = w >= textWidth;
+                    return (
+                        <g key={`b-${d.label}`}>
+                            <rect
+                                x={margin.left}
+                                y={y}
+                                width={w}
+                                height={barH}
+                                fill={color}
+                                rx="2"
                             >
-                                {d.unlucky}
-                            </text>
-                        )}
-                    </g>
-                );
-            })}
+                                <title>{`Streaks of ${d.label} eggs: ${text}`}</title>
+                            </rect>
+                            {d.count > 0 && (
+                                <text
+                                    x={insideBar ? margin.left + w - 4 : margin.left + w + 4}
+                                    y={yForIndex(idx)}
+                                    textAnchor={insideBar ? "end" : "start"}
+                                    dominantBaseline="middle"
+                                    fontSize="11"
+                                    fill={insideBar ? "#fff" : labelColor}
+                                >
+                                    {text}
+                                </text>
+                            )}
+                        </g>
+                    );
+                })}
 
-            {data.map((d, idx) => {
-                if (d.lucky === null) return null;
-                const w = (d.lucky / niceLuckyMax) * halfW;
-                const y = yForIndex(idx) - barH / 2;
-                const textWidth = String(d.lucky).length * 7 + 8;
-                const insideBar = w >= textWidth;
-                return (
-                    <g key={`l-${d.label}`}>
-                        <rect
-                            x={centerX}
-                            y={y}
-                            width={w}
-                            height={barH}
-                            fill={luckyColor}
-                            rx="2"
-                        >
-                            <title>{`Lucky streaks of ${d.label} eggs: ${d.lucky}`}</title>
-                        </rect>
-                        {d.lucky > 0 && (
-                            <text
-                                x={insideBar ? centerX + 4 : centerX + w + 4}
-                                y={yForIndex(idx)}
-                                textAnchor="start"
-                                dominantBaseline="middle"
-                                fontSize="11"
-                                fill={insideBar ? "#fff" : labelColor}
-                            >
-                                {d.lucky}
-                            </text>
-                        )}
-                    </g>
-                );
-            })}
-
-            <text
-                x={margin.left + innerW / 2}
-                y={height - 8}
-                textAnchor="middle"
-                fontSize="12"
-                fill={labelColor}
-            >
-                Count of streaks
-            </text>
-
-            <g transform={`translate(${margin.left}, 18)`}>
-                <rect x="0" y="-10" width="12" height="12" fill={unluckyColor} rx="2" />
-                <text x="18" y="0" fontSize="12" fill={labelColor}>
-                    Unlucky (no legendaries)
+                <text
+                    x={margin.left + innerW / 2}
+                    y={height - 8}
+                    textAnchor="middle"
+                    fontSize="12"
+                    fill={labelColor}
+                >
+                    Count of streaks
                 </text>
-                <rect x="200" y="-10" width="12" height="12" fill={luckyColor} rx="2" />
-                <text x="218" y="0" fontSize="12" fill={labelColor}>
-                    Lucky (1+ legendary)
-                </text>
-            </g>
-        </svg>
+            </svg>
+        </div>
     );
 }
 
@@ -216,7 +207,7 @@ function rangeCount(counts, start, end) {
     return total;
 }
 
-function pickBuckets(maxLen, targetCount = 5) {
+function pickBuckets(maxLen, targetCount = 6) {
     if (!maxLen || maxLen <= 0) return [];
     if (maxLen <= targetCount) {
         return Array.from({ length: maxLen }, (_, i) => [i + 1, i + 1]);
