@@ -10,7 +10,7 @@ import Button from '@mui/material/Button';
 import styles from "./index.module.css";
 import { VerticalSpacing } from "../../utils/utils";
 import DieIcon from "@mui/icons-material/Casino";
-import StreakChart from "./StreakChart";
+import StreakChart from "../StreakChart";
 
 export default function EggCracker() {
     const [rawWinChance, setRawWinChance] = useState(3.4);

@@ -1,7 +1,15 @@
 import React from "react";
 import { useTheme } from "@mui/material/styles";
 
-export default function StreakChart({ results }) {
+export default function StreakChart({
+    results,
+    luckyTitle = "Lucky streaks",
+    luckySubtitle = "Consecutive eggs with a legendary",
+    unluckyTitle = "Unlucky streaks",
+    unluckySubtitle = "Consecutive eggs with no legendary",
+    unitSingular = "egg",
+    unitPlural = "eggs",
+}) {
     const theme = useTheme();
     const isDark = theme.palette.mode === "dark";
 
@@ -23,37 +31,41 @@ export default function StreakChart({ results }) {
     return (
         <div style={{ display: "flex", flexDirection: "column", gap: 20 }}>
             <Panel
-                title="Lucky streaks"
-                subtitle="Consecutive eggs with a legendary"
+                title={luckyTitle}
+                subtitle={luckySubtitle}
                 max={results.bestWinStreak}
                 counts={results.winStreakCounts}
                 color={luckyColor}
                 gridColor={gridColor}
                 labelColor={labelColor}
-                emptyLabel="No lucky streaks recorded."
+                unitSingular={unitSingular}
+                unitPlural={unitPlural}
             />
             <Panel
-                title="Unlucky streaks"
-                subtitle="Consecutive eggs with no legendary"
+                title={unluckyTitle}
+                subtitle={unluckySubtitle}
                 max={results.worstLossStreak}
                 counts={results.lossStreakCounts}
                 color={unluckyColor}
                 gridColor={gridColor}
                 labelColor={labelColor}
-                emptyLabel="No unlucky streaks recorded."
+                unitSingular={unitSingular}
+                unitPlural={unitPlural}
             />
         </div>
     );
 }
 
-function Panel({ title, subtitle, max, counts, color, gridColor, labelColor, emptyLabel }) {
+function Panel({ title, subtitle, max, counts, color, gridColor, labelColor, unitSingular, unitPlural }) {
     const buckets = pickBuckets(max);
+    const axisLabel = unitPlural.charAt(0).toUpperCase() + unitPlural.slice(1) + " in streak";
+    const emptyLabel = `No ${title.toLowerCase()} recorded.`;
 
     const header = (
         <div style={{ marginBottom: 4 }}>
             <div style={{ color: labelColor, fontWeight: 600 }}>
                 {title} <span style={{ fontWeight: 400, opacity: 0.75 }}>
-                    — longest: {max.toLocaleString()} {max === 1 ? "egg" : "eggs"}
+                    — longest: {max.toLocaleString()} {max === 1 ? unitSingular : unitPlural}
                 </span>
             </div>
             <div style={{ color: labelColor, fontSize: 12, opacity: 0.7 }}>{subtitle}</div>
@@ -147,7 +159,7 @@ function Panel({ title, subtitle, max, counts, color, gridColor, labelColor, emp
                     fontSize="12"
                     fill={labelColor}
                 >
-                    Eggs in streak
+                    {axisLabel}
                 </text>
 
                 {data.map((d, idx) => {
@@ -166,7 +178,7 @@ function Panel({ title, subtitle, max, counts, color, gridColor, labelColor, emp
                                 fill={color}
                                 rx="2"
                             >
-                                <title>{`Streaks of ${d.label} eggs: ${text}`}</title>
+                                <title>{`Streaks of ${d.label} ${unitPlural}: ${text}`}</title>
                             </rect>
                             {d.count > 0 && (
                                 <text
