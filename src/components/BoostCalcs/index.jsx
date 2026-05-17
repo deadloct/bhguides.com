@@ -11,7 +11,7 @@ import styles from '../ItemFindCapRateWrapper/index.module.css';
 
 const navItems = {
     'simple-if': 'Simple IF',
-    'complete-if': 'Complete IF',
+    'item-find': 'Item Find',
     'experience': 'Experience',
     'cap-rate': 'Cap Rate',
 };
@@ -88,7 +88,7 @@ function Credits() {
 
 const pages = {
     'simple-if': SimpleIFPage,
-    'complete-if': CompleteIFPage,
+    'item-find': CompleteIFPage,
     'experience': ExperiencePage,
     'cap-rate': CapRatePage,
 };
