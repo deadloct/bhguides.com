@@ -4,17 +4,17 @@ import EggCalculator from './EggCalculator';
 import EggCracker from './EggCracker';
 
 const navItems = {
-    calculator: 'Calculator',
     cracker: "Crack 'em",
+    calculator: 'Calculator',
 };
 
 const pages = {
-    calculator: EggCalculator,
     cracker: EggCracker,
+    calculator: EggCalculator,
 };
 
 export default function EggsWrapper({ activeTab }) {
-    const activePage = activeTab in pages ? activeTab : 'calculator';
+    const activePage = activeTab in pages ? activeTab : 'cracker';
     const ActiveComponent = pages[activePage];
 
     return (

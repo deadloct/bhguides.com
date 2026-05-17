@@ -3,7 +3,7 @@ import { useRouter } from 'next/router';
 import EggsWrapper from '../../src/components/Eggs/EggsWrapper';
 import { updatePageMeta } from '../../src/utils/seo';
 
-const validTabs = ['calculator', 'cracker'];
+const validTabs = ['cracker', 'calculator'];
 
 export default function EggsPage() {
     const router = useRouter();
