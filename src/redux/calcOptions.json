@@ -149,7 +149,7 @@
     },
     "experience": {
         "runes": {
-            "default": "notExperience",
+            "default": "mythic",
             "options": {
                 "notExperience": { "text": "Not Experience", "value": 0 },
                 "common": { "text": "Common", "value": 5 },
@@ -171,7 +171,7 @@
             }
         },
         "consumables": {
-            "default": "odagor",
+            "default": "exgor",
             "groups": {
                 "By Name": {
                     "noBonus": { "text": "No Bonus (0%)", "value": 0 },
@@ -217,7 +217,7 @@
             }
         },
         "daily": {
-            "default": "sunday",
+            "default": "friday",
             "options": {
                 "monday": { "text": "Monday", "value": 30 },
                 "tuesday": { "text": "Tuesday", "value": 30 },
@@ -236,7 +236,7 @@
             }
         },
         "encounter": {
-            "default": "invasion5badges",
+            "default": "invasion3",
             "groups": {
                 "Dungeons": {
                     "dungeonNormal": { "text": "Dungeon - Normal", "value": 1 },

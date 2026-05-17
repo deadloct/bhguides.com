@@ -3,7 +3,7 @@ import { useRouter } from 'next/router';
 import BoostCalcs from '../../src/components/BoostCalcs';
 import { updatePageMeta } from '../../src/utils/seo';
 
-const validTabs = ['simple-if', 'complete-if', 'cap-rate'];
+const validTabs = ['simple-if', 'complete-if', 'experience', 'cap-rate'];
 
 export default function BoostCalcsPage() {
     const router = useRouter();

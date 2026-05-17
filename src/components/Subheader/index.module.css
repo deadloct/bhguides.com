@@ -36,3 +36,15 @@
     border-bottom-color: var(--main-text-color);
     font-weight: bold;
 }
+
+@media (max-width: 600px) {
+    .subnav ul {
+        gap: 0;
+    }
+
+    .subnav-link {
+        padding: 0.5rem 0.4rem;
+        font-size: 0.85rem;
+        white-space: nowrap;
+    }
+}
