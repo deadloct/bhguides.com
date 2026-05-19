@@ -1903,6 +1903,20 @@
                     ]
                 },
                 {
+                    "name": "Sora: What to do when you're stuck (Flow Chart)",
+                    "attachments": [
+                        {
+                            "filename": "general-sora-stuck-checklist.md",
+                            "attachmenttype": "markdown"
+                        },
+                        {
+                            "filename": "general-sora-stuck-checklist.svg",
+                            "attachmenttype": "image",
+                            "contenttype": "image/svg+xml"
+                        }
+                    ]
+                },
+                {
                     "name": "WRLD_EATR: Answers Frequently Asked Questions!",
                     "attachments": [
                         {

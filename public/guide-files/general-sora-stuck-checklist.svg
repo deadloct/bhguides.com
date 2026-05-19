@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1700" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#888"/>
+    </marker>
+    <style>
+      .bg { fill: #1e1e1e; }
+      .diamond { fill: #2a4a6b; stroke: #5b8ab8; stroke-width: 2; }
+      .action-no { fill: #4a3328; stroke: #a3672e; stroke-width: 2; }
+      .action-yes { fill: #2a4a32; stroke: #4f8b56; stroke-width: 2; }
+      .arrow-line { stroke: #999; stroke-width: 2; fill: none; }
+      .title { font-size: 26px; font-weight: bold; text-anchor: middle; fill: #fff; }
+      .subtitle { font-size: 14px; text-anchor: middle; fill: #aaa; font-style: italic; }
+      .decision { font-size: 15px; font-weight: bold; text-anchor: middle; fill: #fff; }
+      .action { font-size: 13px; fill: #f0f0f0; }
+      .action-mid { font-size: 13px; fill: #f0f0f0; text-anchor: middle; }
+      .action-bold { font-size: 13px; font-weight: bold; fill: #fff; text-anchor: middle; }
+      .yes-label { font-size: 13px; font-weight: bold; fill: #6dcc6d; }
+      .no-label { font-size: 13px; font-weight: bold; fill: #e8b465; text-anchor: middle; }
+      .epic-color { fill: #eb8271; fill: color(a98-rgb 0.828 0.505 0.443); }
+      .rare-color { fill: #4a9ed8; }
+      .legendary-color { fill: #e8c84a; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="900" height="1700"/>
+
+  <!-- Title -->
+  <text class="title" x="450" y="40">"I am stuck! What do I do?"</text>
+  <text class="subtitle" x="450" y="64">A Beginner Troubleshooting Checklist by Sora</text>
+
+  <!-- ============= STEP 1: Gear/Mount ============= -->
+  <polygon class="diamond" points="40,140 220,90 400,140 220,190"/>
+  <text class="decision" x="220" y="135">Is my gear/mount</text>
+  <text class="decision" x="220" y="155">fully upgraded?</text>
+
+  <line class="arrow-line" x1="400" y1="140" x2="490" y2="140" marker-end="url(#arrow)"/>
+  <text class="no-label" x="445" y="130">No</text>
+
+  <rect class="action-no" x="500" y="110" width="370" height="60" rx="8"/>
+  <text class="action-bold" x="685" y="135">Work on it.</text>
+  <text class="action-mid" x="685" y="156">Total Stat matters.</text>
+
+  <line class="arrow-line" x1="220" y1="190" x2="220" y2="285" marker-end="url(#arrow)"/>
+  <text class="yes-label" x="230" y="240">Yes</text>
+
+  <!-- ============= STEP 2: Runes/Enchants ============= -->
+  <polygon class="diamond" points="40,335 220,285 400,335 220,385"/>
+  <text class="decision" x="220" y="330">Am I using the right</text>
+  <text class="decision" x="220" y="350">runes/enchants?</text>
+
+  <line class="arrow-line" x1="400" y1="335" x2="490" y2="335" marker-end="url(#arrow)"/>
+  <text class="no-label" x="445" y="325">No</text>
+
+  <rect class="action-no" x="500" y="305" width="370" height="60" rx="8"/>
+  <text class="action-bold" x="685" y="340">Work on it.</text>
+
+  <line class="arrow-line" x1="220" y1="385" x2="220" y2="475" marker-end="url(#arrow)"/>
+  <text class="yes-label" x="230" y="435">Yes</text>
+
+  <!-- ============= STEP 3: Pet/Accessories ============= -->
+  <polygon class="diamond" points="40,525 220,475 400,525 220,575"/>
+  <text class="decision" x="220" y="520">Am I using the right</text>
+  <text class="decision" x="220" y="540">pet/accessories?</text>
+
+  <!-- Action 3a: guild pet/acc -->
+  <line class="arrow-line" x1="400" y1="505" x2="490" y2="490" marker-end="url(#arrow)"/>
+  <text class="no-label" x="445" y="475">Guild pet/acc</text>
+
+  <rect class="action-no" x="500" y="460" width="370" height="60" rx="8"/>
+  <text class="action-mid" x="685" y="485">Replace with a real pet/acc</text>
+  <text class="action-mid" x="685" y="505">from the shop or leaderboards.</text>
+
+  <!-- Action 3b: wrong for build -->
+  <line class="arrow-line" x1="400" y1="545" x2="490" y2="560" marker-end="url(#arrow)"/>
+  <text class="no-label" x="445" y="600">Wrong for build</text>
+
+  <rect class="action-no" x="500" y="540" width="370" height="60" rx="8"/>
+  <text class="action-mid" x="685" y="565">Get something decent/useful</text>
+  <text class="action-mid" x="685" y="585">(e.g. Def acc on a DPS build).</text>
+
+  <line class="arrow-line" x1="220" y1="575" x2="220" y2="685" marker-end="url(#arrow)"/>
+  <text class="yes-label" x="230" y="635">Yes</text>
+
+  <!-- ============= STEP 4: Familiars ============= -->
+  <polygon class="diamond" points="40,735 220,685 400,735 220,785"/>
+  <text class="decision" x="220" y="730">Am I using the right</text>
+  <text class="decision" x="220" y="750">familiars?</text>
+
+  <line class="arrow-line" x1="400" y1="735" x2="490" y2="735" marker-end="url(#arrow)"/>
+  <text class="no-label" x="445" y="725">No</text>
+
+  <rect class="action-no" x="500" y="705" width="370" height="60" rx="8"/>
+  <text class="action-bold" x="685" y="740">Work on it.</text>
+
+  <line class="arrow-line" x1="220" y1="785" x2="220" y2="875" marker-end="url(#arrow)"/>
+  <text class="yes-label" x="230" y="835">Yes</text>
+
+  <!-- ============= STEP 5: Stabled ============= -->
+  <polygon class="diamond" points="40,925 220,875 400,925 220,975"/>
+  <text class="decision" x="220" y="920">Are my familiars</text>
+  <text class="decision" x="220" y="940">fully stabled?</text>
+
+  <line class="arrow-line" x1="400" y1="925" x2="490" y2="925" marker-end="url(#arrow)"/>
+  <text class="no-label" x="445" y="915">No</text>
+
+  <rect class="action-no" x="500" y="895" width="370" height="60" rx="8"/>
+  <text class="action-bold" x="685" y="930">Work on it.</text>
+
+  <line class="arrow-line" x1="220" y1="975" x2="220" y2="1075" marker-end="url(#arrow)"/>
+  <text class="yes-label" x="230" y="1025">Yes</text>
+
+  <!-- ============= STEP 6: Augments ============= -->
+  <polygon class="diamond" points="40,1135 220,1075 400,1135 220,1195"/>
+  <text class="decision" x="220" y="1125">Did I equip the right</text>
+  <text class="decision" x="220" y="1145">augments (or any at all)</text>
+  <text class="decision" x="220" y="1165">on my familiars?</text>
+
+  <line class="arrow-line" x1="400" y1="1135" x2="490" y2="1135" marker-end="url(#arrow)"/>
+  <text class="no-label" x="445" y="1125">No</text>
+
+  <rect class="action-no" x="500" y="1080" width="370" height="110" rx="8"/>
+  <!-- Line 1: Just craft [blue] Rare augments. -->
+  <text class="action" x="518" y="1108">Just craft</text>
+  <rect class="rare-color" x="577" y="1097" width="14" height="14"/>
+  <text class="action" x="596" y="1108">Rare augments.</text>
+  <!-- Line 2: Don't make [epic] Epic augments. -->
+  <text class="action" x="518" y="1136">Don't make</text>
+  <rect class="epic-color" x="585" y="1125" width="14" height="14"/>
+  <text class="action" x="604" y="1136">Epic augments.</text>
+  <!-- Line 3: Save for [yellow] Legendaries. -->
+  <text class="action" x="518" y="1164">Save for</text>
+  <rect class="legendary-color" x="568" y="1153" width="14" height="14"/>
+  <text class="action" x="587" y="1164">Legendaries.</text>
+
+  <line class="arrow-line" x1="220" y1="1195" x2="220" y2="1295" marker-end="url(#arrow)"/>
+  <text class="yes-label" x="230" y="1245">Yes</text>
+
+  <!-- ============= STEP 7: Manual Combat ============= -->
+  <polygon class="diamond" points="40,1355 220,1295 400,1355 220,1415"/>
+  <text class="decision" x="220" y="1345">Fighting a boss or</text>
+  <text class="decision" x="220" y="1365">roadblock flag?</text>
+
+  <!-- Action 7a: Yes -> Manual -->
+  <line class="arrow-line" x1="400" y1="1335" x2="490" y2="1320" marker-end="url(#arrow)"/>
+  <text class="yes-label" x="437" y="1305">Yes</text>
+
+  <rect class="action-yes" x="500" y="1290" width="370" height="60" rx="8"/>
+  <text class="action-mid" x="685" y="1315">Go manual. Learn the enemy's</text>
+  <text class="action-mid" x="685" y="1335">skills and decide accordingly.</text>
+
+  <!-- Action 7b: No (overgeared) -> Auto fine -->
+  <line class="arrow-line" x1="400" y1="1375" x2="490" y2="1390" marker-end="url(#arrow)"/>
+  <text class="no-label" x="437" y="1430">No (overgeared)</text>
+
+  <rect class="action-no" x="500" y="1370" width="370" height="60" rx="8"/>
+  <text class="action-mid" x="685" y="1395">Auto is fine — you're way</text>
+  <text class="action-mid" x="685" y="1415">overgeared for it.</text>
+
+  <!-- Footer -->
+  <text class="subtitle" x="450" y="1500">Still stuck? Ask in the community for advice on your specific build.</text>
+
+</svg>
