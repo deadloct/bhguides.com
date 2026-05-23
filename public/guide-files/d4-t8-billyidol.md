@@ -1,15 +1,17 @@
 # BillyIdol's In-Tier Harvester Guide
 
+Perhaps the only useful things in this guide are my stat spread and enemy kill order. Having Zarli as a pet and Kris Gemmgle as my DPS made this one very easy.
+
 ## Build
 
-Total stats: 3308
-Stat spread: 568/808/1932
-Set: Inferno
-Mainhand: Exodus
-Ring: Engulfing Artifact
-Accessory: Jupingz +3
-Pet: Zarli +1
-Mount: Peach +4, 4/30/339 spread, 3.75% life steal
+* Total stats: 3308
+* Stat spread: 568/808/1932
+* Set: Inferno
+* Mainhand: Exodus
+* Ring: Engulfing Artifact
+* Accessory: Jupingz +3
+* Pet: Zarli +1
+* Mount: Peach +4, 4/30/339 spread, 3.75% life steal
 
 Runes:
 * Majors: 1x major speed (legendary), 3x major dual strike (2x mythic, 1x legendary)
