@@ -2349,20 +2349,23 @@
                     "inTier": true
                 },
                 {
-                    "name": "PocketApple8104's In-Tier Google Sheet Guides",
+                    "name": "BillyIdol's In-Tier Guide",
                     "builds": [
-                        "Night Walker"
+                        "Inferno"
+                    ],
+                    "fams": [
+                        "Hoplag",
+                        "Kris Gemmgle"
                     ],
                     "attachments": [
                         {
-                            "attachmenttype": "link",
-                            "link": "https://docs.google.com/spreadsheets/d/1YoNpZ0uuBNbInbxvfkUzgvgzD1VyxX7mokeW3jCvdRc/edit?gid=0#gid=0",
-                            "original-link": "https://docs.google.com/spreadsheets/d/1wbKl8h9Tzj9zgX1AEBY4wIhmC-xjN1OzyfsfBNkepeY/edit#gid=0"
+                            "filename": "d4-t8-billyidol.md",
+                            "attachmenttype": "markdown"
                         },
                         {
-                            "attachmenttype": "link",
-                            "link": "https://docs.google.com/spreadsheets/d/1YoNpZ0uuBNbInbxvfkUzgvgzD1VyxX7mokeW3jCvdRc/edit?gid=513928969#gid=513928969",
-                            "original-link": "https://docs.google.com/spreadsheets/d/1wbKl8h9Tzj9zgX1AEBY4wIhmC-xjN1OzyfsfBNkepeY/edit#gid=513928969"
+                            "filename": "d4-t8-billyidol.mp4",
+                            "attachmenttype": "video",
+                            "contenttype": "video/mp4"
                         }
                     ],
                     "inTier": true
@@ -2380,6 +2383,25 @@
                         {
                             "attachmenttype": "link",
                             "link": "https://docs.google.com/document/d/1XC4YnTigR_Zr7OOTbqd8fn6ixdRVM6g1lfsaG8TEF3g/edit?usp=sharing"
+                        }
+                    ],
+                    "inTier": true
+                },
+                {
+                    "name": "PocketApple8104's In-Tier Google Sheet Guides",
+                    "builds": [
+                        "Night Walker"
+                    ],
+                    "attachments": [
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://docs.google.com/spreadsheets/d/1YoNpZ0uuBNbInbxvfkUzgvgzD1VyxX7mokeW3jCvdRc/edit?gid=0#gid=0",
+                            "original-link": "https://docs.google.com/spreadsheets/d/1wbKl8h9Tzj9zgX1AEBY4wIhmC-xjN1OzyfsfBNkepeY/edit#gid=0"
+                        },
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://docs.google.com/spreadsheets/d/1YoNpZ0uuBNbInbxvfkUzgvgzD1VyxX7mokeW3jCvdRc/edit?gid=513928969#gid=513928969",
+                            "original-link": "https://docs.google.com/spreadsheets/d/1wbKl8h9Tzj9zgX1AEBY4wIhmC-xjN1OzyfsfBNkepeY/edit#gid=513928969"
                         }
                     ],
                     "inTier": true
