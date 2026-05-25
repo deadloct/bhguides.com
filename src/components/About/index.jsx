@@ -6,6 +6,22 @@ import Image from "next/image";
 export default function About() {
     return (
         <Container maxWidth="md" className={styles.wrapper}>
+            <h2>Testimonials</h2>
+            <p className={styles["testimonial"]}>
+                <em>
+                    &ldquo;bhguides is my most frequented website by a huge margin xD&rdquo;
+                    <br />
+                    --[TMNT] ratman
+                </em>
+            </p>
+            <p className={styles["testimonial"]}>
+                <em>
+                    &ldquo;it may be a trash site but its the best we got&rdquo;
+                    <br />
+                    --[DrÇv] planistorun
+                </em>
+            </p>
+
             <h2>Background</h2>
             <p>
                 Bit Heroes players often share game guides in Discord. From the
@@ -56,15 +72,6 @@ export default function About() {
                 If you have an idea for a new calculator or other feature, please
                 let me know! Same goes for any other comments or concerns.
             </p>
-
-            <h2>Testimonials</h2>
-            <p className={styles["testimonial"]}>
-                    <em>
-                        &ldquo;bhguides is my most frequented website by a huge margin xD&rdquo;
-                        <br />
-                        --[TMNT] ratman
-                    </em>
-                </p>
 
             <h2>Credits</h2>
             <p><strong>Guide Authors:</strong> 3riko, 5Rupees, a_poor_ninja, A3J, Adhesive81, AlbacorePrism, Alysias, Antomanz, ATacoTitan, Ballbreaker, Barlooow1987, Bat, BillyIdol, Bisamratte, Bitverse_Andy, Blanquiito, Blasphemy, Captain_Crunchie, ChubbyDaemon, Chuck, Colb, Commander, Crow, CyberMuffin, DarkHand6, Dispel1, Dracaris, Dude_WTF, EdwardGenius, Ee, Eliealsamaan85, Ember, Envious, Equilibrandt, FergusFerret, fohpo, Fr3sTy7, Fyra, Gagf, Gavx, Goku, Goolmuddy, Gylgymesh, Hæl (aka Hael on this page), Huen11, IanBob2, iiTicTac, Infermis, ItsMBSCastillo, JDizzle, JDtheGreat, Jermoshua, JoeBu, Joemama, John_Hatten2, josiah_4, kruste, Kuz55, Lord_Adman, Lqd, Maddbz, ManBearPig, MaxBrand99, McSploosh, Melody (Choco), Mentle88, MrRager, Mochi, Neflarian, n1ghtmaree, Olivernoko, Orcaaa, PAINisGOD93, Parad0x, PocketApple8104, ponymarc, PrimeDyze, Pristine, RoastyChicken, Rome, ShawnBond, Sizz, skye666, Smolder, Sora, Special_Delivery, Talisman, Tarnym, Techno, Toad, Tolton, TooT, TrippyAfro, UnseenAxes, Vanterio, VesaN, Winter, WRLD_EATR, Youreprettycute, ZENICKS, and ZombieSlayer13</p>
