@@ -21,6 +21,13 @@ export default function About() {
                     --[DrÇv] planistorun
                 </em>
             </p>
+             <p className={styles["testimonial"]}>
+                <em>
+                    &ldquo;totally horrid<br />definitely dont check it every day&rdquo;
+                    <br />
+                    --[DØØM] AlbacorePrism3 
+                </em>
+            </p>
 
             <h2>Background</h2>
             <p>
