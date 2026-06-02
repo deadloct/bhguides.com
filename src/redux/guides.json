@@ -1020,7 +1020,7 @@
                     "revealed_by": "Neflarian",
                     "attachments": [
                         {
-                            "filename": "fusion-event-itrolfx-temp.png",
+                            "filename": "fusion-event-itrolfx.png",
                             "attachmenttype": "image",
                             "contenttype": "image/png"
                         },
@@ -1261,6 +1261,24 @@
                             "filename": "fusion-event-shrubbery_shrampz.png",
                             "attachmenttype": "image",
                             "contenttype": "image/png"
+                        }
+                    ]
+                },
+                {
+                    "name": "Sir Teavid Alkenborough",
+                    "roles": [
+                        "DPS"
+                    ],
+                    "revealed_by": "Bitverse_Andy",
+                    "attachments": [
+                        {
+                            "filename": "fusion-event-sir_teavid_alkenborough.jpg",
+                            "attachmenttype": "image",
+                            "contenttype": "image/jpg"
+                        },
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://youtu.be/1witAEGc4Z4?si=bSstRBM1XRyL7AmM"
                         }
                     ]
                 },
