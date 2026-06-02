@@ -4518,6 +4518,42 @@
                     "inTier": true
                 },
                 {
+                    "name": "AOMINE's Speed Run",
+                    "builds": [
+                        "Ancient Speed Bait"
+                    ],
+                    "fams": [
+                        "Lerky",
+                        "Patcharrior"
+                    ],
+                    "attachments": [
+                        {
+                            "filename": "d4-t21-aomine.md",
+                            "attachmenttype": "markdown"
+                        },
+                        {
+                            "filename": "d4-t21-aomine_build.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        },
+                        {
+                            "filename": "d4-t21-aomine_patcharrior.jpg",
+                            "attachmenttype": "image",
+                            "contenttype": "image/jpg"
+                        },
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://www.youtube.com/watch?v=hTbuoCtg0bQ"
+                        },
+                        {
+                            "filename": "d4-t21-aomine_port_fail.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        }
+                    ],
+                    "inTier": true
+                },
+                {
                     "name": "BillyIdol's Text Notes",
                     "builds": [
                         "Ancient Speed Bait"

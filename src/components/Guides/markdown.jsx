@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Markdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 import Modal from '@mui/material/Modal';
 import CircularProgress from '@mui/material/CircularProgress';
 
@@ -83,7 +84,7 @@ export default function MarkdownModal({ file, name, visible, hide }) {
         <Modal className={styles["modal"]} open={visible} onClose={hide}>
             <div className={styles["wrapper"]}>
                 <div className={styles["close"]} onClick={hide}><CancelIcon /></div>
-                <Markdown>{body}</Markdown>
+                <Markdown remarkPlugins={[remarkGfm]}>{body}</Markdown>
             </div>
         </Modal>
     );

@@ -33,6 +33,17 @@
     height: auto;
 }
 
+.wrapper table {
+    border-collapse: collapse;
+}
+
+.wrapper th,
+.wrapper td {
+    border: 1px solid var(--main-text-color);
+    padding: 0.4rem 0.75rem;
+    text-align: left;
+}
+
 .close {
     position: absolute;
     top: 0.5rem;
