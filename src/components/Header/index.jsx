@@ -60,6 +60,7 @@ export default function Header() {
         {key: "calculator-turnrate", path: "/turn-rate", text: "Turn Rate"},
         {key: "calculator-familiar", path: "/familiar-calc", text: "Fams"},
         {key: "calculator-eggs", path: "/eggs", text: "Eggs"},
+        {key: "changelog", path: "/changelog", text: "Changelog"},
         {key: "about", path: "/about", text: "About"},
     ];
 

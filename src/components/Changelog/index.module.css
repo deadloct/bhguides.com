@@ -1,0 +1,74 @@
+.wrapper {
+    margin-bottom: 3rem;
+}
+
+.intro {
+    color: var(--secondary-text-color);
+    margin-bottom: 2rem;
+}
+
+.gh-icon {
+    font-size: 1rem !important;
+    vertical-align: -0.15em;
+}
+
+.status {
+    color: var(--secondary-text-color);
+}
+
+.day {
+    margin-bottom: 2rem;
+}
+
+.date {
+    margin: 0 0 0.75rem;
+    padding-bottom: 0.4rem;
+    font-size: 1.15rem;
+    color: var(--main-link-color);
+    border-bottom: 1px solid var(--mag-rule, var(--blockquote-left-border));
+}
+
+.commits {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.commit {
+    padding: 0.75rem 0;
+    border-bottom: 1px solid color-mix(in srgb, var(--main-text-color) 8%, transparent);
+}
+
+.commit:last-child {
+    border-bottom: none;
+}
+
+.subject {
+    font-size: 1.05rem;
+    line-height: 1.4;
+}
+
+.body {
+    margin-top: 0.35rem;
+    color: var(--secondary-text-color);
+    font-size: 0.9rem;
+    line-height: 1.5;
+    white-space: pre-wrap;
+}
+
+.meta {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-top: 0.4rem;
+    font-size: 0.8rem;
+}
+
+.hash {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+    color: var(--main-link-color);
+}
+
+.author {
+    color: var(--muted-text-color);
+}

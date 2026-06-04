@@ -17,6 +17,9 @@
         "remark-gfm": "^4.0.1"
     },
     "scripts": {
+        "gen-changelog": "node scripts/gen-changelog.mjs",
+        "predev": "node scripts/gen-changelog.mjs",
+        "prebuild": "node scripts/gen-changelog.mjs",
         "dev": "next dev",
         "build": "next build",
         "start": "next start",

@@ -36,6 +36,11 @@ const ROUTE_META = {
         title: "About - Bit Heroes Guides",
         description: "Credits and acknowledgments for the Bit Heroes Guides community resource.",
         keywords: "Bit Heroes guides, credits, about, community"
+    },
+    "/changelog": {
+        title: "Changelog - Bit Heroes Guides",
+        description: "Recent changes and updates to the Bit Heroes Guides site, generated from its git history.",
+        keywords: "Bit Heroes guides, changelog, updates, site history"
     }
 };
 

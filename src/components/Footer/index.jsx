@@ -72,7 +72,7 @@ export default function Footer() {
                                                 <br />
                                                 <a href={latestCommit.html_url} className={styles["commit-date"]} target="_blank" rel="noopener noreferrer">{d.toLocaleString()}</a>
                                                 &nbsp;&ndash;&nbsp;
-                                                <a href="https://github.com/deadloct/bhguides.com/commits/master/" className={styles["changelog-link"]}>Full Changelog</a>
+                                                <Link href="/changelog" className={styles["changelog-link"]}>Full Changelog</Link>
                                             </div>
                                         </div>
                                 ) : (

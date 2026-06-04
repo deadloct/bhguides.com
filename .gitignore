@@ -16,6 +16,9 @@
 /out/
 next-env.d.ts
 
+# Generated at build time from git history (see scripts/gen-changelog.mjs)
+/public/changelog.json
+
 # misc
 .DS_Store
 .env.local

@@ -31,6 +31,16 @@ function AppContent({ Component, pageProps }) {
         palette: {
             mode: themeMode,
         },
+        breakpoints: {
+            // MUI replaces (does not merge) values, so all keys are required.
+            values: {
+                xs: 0,
+                sm: 600,
+                md: 1000,
+                lg: 1200,
+                xl: 1536,
+            },
+        },
     }), [themeMode]);
 
     return (
