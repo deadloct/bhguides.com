@@ -1,75 +1,326 @@
+/* ==========================================================================
+   Magazine article viewer
+   A long-form, editorial treatment for the markdown guide popup.
+   ========================================================================== */
+
 .modal {
     position: fixed !important;
-    top: 10vh !important;
-    left: 25vw !important;
+    /* Sit clear of the sticky site header (~3.5rem tall + shadow). */
+    top: 4.75rem !important;
+    left: 50% !important;
     right: unset !important;
     bottom: unset !important;
+    transform: translateX(-50%);
 
-    max-height: 80vh !important;
-    width: 50vw !important;
-    overflow-y: scroll;
+    max-height: calc(100vh - 5.75rem) !important;
+    max-height: calc(100dvh - 5.75rem) !important;
+    width: min(880px, 92vw) !important;
+    overflow-y: auto;
+    overflow-x: hidden;
     word-break: break-word;
-    box-shadow: 0 3px 10px var(--box-shadow-color);
+    border-radius: 4px;
+    box-shadow: 0 24px 60px -12px rgba(0, 0, 0, 0.55),
+                0 4px 14px rgba(0, 0, 0, 0.3);
+    scrollbar-width: thin;
 }
 
+/* The "paper" the article is printed on. */
 .wrapper {
-    color: var(--main-text-color);
-    padding: 2rem;
-    background-color: var(--modal-background-color);
+    position: relative;
+    color: var(--mag-ink);
+    background-color: var(--mag-paper);
+    background-image:
+        linear-gradient(90deg, var(--mag-paper-edge) 0, transparent 2.5rem),
+        linear-gradient(-90deg, var(--mag-paper-edge) 0, transparent 2.5rem);
+    padding: 3.25rem clamp(1.5rem, 6vw, 4.5rem) 3.5rem;
+    font-family: Georgia, "Iowan Old Style", "Times New Roman", serif;
+    animation: mag-rise 280ms cubic-bezier(0.2, 0.7, 0.2, 1) both;
 }
+
+@keyframes mag-rise {
+    from { opacity: 0; transform: translateY(10px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+/* Force the editorial typeface over the global Tahoma rule. */
+.wrapper :is(p, li, td, th, a, em, strong, blockquote, h3, h4, h5, h6) {
+    font-family: Georgia, "Iowan Old Style", "Times New Roman", serif;
+}
+
+/* --- Masthead / kicker ---------------------------------------------------- */
+
+.kicker {
+    display: flex;
+    align-items: center;
+    gap: 0.85rem;
+    margin-bottom: 1.75rem;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    color: var(--mag-accent);
+}
+
+.kicker::before,
+.kicker::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: var(--mag-rule);
+}
+
+/* --- Headline ------------------------------------------------------------- */
 
 .wrapper h1 {
+    margin: 0 0 1.5rem;
+    padding: 0 0 1.25rem;
+    font-family: "Hoefler Text", "Baskerville", Georgia, serif;
+    font-size: clamp(2.1rem, 4.2vw, 3.1rem);
+    font-weight: 700;
+    line-height: 1.08;
+    letter-spacing: -0.012em;
+    text-align: left;
     text-transform: none;
     font-style: normal;
+    color: var(--mag-ink);
+    border-bottom: 2px solid var(--mag-ink);
 }
+
+/* --- Section headings ----------------------------------------------------- */
 
 .wrapper h2 {
-    margin-top: 0;
-    padding-top: 0;
+    margin: 2.5rem 0 0.85rem;
+    padding: 0;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: var(--mag-accent);
 }
+
+.wrapper h3,
+.wrapper h4 {
+    margin: 1.75rem 0 0.5rem;
+    font-weight: 700;
+    line-height: 1.25;
+    color: var(--mag-ink);
+}
+
+.wrapper h3 { font-size: 1.35rem; }
+.wrapper h4 { font-size: 1.12rem; }
+
+/* --- Body copy ------------------------------------------------------------ */
+
+.wrapper p {
+    margin: 0 0 1.15rem;
+    font-size: 1.15rem;
+    line-height: 1.72;
+    color: var(--mag-ink);
+}
+
+.wrapper a {
+    color: var(--mag-accent);
+    text-decoration: none;
+    border-bottom: 1px solid color-mix(in srgb, var(--mag-accent) 45%, transparent);
+    transition: border-color 120ms ease, color 120ms ease;
+}
+
+.wrapper a:hover {
+    color: var(--mag-ink);
+    border-bottom-color: var(--mag-ink);
+}
+
+.wrapper strong { font-weight: 700; }
+
+/* --- Lists ---------------------------------------------------------------- */
+
+.wrapper ul,
+.wrapper ol {
+    margin: 0 0 1.25rem;
+    padding-left: 1.4rem;
+}
+
+.wrapper li {
+    margin-bottom: 0.2rem;
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+.wrapper ul li::marker { color: var(--mag-accent); }
+.wrapper ol li::marker { color: var(--mag-accent); font-weight: 700; }
+
+/* --- Pull-quote ----------------------------------------------------------- */
+
+.wrapper blockquote {
+    position: relative;
+    margin: 2rem 0;
+    padding: 1.25rem 1.5rem 1.25rem 2.75rem;
+    background: var(--mag-quote);
+    border: none;
+    border-left: 3px solid var(--mag-accent);
+    font-style: italic;
+    font-size: 1.3rem;
+    line-height: 1.55;
+    color: var(--mag-ink);
+}
+
+.wrapper blockquote::before {
+    content: "\201C";
+    position: absolute;
+    top: 0.1rem;
+    left: 0.55rem;
+    font-family: Georgia, serif;
+    font-size: 2.8rem;
+    line-height: 1;
+    color: var(--mag-accent);
+    opacity: 0.6;
+}
+
+.wrapper blockquote p { margin: 0; font-size: inherit; line-height: inherit; }
+
+/* --- Figures / images ----------------------------------------------------- */
 
 .wrapper img {
+    display: block;
     max-width: 100%;
     height: auto;
+    margin: 1.75rem auto;
+    border-radius: 2px;
+    box-shadow: 0 8px 22px -8px rgba(0, 0, 0, 0.45);
 }
 
+/* --- Tables --------------------------------------------------------------- */
+
 .wrapper table {
+    width: 100%;
+    margin: 1.75rem 0;
     border-collapse: collapse;
+    font-size: 1rem;
+}
+
+.wrapper thead th {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--mag-accent);
+    border-bottom: 2px solid var(--mag-ink);
 }
 
 .wrapper th,
 .wrapper td {
-    border: 1px solid var(--main-text-color);
-    padding: 0.4rem 0.75rem;
+    padding: 0.6rem 0.85rem;
     text-align: left;
+    border: none;
+    border-bottom: 1px solid var(--mag-rule);
 }
 
-.close {
-    position: absolute;
-    top: 0.5rem;
-    right: 0.5rem;
-    cursor: pointer;
+.wrapper tbody tr:nth-child(even) {
+    background: color-mix(in srgb, var(--mag-ink) 4%, transparent);
 }
+
+/* --- Inline code & rules -------------------------------------------------- */
+
+.wrapper code {
+    padding: 0.1rem 0.35rem;
+    border-radius: 3px;
+    background: color-mix(in srgb, var(--mag-ink) 8%, transparent);
+    font-size: 0.92em;
+}
+
+.wrapper pre {
+    margin: 1.5rem 0;
+    padding: 1rem 1.25rem;
+    border-radius: 3px;
+    background: color-mix(in srgb, var(--mag-ink) 7%, transparent);
+    overflow-x: auto;
+}
+
+.wrapper pre code { padding: 0; background: none; }
+
+.wrapper hr {
+    width: 40%;
+    margin: 2.5rem auto;
+    border: none;
+    border-top: 1px solid var(--mag-rule);
+    overflow: visible;
+    text-align: center;
+}
+
+.wrapper hr::after {
+    content: "\2766"; /* floral heart bullet */
+    position: relative;
+    top: -0.85rem;
+    padding: 0 0.75rem;
+    background: var(--mag-paper);
+    color: var(--mag-accent);
+    font-size: 1.1rem;
+}
+
+/* --- Close button --------------------------------------------------------- */
+
+.close {
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.25rem;
+    height: 2.25rem;
+    margin: -1.25rem -1.5rem -1.25rem auto;
+    border-radius: 50%;
+    background: var(--mag-paper);
+    color: var(--mag-muted);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    z-index: 5;
+    transition: color 120ms ease, transform 120ms ease;
+}
+
+.close:hover {
+    color: var(--mag-accent);
+    transform: scale(1.08);
+}
+
+/* --- Loading / error states ----------------------------------------------- */
 
 .loading-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
-    margin-top: 2rem;
+    padding: 3rem 0;
+    color: var(--mag-muted);
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-size: 0.8rem;
 }
+
+.error-title {
+    margin: 0 0 0.75rem;
+    font-family: "Hoefler Text", "Baskerville", Georgia, serif;
+    font-size: 2rem;
+    color: var(--mag-ink);
+}
+
+/* --- Responsive ----------------------------------------------------------- */
 
 @media (max-width: 1000px) {
     .modal {
-        width: 90vw !important;
-        left: 5vw !important;
+        width: 94vw !important;
+        top: 4rem !important;
+        max-height: calc(100vh - 5rem) !important;
+        max-height: calc(100dvh - 5rem) !important;
     }
 
-    .wrapper h2 {
-        font-size: 1.4rem;
+    .wrapper {
+        padding: 2.5rem 1.4rem 2.75rem;
+        background-image: none;
     }
 
-    .wrapper ul {
-        padding-left: 1rem;
-    }
+    .wrapper blockquote { font-size: 1.15rem; }
 }

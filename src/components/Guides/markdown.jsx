@@ -58,10 +58,10 @@ export default function MarkdownModal({ file, name, visible, hide }) {
         return (
             <Modal className={styles["modal"]} open={visible} onClose={hide}>
                 <div className={styles["wrapper"]}>
-                    <div className={styles["close"]}><CancelIcon /></div>
+                    <div className={styles["close"]} onClick={hide}><CancelIcon /></div>
                     <div className={styles["loading-container"]}>
-                        <CircularProgress />
-                        <p>Loading...</p>
+                        <CircularProgress color="inherit" />
+                        <p>Setting the type&hellip;</p>
                     </div>
                 </div>
             </Modal>
@@ -72,8 +72,8 @@ export default function MarkdownModal({ file, name, visible, hide }) {
         return (
             <Modal className={styles["modal"]} open={visible} onClose={hide}>
                 <div className={styles["wrapper"]}>
-                    <div className={styles["close"]}><CancelIcon /></div>
-                    <h2>Error</h2>
+                    <div className={styles["close"]} onClick={hide}><CancelIcon /></div>
+                    <h2 className={styles["error-title"]}>Stop the presses</h2>
                     <p>{err}</p>
                 </div>
             </Modal>
@@ -84,7 +84,9 @@ export default function MarkdownModal({ file, name, visible, hide }) {
         <Modal className={styles["modal"]} open={visible} onClose={hide}>
             <div className={styles["wrapper"]}>
                 <div className={styles["close"]} onClick={hide}><CancelIcon /></div>
-                <Markdown remarkPlugins={[remarkGfm]}>{body}</Markdown>
+                <article className={styles["article"]}>
+                    <Markdown remarkPlugins={[remarkGfm]}>{body}</Markdown>
+                </article>
             </div>
         </Modal>
     );

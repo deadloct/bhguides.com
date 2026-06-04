@@ -34,6 +34,15 @@
   --warning-color: #FAA0A0;
   --hover-background-color: rgba(255, 255, 255, 0.1);
   --box-shadow-color: rgba(0, 0, 0, 0.2);
+
+  /* Magazine article viewer */
+  --mag-paper: rgb(33, 32, 30);
+  --mag-paper-edge: rgb(26, 25, 24);
+  --mag-ink: rgb(233, 229, 222);
+  --mag-muted: rgb(170, 162, 150);
+  --mag-rule: rgb(86, 82, 76);
+  --mag-accent: rgb(207, 164, 102);
+  --mag-quote: rgba(207, 164, 102, 0.14);
 }
 
 /* Light theme */
@@ -72,6 +81,15 @@
   --warning-color: #FAA0A0;
   --hover-background-color: rgba(0, 0, 0, 0.1);
   --box-shadow-color: rgba(0, 0, 0, 0.2);
+
+  /* Magazine article viewer */
+  --mag-paper: #faf7f0;
+  --mag-paper-edge: #efe9dc;
+  --mag-ink: rgb(34, 30, 26);
+  --mag-muted: rgb(112, 104, 92);
+  --mag-rule: rgb(214, 205, 190);
+  --mag-accent: rgb(155, 110, 48);
+  --mag-quote: rgba(155, 110, 48, 0.10);
 }
 
 
