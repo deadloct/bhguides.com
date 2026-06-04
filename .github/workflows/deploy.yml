@@ -8,6 +8,13 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
+# Run bundled JavaScript actions on Node.js 24. Several first-party actions
+# (checkout, setup-node, deploy-pages, and upload-artifact via
+# upload-pages-artifact) still ship a Node.js 20 runtime, which GitHub is
+# deprecating. This opt-in silences that warning and is forward-compatible.
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: read

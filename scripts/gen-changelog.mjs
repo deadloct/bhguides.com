@@ -10,7 +10,6 @@ import { fileURLToPath } from "node:url";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const OUT_FILE = resolve(__dirname, "../public/changelog.json");
-const MAX_COMMITS = 300;
 
 // Unit/record separators keep the parse robust against multi-line bodies.
 const FIELD = "\x1f";
@@ -20,7 +19,7 @@ const FORMAT = ["%H", "%h", "%ad", "%an", "%s", "%b"].join(FIELD) + RECORD;
 function readCommits() {
     const raw = execFileSync(
         "git",
-        ["log", `--max-count=${MAX_COMMITS}`, "--date=short", `--pretty=format:${FORMAT}`],
+        ["log", "--date=short", `--pretty=format:${FORMAT}`],
         { encoding: "utf8", maxBuffer: 32 * 1024 * 1024 }
     );
 
