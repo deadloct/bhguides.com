@@ -22,7 +22,9 @@ export default function Changelog() {
     useEffect(() => {
         async function load() {
             try {
-                const resp = await fetch("/changelog.json");
+                // Revalidate against the ETag rather than trusting the CDN's
+                // 10-minute cache, so a fresh deploy shows up immediately.
+                const resp = await fetch("/changelog.json", { cache: "no-cache" });
                 if (!resp.ok) {
                     throw new Error(`bad response status ${resp.status}`);
                 }
