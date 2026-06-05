@@ -6,8 +6,10 @@ import styles from "./index.module.css";
 import Search from "./search";
 import Lightbox from "./lightbox";
 import Markdown from "./markdown";
+import Html from "./html";
 
 import ArticleIcon from '@mui/icons-material/Article';
+import HtmlIcon from '@mui/icons-material/Html';
 import CancelIcon from '@mui/icons-material/Cancel';
 import CloseIcon from '@mui/icons-material/Close';
 import ImageIcon from '@mui/icons-material/Image';
@@ -36,6 +38,9 @@ export default function Guides() {
     const [markdownVisible, setMarkdownVisible] = useState(false);
     const [markdownFile, setMarkdownFile] = useState("");
     const [markdownName, setMarkdownName] = useState("");
+    const [htmlVisible, setHtmlVisible] = useState(false);
+    const [htmlFile, setHtmlFile] = useState("");
+    const [htmlName, setHtmlName] = useState("");
     const [disclaimerVisible, setDisclaimerVisible] = useState(true);
 
     useEffect(() => {
@@ -75,6 +80,13 @@ export default function Guides() {
         setMarkdownVisible(true);
     };
     const hideMarkdown = () => setMarkdownVisible(false);
+
+    const openHtml = attachment => {
+        setHtmlFile(attachment.filename);
+        setHtmlName(attachment.filename);
+        setHtmlVisible(true);
+    };
+    const hideHtml = () => setHtmlVisible(false);
 
     const dismissDisclaimer = () => setDisclaimerVisible(false);
 
@@ -155,6 +167,15 @@ export default function Guides() {
                         <ArticleIcon /> 
                         <span className={styles["att-name"]}>{item.filename}</span>
                         <span className={styles["att-type"]}>(markdown/text)</span>
+                    </li>
+                );
+
+            case "html":
+                return (
+                    <li key={`item-${i}`} className={`${styles["attachment-item"]} ${styles["attachment-item-markdown"]}`} onClick={() => openHtml(item)}>
+                        <HtmlIcon />
+                        <span className={styles["att-name"]}>{item.filename}</span>
+                        <span className={styles["att-type"]}>(html)</span>
                     </li>
                 );
 
@@ -389,6 +410,7 @@ export default function Guides() {
                 hide={hideLightbox}
             />
             <Markdown visible={markdownVisible} file={markdownFile} name={markdownName} hide={hideMarkdown} />
+            <Html visible={htmlVisible} file={htmlFile} name={htmlName} hide={hideHtml} />
         </Container>
     );
 }
