@@ -3833,6 +3833,24 @@
                     "inTier": true
                 },
                 {
+                    "name": "CG38's In-Tier W3-4ty Guide",
+                    "builds": [
+                        "Ancient Speed Bait"
+                    ],
+                    "fams": [
+                        "Kimusaba",
+                        "Kzulum"
+                    ],
+                    "attachments": [
+                        {
+                            "filename": "d4-t19-cg38.pdf",
+                            "attachmenttype": "pdf",
+                            "contenttype": "application/pdf"
+                        }
+                    ],
+                    "inTier": true
+                },
+                {
                     "name": "Commander's Pic Guide",
                     "builds": [
                         "Ancient Speed Bait",
