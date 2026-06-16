@@ -82,9 +82,23 @@ jobs:
             exit 0
           fi
 
+          # Build the release title from the commit summaries, oldest first,
+          # joined by ". " with a trailing period. Trailing periods/spaces on
+          # each summary are trimmed first so we don't end up with "..". awk is
+          # used (rather than a `while read` loop) because git's format:'%s'
+          # output has no trailing newline, which `read` would silently drop.
+          title="$(git log "$range" --no-merges --reverse --pretty=format:'%s' \
+            | awk '{ sub(/[[:space:].]+$/, ""); if ($0 == "") next; printf "%s%s", sep, $0; sep=". " } END { if (sep != "") printf "." }')"
+
+          # GitHub caps the release name at 1024 chars; truncate with an ellipsis.
+          max=1024
+          if [ "${#title}" -gt "$max" ]; then
+            title="${title:0:$((max - 3))}..."
+          fi
+
           git tag "$tag"
           git push origin "$tag"
 
           printf '%s\n' "$notes" | gh release create "$tag" \
-            --title "$tag" \
+            --title "$title" \
             --notes-file -
