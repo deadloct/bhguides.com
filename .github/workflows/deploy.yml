@@ -16,8 +16,9 @@ env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+# and creation of releases (contents: write).
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -56,3 +57,34 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+      # Only after a successful deploy: tag the deployed commit and publish a
+      # GitHub release whose body is the list of commit messages added since
+      # the previous release. No build artifacts are attached.
+      - name: Create release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          tag="release-$(date -u +'%Y%m%d-%H%M%S')"
+
+          # Find the most recent release tag to diff against (if any).
+          prev="$(git tag --list 'release-*' --sort=-creatordate | head -n1 || true)"
+          if [ -n "$prev" ]; then
+            range="$prev..HEAD"
+          else
+            range="HEAD"
+          fi
+
+          # Collect the commit subjects merged into master since the last release.
+          notes="$(git log "$range" --no-merges --pretty=format:'- %s (%h)')"
+          if [ -z "$notes" ]; then
+            echo "No new commits since $prev; skipping release."
+            exit 0
+          fi
+
+          git tag "$tag"
+          git push origin "$tag"
+
+          printf '%s\n' "$notes" | gh release create "$tag" \
+            --title "$tag" \
+            --notes-file -
