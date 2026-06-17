@@ -1340,6 +1340,24 @@
                     ]
                 },
                 {
+                    "name": "The Tifology",
+                    "roles": [
+                        "Tank"
+                    ],
+                    "revealed_by": "Neflarian",
+                    "attachments": [
+                        {
+                            "filename": "fusion-event-the_tifology.jpg",
+                            "attachmenttype": "image",
+                            "contenttype": "image/jpg"
+                        },
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://www.youtube.com/watch?v=Ed27h1Vep7E"
+                        }
+                    ]
+                },
+                {
                     "name": "Vedeuche",
                     "inFestiviflux": true,
                     "roles": [
