@@ -2654,6 +2654,23 @@
                     "inTier": true
                 },
                 {
+                    "name": "Maturo's In-tier Poly Guide",
+                    "builds": [
+                        "Apocalypse"
+                    ],
+                    "fams": [
+                        "Drazig"
+                    ],
+                    "attachments": [
+                        {
+                            "filename": "d4-t10-maturo.pdf",
+                            "attachmenttype": "pdf",
+                            "contenttype": "application/pdf"
+                        }
+                    ],
+                    "inTier": true
+                },
+                {
                     "name": "PocketApple8104's In-Tier Poly Video: Tank Brute Force",
                     "builds": [
                         "Apocalypse"
