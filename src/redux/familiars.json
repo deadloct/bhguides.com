@@ -24,6 +24,12 @@
     "agility": 29.9
   },
   {
+    "name": "Admiral Yarrrlag",
+    "strength": 31.7,
+    "stamina": 21.5,
+    "agility": 42.8
+  },
+  {
     "name": "Aeololo",
     "strength": 52.1,
     "stamina": 9.2,
@@ -126,6 +132,12 @@
     "agility": 22.2
   },
   {
+    "name": "Astalove",
+    "strength": 30.0,
+    "stamina": 19.0,
+    "agility": 46.0
+  },
+  {
     "name": "Astamus",
     "strength": 45.2,
     "stamina": 16.8,
@@ -136,6 +148,12 @@
     "strength": 28.0,
     "stamina": 36.0,
     "agility": 26.0
+  },
+  {
+    "name": "Astasorrow",
+    "strength": 25.3,
+    "stamina": 21.3,
+    "agility": 48.4
   },
   {
     "name": "Astrogobby",
@@ -580,6 +598,12 @@
     "strength": 32.0,
     "stamina": 19.2,
     "agility": 33.8
+  },
+  {
+    "name": "Captain Ditch",
+    "strength": 21.6,
+    "stamina": 23.9,
+    "agility": 49.5
   },
   {
     "name": "Carbonor",
@@ -1662,10 +1686,22 @@
     "agility": 20.0
   },
   {
+    "name": "Googie Moogienz",
+    "strength": 52.6,
+    "stamina": 32.3,
+    "agility": 10.1
+  },
+  {
     "name": "Gorbon",
     "strength": 52.5,
     "stamina": 30.0,
     "agility": 7.5
+  },
+  {
+    "name": "Gorbsidian",
+    "strength": 30.0,
+    "stamina": 21.5,
+    "agility": 43.5
   },
   {
     "name": "Gorbundo",
@@ -2046,6 +2082,12 @@
     "agility": 32.3
   },
   {
+    "name": "Jolly Shrampz",
+    "strength": 37.24,
+    "stamina": 43.83,
+    "agility": 13.93
+  },
+  {
     "name": "Jopo",
     "strength": 15.6,
     "stamina": 42.5,
@@ -2136,6 +2178,12 @@
     "agility": 41.2
   },
   {
+    "name": "Kaleidaroth",
+    "strength": 34.0,
+    "stamina": 15.0,
+    "agility": 46.0
+  },
+  {
     "name": "Kaleido",
     "strength": 32.0,
     "stamina": 14.0,
@@ -2196,6 +2244,12 @@
     "agility": 32.9
   },
   {
+    "name": "Kov'u",
+    "strength": 64.0,
+    "stamina": 24.0,
+    "agility": 10.0
+  },
+  {
     "name": "Kr Ty",
     "strength": 25.0,
     "stamina": 24.0,
@@ -2224,6 +2278,12 @@
     "strength": 39.2,
     "stamina": 19.0,
     "agility": 36.8
+  },
+  {
+    "name": "Kris Gemmgle",
+    "strength": 27.0,
+    "stamina": 21.0,
+    "agility": 47.0
   },
   {
     "name": "Krispy",
@@ -2260,6 +2320,12 @@
     "strength": 35.3,
     "stamina": 16.4,
     "agility": 48.3
+  },
+  {
+    "name": "La Grimita",
+    "strength": 36.3,
+    "stamina": 22.4,
+    "agility": 36.3
   },
   {
     "name": "Lady Sparkin",
@@ -2586,6 +2652,12 @@
     "agility": 34.2
   },
   {
+    "name": "Mewbbo",
+    "strength": 42.5,
+    "stamina": 37.2,
+    "agility": 15.3
+  },
+  {
     "name": "Mhelves Drillo",
     "strength": 52.2,
     "stamina": 18.6,
@@ -2772,6 +2844,12 @@
     "agility": 18.8
   },
   {
+    "name": "Night Gobby",
+    "strength": 50.01,
+    "stamina": 40.02,
+    "agility": 4.97
+  },
+  {
     "name": "Ninjih",
     "strength": 23.8,
     "stamina": 20.0,
@@ -2896,6 +2974,12 @@
     "strength": 39.6,
     "stamina": 14.2,
     "agility": 31.2
+  },
+  {
+    "name": "Patcharrior",
+    "strength": 46.6,
+    "stamina": 40.3,
+    "agility": 8.1
   },
   {
     "name": "Patches",
@@ -3090,6 +3174,18 @@
     "agility": 31.2
   },
   {
+    "name": "Q3-17-NWA",
+    "strength": 46.3,
+    "stamina": 15.3,
+    "agility": 33.4
+  },
+  {
+    "name": "Quinterang",
+    "strength": 48.8,
+    "stamina": 35.5,
+    "agility": 10.7
+  },
+  {
     "name": "Quirinus",
     "strength": 31.9,
     "stamina": 21.3,
@@ -3124,6 +3220,12 @@
     "strength": 53.8,
     "stamina": 24.1,
     "agility": 7.1
+  },
+  {
+    "name": "Rabbit Blubber",
+    "strength": 44.71,
+    "stamina": 21.24,
+    "agility": 29.06
   },
   {
     "name": "Rabeat Beat",
@@ -3318,6 +3420,12 @@
     "agility": 41.2
   },
   {
+    "name": "Rugullotis Rumicullaris",
+    "strength": 31.0,
+    "stamina": 23.8,
+    "agility": 40.2
+  },
+  {
     "name": "Rugumz",
     "strength": 16.0,
     "stamina": 53.3,
@@ -3456,10 +3564,22 @@
     "agility": 32.6
   },
   {
+    "name": "Shrubbery Shrampz",
+    "strength": 22.17,
+    "stamina": 57.0,
+    "agility": 15.83
+  },
+  {
     "name": "Shrump",
     "strength": 23.3,
     "stamina": 19.9,
     "agility": 26.8
+  },
+  {
+    "name": "Sir Teavid Alkenborough",
+    "strength": 25.2,
+    "stamina": 20.4,
+    "agility": 49.4
   },
   {
     "name": "Sitra",
@@ -3624,6 +3744,12 @@
     "agility": 7.0
   },
   {
+    "name": "Stump\u00e1n",
+    "strength": 27.0,
+    "stamina": 21.0,
+    "agility": 47.0
+  },
+  {
     "name": "Stuvin",
     "strength": 50.0,
     "stamina": 16.3,
@@ -3640,6 +3766,18 @@
     "strength": 25.0,
     "stamina": 27.0,
     "agility": 8.0
+  },
+  {
+    "name": "Suntealk",
+    "strength": 17.0,
+    "stamina": 28.0,
+    "agility": 50.0
+  },
+  {
+    "name": "Svilluminati",
+    "strength": 39.2,
+    "stamina": 16.6,
+    "agility": 39.2
   },
   {
     "name": "Svireal",
@@ -3772,6 +3910,12 @@
     "strength": 30.0,
     "stamina": 23.8,
     "agility": 41.2
+  },
+  {
+    "name": "The Tifology",
+    "strength": 43.1,
+    "stamina": 38.6,
+    "agility": 13.3
   },
   {
     "name": "The Trilogy",
@@ -4068,6 +4212,12 @@
     "agility": 34.1
   },
   {
+    "name": "Vedeuche",
+    "strength": 37.3,
+    "stamina": 27.8,
+    "agility": 29.9
+  },
+  {
     "name": "Velk",
     "strength": 52.7,
     "stamina": 17.0,
@@ -4338,6 +4488,12 @@
     "agility": 15.8
   },
   {
+    "name": "Yeggi",
+    "strength": 32.41,
+    "stamina": 39.12,
+    "agility": 23.47
+  },
+  {
     "name": "Yemic",
     "strength": 26.9,
     "stamina": 44.3,
@@ -4486,6 +4642,18 @@
     "strength": 22.6,
     "stamina": 42.4,
     "agility": 19.7
+  },
+  {
+    "name": "iTrolf X",
+    "strength": 39.0,
+    "stamina": 41.0,
+    "agility": 15.0
+  },
+  {
+    "name": "xX_Darkoverlord_Xx",
+    "strength": 49.2,
+    "stamina": 39.5,
+    "agility": 6.3
   },
   {
     "name": "\u00dalairius",
