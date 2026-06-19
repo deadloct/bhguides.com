@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useState } from "react";
+import React, { useEffect, useMemo, useRef, useState } from "react";
 import { useSelector } from "react-redux";
 import Container from '@mui/material/Container';
 
@@ -21,6 +21,7 @@ import PictureAsPdfIcon from '@mui/icons-material/PictureAsPdf';
 import WarningAmberIcon from '@mui/icons-material/WarningAmber';
 import WorkspacePremiumIcon from '@mui/icons-material/WorkspacePremium';
 import AcUnitIcon from '@mui/icons-material/AcUnit';
+import ContentCopyIcon from '@mui/icons-material/ContentCopy';
 
 export default function Guides() {
     const guides = useSelector((state) => state.guides.guides);
@@ -42,13 +43,19 @@ export default function Guides() {
     const [htmlFile, setHtmlFile] = useState("");
     const [htmlName, setHtmlName] = useState("");
     const [disclaimerVisible, setDisclaimerVisible] = useState(true);
+    const [copyToastVisible, setCopyToastVisible] = useState(false);
+    const copyToastTimeout = useRef(null);
 
     useEffect(() => {
-        const parts = window.location.hash.split("#")
-        if (parts.length > 2) {
-            const el = document.getElementById(parts[parts.length - 1]);
+        const id = window.location.hash.split("#").filter(Boolean).pop();
+        if (id) {
+            const el = document.getElementById(id);
             if (el) el.scrollIntoView();
         }
+    }, []);
+
+    useEffect(() => () => {
+        if (copyToastTimeout.current) clearTimeout(copyToastTimeout.current);
     }, []);
 
     useEffect(() => {
@@ -116,6 +123,28 @@ export default function Guides() {
     function key(str) {
         return str.toLowerCase().replace(/[^a-z0-9-_]/g, "");
     }
+
+    function guideAnchor(guide, catID) {
+        // An explicit `slug` in guides.json pins a stable link across renames or
+        // category moves; otherwise derive one from the category and guide name.
+        if (guide.slug) {
+            return `guide-${key(guide.slug)}`;
+        }
+
+        const cat = guide.categoryName || catID;
+        return `guide-${key(cat)}-${key(guide.name)}`;
+    }
+
+    const copyGuideLink = anchor => {
+        const url = `${window.location.origin}${window.location.pathname}#${anchor}`;
+        if (navigator.clipboard) {
+            navigator.clipboard.writeText(url);
+        }
+
+        setCopyToastVisible(true);
+        if (copyToastTimeout.current) clearTimeout(copyToastTimeout.current);
+        copyToastTimeout.current = setTimeout(() => setCopyToastVisible(false), 2000);
+    };
 
     function builds(guide) {
         if (guide.builds && guide.builds.length) {
@@ -228,15 +257,32 @@ export default function Guides() {
         return <ul>{guide.attachments.map(attachment)}</ul>;
     }
 
-    function renderGuide(guide, i, isSearch) {
+    function renderGuide(guide, i, isSearch, catID) {
         let cat = "";
         if (isSearch && guide.categoryName) {
             cat = <div><em>Category:</em> {guide.categoryName}</div>;
         }
 
+        const anchor = guideAnchor(guide, catID);
+
         return (
-            <li key={`${key(guide.name)}-${i}`} className={styles["guide-item"]}>
-                <div className={styles["guide-name"]}>{guide.name}{guide.inTier && <WorkspacePremiumIcon titleAccess="In-Tier Clear" fontSize="small" className={styles["in-tier-icon"]} />}{guide.inFestiviflux && <AcUnitIcon titleAccess="Also available in Festiviflux Invasion" fontSize="small" className={styles["festiviflux-icon"]} />}</div>
+            <li key={`${key(guide.name)}-${i}`} id={anchor} className={styles["guide-item"]}>
+                <div className={styles["guide-name"]}>
+                    <span
+                        className={styles["guide-title"]}
+                        onClick={() => copyGuideLink(anchor)}
+                        title="Copy link to this guide"
+                    >{guide.name}{guide.inTier && <WorkspacePremiumIcon titleAccess="In-Tier Clear" fontSize="small" className={styles["in-tier-icon"]} />}{guide.inFestiviflux && <AcUnitIcon titleAccess="Also available in Festiviflux Invasion" fontSize="small" className={styles["festiviflux-icon"]} />}</span>
+                    <button
+                        type="button"
+                        className={styles["copy-link-button"]}
+                        onClick={() => copyGuideLink(anchor)}
+                        aria-label="Copy link to this guide"
+                        title="Copy link to this guide"
+                    >
+                        <ContentCopyIcon fontSize="small" />
+                    </button>
+                </div>
                 {obsolete(guide)}
                 {fams(guide)}
                 {builds(guide)}
@@ -266,7 +312,7 @@ export default function Guides() {
                 })
             });
             
-            results = (<ul>{sortedGuides.map((g, i) => renderGuide(g, i, cat.isSearch))}</ul>);
+            results = (<ul>{sortedGuides.map((g, i) => renderGuide(g, i, cat.isSearch, catID))}</ul>);
         } else {
             results = cat.isSearch ?
                 <p>There are no matched guides for your search.</p> :
@@ -402,6 +448,13 @@ export default function Guides() {
                     </button>
                 </div>
             )}
+            <div
+                className={`${styles["copy-toast"]} ${copyToastVisible ? styles["copy-toast-visible"] : ""}`}
+                role="status"
+                aria-live="polite"
+            >
+                Guide link copied to clipboard
+            </div>
             <Lightbox
                 visible={lightboxVisible}
                 file={lightboxFile}

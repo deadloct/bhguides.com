@@ -142,6 +142,7 @@
             "guides": [
                 {
                     "name": "Antomanz and Gylgymesh's Firium Pic Guide",
+                    "slug": "antomanz-and-gylgymeshs-firium-pic-guide",
                     "attachments": [
                         {
                             "filename": "ancients-firium-antomanz-gylgymesh.png",
@@ -152,6 +153,7 @@
                 },
                 {
                     "name": "BillyIdol's Ancient Myth Mats Checklist (v2)",
+                    "slug": "billyidols-ancient-myth-mats-checklist-v2",
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -161,6 +163,7 @@
                 },
                 {
                     "name": "Gagf and Gylgymesh's Codex Pic Guide",
+                    "slug": "gagf-and-gylgymeshs-codex-pic-guide",
                     "attachments": [
                         {
                             "filename": "ancients-codex-gagf-gylgymesh.png",
@@ -171,6 +174,7 @@
                 },
                 {
                     "name": "Gylgymesh's D4 and Ancients Spreadsheet",
+                    "slug": "gylgymeshs-d4-and-ancients-spreadsheet",
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -180,6 +184,7 @@
                 },
                 {
                     "name": "Gylgymesh's Poly and Elementarium Pic Guide",
+                    "slug": "gylgymeshs-poly-and-elementarium-pic-guide",
                     "attachments": [
                         {
                             "filename": "ancients-polyelem-gylgymesh.png",
@@ -190,6 +195,7 @@
                 },
                 {
                     "name": "Gylgymesh's Starweave Pic Guide",
+                    "slug": "gylgymeshs-starweave-pic-guide",
                     "attachments": [
                         {
                             "filename": "ancients-starweave-gylgymesh.png",
@@ -200,6 +206,7 @@
                 },
                 {
                     "name": "TooT/Gool/Winter/Anto's Escarium MH Pic Guide",
+                    "slug": "toot-gool-winter-antos-escarium-mh-pic-guide",
                     "attachments": [
                         {
                             "filename": "ancients-t18-skills-toot-goolmuddy-winter-antomanz.png",
@@ -216,18 +223,20 @@
             "guides": [
                 {
                     "name": "Gyl' Rotakan",
+                    "slug": "gyl-rotakan",
                     "attachments": [
                         {
-                           "attachmenttype": "link",
+                            "attachmenttype": "link",
                             "link": "https://docs.google.com/spreadsheets/d/1nIw84e9dOcK7u3FtdrVsq-LCzSJpxU-AV6Lx66GcxDA/edit?usp=sharing"
                         }
                     ]
                 },
                 {
                     "name": "Kimusaba",
+                    "slug": "kimusaba",
                     "attachments": [
                         {
-                           "attachmenttype": "link",
+                            "attachmenttype": "link",
                             "link": "https://docs.google.com/spreadsheets/d/1nIw84e9dOcK7u3FtdrVsq-LCzSJpxU-AV6Lx66GcxDA/edit?gid=1707653598#gid=1707653598"
                         }
                     ]
@@ -240,6 +249,7 @@
             "guides": [
                 {
                     "name": "Bor'lan",
+                    "slug": "borlan",
                     "attachments": [
                         {
                             "filename": "fusion-cards-wrldeatr-borlan.png",
@@ -250,6 +260,7 @@
                 },
                 {
                     "name": "Dryonic",
+                    "slug": "dryonic",
                     "attachments": [
                         {
                             "filename": "fusion-cards-wrldeatr-dryonic.png",
@@ -260,6 +271,7 @@
                 },
                 {
                     "name": "Gyl' Rotakan",
+                    "slug": "gyl-rotakan-2",
                     "attachments": [
                         {
                             "filename": "fusion-cards-wrldeatr-gylrotakan.png",
@@ -270,6 +282,7 @@
                 },
                 {
                     "name": "Jebediah",
+                    "slug": "jebediah",
                     "attachments": [
                         {
                             "filename": "fusion-cards-wrldeatr-jebediah.png",
@@ -280,6 +293,7 @@
                 },
                 {
                     "name": "Lady Sparkin",
+                    "slug": "lady-sparkin",
                     "attachments": [
                         {
                             "filename": "fusion-cards-wrldeatr-ladysparkin.png",
@@ -290,6 +304,7 @@
                 },
                 {
                     "name": "Oladus",
+                    "slug": "oladus",
                     "attachments": [
                         {
                             "filename": "fusion-cards-wrldeatr-oladus.png",
@@ -300,6 +315,7 @@
                 },
                 {
                     "name": "Shrampz",
+                    "slug": "shrampz",
                     "attachments": [
                         {
                             "filename": "fusion-cards-wrldeatr-shrampz.png",
@@ -310,6 +326,7 @@
                 },
                 {
                     "name": "Ukalis",
+                    "slug": "ukalis",
                     "attachments": [
                         {
                             "filename": "fusion-cards-wrldeatr-ukalis.png",
@@ -320,6 +337,7 @@
                 },
                 {
                     "name": "Ulairius",
+                    "slug": "ulairius",
                     "attachments": [
                         {
                             "filename": "fusion-cards-wrldeatr-ulairius.png",
@@ -330,6 +348,7 @@
                 },
                 {
                     "name": "Yemic",
+                    "slug": "yemic",
                     "attachments": [
                         {
                             "filename": "fusion-cards-wrldeatr-yemic.png",
@@ -340,6 +359,7 @@
                 },
                 {
                     "name": "Zarlock",
+                    "slug": "zarlock",
                     "attachments": [
                         {
                             "filename": "fusion-cards-wrldeatr-zarlock.png",
@@ -356,6 +376,7 @@
             "guides": [
                 {
                     "name": "Tier 1 and 2 Familiars",
+                    "slug": "tier-1-and-2-familiars",
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -365,6 +386,7 @@
                 },
                 {
                     "name": "Tier 3 Familiars",
+                    "slug": "tier-3-familiars",
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -374,6 +396,7 @@
                 },
                 {
                     "name": "Tier 4 Familiars",
+                    "slug": "tier-4-familiars",
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -383,6 +406,7 @@
                 },
                 {
                     "name": "Tier 5 Familiars",
+                    "slug": "tier-5-familiars",
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -392,6 +416,7 @@
                 },
                 {
                     "name": "Tier 6 Familiars",
+                    "slug": "tier-6-familiars",
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -401,6 +426,7 @@
                 },
                 {
                     "name": "Tier 7 Familiars",
+                    "slug": "tier-7-familiars",
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -410,6 +436,7 @@
                 },
                 {
                     "name": "Tier 8 Familiars",
+                    "slug": "tier-8-familiars",
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -419,6 +446,7 @@
                 },
                 {
                     "name": "Tier 9 Familiars",
+                    "slug": "tier-9-familiars",
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -428,6 +456,7 @@
                 },
                 {
                     "name": "Tier 10 Familiars",
+                    "slug": "tier-10-familiars",
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -437,6 +466,7 @@
                 },
                 {
                     "name": "Tier 11 Familiars",
+                    "slug": "tier-11-familiars",
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -446,6 +476,7 @@
                 },
                 {
                     "name": "Tier 12 Familiars",
+                    "slug": "tier-12-familiars",
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -455,6 +486,7 @@
                 },
                 {
                     "name": "Tier 13 Familiars",
+                    "slug": "tier-13-familiars",
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -464,6 +496,7 @@
                 },
                 {
                     "name": "Tier 14 Familiars",
+                    "slug": "tier-14-familiars",
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -473,6 +506,7 @@
                 },
                 {
                     "name": "Tier 15 Familiars",
+                    "slug": "tier-15-familiars",
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -482,6 +516,7 @@
                 },
                 {
                     "name": "Tier 16 Familiars",
+                    "slug": "tier-16-familiars",
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -491,6 +526,7 @@
                 },
                 {
                     "name": "Tier 17 Familiars",
+                    "slug": "tier-17-familiars",
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -500,6 +536,7 @@
                 },
                 {
                     "name": "Tier 18 Familiars",
+                    "slug": "tier-18-familiars",
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -509,6 +546,7 @@
                 },
                 {
                     "name": "Tier 19 Familiars",
+                    "slug": "tier-19-familiars",
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -518,6 +556,7 @@
                 },
                 {
                     "name": "Tier 20 Familiars",
+                    "slug": "tier-20-familiars",
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -527,6 +566,7 @@
                 },
                 {
                     "name": "Tier 21 Familiars",
+                    "slug": "tier-21-familiars",
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -536,6 +576,7 @@
                 },
                 {
                     "name": "World Boss: Project Goodall Familiars",
+                    "slug": "world-boss-project-goodall-familiars",
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -545,6 +586,7 @@
                 },
                 {
                     "name": "Invasion: Rumble Familiars",
+                    "slug": "invasion-rumble-familiars",
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -554,6 +596,7 @@
                 },
                 {
                     "name": "Invasion: Revenge of the Turkey Familiars",
+                    "slug": "invasion-revenge-of-the-turkey-familiars",
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -563,6 +606,7 @@
                 },
                 {
                     "name": "Invasion: Papoz Familiars",
+                    "slug": "invasion-papoz-familiars",
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -572,6 +616,7 @@
                 },
                 {
                     "name": "Invasion: Jelly Familiars",
+                    "slug": "invasion-jelly-familiars",
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -581,6 +626,7 @@
                 },
                 {
                     "name": "Invasion: Holiday Familiars",
+                    "slug": "invasion-holiday-familiars",
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -590,6 +636,7 @@
                 },
                 {
                     "name": "Invasion: Ninja Familiars",
+                    "slug": "invasion-ninja-familiars",
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -599,6 +646,7 @@
                 },
                 {
                     "name": "Invasion: Zombo Familiars",
+                    "slug": "invasion-zombo-familiars",
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -614,6 +662,7 @@
             "guides": [
                 {
                     "name": "3riko's GlarzDos Pic Guide",
+                    "slug": "3rikos-glarzdos-pic-guide",
                     "attachments": [
                         {
                             "filename": "fusions-glarz-3riko.png",
@@ -624,6 +673,7 @@
                 },
                 {
                     "name": "AlbacorePrism's Gyl' Rotakan Guide",
+                    "slug": "albacoreprisms-gyl-rotakan-guide",
                     "attachments": [
                         {
                             "filename": "fusions-gyl-rotakan-albacoreprism.png",
@@ -634,6 +684,7 @@
                 },
                 {
                     "name": "AlbacorePrism's Ignatus Ra Guide",
+                    "slug": "albacoreprisms-ignatus-ra-guide",
                     "attachments": [
                         {
                             "filename": "fusions-ignatus-ra-albacoreprism.pdf",
@@ -644,6 +695,7 @@
                 },
                 {
                     "name": "Chuck's Tier 20 Fusion Guide Google Doc",
+                    "slug": "chucks-tier-20-fusion-guide-google-doc",
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -654,6 +706,7 @@
                 },
                 {
                     "name": "DRACARIS' Drenath Pic Guide",
+                    "slug": "dracaris-drenath-pic-guide",
                     "attachments": [
                         {
                             "filename": "fusions-drenath-dracaris.png",
@@ -664,6 +717,7 @@
                 },
                 {
                     "name": "DRACARIS' Igneous Ra Pic Guide",
+                    "slug": "dracaris-igneous-ra-pic-guide",
                     "attachments": [
                         {
                             "filename": "fusions-ra-dracaris.png",
@@ -674,6 +728,7 @@
                 },
                 {
                     "name": "DRACARIS' Teithyus Pic Guide",
+                    "slug": "dracaris-teithyus-pic-guide",
                     "attachments": [
                         {
                             "filename": "fusions-teithyus-dracaris.md",
@@ -688,6 +743,7 @@
                 },
                 {
                     "name": "DRACARIS' Thundmolf Pic Guide",
+                    "slug": "dracaris-thundmolf-pic-guide",
                     "attachments": [
                         {
                             "filename": "fusions-thundmolf-dracaris.png",
@@ -698,6 +754,7 @@
                 },
                 {
                     "name": "Gylgymesh's Lerky Pic Guide",
+                    "slug": "gylgymeshs-lerky-pic-guide",
                     "attachments": [
                         {
                             "filename": "fusions-lerky-gylgymesh.png",
@@ -708,6 +765,7 @@
                 },
                 {
                     "name": "ItsMBSCastillo's Lerky Pic Guide",
+                    "slug": "itsmbscastillos-lerky-pic-guide",
                     "attachments": [
                         {
                             "filename": "fusions-lerky-itsmbscastillo.png",
@@ -718,6 +776,7 @@
                 },
                 {
                     "name": "ItsMBSCastillo's Ra Pic Guides",
+                    "slug": "itsmbscastillos-ra-pic-guides",
                     "attachments": [
                         {
                             "filename": "fusions-ra-itsmbscastillo.jpg",
@@ -733,6 +792,7 @@
                 },
                 {
                     "name": "ItsMBSCastillo's Teithyus Pic Guide",
+                    "slug": "itsmbscastillos-teithyus-pic-guide",
                     "attachments": [
                         {
                             "filename": "fusions-teithyus-itsmbscastillo.png",
@@ -743,6 +803,7 @@
                 },
                 {
                     "name": "Joemama's Kimusaba Components Guide",
+                    "slug": "joemamas-kimusaba-components-guide",
                     "attachments": [
                         {
                             "filename": "fusions-kimusaba-joemama.png",
@@ -753,6 +814,7 @@
                 },
                 {
                     "name": "Joemama's Lerky Components Guide",
+                    "slug": "joemamas-lerky-components-guide",
                     "attachments": [
                         {
                             "filename": "fusions-lerky-joemama.png",
@@ -763,6 +825,7 @@
                 },
                 {
                     "name": "Joemama's Ignatus Ra Components Guide",
+                    "slug": "joemamas-ignatus-ra-components-guide",
                     "attachments": [
                         {
                             "filename": "fusions-ra-joemama.png",
@@ -773,6 +836,7 @@
                 },
                 {
                     "name": "John_Hatten2's Lerky Pic Guide",
+                    "slug": "john-hatten2s-lerky-pic-guide",
                     "attachments": [
                         {
                             "filename": "fusions-lerky-john_hatten2.png",
@@ -783,6 +847,7 @@
                 },
                 {
                     "name": "ManBearPig's Bait Comparisons",
+                    "slug": "manbearpigs-bait-comparisons",
                     "attachments": [
                         {
                             "filename": "fusions-manbearpig-baits.png",
@@ -793,6 +858,7 @@
                 },
                 {
                     "name": "N1ghtmaree's Kzulum Pic Guide",
+                    "slug": "n1ghtmarees-kzulum-pic-guide",
                     "attachments": [
                         {
                             "filename": "fusions-kzulum-n1ghtmaree.png",
@@ -803,6 +869,7 @@
                 },
                 {
                     "name": "ShawnBond's Lady Sparkin Pic Guide",
+                    "slug": "shawnbonds-lady-sparkin-pic-guide",
                     "attachments": [
                         {
                             "filename": "fusions-ladysparkin-shawnbond.md",
@@ -817,6 +884,7 @@
                 },
                 {
                     "name": "ShawnBond's Lerky Pic Guide",
+                    "slug": "shawnbonds-lerky-pic-guide",
                     "attachments": [
                         {
                             "filename": "fusions-lerky-shawnbond.png",
@@ -827,6 +895,7 @@
                 },
                 {
                     "name": "ShawnBond's Teithyus Pic Guide",
+                    "slug": "shawnbonds-teithyus-pic-guide",
                     "attachments": [
                         {
                             "filename": "fusions-teithyus-shawnbond.png",
@@ -837,6 +906,7 @@
                 },
                 {
                     "name": "ShawnBond's Thundmolf Pic Guide",
+                    "slug": "shawnbonds-thundmolf-pic-guide",
                     "attachments": [
                         {
                             "filename": "fusions-thundmolf-shawnbond.png",
@@ -846,7 +916,8 @@
                     ]
                 },
                 {
-                "name": "Sora's XL-Tarbis 1610b Pic Guide",
+                    "name": "Sora's XL-Tarbis 1610b Pic Guide",
+                    "slug": "soras-xl-tarbis-1610b-pic-guide",
                     "attachments": [
                         {
                             "filename": "fusions-tarbis-sora.png",
@@ -857,6 +928,7 @@
                 },
                 {
                     "name": "ATacoTitan's Mythic Fusion Excel Spreadsheet",
+                    "slug": "atacotitans-mythic-fusion-excel-spreadsheet",
                     "attachments": [
                         {
                             "filename": "fusions-mythic-atacotitan.xlsx",
@@ -873,6 +945,7 @@
             "guides": [
                 {
                     "name": "Admiral Yarrrlag",
+                    "slug": "admiral-yarrrlag",
                     "roles": [
                         "DPS"
                     ],
@@ -891,6 +964,7 @@
                 },
                 {
                     "name": "Astalove",
+                    "slug": "astalove",
                     "roles": [
                         "DPS"
                     ],
@@ -904,6 +978,7 @@
                 },
                 {
                     "name": "Astasorrow",
+                    "slug": "astasorrow",
                     "inFestiviflux": true,
                     "roles": [
                         "DPS",
@@ -924,6 +999,7 @@
                 },
                 {
                     "name": "Captain Ditch",
+                    "slug": "captain-ditch",
                     "roles": [
                         "DPS",
                         "Support"
@@ -943,6 +1019,7 @@
                 },
                 {
                     "name": "Chocomyt",
+                    "slug": "chocomyt",
                     "inFestiviflux": true,
                     "roles": [
                         "DPS",
@@ -958,6 +1035,7 @@
                 },
                 {
                     "name": "Googie Moogienz",
+                    "slug": "googie-moogienz",
                     "inFestiviflux": true,
                     "roles": [
                         "Tank"
@@ -977,6 +1055,7 @@
                 },
                 {
                     "name": "Gorbsidian",
+                    "slug": "gorbsidian",
                     "roles": [
                         "DPS"
                     ],
@@ -995,6 +1074,7 @@
                 },
                 {
                     "name": "Hoplag",
+                    "slug": "hoplag",
                     "roles": [
                         "Tank"
                     ],
@@ -1013,6 +1093,7 @@
                 },
                 {
                     "name": "iTrolf X",
+                    "slug": "itrolf-x",
                     "inFestiviflux": true,
                     "roles": [
                         "Tank"
@@ -1027,12 +1108,12 @@
                         {
                             "attachmenttype": "link",
                             "link": "https://www.youtube.com/watch?v=iOAivQDuWQM"
-
                         }
                     ]
                 },
                 {
                     "name": "Jolly Shrampz",
+                    "slug": "jolly-shrampz",
                     "roles": [
                         "Tank"
                     ],
@@ -1046,6 +1127,7 @@
                 },
                 {
                     "name": "Kaleidaroth",
+                    "slug": "kaleidaroth",
                     "roles": [
                         "DPS"
                     ],
@@ -1059,6 +1141,7 @@
                 },
                 {
                     "name": "Kov'u",
+                    "slug": "kovu",
                     "roles": [
                         "Bait"
                     ],
@@ -1077,6 +1160,7 @@
                 },
                 {
                     "name": "Kris Gemmgle",
+                    "slug": "kris-gemmgle",
                     "roles": [
                         "DPS",
                         "Support"
@@ -1096,6 +1180,7 @@
                 },
                 {
                     "name": "La Grimita",
+                    "slug": "la-grimita",
                     "roles": [
                         "DPS"
                     ],
@@ -1114,6 +1199,7 @@
                 },
                 {
                     "name": "Mewbbo",
+                    "slug": "mewbbo",
                     "roles": [
                         "Tank"
                     ],
@@ -1132,6 +1218,7 @@
                 },
                 {
                     "name": "Mir'alg",
+                    "slug": "miralg",
                     "inFestiviflux": true,
                     "roles": [
                         "DPS",
@@ -1152,6 +1239,7 @@
                 },
                 {
                     "name": "Night Gobby",
+                    "slug": "night-gobby",
                     "inFestiviflux": true,
                     "roles": [
                         "Tank"
@@ -1166,6 +1254,7 @@
                 },
                 {
                     "name": "Patcharrior",
+                    "slug": "patcharrior",
                     "roles": [
                         "Tank"
                     ],
@@ -1184,6 +1273,7 @@
                 },
                 {
                     "name": "Q3-17-NWA",
+                    "slug": "q3-17-nwa",
                     "inFestiviflux": true,
                     "roles": [
                         "DPS"
@@ -1203,6 +1293,7 @@
                 },
                 {
                     "name": "Quinterang",
+                    "slug": "quinterang",
                     "roles": [
                         "Tank"
                     ],
@@ -1221,6 +1312,7 @@
                 },
                 {
                     "name": "Rabbit Blubber",
+                    "slug": "rabbit-blubber",
                     "roles": [
                         "DPS"
                     ],
@@ -1234,6 +1326,7 @@
                 },
                 {
                     "name": "Rugullotis Rumicullaris",
+                    "slug": "rugullotis-rumicullaris",
                     "roles": [
                         "DPS",
                         "Support"
@@ -1253,6 +1346,7 @@
                 },
                 {
                     "name": "Shrubbery Shrampz",
+                    "slug": "shrubbery-shrampz",
                     "roles": [
                         "Tank"
                     ],
@@ -1266,6 +1360,7 @@
                 },
                 {
                     "name": "Sir Teavid Alkenborough",
+                    "slug": "sir-teavid-alkenborough",
                     "roles": [
                         "DPS"
                     ],
@@ -1284,6 +1379,7 @@
                 },
                 {
                     "name": "Stumpán",
+                    "slug": "stump-n",
                     "roles": [
                         "DPS",
                         "Support"
@@ -1303,6 +1399,7 @@
                 },
                 {
                     "name": "Suntealk",
+                    "slug": "suntealk",
                     "inFestiviflux": true,
                     "roles": [
                         "DPS"
@@ -1322,6 +1419,7 @@
                 },
                 {
                     "name": "Svilluminati",
+                    "slug": "svilluminati",
                     "roles": [
                         "DPS",
                         "Support"
@@ -1341,6 +1439,7 @@
                 },
                 {
                     "name": "The Tifology",
+                    "slug": "the-tifology",
                     "roles": [
                         "Tank"
                     ],
@@ -1359,6 +1458,7 @@
                 },
                 {
                     "name": "Vedeuche",
+                    "slug": "vedeuche",
                     "inFestiviflux": true,
                     "roles": [
                         "DPS",
@@ -1379,6 +1479,7 @@
                 },
                 {
                     "name": "XL-Tarbis 1610B",
+                    "slug": "xl-tarbis-1610b",
                     "inFestiviflux": true,
                     "roles": [
                         "Bait"
@@ -1398,6 +1499,7 @@
                 },
                 {
                     "name": "xX_Darkoverlord_Xx",
+                    "slug": "xx-darkoverlord-xx",
                     "roles": [
                         "Tank"
                     ],
@@ -1416,6 +1518,7 @@
                 },
                 {
                     "name": "Yeggi",
+                    "slug": "yeggi",
                     "roles": [
                         "Tank"
                     ],
@@ -1435,6 +1538,7 @@
             "guides": [
                 {
                     "name": "Alysias' Flag Guide",
+                    "slug": "alysias-flag-guide",
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -1444,6 +1548,7 @@
                 },
                 {
                     "name": "PrimeDyze's Zone Completion Guides (Playlist)",
+                    "slug": "primedyzes-zone-completion-guides-playlist",
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -1459,6 +1564,7 @@
             "guides": [
                 {
                     "name": "BillyIdol's Gooz Guide",
+                    "slug": "billyidols-gooz-guide",
                     "builds": [
                         "Trash"
                     ],
@@ -1480,6 +1586,7 @@
                 },
                 {
                     "name": "Gavx's Bit Heroes Explained: Gooz Thicket",
+                    "slug": "gavxs-bit-heroes-explained-gooz-thicket",
                     "builds": [
                         "Trash"
                     ],
@@ -1502,6 +1609,7 @@
             "guides": [
                 {
                     "name": "BillyIdol's King Brimby Guide",
+                    "slug": "billyidols-king-brimby-guide",
                     "builds": [
                         "Trash"
                     ],
@@ -1523,6 +1631,7 @@
                 },
                 {
                     "name": "Gavx's Bit Heroes Explained: Brimby Thicket",
+                    "slug": "gavxs-bit-heroes-explained-brimby-thicket",
                     "builds": [
                         "Trash"
                     ],
@@ -1545,6 +1654,7 @@
             "guides": [
                 {
                     "name": "Gavx's Bit Heroes Explained: Candelabro's Chamber",
+                    "slug": "gavxs-bit-heroes-explained-candelabros-chamber",
                     "builds": [
                         "Trash"
                     ],
@@ -1567,6 +1677,7 @@
             "guides": [
                 {
                     "name": "Pristine's Solarsun Video",
+                    "slug": "pristines-solarsun-video",
                     "builds": [
                         "Camouflage",
                         "Lucernas"
@@ -1593,6 +1704,7 @@
             "guides": [
                 {
                     "name": "Gylgymesh's Guide without Cursed Calavera",
+                    "slug": "gylgymeshs-guide-without-cursed-calavera",
                     "builds": [
                         "Montezuma"
                     ],
@@ -1630,6 +1742,7 @@
                 },
                 {
                     "name": "IanBob2's Grunt Clear",
+                    "slug": "ianbob2s-grunt-clear",
                     "builds": [
                         "Perkunas"
                     ],
@@ -1651,6 +1764,7 @@
             "guides": [
                 {
                     "name": "Blasphemy's Colorteebee Clear",
+                    "slug": "blasphemys-colorteebee-clear",
                     "builds": [
                         "Aeneas"
                     ],
@@ -1667,6 +1781,7 @@
                 },
                 {
                     "name": "Rome's Colorteebee Clear",
+                    "slug": "romes-colorteebee-clear",
                     "builds": [
                         "Aeneas"
                     ],
@@ -1689,6 +1804,7 @@
             "guides": [
                 {
                     "name": "BillyIdol's ColoraTrix Guide",
+                    "slug": "billyidols-coloratrix-guide",
                     "builds": [
                         "Aeneas",
                         "Makridi"
@@ -1717,6 +1833,7 @@
             "guides": [
                 {
                     "name": "Chuck's Calculators: IF, XP, Turn Rate, Luck, etc.",
+                    "slug": "chucks-calculators-if-xp-turn-rate-luck-etc",
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -1726,6 +1843,7 @@
                 },
                 {
                     "name": "BillyIdol's Calculators (This Site)",
+                    "slug": "billyidols-calculators-this-site",
                     "attachments": [
                         {
                             "attachmenttype": "internal-link",
@@ -1753,6 +1871,7 @@
             "guides": [
                 {
                     "name": "antomanz's YouTube Channel",
+                    "slug": "antomanzs-youtube-channel",
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -1762,6 +1881,7 @@
                 },
                 {
                     "name": "ArcaneLD's YouTube Channel",
+                    "slug": "arcanelds-youtube-channel",
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -1771,6 +1891,7 @@
                 },
                 {
                     "name": "Bitverse_Andy's YouTube Channel",
+                    "slug": "bitverse-andys-youtube-channel",
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -1780,6 +1901,7 @@
                 },
                 {
                     "name": "Demi's YouTube Channel",
+                    "slug": "demis-youtube-channel",
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -1789,6 +1911,7 @@
                 },
                 {
                     "name": "FergusFerret's Blog",
+                    "slug": "fergusferrets-blog",
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -1798,6 +1921,7 @@
                 },
                 {
                     "name": "Neflarian's YouTube Channel",
+                    "slug": "neflarians-youtube-channel",
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -1807,6 +1931,7 @@
                 },
                 {
                     "name": "PrimeDyze's YouTube Channel",
+                    "slug": "primedyzes-youtube-channel",
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -1816,6 +1941,7 @@
                 },
                 {
                     "name": "Tdizzle's YouTube Channel",
+                    "slug": "tdizzles-youtube-channel",
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -1825,6 +1951,7 @@
                 },
                 {
                     "name": "TrippyAfro's Twitch Channel",
+                    "slug": "trippyafros-twitch-channel",
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -1834,6 +1961,7 @@
                 },
                 {
                     "name": "WRLD_EATR's YouTube Channel",
+                    "slug": "wrld-eatrs-youtube-channel",
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -1849,6 +1977,7 @@
             "guides": [
                 {
                     "name": "5Rupees: FAQ Megathread from Reddit",
+                    "slug": "5rupees-faq-megathread-from-reddit",
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -1858,6 +1987,7 @@
                 },
                 {
                     "name": "AlbacorePrism: Battle Priority",
+                    "slug": "albacoreprism-battle-priority",
                     "attachments": [
                         {
                             "filename": "general-battle-priority-albacoreprism.pdf",
@@ -1868,6 +1998,7 @@
                 },
                 {
                     "name": "Bitverse_Andy: What is Upgrading, Melting, and Reforging?",
+                    "slug": "bitverse-andy-what-is-upgrading-melting-and-reforging",
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -1877,6 +2008,7 @@
                 },
                 {
                     "name": "Bitverse_Andy: What are familiars, fusions, and augments?",
+                    "slug": "bitverse-andy-what-are-familiars-fusions-and-augments",
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -1886,6 +2018,7 @@
                 },
                 {
                     "name": "ChubbyDaemon: Official Wiki Beginner Guide Website",
+                    "slug": "chubbydaemon-official-wiki-beginner-guide-website",
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -1895,6 +2028,7 @@
                 },
                 {
                     "name": "Gylgymesh: Familiars > Pet > Brain > Accessory > Mount > Gear Text Guide",
+                    "slug": "gylgymesh-familiars-pet-brain-accessory-mount-gear-text-guide",
                     "attachments": [
                         {
                             "filename": "general-gylgymesh-tips.md",
@@ -1904,6 +2038,7 @@
                 },
                 {
                     "name": "Jermoshua: Jerm's Guide to Bit Heroes Google Doc",
+                    "slug": "jermoshua-jerms-guide-to-bit-heroes-google-doc",
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -1913,6 +2048,7 @@
                 },
                 {
                     "name": "Kuz55: Early Game Gem Use / Moderate Spending",
+                    "slug": "kuz55-early-game-gem-use-moderate-spending",
                     "attachments": [
                         {
                             "filename": "kuz55-gems-guide.md",
@@ -1922,6 +2058,7 @@
                 },
                 {
                     "name": "Neflarian: What to do when you're stuck?",
+                    "slug": "neflarian-what-to-do-when-youre-stuck",
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -1931,6 +2068,7 @@
                 },
                 {
                     "name": "Neflarian: What are accessories, mounts, and pets?",
+                    "slug": "neflarian-what-are-accessories-mounts-and-pets",
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -1940,6 +2078,7 @@
                 },
                 {
                     "name": "Sora: What to do when you're stuck (Flow Chart)",
+                    "slug": "sora-what-to-do-when-youre-stuck-flow-chart",
                     "attachments": [
                         {
                             "filename": "general-sora-stuck-checklist.md",
@@ -1954,6 +2093,7 @@
                 },
                 {
                     "name": "WRLD_EATR: Answers Frequently Asked Questions!",
+                    "slug": "wrld-eatr-answers-frequently-asked-questions",
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -1963,6 +2103,7 @@
                 },
                 {
                     "name": "WRLD_EATR: What are runes and enchants?",
+                    "slug": "wrld-eatr-what-are-runes-and-enchants",
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -1978,6 +2119,7 @@
             "guides": [
                 {
                     "name": "Build Guides Intro",
+                    "slug": "build-guides-intro",
                     "sticky": true,
                     "attachments": [
                         {
@@ -1988,6 +2130,7 @@
                 },
                 {
                     "name": "Pompadour",
+                    "slug": "pompadour",
                     "builds": [
                         "Pompadour"
                     ],
@@ -2005,6 +2148,7 @@
                 },
                 {
                     "name": "Witchum",
+                    "slug": "witchum",
                     "builds": [
                         "Witchum"
                     ],
@@ -2037,6 +2181,7 @@
                 },
                 {
                     "name": "3xtort",
+                    "slug": "3xtort",
                     "builds": [
                         "3xtort",
                         "extort"
@@ -2065,6 +2210,7 @@
                 },
                 {
                     "name": "Perkunas",
+                    "slug": "perkunas",
                     "builds": [
                         "Perkunas"
                     ],
@@ -2087,6 +2233,7 @@
                 },
                 {
                     "name": "Skyent",
+                    "slug": "skyent",
                     "builds": [
                         "Skyent",
                         "meatshield"
@@ -2110,6 +2257,7 @@
                 },
                 {
                     "name": "Vampirism",
+                    "slug": "vampirism",
                     "builds": [
                         "Seleucus"
                     ],
@@ -2138,6 +2286,7 @@
                 },
                 {
                     "name": "Ancient UXO Power Tank",
+                    "slug": "ancient-uxo-power-tank",
                     "builds": [
                         "Ancient Tank"
                     ],
@@ -2156,6 +2305,7 @@
                 },
                 {
                     "name": "Ancient Speed Bait",
+                    "slug": "ancient-speed-bait",
                     "builds": [
                         "Ancient Speed Bait"
                     ],
@@ -2169,6 +2319,7 @@
                 },
                 {
                     "name": "Ancient DPS",
+                    "slug": "ancient-dps",
                     "builds": [
                         "Ancient DPS"
                     ],
@@ -2187,6 +2338,7 @@
                 },
                 {
                     "name": "Protoplague",
+                    "slug": "protoplague",
                     "builds": [
                         "Protoplague"
                     ],
@@ -2209,6 +2361,7 @@
                 },
                 {
                     "name": "Venturer",
+                    "slug": "venturer",
                     "builds": [
                         "venturer"
                     ],
@@ -2233,6 +2386,7 @@
             "guides": [
                 {
                     "name": "Ember's Harvester Supercharged Build Guide",
+                    "slug": "embers-harvester-supercharged-build-guide",
                     "builds": [
                         "Harvester Supercharged DPS"
                     ],
@@ -2252,6 +2406,7 @@
             "guides": [
                 {
                     "name": "3riko and John_Hatten2's Shop Rotation Pic Guide and Info",
+                    "slug": "3riko-and-john-hatten2s-shop-rotation-pic-guide-and-info",
                     "obsolete": "25 October 2023: Shop rotation duration doubled, items may or may not be up-to-date.",
                     "attachments": [
                         {
@@ -2272,6 +2427,7 @@
                 },
                 {
                     "name": "Eliealsamaan85 and Gavx's Gauntlet Boss Pic Guide",
+                    "slug": "eliealsamaan85-and-gavxs-gauntlet-boss-pic-guide",
                     "attachments": [
                         {
                             "filename": "general-gauntlet-eliealsamaan85-gavx.png",
@@ -2282,6 +2438,7 @@
                 },
                 {
                     "name": "Antomanz: Experience - The Z tier Bonus",
+                    "slug": "antomanz-experience-the-z-tier-bonus",
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -2291,6 +2448,7 @@
                 },
                 {
                     "name": "New Daily Calendar (January 2026) from Gylgymesh",
+                    "slug": "new-daily-calendar-january-2026-from-gylgymesh",
                     "attachments": [
                         {
                             "filename": "gylgymesh-daily-calendar.png",
@@ -2301,6 +2459,7 @@
                 },
                 {
                     "name": "Maps: Fishing Island and Seasonal Towns",
+                    "slug": "maps-fishing-island-and-seasonal-towns",
                     "attachments": [
                         {
                             "filename": "general-map-fishing-island.png",
@@ -2326,6 +2485,7 @@
                 },
                 {
                     "name": "MaxBrand99's Fishing Pic Guide and Info",
+                    "slug": "maxbrand99s-fishing-pic-guide-and-info",
                     "attachments": [
                         {
                             "filename": "general-fishing-maxbrand99-bobbers.png",
@@ -2340,6 +2500,7 @@
                 },
                 {
                     "name": "Special_Delivery's Augment Info Google Doc",
+                    "slug": "special-deliverys-augment-info-google-doc",
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -2349,6 +2510,7 @@
                 },
                 {
                     "name": "Special_Delivery's Damage Type List Google Doc",
+                    "slug": "special-deliverys-damage-type-list-google-doc",
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -2364,6 +2526,7 @@
             "guides": [
                 {
                     "name": "Barloow1987's In-Tier Pic and Text Guide",
+                    "slug": "barloow1987s-in-tier-pic-and-text-guide",
                     "builds": [
                         "Inferno"
                     ],
@@ -2386,6 +2549,7 @@
                 },
                 {
                     "name": "BillyIdol's In-Tier Guide",
+                    "slug": "billyidols-in-tier-guide",
                     "builds": [
                         "Inferno"
                     ],
@@ -2408,6 +2572,7 @@
                 },
                 {
                     "name": "Mentle88's In-Tier Guide",
+                    "slug": "mentle88s-in-tier-guide",
                     "builds": [
                         "Luminary"
                     ],
@@ -2425,6 +2590,7 @@
                 },
                 {
                     "name": "PocketApple8104's In-Tier Google Sheet Guides",
+                    "slug": "pocketapple8104s-in-tier-google-sheet-guides",
                     "builds": [
                         "Night Walker"
                     ],
@@ -2444,6 +2610,7 @@
                 },
                 {
                     "name": "Vanterio's In-Tier Video Guide",
+                    "slug": "vanterios-in-tier-video-guide",
                     "builds": [
                         "Obliteration",
                         "Night Walker"
@@ -2462,6 +2629,7 @@
                 },
                 {
                     "name": "Youreprettycute's In-Tier Pic and Text Guide",
+                    "slug": "youreprettycutes-in-tier-pic-and-text-guide",
                     "builds": [
                         "Inferno"
                     ],
@@ -2490,6 +2658,7 @@
             "guides": [
                 {
                     "name": "Lqd's Starweave Google Sheet Guide",
+                    "slug": "lqds-starweave-google-sheet-guide",
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -2501,6 +2670,7 @@
                 },
                 {
                     "name": "Envious' In-Tier Pic and Text Guide",
+                    "slug": "envious-in-tier-pic-and-text-guide",
                     "builds": [
                         "Arsenal"
                     ],
@@ -2533,6 +2703,7 @@
                 },
                 {
                     "name": "Parad0x's In-Tier Pic and Text Guide",
+                    "slug": "parad0xs-in-tier-pic-and-text-guide",
                     "builds": [
                         "Inferno"
                     ],
@@ -2566,6 +2737,7 @@
                 },
                 {
                     "name": "PocketApple8104's Starweave Google Sheet Guide",
+                    "slug": "pocketapple8104s-starweave-google-sheet-guide",
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -2577,6 +2749,7 @@
                 },
                 {
                     "name": "PocketApple8104's In-Tier Starweave Videos",
+                    "slug": "pocketapple8104s-in-tier-starweave-videos",
                     "builds": [
                         "Arsenal",
                         "Polaris"
@@ -2600,6 +2773,7 @@
                 },
                 {
                     "name": "Youreprettycute's In-Tier Pic and Text Guide",
+                    "slug": "youreprettycutes-in-tier-pic-and-text-guide-2",
                     "attachments": [
                         {
                             "filename": "d4-t9-youreprettycute.md",
@@ -2621,6 +2795,7 @@
             "guides": [
                 {
                     "name": "Bat's Broke In-Tier Poly Clear",
+                    "slug": "bats-broke-in-tier-poly-clear",
                     "builds": [
                         "Earthen Might"
                     ],
@@ -2638,6 +2813,7 @@
                 },
                 {
                     "name": "Gagf's Polychromatic Blaster Google Sheet Guide",
+                    "slug": "gagfs-polychromatic-blaster-google-sheet-guide",
                     "builds": [
                         "Earthen Might"
                     ],
@@ -2655,6 +2831,7 @@
                 },
                 {
                     "name": "Maturo's In-tier Poly Guide",
+                    "slug": "maturos-in-tier-poly-guide",
                     "builds": [
                         "Apocalypse"
                     ],
@@ -2672,6 +2849,7 @@
                 },
                 {
                     "name": "PocketApple8104's In-Tier Poly Video: Tank Brute Force",
+                    "slug": "pocketapple8104s-in-tier-poly-video-tank-brute-force",
                     "builds": [
                         "Apocalypse"
                     ],
@@ -2690,6 +2868,7 @@
                 },
                 {
                     "name": "PocketApple8104's In-Tier Poly Video: DPS Semi-Brute Force",
+                    "slug": "pocketapple8104s-in-tier-poly-video-dps-semi-brute-force",
                     "builds": [
                         "Merciless"
                     ],
@@ -2714,6 +2893,7 @@
             "guides": [
                 {
                     "name": "Bat's In-Tier Elementarium Guide",
+                    "slug": "bats-in-tier-elementarium-guide",
                     "builds": [
                         "Apocalypse"
                     ],
@@ -2732,6 +2912,7 @@
                 },
                 {
                     "name": "Mentle88's In-Tier Guide",
+                    "slug": "mentle88s-in-tier-guide-2",
                     "builds": [
                         "Apocalypse"
                     ],
@@ -2750,6 +2931,7 @@
                 },
                 {
                     "name": "PocketApple8104's In-Tier Elementarium Video",
+                    "slug": "pocketapple8104s-in-tier-elementarium-video",
                     "builds": [
                         "Apocalypse"
                     ],
@@ -2774,6 +2956,7 @@
             "guides": [
                 {
                     "name": "PocketApple8104's In-Tier Broom Video",
+                    "slug": "pocketapple8104s-in-tier-broom-video",
                     "builds": [
                         "Pangea"
                     ],
@@ -2788,6 +2971,7 @@
                 },
                 {
                     "name": "Vanterio's Text, Pic, and Video Guide",
+                    "slug": "vanterios-text-pic-and-video-guide",
                     "builds": [
                         "Raiju"
                     ],
@@ -2823,6 +3007,7 @@
             "guides": [
                 {
                     "name": "Lqd's Evolvium Google Sheet Guide",
+                    "slug": "lqds-evolvium-google-sheet-guide",
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -2834,6 +3019,7 @@
                 },
                 {
                     "name": "PocketApple8104's Evolvium Google Sheet Guide",
+                    "slug": "pocketapple8104s-evolvium-google-sheet-guide",
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -2851,6 +3037,7 @@
             "guides": [
                 {
                     "name": "BillyIdol's Witchum Clear Video",
+                    "slug": "billyidols-witchum-clear-video",
                     "builds": [
                         "Witchum"
                     ],
@@ -2874,6 +3061,7 @@
                 },
                 {
                     "name": "Ee's Iron Fate PDF Guide",
+                    "slug": "ees-iron-fate-pdf-guide",
                     "builds": [
                         "Sigbiorn"
                     ],
@@ -2894,6 +3082,7 @@
                 },
                 {
                     "name": "PocketApple8104's In-Tier Firium Video",
+                    "slug": "pocketapple8104s-in-tier-firium-video",
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -2910,6 +3099,7 @@
             "guides": [
                 {
                     "name": "BillyIdol's Text Guide",
+                    "slug": "billyidols-text-guide",
                     "builds": [
                         "Einar"
                     ],
@@ -2928,6 +3118,7 @@
                 },
                 {
                     "name": "Fr3sTy7's In-Tier PDF Guide",
+                    "slug": "fr3sty7s-in-tier-pdf-guide",
                     "builds": [
                         "Einar"
                     ],
@@ -2947,6 +3138,7 @@
                 },
                 {
                     "name": "PocketApple8104's In-Tier Soul of Escarium Video",
+                    "slug": "pocketapple8104s-in-tier-soul-of-escarium-video",
                     "builds": [
                         "Einar"
                     ],
@@ -2965,6 +3157,7 @@
                 },
                 {
                     "name": "Special_Delivery's Build and Team",
+                    "slug": "special-deliverys-build-and-team",
                     "builds": [
                         "Seleucus",
                         "Silverwind"
@@ -2996,6 +3189,7 @@
             "guides": [
                 {
                     "name": "a_poor_ninja's Pic Guide",
+                    "slug": "a-poor-ninjas-pic-guide",
                     "builds": [
                         "Fyssas",
                         "Witchum"
@@ -3016,6 +3210,7 @@
                 },
                 {
                     "name": "Adhesive81's Picture Guide",
+                    "slug": "adhesive81s-picture-guide",
                     "builds": [
                         "Firent"
                     ],
@@ -3036,6 +3231,7 @@
                 },
                 {
                     "name": "ArchangelMichael's Video",
+                    "slug": "archangelmichaels-video",
                     "builds": [
                         "Perkunas"
                     ],
@@ -3054,6 +3250,7 @@
                 },
                 {
                     "name": "BillyIdol, JoeBu, and ZombieSlayer13's Pic Guide",
+                    "slug": "billyidol-joebu-and-zombieslayer13s-pic-guide",
                     "builds": [
                         "Fyssas",
                         "Witchum"
@@ -3074,6 +3271,7 @@
                 },
                 {
                     "name": "BillyIdol's Text Guide and Video",
+                    "slug": "billyidols-text-guide-and-video",
                     "builds": [
                         "Fyssas",
                         "Witchum"
@@ -3093,6 +3291,7 @@
                 },
                 {
                     "name": "Crow's Pic Guide",
+                    "slug": "crows-pic-guide",
                     "builds": [
                         "Torch",
                         "Witchum"
@@ -3113,6 +3312,7 @@
                 },
                 {
                     "name": "cybermuffin's Pic Guide",
+                    "slug": "cybermuffins-pic-guide",
                     "builds": [
                         "Aeneas",
                         "Thundercracker"
@@ -3132,6 +3332,7 @@
                 },
                 {
                     "name": "Equilibrandt's PDF Guide",
+                    "slug": "equilibrandts-pdf-guide",
                     "builds": [
                         "Aeneas",
                         "Makridi"
@@ -3151,6 +3352,7 @@
                 },
                 {
                     "name": "Fyra's Aeneas Pic Guide",
+                    "slug": "fyras-aeneas-pic-guide",
                     "builds": [
                         "Aeneas"
                     ],
@@ -3170,6 +3372,7 @@
                 },
                 {
                     "name": "Fyra's RW/SW Pic Guide",
+                    "slug": "fyras-rw-sw-pic-guide",
                     "builds": [
                         "Road Warrior",
                         "Silverwind"
@@ -3192,6 +3395,7 @@
                 },
                 {
                     "name": "Goku's Pic Guide",
+                    "slug": "gokus-pic-guide",
                     "builds": [
                         "Aeneas"
                     ],
@@ -3211,6 +3415,7 @@
                 },
                 {
                     "name": "Gylgymesh's Pic Guide",
+                    "slug": "gylgymeshs-pic-guide",
                     "builds": [
                         "Makridi",
                         "Thundercracker"
@@ -3231,6 +3436,7 @@
                 },
                 {
                     "name": "Hael's Pic Guide",
+                    "slug": "haels-pic-guide",
                     "builds": [
                         "Aeneas"
                     ],
@@ -3250,6 +3456,7 @@
                 },
                 {
                     "name": "iiTicTac's PDF Guide",
+                    "slug": "iitictacs-pdf-guide",
                     "builds": [
                         "Aeneas"
                     ],
@@ -3273,6 +3480,7 @@
                 },
                 {
                     "name": "Josiah_4's PDF Guide",
+                    "slug": "josiah-4s-pdf-guide",
                     "builds": [
                         "Aeneas"
                     ],
@@ -3292,6 +3500,7 @@
                 },
                 {
                     "name": "Kruste's Pic Guide",
+                    "slug": "krustes-pic-guide",
                     "builds": [
                         "Aeneas",
                         "Thundercracker"
@@ -3312,6 +3521,7 @@
                 },
                 {
                     "name": "Melody (Choco)'s PDF Guide",
+                    "slug": "melody-choco-s-pdf-guide",
                     "builds": [
                         "Aeneas",
                         "Thundercracker"
@@ -3332,6 +3542,7 @@
                 },
                 {
                     "name": "MrRager's Text Guide",
+                    "slug": "mrragers-text-guide",
                     "builds": [
                         "Aeneas"
                     ],
@@ -3350,6 +3561,7 @@
                 },
                 {
                     "name": "ponymarc's In-Tier Clover Clear",
+                    "slug": "ponymarcs-in-tier-clover-clear",
                     "builds": [
                         "Torch",
                         "Witchum"
@@ -3389,6 +3601,7 @@
                 },
                 {
                     "name": "PrimeDyze's Video",
+                    "slug": "primedyzes-video",
                     "builds": [
                         "Aeneas",
                         "Thundercracker"
@@ -3408,6 +3621,7 @@
                 },
                 {
                     "name": "Smolder's Pic Guide",
+                    "slug": "smolders-pic-guide",
                     "builds": [
                         "Fyssas",
                         "Witchum"
@@ -3428,6 +3642,7 @@
                 },
                 {
                     "name": "Toad's Pic Guide",
+                    "slug": "toads-pic-guide",
                     "builds": [
                         "Silverwind"
                     ],
@@ -3447,6 +3662,7 @@
                 },
                 {
                     "name": "Tolton's Pic Guide",
+                    "slug": "toltons-pic-guide",
                     "builds": [
                         "Aeneas",
                         "Hector"
@@ -3467,6 +3683,7 @@
                 },
                 {
                     "name": "VesaN's Pic Guide",
+                    "slug": "vesans-pic-guide",
                     "builds": [
                         "Fyssas",
                         "Torch",
@@ -3488,6 +3705,7 @@
                 },
                 {
                     "name": "Youreprettycute's Pic Guide",
+                    "slug": "youreprettycutes-pic-guide",
                     "builds": [
                         "Aeneas"
                     ],
@@ -3503,6 +3721,7 @@
                 },
                 {
                     "name": "ZENICKS's Pic Guide",
+                    "slug": "zenickss-pic-guide",
                     "builds": [
                         "Aeneas"
                     ],
@@ -3521,6 +3740,7 @@
                 },
                 {
                     "name": "Other Builds/Comps (Ballbreaker, Darkhand6, Dispel1, PAINisGOD93, Techno)",
+                    "slug": "other-builds-comps-ballbreaker-darkhand6-dispel1-painisgod93-techno",
                     "builds": [],
                     "fams": [
                         "Blinka",
@@ -3565,6 +3785,7 @@
             "guides": [
                 {
                     "name": "Adhesive81's Picture Guide",
+                    "slug": "adhesive81s-picture-guide-2",
                     "builds": [
                         "Firent"
                     ],
@@ -3585,6 +3806,7 @@
                 },
                 {
                     "name": "BillyIdol's Text Guide",
+                    "slug": "billyidols-text-guide-2",
                     "builds": [
                         "Witchum"
                     ],
@@ -3602,6 +3824,7 @@
                 },
                 {
                     "name": "Bisamratte's Pic Guide",
+                    "slug": "bisamrattes-pic-guide",
                     "builds": [
                         "Makridi"
                     ],
@@ -3621,6 +3844,7 @@
                 },
                 {
                     "name": "Ember's PDF Guide",
+                    "slug": "embers-pdf-guide",
                     "builds": [
                         "Aeneas",
                         "Pompadour",
@@ -3641,6 +3865,7 @@
                 },
                 {
                     "name": "Goku's Pic Guide",
+                    "slug": "gokus-pic-guide-2",
                     "builds": [
                         "Witchum"
                     ],
@@ -3660,6 +3885,7 @@
                 },
                 {
                     "name": "Huen11 and ZombieSlayer13's Pic Guide",
+                    "slug": "huen11-and-zombieslayer13s-pic-guide",
                     "builds": [
                         "Witchum"
                     ],
@@ -3679,6 +3905,7 @@
                 },
                 {
                     "name": "JDizzle's Mostly Solo PDF Guide",
+                    "slug": "jdizzles-mostly-solo-pdf-guide",
                     "builds": [
                         "Witchum"
                     ],
@@ -3697,6 +3924,7 @@
                 },
                 {
                     "name": "Toad's Pic Guide",
+                    "slug": "toads-pic-guide-2",
                     "builds": [
                         "Aeneas"
                     ],
@@ -3722,6 +3950,7 @@
             "guides": [
                 {
                     "name": "Adhesive81's W3-4TY PDF Guide",
+                    "slug": "adhesive81s-w3-4ty-pdf-guide",
                     "builds": [
                         "Ancient Speed Bait"
                     ],
@@ -3741,6 +3970,7 @@
                 },
                 {
                     "name": "Antomanz's Pic Guide",
+                    "slug": "antomanzs-pic-guide",
                     "builds": [
                         "Ancient Speed Bait"
                     ],
@@ -3759,6 +3989,7 @@
                 },
                 {
                     "name": "BillyIdol's ProtoPlague Shrampz Video",
+                    "slug": "billyidols-protoplague-shrampz-video",
                     "builds": [
                         "Protoplague"
                     ],
@@ -3776,6 +4007,7 @@
                 },
                 {
                     "name": "BillyIdol's (as alt ChillyIdol) Budget Proto Guide",
+                    "slug": "billyidols-as-alt-chillyidol-budget-proto-guide",
                     "builds": [
                         "Protoplague"
                     ],
@@ -3807,6 +4039,7 @@
                 },
                 {
                     "name": "BillyIdol's Text Guide (Ancient Speed Bait)",
+                    "slug": "billyidols-text-guide-ancient-speed-bait",
                     "builds": [
                         "Ancient Speed Bait"
                     ],
@@ -3825,6 +4058,7 @@
                 },
                 {
                     "name": "Blanquiito and ItsMBSCastillo's PDF and Video Guide",
+                    "slug": "blanquiito-and-itsmbscastillos-pdf-and-video-guide",
                     "build": [
                         "Skramblegg",
                         "Skyent"
@@ -3850,6 +4084,7 @@
                 },
                 {
                     "name": "Captain_Crunchie's PDF Guide",
+                    "slug": "captain-crunchies-pdf-guide",
                     "builds": [
                         "Ancient Speed Bait"
                     ],
@@ -3869,6 +4104,7 @@
                 },
                 {
                     "name": "CG38's In-Tier W3-4ty Guide",
+                    "slug": "cg38s-in-tier-w3-4ty-guide",
                     "builds": [
                         "Ancient Speed Bait"
                     ],
@@ -3887,6 +4123,7 @@
                 },
                 {
                     "name": "Commander's Pic Guide",
+                    "slug": "commanders-pic-guide",
                     "builds": [
                         "Ancient Speed Bait",
                         "Aeneas"
@@ -3906,6 +4143,7 @@
                 },
                 {
                     "name": "Dude_WTF's Text Guide",
+                    "slug": "dude-wtfs-text-guide",
                     "builds": [
                         "Firent"
                     ],
@@ -3923,6 +4161,7 @@
                 },
                 {
                     "name": "EdwardGenius' Budget Speedbait Guide",
+                    "slug": "edwardgenius-budget-speedbait-guide",
                     "builds": [
                         "Ancient Speed Bait"
                     ],
@@ -3941,6 +4180,7 @@
                 },
                 {
                     "name": "Ember's PDF Guide",
+                    "slug": "embers-pdf-guide-2",
                     "builds": [
                         "Skyent"
                     ],
@@ -3960,6 +4200,7 @@
                 },
                 {
                     "name": "Fyra's PDF Guide",
+                    "slug": "fyras-pdf-guide",
                     "builds": [
                         "Aeneas"
                     ],
@@ -3979,6 +4220,7 @@
                 },
                 {
                     "name": "JoeBu's Flunder Video",
+                    "slug": "joebus-flunder-video",
                     "builds": [
                         "Ancient Speed Bait"
                     ],
@@ -3996,6 +4238,7 @@
                 },
                 {
                     "name": "JoeBu, BillyIdol, and ZombieSlayer13's Pic Guide",
+                    "slug": "joebu-billyidol-and-zombieslayer13s-pic-guide",
                     "builds": [
                         "Ancient Speed Bait"
                     ],
@@ -4015,6 +4258,7 @@
                 },
                 {
                     "name": "Maddbz's PDF Guide",
+                    "slug": "maddbzs-pdf-guide",
                     "builds": [
                         "Skyent"
                     ],
@@ -4034,6 +4278,7 @@
                 },
                 {
                     "name": "McSploosh's Build, Team, and Summary",
+                    "slug": "mcsplooshs-build-team-and-summary",
                     "builds": [
                         "Ancient Speed Bait"
                     ],
@@ -4052,6 +4297,7 @@
                 },
                 {
                     "name": "MrRager's Build and Text Summary",
+                    "slug": "mrragers-build-and-text-summary",
                     "builds": [
                         "Ancient Speed Bait"
                     ],
@@ -4075,6 +4321,7 @@
                 },
                 {
                     "name": "n1ghtmaree's text guide (Shield & Magmerang, with bad familiars)",
+                    "slug": "n1ghtmarees-text-guide-shield-magmerang-with-bad-familiars",
                     "builds": [
                         "Firent"
                     ],
@@ -4098,6 +4345,7 @@
                 },
                 {
                     "name": "Orcaaa's Build and Text Summary",
+                    "slug": "orcaaas-build-and-text-summary",
                     "builds": [
                         "Ancient Speed Bait"
                     ],
@@ -4120,6 +4368,7 @@
                 },
                 {
                     "name": "PrimeDyze's Video",
+                    "slug": "primedyzes-video-2",
                     "builds": [
                         "Skyent"
                     ],
@@ -4138,6 +4387,7 @@
                 },
                 {
                     "name": "RoastyChicken's Team, Build, and Strategy",
+                    "slug": "roastychickens-team-build-and-strategy",
                     "builds": [
                         "Ancient Speed Bait"
                     ],
@@ -4166,6 +4416,7 @@
                 },
                 {
                     "name": "ShawnBond's Pic Guide",
+                    "slug": "shawnbonds-pic-guide",
                     "builds": [
                         "Aeneas",
                         "Ancient Speed Bait"
@@ -4185,6 +4436,7 @@
                 },
                 {
                     "name": "Sizz",
+                    "slug": "sizz",
                     "builds": [
                         "Witchum"
                     ],
@@ -4204,6 +4456,7 @@
                 },
                 {
                     "name": "Toad's Pic Guide",
+                    "slug": "toads-pic-guide-3",
                     "builds": [
                         "Aeneas"
                     ],
@@ -4223,6 +4476,7 @@
                 },
                 {
                     "name": "UnseenAxes's Pic and Text Guide",
+                    "slug": "unseenaxess-pic-and-text-guide",
                     "builds": [
                         "Skramblegg"
                     ],
@@ -4245,6 +4499,7 @@
                 },
                 {
                     "name": "skye666's In-Tier W3-4ty Guide",
+                    "slug": "skye666s-in-tier-w3-4ty-guide",
                     "builds": [
                         "Ancient Speed Bait"
                     ],
@@ -4264,6 +4519,7 @@
                 },
                 {
                     "name": "Talisman's Broke Person Protoplague Guide",
+                    "slug": "talismans-broke-person-protoplague-guide",
                     "builds": [
                         "Protoplague"
                     ],
@@ -4293,6 +4549,7 @@
             "guides": [
                 {
                     "name": "BillyIdol's (as alt ChillyIdol) Budget Proto Guide",
+                    "slug": "billyidols-as-alt-chillyidol-budget-proto-guide-2",
                     "builds": [
                         "Protoplague"
                     ],
@@ -4324,6 +4581,7 @@
                 },
                 {
                     "name": "Blanquiito and ItsMBSCastillo's PDF and Video Guide",
+                    "slug": "blanquiito-and-itsmbscastillos-pdf-and-video-guide-2",
                     "build": [
                         "Skramblegg",
                         "Skyent"
@@ -4349,6 +4607,7 @@
                 },
                 {
                     "name": "Ember's PDF Guide",
+                    "slug": "embers-pdf-guide-3",
                     "builds": [
                         "Skyent"
                     ],
@@ -4368,6 +4627,7 @@
                 },
                 {
                     "name": "Infermis' Text and Pic Strategy",
+                    "slug": "infermis-text-and-pic-strategy",
                     "builds": [
                         "Ancient Speed Bait"
                     ],
@@ -4390,6 +4650,7 @@
                 },
                 {
                     "name": "Melody (Choco)'s Text Guide",
+                    "slug": "melody-choco-s-text-guide",
                     "builds": [
                         "Skyent"
                     ],
@@ -4407,6 +4668,7 @@
                 },
                 {
                     "name": "Mochi's Pic Guide",
+                    "slug": "mochis-pic-guide",
                     "builds": [
                         "Skramblegg"
                     ],
@@ -4425,6 +4687,7 @@
                 },
                 {
                     "name": "RoastyChicken's Pic Guide (First Clear!)",
+                    "slug": "roastychickens-pic-guide-first-clear",
                     "builds": [
                         "Ancient Speed Bait"
                     ],
@@ -4442,6 +4705,7 @@
                 },
                 {
                     "name": "Special_Delivery's PDF Guide (In-Tier TS despite ring)",
+                    "slug": "special-deliverys-pdf-guide-in-tier-ts-despite-ring",
                     "builds": [
                         "Ancient Speed Bait"
                     ],
@@ -4460,6 +4724,7 @@
                 },
                 {
                     "name": "PrimeDyze's Video and Pic Guide (pic by ZombieSlayer13)",
+                    "slug": "primedyzes-video-and-pic-guide-pic-by-zombieslayer13",
                     "builds": [
                         "Protoplague"
                     ],
@@ -4481,6 +4746,7 @@
                 },
                 {
                     "name": "UnseenAxes's Text Guide",
+                    "slug": "unseenaxess-text-guide",
                     "builds": [
                         "Skramblegg"
                     ],
@@ -4503,6 +4769,7 @@
                 },
                 {
                     "name": "ZombieSlayer13's Pic Guide",
+                    "slug": "zombieslayer13s-pic-guide",
                     "builds": [
                         "Ancient Speed Bait"
                     ],
@@ -4526,6 +4793,7 @@
             "guides": [
                 {
                     "name": "A3J's Wing Terminal Dungeon Guide",
+                    "slug": "a3js-wing-terminal-dungeon-guide",
                     "builds": [
                         "Ancient Speed Bait"
                     ],
@@ -4549,6 +4817,7 @@
                 },
                 {
                     "name": "Adhesive81 and Olivernoko's Pic Guide",
+                    "slug": "adhesive81-and-olivernokos-pic-guide",
                     "builds": [
                         "Ancient Speed Bait"
                     ],
@@ -4572,6 +4841,7 @@
                 },
                 {
                     "name": "AOMINE's Speed Run",
+                    "slug": "aomines-speed-run",
                     "builds": [
                         "Ancient Speed Bait"
                     ],
@@ -4608,6 +4878,7 @@
                 },
                 {
                     "name": "BillyIdol's Text Notes",
+                    "slug": "billyidols-text-notes",
                     "builds": [
                         "Ancient Speed Bait"
                     ],
@@ -4625,6 +4896,7 @@
                 },
                 {
                     "name": "fohpo's Pic Guide",
+                    "slug": "fohpos-pic-guide",
                     "builds": [
                         "Ancient Speed Bait"
                     ],
@@ -4646,6 +4918,7 @@
                 },
                 {
                     "name": "Goolmuddy's Text and Pic Guide",
+                    "slug": "goolmuddys-text-and-pic-guide",
                     "builds": [
                         "Ancient Speed Bait"
                     ],
@@ -4673,6 +4946,7 @@
                 },
                 {
                     "name": "ItsMBSCastillo's Pic Guide",
+                    "slug": "itsmbscastillos-pic-guide",
                     "builds": [
                         "Ancient Speed Bait"
                     ],
@@ -4691,6 +4965,7 @@
                 },
                 {
                     "name": "JDtheGreat's PDF Guide",
+                    "slug": "jdthegreats-pdf-guide",
                     "builds": [
                         "Ancient Speed Bait"
                     ],
@@ -4709,6 +4984,7 @@
                 },
                 {
                     "name": "ShawnBond's Text Guide",
+                    "slug": "shawnbonds-text-guide",
                     "builds": [
                         "Ancient Speed Bait"
                     ],
@@ -4726,6 +5002,7 @@
                 },
                 {
                     "name": "Sizz's Pic Guide",
+                    "slug": "sizzs-pic-guide",
                     "builds": [
                         "Ancient Speed Bait"
                     ],
@@ -4744,6 +5021,7 @@
                 },
                 {
                     "name": "ZombieSlayer13's Pic Guide",
+                    "slug": "zombieslayer13s-pic-guide-2",
                     "builds": [
                         "Ancient Speed Bait"
                     ],
@@ -4762,6 +5040,7 @@
                 },
                 {
                     "name": "Lord_Adman's Video and Text Guide",
+                    "slug": "lord-admans-video-and-text-guide",
                     "builds": [
                         "Ancient Speed Bait"
                     ],
@@ -4785,6 +5064,7 @@
             "guides": [
                 {
                     "name": "Bitverse_Andy's Video Guide to Buying an NFT",
+                    "slug": "bitverse-andys-video-guide-to-buying-an-nft",
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -4794,6 +5074,7 @@
                 },
                 {
                     "name": "Mentle88's NFT Guide",
+                    "slug": "mentle88s-nft-guide",
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -4804,6 +5085,7 @@
                 },
                 {
                     "name": "Neflarians's Video Guide to NFTs",
+                    "slug": "neflarianss-video-guide-to-nfts",
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -4813,6 +5095,7 @@
                 },
                 {
                     "name": "Whitepaper: Kongregate's official web3 specification for BitVerse NFTs and $BPXL",
+                    "slug": "whitepaper-kongregates-official-web3-specification-for-bitverse-nfts-and-bpxl",
                     "attachments": [
                         {
                             "attachmenttype": "link",
@@ -4828,6 +5111,7 @@
             "guides": [
                 {
                     "name": "General World Boss Carry Info",
+                    "slug": "general-world-boss-carry-info",
                     "attachments": [
                         {
                             "filename": "talisman-general-world-boss-carry-info.md",
@@ -4837,6 +5121,7 @@
                 },
                 {
                     "name": "Standard Recommended Familiar Progression",
+                    "slug": "standard-recommended-familiar-progression",
                     "attachments": [
                         {
                             "filename": "talisman-standard-recommended-familiar-progression.md",
@@ -4846,6 +5131,7 @@
                 },
                 {
                     "name": "Why Ularius > Shrampz",
+                    "slug": "why-ularius-shrampz",
                     "attachments": [
                         {
                             "filename": "talisman-why-ularius-greater-than-shrampz.md",
@@ -4855,6 +5141,7 @@
                 },
                 {
                     "name": "General Rune Advice",
+                    "slug": "general-rune-advice",
                     "attachments": [
                         {
                             "filename": "talisman-general-rune-advice.md",
@@ -4864,6 +5151,7 @@
                 },
                 {
                     "name": "PSA: Mega vs. Hyper/Large",
+                    "slug": "psa-mega-vs-hyper-large",
                     "attachments": [
                         {
                             "filename": "talisman-mega-vs-hyper-large.md",
@@ -4873,6 +5161,7 @@
                 },
                 {
                     "name": "Why are Shrampz and Bor'lan Recommended Earlygame?",
+                    "slug": "why-are-shrampz-and-borlan-recommended-earlygame",
                     "attachments": [
                         {
                             "filename": "talisman-why-are-shrampz-and-borlan-recommended-earlygame.md",
@@ -4882,6 +5171,7 @@
                 },
                 {
                     "name": "Glarzdos vs. Oladus",
+                    "slug": "glarzdos-vs-oladus",
                     "attachments": [
                         {
                             "filename": "talisman-glarzdos-vs-oladus.md",
@@ -4891,6 +5181,7 @@
                 },
                 {
                     "name": "What Pumps Should I Hold Onto when Rolling Legendaries?",
+                    "slug": "what-pumps-should-i-hold-onto-when-rolling-legendaries",
                     "attachments": [
                         {
                             "filename": "talisman-what-pumps-should-i-hold-onto-when-rolling-legendaries.md",
@@ -4900,6 +5191,7 @@
                 },
                 {
                     "name": "Jdjdjid's Guide to Pushing PvP and T/G",
+                    "slug": "jdjdjids-guide-to-pushing-pvp-and-t-g",
                     "attachments": [
                         {
                             "filename": "talisman-jdjdjids-guide-to-pushing-pvp-and-tg.md",
@@ -4909,6 +5201,7 @@
                 },
                 {
                     "name": "What should I use my regen on?",
+                    "slug": "what-should-i-use-my-regen-on",
                     "attachments": [
                         {
                             "filename": "talisman-what-should-i-use-my-regen-on.md",
@@ -4918,6 +5211,7 @@
                 },
                 {
                     "name": "A Comprehensive Intro to Pushes",
+                    "slug": "a-comprehensive-intro-to-pushes",
                     "attachments": [
                         {
                             "filename": "talisman-a-comprehensive-intro-to-pushes.md",
@@ -4933,6 +5227,7 @@
             "guides": [
                 {
                     "name": "Gylgymesh's Gallus Apotheosis Augment Guide",
+                    "slug": "gylgymeshs-gallus-apotheosis-augment-guide",
                     "attachments": [
                         {
                             "filename": "wb-gallus-gylgymesh.png",
@@ -4943,6 +5238,7 @@
                 },
                 {
                     "name": "Special_Delivery's Project Goodall Google Doc",
+                    "slug": "special-deliverys-project-goodall-google-doc",
                     "attachments": [
                         {
                             "attachmenttype": "link",

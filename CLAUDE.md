@@ -63,6 +63,8 @@ This is a React 18 server-side rendered application for bhguides.com, a communit
 
 The guides system includes custom in-memory search indexing that processes guide metadata at page load for fast filtering.
 
+Each guide is deep-linkable: the title row shows a copy icon that copies a `#guide-...` anchor link, and visiting that link scrolls to the guide. Anchors are derived from the category + guide name by default. Add an optional `slug` string to a guide in `guides.json` to pin a stable anchor (`#guide-<slug>`) that survives renames or category moves.
+
 ### Component Patterns
 
 - CSS Modules for component-specific styling (`*.module.css`)

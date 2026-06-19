@@ -172,10 +172,77 @@
 
 .guide-item {
     padding: 1rem 0;
+    scroll-margin-top: 5rem;
 }
 
 .guide-name {
     font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.guide-title {
+    flex-grow: 0;
+    cursor: pointer;
+}
+
+.copy-link-button {
+    flex-shrink: 0;
+    padding: 0.25rem;
+    background: transparent;
+    border: none;
+    color: var(--main-text-color);
+    cursor: pointer;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.15s ease-in-out, background 0.2s ease-in-out, color 0.2s ease-in-out;
+    opacity: 0;
+}
+
+/* Reveal the copy icon only while hovering the guide title row (desktop only). */
+.guide-name:hover .copy-link-button {
+    opacity: 0.6;
+}
+
+.copy-link-button:hover {
+    background: var(--main-text-color);
+    color: var(--main-background-color);
+    opacity: 1;
+}
+
+.copy-link-button svg {
+    font-size: 1.1rem;
+}
+
+@media (max-width: 1000px) {
+    .copy-link-button {
+        display: none;
+    }
+}
+
+.copy-toast {
+    position: fixed;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--main-background-color);
+    border: 1px solid var(--main-text-color);
+    color: var(--main-text-color);
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-size: 0.85rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.4s ease-in-out;
+    z-index: 1100;
+}
+
+.copy-toast-visible {
+    opacity: 1;
 }
 
 .in-tier-icon {
