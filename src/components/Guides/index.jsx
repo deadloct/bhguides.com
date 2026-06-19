@@ -125,14 +125,15 @@ export default function Guides() {
     }
 
     function guideAnchor(guide, catID) {
-        // An explicit `slug` in guides.json pins a stable link across renames or
-        // category moves; otherwise derive one from the category and guide name.
+        // An explicit `slug` in guides.json (conventionally prefixed with the
+        // category id) pins a stable link across renames; otherwise derive one
+        // from the category and guide name.
         if (guide.slug) {
-            return `guide-${key(guide.slug)}`;
+            return key(guide.slug);
         }
 
         const cat = guide.categoryName || catID;
-        return `guide-${key(cat)}-${key(guide.name)}`;
+        return `${key(cat)}-${key(guide.name)}`;
     }
 
     const copyGuideLink = anchor => {
