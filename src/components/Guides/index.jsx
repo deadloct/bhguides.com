@@ -42,6 +42,7 @@ export default function Guides() {
     const [htmlVisible, setHtmlVisible] = useState(false);
     const [htmlFile, setHtmlFile] = useState("");
     const [htmlName, setHtmlName] = useState("");
+    const [activeAnchor, setActiveAnchor] = useState("");
     const [disclaimerVisible, setDisclaimerVisible] = useState(true);
     const [copyToastVisible, setCopyToastVisible] = useState(false);
     const copyToastTimeout = useRef(null);
@@ -73,7 +74,8 @@ export default function Guides() {
         });
     }, [categories, search, searchTerm]);
 
-    const openLightbox = attachment => {
+    const openLightbox = (attachment, anchor) => {
+        setActiveAnchor(anchor || "");
         setLightboxFile(attachment.filename);
         setLightboxType(attachment.attachmenttype || "image");
         setLightboxContentType(attachment.contenttype || "");
@@ -81,14 +83,16 @@ export default function Guides() {
     };
     const hideLightbox = () => setLightboxVisible(false);
 
-    const openMarkdown = attachment => {
+    const openMarkdown = (attachment, anchor) => {
+        setActiveAnchor(anchor || "");
         setMarkdownFile(attachment.filename);
         setMarkdownName(attachment.filename);
         setMarkdownVisible(true);
     };
     const hideMarkdown = () => setMarkdownVisible(false);
 
-    const openHtml = attachment => {
+    const openHtml = (attachment, anchor) => {
+        setActiveAnchor(anchor || "");
         setHtmlFile(attachment.filename);
         setHtmlName(attachment.filename);
         setHtmlVisible(true);
@@ -171,11 +175,11 @@ export default function Guides() {
         return "";
     }
 
-    function attachment(item, i) {
+    function attachment(item, i, anchor) {
         switch (item.attachmenttype) {
             case "image":
                 return (
-                    <li key={`item-${i}`} className={`${styles["attachment-item"]} ${styles["attachment-item-img"]}`} onClick={() => openLightbox(item)}>
+                    <li key={`item-${i}`} className={`${styles["attachment-item"]} ${styles["attachment-item-img"]}`} onClick={() => openLightbox(item, anchor)}>
                         <ImageIcon /> 
                         <span className={styles["att-name"]}>{item.filename}</span>
                         <span className={styles["att-type"]}>{`(${item.contenttype})`}</span>
@@ -193,7 +197,7 @@ export default function Guides() {
 
             case "markdown":
                 return (
-                    <li key={`item-${i}`} className={`${styles["attachment-item"]} ${styles["attachment-item-markdown"]}`} onClick={() => openMarkdown(item)}>
+                    <li key={`item-${i}`} className={`${styles["attachment-item"]} ${styles["attachment-item-markdown"]}`} onClick={() => openMarkdown(item, anchor)}>
                         <ArticleIcon /> 
                         <span className={styles["att-name"]}>{item.filename}</span>
                         <span className={styles["att-type"]}>(markdown/text)</span>
@@ -202,7 +206,7 @@ export default function Guides() {
 
             case "html":
                 return (
-                    <li key={`item-${i}`} className={`${styles["attachment-item"]} ${styles["attachment-item-markdown"]}`} onClick={() => openHtml(item)}>
+                    <li key={`item-${i}`} className={`${styles["attachment-item"]} ${styles["attachment-item-markdown"]}`} onClick={() => openHtml(item, anchor)}>
                         <HtmlIcon />
                         <span className={styles["att-name"]}>{item.filename}</span>
                         <span className={styles["att-type"]}>(html)</span>
@@ -211,7 +215,7 @@ export default function Guides() {
 
             case "video":
                 return (
-                    <li key={`item-${i}`} className={`${styles["attachment-item"]} ${styles["attachment-item-video"]}`} onClick={() => openLightbox(item)}>
+                    <li key={`item-${i}`} className={`${styles["attachment-item"]} ${styles["attachment-item-video"]}`} onClick={() => openLightbox(item, anchor)}>
                         <SmartDisplayIcon />
                         <span className={styles["att-name"]}>{item.filename}</span>
                         <span className={styles["att-type"]}>{`(${item.contenttype || "video"})`}</span>
@@ -250,12 +254,12 @@ export default function Guides() {
         }
     }
 
-    function attachments(guide) {
+    function attachments(guide, anchor) {
         if (!guide.attachments) {
             return ""
         }
 
-        return <ul>{guide.attachments.map(attachment)}</ul>;
+        return <ul>{guide.attachments.map((item, i) => attachment(item, i, anchor))}</ul>;
     }
 
     function renderGuide(guide, i, isSearch, catID) {
@@ -290,7 +294,7 @@ export default function Guides() {
                 {roles(guide)}
                 {revealedBy(guide)}
                 {cat}
-                {attachments(guide)} 
+                {attachments(guide, anchor)}
             </li>
         );
     }
@@ -462,9 +466,10 @@ export default function Guides() {
                 type={lightboxType}
                 contentType={lightboxContentType}
                 hide={hideLightbox}
+                onShare={activeAnchor ? () => copyGuideLink(activeAnchor) : null}
             />
-            <Markdown visible={markdownVisible} file={markdownFile} name={markdownName} hide={hideMarkdown} />
-            <Html visible={htmlVisible} file={htmlFile} name={htmlName} hide={hideHtml} />
+            <Markdown visible={markdownVisible} file={markdownFile} name={markdownName} hide={hideMarkdown} onShare={activeAnchor ? () => copyGuideLink(activeAnchor) : null} />
+            <Html visible={htmlVisible} file={htmlFile} name={htmlName} hide={hideHtml} onShare={activeAnchor ? () => copyGuideLink(activeAnchor) : null} />
         </Container>
     );
 }

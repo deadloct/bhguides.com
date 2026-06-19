@@ -63,7 +63,7 @@ This is a React 18 server-side rendered application for bhguides.com, a communit
 
 The guides system includes custom in-memory search indexing that processes guide metadata at page load for fast filtering.
 
-Each guide is deep-linkable: clicking a guide title (or the copy icon shown on hover, desktop only) copies a `#<anchor>` link, and visiting that link scrolls to the guide. Anchors come from each guide's `slug` in `guides.json`, which is conventionally `<category-id>-<name-slug>` (e.g. `t08d4-crows-pic-guide`). The slug keeps the link stable across renames. If a guide has no `slug`, the anchor falls back to `<category-id>-<name-slug>` derived at render time.
+Each guide is deep-linkable: clicking a guide title (or the copy icon shown on hover, desktop only) copies a `#<anchor>` link, and visiting that link scrolls to the guide. The attachment viewers (image lightbox, video, markdown, and HTML modals) also show a share icon that copies the same link. Anchors come from each guide's `slug` in `guides.json`, which is conventionally `<category-id>-<name-slug>` (e.g. `t08d4-crows-pic-guide`). The slug keeps the link stable across renames. If a guide has no `slug`, the anchor falls back to `<category-id>-<name-slug>` derived at render time.
 
 ### Component Patterns
 

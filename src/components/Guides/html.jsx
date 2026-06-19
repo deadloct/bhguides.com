@@ -5,6 +5,7 @@ import CircularProgress from '@mui/material/CircularProgress';
 import styles from "./markdown.module.css";
 
 import CancelIcon from '@mui/icons-material/Cancel';
+import ShareIcon from '@mui/icons-material/Share';
 
 const ErrFetchFailure = `Unfortunately there was an error retrieving the HTML guide. Contact BillyIdol!`;
 
@@ -72,7 +73,7 @@ function serializeRules(rules, scope) {
     return out;
 }
 
-export default function HtmlModal({ file, name, visible, hide }) {
+export default function HtmlModal({ file, name, visible, hide, onShare }) {
     const [body, setBody] = useState("");
     const [err, setErr] = useState("");
     const [loading, setLoading] = useState(true);
@@ -142,7 +143,12 @@ export default function HtmlModal({ file, name, visible, hide }) {
     return (
         <Modal className={styles["modal"]} open={visible} onClose={hide}>
             <div className={styles["wrapper"]}>
-                <div className={styles["close"]} onClick={hide}><CancelIcon /></div>
+                <div className={styles["toolbar"]}>
+                    {onShare && (
+                        <button type="button" className={styles["icon-btn"]} onClick={onShare} aria-label="Copy link to this guide" title="Copy link to this guide"><ShareIcon /></button>
+                    )}
+                    <button type="button" className={styles["icon-btn"]} onClick={hide} aria-label="Close" title="Close"><CancelIcon /></button>
+                </div>
                 <article
                     className={`${styles["article"]} ${SCOPE_CLASS}`}
                     dangerouslySetInnerHTML={{ __html: body }}
