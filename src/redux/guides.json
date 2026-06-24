@@ -916,6 +916,17 @@
                     ]
                 },
                 {
+                    "name": "Sora's Tsunamogh Pic Guide",
+                    "slug": "schematics-other-soras-tsunamogh-pic-guide",
+                    "attachments": [
+                        {
+                            "filename": "fusions-tsunamogh-sora.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        }
+                    ]
+                },
+                {
                     "name": "Sora's XL-Tarbis 1610b Pic Guide",
                     "slug": "schematics-other-soras-xl-tarbis-1610b-pic-guide",
                     "attachments": [
