@@ -74,6 +74,9 @@
             "name": "Familiars and Schematics",
             "children": [
                 {
+                    "id": "familiar-calculators"
+                },
+                {
                     "id": "familiar-recommendations-neflarian"
                 },
                 {
@@ -365,6 +368,22 @@
                             "filename": "fusion-cards-wrldeatr-zarlock.png",
                             "attachmenttype": "image",
                             "contenttype": "image/png"
+                        }
+                    ]
+                }
+            ]
+        },
+        "familiar-calculators": {
+            "webname": "Familiars and Fusion Calculators",
+            "description": "Useful tools for that show familiar and fusion information",
+            "guides": [
+                {
+                    "name": "ChubbyDaemon's Fusion Components Calculator (Official Wiki)",
+                    "slug": "calculators-chubbydaemon-fusion-components-calculator",
+                    "attachments": [
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://bit-heroes.fandom.com/wiki/Fusion_Guide"
                         }
                     ]
                 }
