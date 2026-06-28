@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { useDebounce } from "use-debounce";
 import Container from '@mui/material/Container';
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
@@ -31,10 +30,8 @@ export default function FamiliarCalc() {
     const [stableCount, setStableCount] = useState(1);
     const [disclaimerVisible, setDisclaimerVisible] = useState(true);
 
-    const [rawWinChance, setRawWinChance] = useState(20);
-    const [winChance] = useDebounce(rawWinChance, 500);
-    const [rawGameCount, setRawGameCount] = useState(10000);
-    const [gameCount] = useDebounce(rawGameCount, 500);
+    const [winChance, setWinChance] = useState(20);
+    const [gameCount, setGameCount] = useState(10000);
     const [results, setResults] = useState(null);
 
     const handleFamiliarChange = (event, newValue) => {
@@ -139,14 +136,14 @@ export default function FamiliarCalc() {
         let v = e.target.value;
         if (isNaN(v)) return;
         if (v < 0 || v > 100) return;
-        setRawWinChance(v);
+        setWinChance(v);
     }
 
     function handleGameCountChange(e) {
         let v = e.target.value;
         if (isNaN(v)) return;
         if (v < 0) return;
-        setRawGameCount(v);
+        setGameCount(v);
     }
 
     function displayResults() {

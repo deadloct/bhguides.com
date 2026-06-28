@@ -1,0 +1,31 @@
+.lightbox {
+    border: none;
+    background: transparent;
+    padding: 0;
+    max-width: 95vw;
+    max-height: 95vh;
+}
+
+.lightbox::backdrop {
+    background: rgba(0, 0, 0, 0.85);
+}
+
+.content {
+    position: relative;
+}
+
+.toolbar {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    display: flex;
+    gap: 8px;
+    z-index: 1;
+}
+
+.image {
+    display: block;
+    max-width: 95vw;
+    max-height: 90vh;
+    object-fit: contain;
+}

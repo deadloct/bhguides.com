@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useSelector } from "react-redux";
+import calcOptions from '../../redux/calcOptions.json';
 import FormControl from '@mui/material/FormControl';
 import Box from '@mui/material/Box';
 import InputLabel from '@mui/material/InputLabel';
@@ -18,7 +18,7 @@ import {
 } from "../../utils/utils";
 
 export default function ExperienceCalc() {
-    const options = useSelector((state) => state.calc.options.experience);
+    const options = calcOptions.experience;
 
     const [output, setOutput] = useState("0%");
     const [equation, setEquation] = useState("");

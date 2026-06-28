@@ -1,28 +1,18 @@
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import CssBaseline from "@mui/material/CssBaseline";
-import { useMemo, useEffect } from 'react';
-import { useSelector, useDispatch, Provider } from 'react-redux';
-import { store } from '../src/redux/store';
+import { useMemo, useEffect, useState } from 'react';
 import '../styles/globals.css';
 
+import { ThemeContext } from '../src/context/theme';
 import Header from "../src/components/Header";
 import Footer from "../src/components/Footer";
 import HashRedirect from "../src/components/HashRedirect";
-import { setTheme } from '../src/redux/themeSlice';
 
 function MyApp({ Component, pageProps }) {
-    return (
-        <Provider store={store}>
-            <AppContent Component={Component} pageProps={pageProps} />
-        </Provider>
-    );
-}
+    const [themeMode, setThemeMode] = useState('dark');
 
-function AppContent({ Component, pageProps }) {
-    const dispatch = useDispatch();
-    const themeMode = useSelector(state => state.theme.mode);
+    const toggleTheme = () => setThemeMode(m => m === 'dark' ? 'light' : 'dark');
 
-    // Initialize theme attribute on mount
     useEffect(() => {
         document.documentElement.setAttribute('data-theme', themeMode);
     }, [themeMode]);
@@ -32,7 +22,6 @@ function AppContent({ Component, pageProps }) {
             mode: themeMode,
         },
         breakpoints: {
-            // MUI replaces (does not merge) values, so all keys are required.
             values: {
                 xs: 0,
                 sm: 600,
@@ -44,17 +33,19 @@ function AppContent({ Component, pageProps }) {
     }), [themeMode]);
 
     return (
-        <ThemeProvider theme={theme}>
-            <CssBaseline />
-            <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
-                <HashRedirect />
-                <Header />
-                <main style={{ flex: 1 }}>
-                    <Component {...pageProps} />
-                </main>
-                <Footer />
-            </div>
-        </ThemeProvider>
+        <ThemeContext.Provider value={{ themeMode, toggleTheme }}>
+            <ThemeProvider theme={theme}>
+                <CssBaseline />
+                <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
+                    <HashRedirect />
+                    <Header />
+                    <main style={{ flex: 1 }}>
+                        <Component {...pageProps} />
+                    </main>
+                    <Footer />
+                </div>
+            </ThemeProvider>
+        </ThemeContext.Provider>
     );
 }
 

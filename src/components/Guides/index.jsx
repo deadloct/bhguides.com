@@ -1,6 +1,14 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
-import { useSelector } from "react-redux";
 import Container from '@mui/material/Container';
+import rawGuidesData from '../../redux/guides.json';
+
+const naturalSort = (a, b) => a.localeCompare(b, undefined, { numeric: true, sensitivity: 'base' });
+
+const guidesData = rawGuidesData.guides;
+Object.keys(guidesData).forEach(k => {
+    guidesData[k].guides.sort((a, b) => naturalSort(a.name, b.name));
+});
+const guideIndexData = rawGuidesData.index;
 
 import styles from "./index.module.css";
 import Search from "./search";
@@ -24,11 +32,7 @@ import AcUnitIcon from '@mui/icons-material/AcUnit';
 import ContentCopyIcon from '@mui/icons-material/ContentCopy';
 
 export default function Guides() {
-    const guides = useSelector((state) => state.guides.guides);
-    const guideIndex = useSelector((state) => state.guides.index);
-
-    const categories = useMemo(() => ({...guides}), [guides]); // Just use redux for initial state
-    const search = useMemo(() => new Search(categories), [categories]);
+    const search = useMemo(() => new Search(guidesData), []);
 
     const [searchTerm, setSearchTerm] = useState("");
     const [searchResults, setSearchResults] = useState(null);
@@ -72,7 +76,7 @@ export default function Guides() {
             "guides": results,
             "isSearch": true,
         });
-    }, [categories, search, searchTerm]);
+    }, [search, searchTerm]);
 
     const openLightbox = (attachment, anchor) => {
         setActiveAnchor(anchor || "");
@@ -346,7 +350,7 @@ export default function Guides() {
 
     function renderCategoriesForIndex(indexEntry, i, depth = 0) {
         if (!indexEntry.children) {
-            return renderGuidesForCategory(indexEntry.id, categories[indexEntry.id], i, depth > 0);
+            return renderGuidesForCategory(indexEntry.id, guidesData[indexEntry.id], i, depth > 0);
         }
 
         return (
@@ -362,15 +366,15 @@ export default function Guides() {
     }
 
     function renderTableOfContents() {
-        const items = guideIndex 
+        const items = guideIndexData 
             .map((item, i) => {
                 const anchor = item.id;
-                const name = item.name || categories[anchor].webname;
+                const name = item.name || guidesData[anchor].webname;
                 let children;
                 if (item.children && item.children.length > 0) {
                     children = item.children.map((child, i) => {
                         const anchor = child.id;
-                        const name = child.name || categories[anchor].webname;
+                        const name = child.name || guidesData[anchor].webname;
                         return <li className={styles["toc-child"]} key={`toc-${i}`}><a href={`#${anchor}`}>{name}</a></li>;
                     });
                 }
@@ -398,8 +402,8 @@ export default function Guides() {
 
         return (
             <>
-                {renderTableOfContents(guideIndex)}
-                {...guideIndex.map((indexEntry, i) => renderCategoriesForIndex(indexEntry, i))}
+                {renderTableOfContents(guideIndexData)}
+                {...guideIndexData.map((indexEntry, i) => renderCategoriesForIndex(indexEntry, i))}
             </>
         );
     }    

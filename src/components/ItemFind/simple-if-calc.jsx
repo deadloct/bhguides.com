@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import { useSelector } from "react-redux";
+import calcOptions from '../../redux/calcOptions.json';
 
 import Box from '@mui/material/Box';
 import FormControl from '@mui/material/FormControl';
@@ -13,7 +13,7 @@ import styles from "./index.module.css";
 import { cleanVal, getEncounterIFForDisplay, getOptionValue, VerticalSpacing } from "../../utils/utils";
 
 export default function SimpleIFCalc() {
-    const options = useSelector((state) => state.calc.options.itemFind);
+    const options = calcOptions.itemFind;
     const [output, setOutput] = useState("0%");
     const [equation, setEquation] = useState("");
     const [infoIF, setInfoIF] = useState(0);

@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import { useSelector } from "react-redux";
+import calcOptions from '../../redux/calcOptions.json';
 
 import Box from '@mui/material/Box';
 import FormControl from '@mui/material/FormControl';
@@ -13,7 +13,7 @@ import styles from './index.module.css';
 import { cleanVal, getOptionValue, VerticalSpacing } from "../../utils/utils";
 
 export default function CaptureRateCalc() {
-    const encounterOptions = useSelector((state) => state.calc.options.captureRate.encounter);
+    const encounterOptions = calcOptions.captureRate.encounter;
 
     const [output, setOutput] = useState("0%");
     const [infoCapRate, setInfoCapRate] = useState(0);

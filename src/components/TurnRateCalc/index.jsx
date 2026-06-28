@@ -7,7 +7,6 @@ import TextField from '@mui/material/TextField';
 import Slider from '@mui/material/Slider';
 
 import styles from "./index.module.css";
-import TurnRateEqnSVG from './turn-rate-equation.svg';
 
 const defaultValues = {
     power: 20000,
@@ -193,7 +192,7 @@ export default function TurnRateCalc() {
             </blockquote>
 
             <h3>Equation</h3>
-            <div className={styles.equation}><TurnRateEqnSVG /></div>
+            <div className={styles.equation}><img src="/turn-rate-equation.svg" alt="Turn rate equation" /></div>
             <dl>
                 <dt>P</dt>
                 <dd>Power</dd>

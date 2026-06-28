@@ -1,27 +1,37 @@
-import React from "react";
-import { Lightbox as ModalLightbox } from "react-modal-image";
+import React, { useRef, useEffect } from "react";
 import Dialog from '@mui/material/Dialog';
 import DialogContent from '@mui/material/DialogContent';
 import IconButton from '@mui/material/IconButton';
 import CloseIcon from '@mui/icons-material/Close';
 import ShareIcon from '@mui/icons-material/Share';
+import styles from "./lightbox.module.css";
 
 export default function Lightbox({ file, visible, hide, type, contentType, onShare }) {
     const full = `/guide-files/${file}`;
     const isVideo = type === "video" || (contentType && contentType.startsWith("video/"));
+    const dialogRef = useRef(null);
 
-    if (!visible) {
-        return;
-    }
+    useEffect(() => {
+        const dialog = dialogRef.current;
+        if (!dialog) return;
+        if (visible) {
+            if (!dialog.open) dialog.showModal();
+        } else {
+            if (dialog.open) dialog.close();
+        }
+    }, [visible]);
+
+    useEffect(() => {
+        const dialog = dialogRef.current;
+        if (!dialog) return;
+        dialog.addEventListener('close', hide);
+        return () => dialog.removeEventListener('close', hide);
+    }, [hide]);
 
     if (isVideo) {
+        if (!visible) return null;
         return (
-            <Dialog
-                open={visible}
-                onClose={hide}
-                maxWidth="lg"
-                fullWidth
-            >
+            <Dialog open={visible} onClose={hide} maxWidth="lg" fullWidth>
                 <DialogContent sx={{ p: 1, position: 'relative' }}>
                     {onShare && (
                         <IconButton
@@ -54,26 +64,33 @@ export default function Lightbox({ file, visible, hide, type, contentType, onSha
     }
 
     return (
-        <>
-            <ModalLightbox
-                visible={visible}
-                medium={full}
-                large={full}
-                alt={file}
-                onClose={hide}
-            />
-            {onShare && (
-                <IconButton
-                    aria-label="Copy link to this guide"
-                    title="Copy link to this guide"
-                    onClick={onShare}
-                    // Sit above react-modal-image's overlay (z-index 5000), clear
-                    // of its top header bar and bottom-center copied toast.
-                    sx={{ position: 'fixed', bottom: 16, left: 16, zIndex: 5001, bgcolor: 'rgba(0,0,0,0.5)', color: '#fff', '&:hover': { bgcolor: 'rgba(0,0,0,0.7)' } }}
-                >
-                    <ShareIcon />
-                </IconButton>
-            )}
-        </>
+        <dialog
+            ref={dialogRef}
+            className={styles.lightbox}
+            onClick={e => { if (e.target === dialogRef.current) hide(); }}
+        >
+            <div className={styles.content}>
+                <div className={styles.toolbar}>
+                    {onShare && (
+                        <IconButton
+                            aria-label="Copy link to this guide"
+                            title="Copy link to this guide"
+                            onClick={onShare}
+                            sx={{ color: '#fff', bgcolor: 'rgba(0,0,0,0.5)', '&:hover': { bgcolor: 'rgba(0,0,0,0.7)' } }}
+                        >
+                            <ShareIcon />
+                        </IconButton>
+                    )}
+                    <IconButton
+                        aria-label="Close"
+                        onClick={hide}
+                        sx={{ color: '#fff', bgcolor: 'rgba(0,0,0,0.5)', '&:hover': { bgcolor: 'rgba(0,0,0,0.7)' } }}
+                    >
+                        <CloseIcon />
+                    </IconButton>
+                </div>
+                <img src={full} alt={file} className={styles.image} />
+            </div>
+        </dialog>
     );
-};
+}

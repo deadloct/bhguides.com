@@ -8,12 +8,9 @@
         "@emotion/styled": "^11.10.0",
         "@mui/icons-material": "^6.x.x",
         "@mui/material": "^6.x.x",
-        "@reduxjs/toolkit": "^1.8.5",
         "next": "^15.5.2",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
-        "react-modal-image": "^2.6.0",
-        "react-redux": "^8.0.2",
         "remark-gfm": "^4.0.1"
     },
     "scripts": {
@@ -45,11 +42,9 @@
         ]
     },
     "devDependencies": {
-        "@svgr/webpack": "^8.1.0",
         "eslint": "^9.34.0",
         "eslint-config-next": "^15.5.2",
         "react-markdown": "^9.0.1",
-        "use-debounce": "^10.0.0",
         "vitest": "^4.1.8"
     }
 }

@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { useDebounce } from "use-debounce";
 
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
@@ -13,10 +12,8 @@ import DieIcon from "@mui/icons-material/Casino";
 import StreakChart from "../StreakChart";
 
 export default function EggCracker() {
-    const [rawWinChance, setRawWinChance] = useState(3.4);
-    const [winChance] = useDebounce(rawWinChance, 500);
-    const [rawGameCount, setRawGameCount] = useState(10000);
-    const [gameCount] = useDebounce(rawGameCount, 500);
+    const [winChance, setWinChance] = useState(3.4);
+    const [gameCount, setGameCount] = useState(10000);
     const [results, setResults] = useState(null);
 
     function getRandomInt(min, max) {
@@ -97,14 +94,14 @@ export default function EggCracker() {
         let v = e.target.value;
         if (isNaN(v)) return;
         if (v < 0 || v > 100) return;
-        setRawWinChance(v);
+        setWinChance(v);
     }
 
     function handleGameCountChange(e) {
         let v = e.target.value;
         if (isNaN(v)) return;
         if (v < 0) return;
-        setRawGameCount(v);
+        setGameCount(v);
     }
 
     function displayResults() {
