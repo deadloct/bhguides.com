@@ -1541,7 +1541,6 @@
                 {
                     "name": "Woodtaroth",
                     "slug": "event-familiars-woodtaroth",
-                    "inFestiviflux": true,
                     "roles": [
                         "Support"
                     ],
