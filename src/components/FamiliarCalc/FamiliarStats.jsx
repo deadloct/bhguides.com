@@ -69,7 +69,7 @@ export default function FamiliarStats() {
                 <div className={`${styles["bubble"]} ${styles["ext-link-risk"]}`}>
                     <WarningAmberIcon />
                     <div className={styles["bubble-message"]}>
-                        Data was scraped from <a href="https://bit-heroes.fandom.com/wiki">the wiki</a> on 5 August 2025. Some stats are outdated.
+                        Data was scraped from <a href="https://bit-heroes.fandom.com/wiki">the wiki</a> on 29 June 2026.
                     </div>
                     <WarningAmberIcon />
                     <button 
