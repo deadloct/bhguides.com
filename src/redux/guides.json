@@ -2866,6 +2866,34 @@
                         }
                     ],
                     "inTier": true
+                },
+                {
+                    "name": "BillyIdol's In-Tier Guide",
+                    "slug": "t09d4-billyidols-in-tier-guide",
+                    "builds": [
+                        "Inferno"
+                    ],
+                    "fams": [
+                        "Hoplag",
+                        "Kris Gemmgle"
+                    ],
+                    "attachments": [
+                        {
+                            "filename": "d4-t9-billyidol.html",
+                            "attachmenttype": "html"
+                        },
+                        {
+                            "filename": "d4-t9-billyidol-craft.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        },
+                        {
+                            "filename": "d4-t9-billyidol-team.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        }
+                    ],
+                    "inTier": true
                 }
             ]
         },
