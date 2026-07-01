@@ -4620,6 +4620,43 @@
                         }
                     ],
                     "inTier": false
+                },
+                {
+                    "name": "Vicious' Sele's Brute Force Method for W3-4ty",
+                    "slug": "t19d4-viciouss-seles-brute-force-method",
+                    "builds": [
+                        "Seleucus"
+                    ],
+                    "fams": [
+                        "Teithyus"
+                    ],
+                    "attachments": [
+                        {
+                            "filename": "d4-t19-vicious.html",
+                            "attachmenttype": "html"
+                        },
+                        {
+                            "filename": "d4-t19-vicious-build.jpg",
+                            "attachmenttype": "image",
+                            "contenttype": "image/jpeg"
+                        },
+                        {
+                            "filename": "d4-t19-vicious-teithyus.jpg",
+                            "attachmenttype": "image",
+                            "contenttype": "image/jpeg"
+                        },
+                        {
+                            "filename": "d4-t19-vicious-stats.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        },
+                        {
+                            "filename": "d4-t19-vicious-team.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        }
+                    ],
+                    "inTier": false
                 }
             ]
         },
