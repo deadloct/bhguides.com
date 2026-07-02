@@ -80,10 +80,10 @@
                     "id": "familiar-recommendations-neflarian"
                 },
                 {
-                    "id": "schematics-cards-wrld_eatr"
+                    "id": "fusion-cards-wrld_eatr"
                 },
                 {
-                    "id": "schematic-checklists-sora"
+                    "id": "fusion-guides-sora"
                 },
                 {
                     "id": "event-familiars"
@@ -220,34 +220,8 @@
                 }
             ]
         },
-        "schematic-checklists-sora": {
-            "webname": "Schematic Checklists by Sora",
-            "description": "Google Sheets templates for your favourite fusions",
-            "guides": [
-                {
-                    "name": "Gyl' Rotakan",
-                    "slug": "schematic-checklists-sora-gyl-rotakan",
-                    "attachments": [
-                        {
-                            "attachmenttype": "link",
-                            "link": "https://docs.google.com/spreadsheets/d/1nIw84e9dOcK7u3FtdrVsq-LCzSJpxU-AV6Lx66GcxDA/edit?usp=sharing"
-                        }
-                    ]
-                },
-                {
-                    "name": "Kimusaba",
-                    "slug": "schematic-checklists-sora-kimusaba",
-                    "attachments": [
-                        {
-                            "attachmenttype": "link",
-                            "link": "https://docs.google.com/spreadsheets/d/1nIw84e9dOcK7u3FtdrVsq-LCzSJpxU-AV6Lx66GcxDA/edit?gid=1707653598#gid=1707653598"
-                        }
-                    ]
-                }
-            ]
-        },
-        "schematics-cards-wrld_eatr": {
-            "webname": "Familiar Cards by WRLD_EATR",
+        "fusion-cards-wrld_eatr": {
+            "webname": "Fusion Cards by WRLD_EATR",
             "description": "Useful cards about popular schematics",
             "guides": [
                 {
@@ -366,6 +340,76 @@
                     "attachments": [
                         {
                             "filename": "fusion-cards-wrldeatr-zarlock.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        }
+                    ]
+                }
+            ]
+        },
+        "fusion-guides-sora": {
+            "webname": "Fusion Guides by Sora",
+            "description": "Familiar fusion guides and schematic checklists by Sora",
+            "guides": [
+                {
+                    "name": "Gyl' Rotakan Checklist",
+                    "slug": "fusion-guides-sora-checklist-gyl-rotakan",
+                    "attachments": [
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://docs.google.com/spreadsheets/d/1nIw84e9dOcK7u3FtdrVsq-LCzSJpxU-AV6Lx66GcxDA/edit?usp=sharing"
+                        }
+                    ]
+                },
+                {
+                    "name": "Kimusaba Checklist",
+                    "slug": "fusion-guides-sora-checklist-kimusaba",
+                    "attachments": [
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://docs.google.com/spreadsheets/d/1nIw84e9dOcK7u3FtdrVsq-LCzSJpxU-AV6Lx66GcxDA/edit?gid=1707653598#gid=1707653598"
+                        }
+                    ]
+                },
+                {
+                    "name": "Sora's Rigneous Pic Guide",
+                    "slug": "fusion-guides-sora-rigneous-pic-guide",
+                    "attachments": [
+                        {
+                            "filename": "fusions-rigneous-sora.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        }
+                    ]
+                },
+                {
+                    "name": "Sora's Tsunamogh Pic Guide",
+                    "slug": "fusion-guides-sora-tsunamogh-pic-guide",
+                    "attachments": [
+                        {
+                            "filename": "fusions-tsunamogh-sora-with-gems.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        }
+                    ]
+                },
+                {
+                    "name": "Sora's XL-Tarbis 1610b Pic Guide",
+                    "slug": "fusion-guides-sora-xl-tarbis-1610b-pic-guide",
+                    "attachments": [
+                        {
+                            "filename": "fusions-tarbis-sora.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        }
+                    ]
+                },
+                {
+                    "name": "Sora's Lord Malakrogg Pic Guide",
+                    "slug": "fusion-guides-sora-lord-malakrogg-pic-guide",
+                    "attachments": [
+                        {
+                            "filename": "fusions-lord_malakrogg-sora.png",
                             "attachmenttype": "image",
                             "contenttype": "image/png"
                         }
@@ -929,39 +973,6 @@
                     "attachments": [
                         {
                             "filename": "fusions-thundmolf-shawnbond.png",
-                            "attachmenttype": "image",
-                            "contenttype": "image/png"
-                        }
-                    ]
-                },
-                {
-                    "name": "Sora's Rigneous Pic Guide",
-                    "slug": "schematics-other-soras-rigneous-pic-guide",
-                    "attachments": [
-                        {
-                            "filename": "fusions-rigneous-sora.png",
-                            "attachmenttype": "image",
-                            "contenttype": "image/png"
-                        }
-                    ]
-                },
-                {
-                    "name": "Sora's Tsunamogh Pic Guide",
-                    "slug": "schematics-other-soras-tsunamogh-pic-guide",
-                    "attachments": [
-                        {
-                            "filename": "fusions-tsunamogh-sora-with-gems.png",
-                            "attachmenttype": "image",
-                            "contenttype": "image/png"
-                        }
-                    ]
-                },
-                {
-                    "name": "Sora's XL-Tarbis 1610b Pic Guide",
-                    "slug": "schematics-other-soras-xl-tarbis-1610b-pic-guide",
-                    "attachments": [
-                        {
-                            "filename": "fusions-tarbis-sora.png",
                             "attachmenttype": "image",
                             "contenttype": "image/png"
                         }
