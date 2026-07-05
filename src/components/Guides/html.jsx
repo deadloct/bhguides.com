@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Modal from '@mui/material/Modal';
 import CircularProgress from '@mui/material/CircularProgress';
+import DOMPurify from 'dompurify';
 
 import styles from "./markdown.module.css";
 
@@ -21,8 +22,12 @@ function scopeHtml(raw) {
         return raw;
     }
 
+    // Guide HTML files are community-submitted. Strip scripts, event handler
+    // attributes, javascript: URLs, etc. before any of it touches the live DOM.
+    const clean = DOMPurify.sanitize(raw, { ADD_TAGS: ["style"] });
+
     const template = document.createElement("template");
-    template.innerHTML = raw;
+    template.innerHTML = clean;
 
     template.content.querySelectorAll("style").forEach((styleEl) => {
         styleEl.textContent = scopeCss(styleEl.textContent, `.${SCOPE_CLASS}`);

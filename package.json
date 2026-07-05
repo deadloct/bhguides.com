@@ -8,6 +8,7 @@
         "@emotion/styled": "^11.10.0",
         "@mui/icons-material": "^6.x.x",
         "@mui/material": "^6.x.x",
+        "dompurify": "^3.4.11",
         "next": "^15.5.2",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
