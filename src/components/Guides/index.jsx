@@ -18,7 +18,6 @@ import Html from "./html";
 
 import ArticleIcon from '@mui/icons-material/Article';
 import HtmlIcon from '@mui/icons-material/Html';
-import CancelIcon from '@mui/icons-material/Cancel';
 import CloseIcon from '@mui/icons-material/Close';
 import ImageIcon from '@mui/icons-material/Image';
 import SmartDisplayIcon from '@mui/icons-material/SmartDisplay';
@@ -27,9 +26,10 @@ import WebhookIcon from '@mui/icons-material/Webhook';
 import MicrosoftIcon from '@mui/icons-material/Microsoft';
 import PictureAsPdfIcon from '@mui/icons-material/PictureAsPdf';
 import WarningAmberIcon from '@mui/icons-material/WarningAmber';
-import WorkspacePremiumIcon from '@mui/icons-material/WorkspacePremium';
 import AcUnitIcon from '@mui/icons-material/AcUnit';
 import ContentCopyIcon from '@mui/icons-material/ContentCopy';
+import WorkspacePremiumIcon from '@mui/icons-material/WorkspacePremium';
+import CancelIcon from '@mui/icons-material/Cancel';
 
 export default function Guides() {
     const search = useMemo(() => new Search(guidesData), []);
@@ -106,14 +106,34 @@ export default function Guides() {
     const dismissDisclaimer = () => setDisclaimerVisible(false);
 
 
+    function inTierBadge(guide) {
+        if (guide.inTier) {
+            return (
+                <>
+                    <span className={styles["in-tier-pill"]} title="In-Tier Clear">IN-TIER</span>
+                    <WorkspacePremiumIcon
+                        titleAccess="In-Tier Clear"
+                        fontSize="small"
+                        className={styles["in-tier-icon"]}
+                    />
+                </>
+            );
+        }
+
+        return "";
+    }
+
     function obsolete(guide) {
         if (guide.obsolete && guide.obsolete.length) {
             return (
-                <div className={styles["obsolete"]}>
-                    <div className={styles["obsolete-left"]}><CancelIcon /></div>
-                    <div className={styles["obsolete-center"]}><strong>Obsolete</strong><br />{guide.obsolete}</div>
-                    <div className={styles["obsolete-right"]}><CancelIcon /></div>
-                </div>
+                <>
+                    <span className={styles["obsolete"]} title={guide.obsolete}>Obsolete</span>
+                    <CancelIcon
+                        titleAccess={guide.obsolete}
+                        fontSize="small"
+                        className={styles["obsolete-icon"]}
+                    />
+                </>
             );
         }
 
@@ -281,7 +301,9 @@ export default function Guides() {
                         className={styles["guide-title"]}
                         onClick={() => copyGuideLink(anchor)}
                         title="Copy link to this guide"
-                    >{guide.name}{guide.inTier && <WorkspacePremiumIcon titleAccess="In-Tier Clear" fontSize="small" className={styles["in-tier-icon"]} />}{guide.inFestiviflux && <AcUnitIcon titleAccess="Also available in Festiviflux Invasion" fontSize="small" className={styles["festiviflux-icon"]} />}</span>
+                    >{guide.name}{guide.inFestiviflux && <AcUnitIcon titleAccess="Also available in Festiviflux Invasion" fontSize="small" className={styles["festiviflux-icon"]} />}</span>
+                    {inTierBadge(guide)}
+                    {obsolete(guide)}
                     <button
                         type="button"
                         className={styles["copy-link-button"]}
@@ -292,7 +314,6 @@ export default function Guides() {
                         <ContentCopyIcon fontSize="small" />
                     </button>
                 </div>
-                {obsolete(guide)}
                 {fams(guide)}
                 {builds(guide)}
                 {roles(guide)}

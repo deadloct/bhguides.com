@@ -246,10 +246,33 @@
     opacity: 1;
 }
 
-.in-tier-icon {
-    margin-left: 0.4rem;
+.in-tier-pill,
+.obsolete {
+    display: inline-block;
+    flex-shrink: 0;
+    border-radius: 999px;
+    padding: 0.5rem 0.75rem;
+    font-size: 0.75rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    cursor: default;
+}
+
+.in-tier-pill {
+    background-color: #f5c518;
+    color: #1a1a1a;
+}
+
+svg.in-tier-icon,
+svg.obsolete-icon {
+    display: none;
+    flex-shrink: 0;
     vertical-align: middle;
-    color: #f5c518;
+}
+
+svg.in-tier-icon {
+    color: #d8b65a;
 }
 
 .festiviflux-icon {
@@ -288,24 +311,12 @@
 }
 
 .obsolete {
-    color: var(--warning-color);
-    border: 1px solid var(--warning-color);
-    border-radius: 3px;
-    margin: 1rem 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
+    background-color: #d32f2f;
+    color: #fff;
 }
 
-.obsolete-left, .obsolete-center, .obsolete-right {
-    margin: 0 1rem;
-    padding: 1rem;
-}
-
-.obsolete i {
-    color: var(--warning-color);
+svg.obsolete-icon {
+    color: #d99a9a;
 }
 
 .search-wrapper {
@@ -433,5 +444,15 @@
         right: 3vw;
         max-width: none;
         font-size: 0.75rem;
+    }
+
+    .in-tier-pill,
+    .obsolete {
+        display: none;
+    }
+
+    svg.in-tier-icon,
+    svg.obsolete-icon {
+        display: inline-block;
     }
 }
