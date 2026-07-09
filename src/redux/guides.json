@@ -349,10 +349,10 @@
         },
         "fusion-guides-sora": {
             "webname": "Fusion Guides by Sora",
-            "description": "Familiar fusion guides and schematic checklists by Sora",
+            "description": "Familiar fusion guides and checklists by Sora",
             "guides": [
                 {
-                    "name": "Gyl' Rotakan Checklist",
+                    "name": "Sora's Gyl' Rotakan Checklist",
                     "slug": "fusion-guides-sora-checklist-gyl-rotakan",
                     "attachments": [
                         {
@@ -362,7 +362,7 @@
                     ]
                 },
                 {
-                    "name": "Kimusaba Checklist",
+                    "name": "Sora's Kimusaba Checklist",
                     "slug": "fusion-guides-sora-checklist-kimusaba",
                     "attachments": [
                         {
@@ -412,6 +412,26 @@
                             "filename": "fusions-lord_malakrogg-sora.png",
                             "attachmenttype": "image",
                             "contenttype": "image/png"
+                        }
+                    ]
+                },
+                {
+                    "name": "Sora's Tsunamogh Checklist",
+                    "slug": "fusion-guides-sora-checklist-tsunamogh",
+                    "attachments": [
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://docs.google.com/spreadsheets/d/1JveH3ug3lSBIeqb3Cm2ZCITg9qFJ0kmRb0aTg6jeYLY/edit?gid=1183817048#gid=1183817048"
+                        }
+                    ]
+                },
+                {
+                    "name": "Sora's Lord Malakrogg Checklist",
+                    "slug": "fusion-guides-sora-checklist-lord-malakrogg",
+                    "attachments": [
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://docs.google.com/spreadsheets/d/1JveH3ug3lSBIeqb3Cm2ZCITg9qFJ0kmRb0aTg6jeYLY/edit?gid=364875605#gid=364875605"
                         }
                     ]
                 }
