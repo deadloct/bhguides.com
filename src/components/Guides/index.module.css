@@ -296,6 +296,7 @@ svg.in-tier-icon {
 .attachment-item .att-name {
     vertical-align: middle;
     color: var(--main-link-color);
+    overflow-wrap: anywhere;
 }
 
 .attachment-item a:hover,
