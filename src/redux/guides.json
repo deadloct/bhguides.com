@@ -3105,6 +3105,24 @@
             "description": "Community t12d4 Ladener Broom strategies",
             "guides": [
                 {
+                    "name": "Bat's Insanity Inducing Broom Guide",
+                    "slug": "t12d4-bats-in-tier-broom-guide",
+                    "builds": [
+                        "Apocalypse"
+                    ],
+                    "fams": [
+                        "Mir'alg",
+                        "xX_DarkOverlord_Xx"
+                    ],
+                    "attachments": [
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://docs.google.com/document/d/1Hz8MdA78-u3nOToEM9-3un9SZkCQsKlwwKdCCs_VsWs/edit?usp=sharing"
+                        }
+                    ],
+                    "inTier": true
+                },
+                {
                     "name": "PocketApple8104's In-Tier Broom Video",
                     "slug": "t12d4-pocketapple8104s-in-tier-broom-video",
                     "builds": [
