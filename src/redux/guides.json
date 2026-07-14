@@ -1126,6 +1126,26 @@
                     ]
                 },
                 {
+                    "name": "Chrys Gemmort",
+                    "slug": "event-familiars-chrys-gemmort",
+                    "inFestiviflux": false,
+                    "roles": [
+                        "DPS"
+                    ],
+                    "revealed_by": "WRLD_EATR",
+                    "attachments": [
+                        {
+                            "filename": "fusion-event-chrys_gemmort.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        },
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://www.youtube.com/watch?v=Khkv-h6hi2w"
+                        }
+                    ]
+                },
+                {
                     "name": "Googie Moogienz",
                     "slug": "event-familiars-googie-moogienz",
                     "inFestiviflux": true,
