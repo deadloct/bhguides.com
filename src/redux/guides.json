@@ -1872,6 +1872,30 @@
                     ]
                 },
                 {
+                    "name": "Sora's Cursed Calavera Grunt Clear",
+                    "slug": "z15f8-soras-grunt-clear",
+                    "fams": [
+                        "Remmyt",
+                        "Ulairius"
+                    ],
+                    "attachments": [
+                        {
+                            "filename": "z15f8-sora.html",
+                            "attachmenttype": "html"
+                        },
+                        {
+                            "filename": "z15f8-sora-mobs.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        },
+                        {
+                            "filename": "z15f8-sora-boss.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        }
+                    ]
+                },
+                {
                     "name": "IanBob2's Grunt Clear",
                     "slug": "z15f8-ianbob2s-grunt-clear",
                     "builds": [
