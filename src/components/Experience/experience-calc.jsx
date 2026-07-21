@@ -13,7 +13,6 @@ import {
     getEncounterIFForDisplay,
     getIFEquation,
     getOptionValue,
-    SardinexEventOverride,
     VerticalSpacing,
 } from "../../utils/utils";
 
@@ -28,7 +27,6 @@ export default function ExperienceCalc() {
         guild: options.guild.default,
         consumable: options.consumables.default,
         daily: options.daily.default,
-        dailyMult: 1,
         adgor: options.adgor.default,
         encounter: options.encounter.default,
     });
@@ -49,7 +47,6 @@ export default function ExperienceCalc() {
             guild: getOptionValue(options.guild, formValues.guild),
             consumable: getOptionValue(options.consumables, formValues.consumable),
             daily: getOptionValue(options.daily, formValues.daily),
-            dailyMult: formValues.dailyMult,
             adgor: getOptionValue(options.adgor, formValues.adgor),
             encounter: getOptionValue(options.encounter, formValues.encounter),
         };
@@ -159,27 +156,6 @@ export default function ExperienceCalc() {
                         </Select>
                     </FormControl>
                 </Box>
-                <Box mt={VerticalSpacing}>
-                    <FormControl fullWidth>
-                        <InputLabel id="daily-mult-label">Daily Bonus Multiplier</InputLabel>
-                        <Select
-                            labelId="daily-mult-label"
-                            id="dailyMult"
-                            name="dailyMult"
-                            defaultValue={1}
-                            label="Daily Bonus Multiplier"
-                            onChange={handleInputChange}
-                        >
-                            <MenuItem key="daily-mult-1x" value={1}>None</MenuItem>
-                            <MenuItem key="daily-mult-override" value={SardinexEventOverride}>Sardinex Blanket {SardinexEventOverride}% Override</MenuItem>
-                            <MenuItem key="daily-mult-2x" value={2}>2x</MenuItem>
-                            <MenuItem key="daily-mult-3x" value={3}>3x</MenuItem>
-                            <MenuItem key="daily-mult-4x" value={4}>4x</MenuItem>
-                            <MenuItem key="daily-mult-5x" value={5}>5x</MenuItem>
-                        </Select>
-                    </FormControl>
-                </Box>
-
                 <Box mt={VerticalSpacing}>
                     <FormControl fullWidth>
                         <InputLabel id="adgor-label">Adgor/Permagor</InputLabel>

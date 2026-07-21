@@ -72,13 +72,13 @@
         "daily": {
             "default": "sunday",
             "options": {
-                "monday": { "text": "Monday", "value": 0 },
-                "tuesday": { "text": "Tuesday", "value": 45 },
-                "wednesday": { "text": "Wednesday", "value": 0 },
-                "thursday": { "text": "Thursday", "value": 0 },
-                "friday": { "text": "Friday", "value": 0 },
-                "saturday": { "text": "Saturday", "value": 45 },
-                "sunday": { "text": "Sunday", "value": 75 }
+                "monday": { "text": "Monday (0%)", "value": 0 },
+                "tuesday": { "text": "Tuesday (90%)", "value": 90 },
+                "wednesday": { "text": "Wednesday (0%)", "value": 0 },
+                "thursday": { "text": "Thursday (0%)", "value": 0 },
+                "friday": { "text": "Friday (0%)", "value": 0 },
+                "saturday": { "text": "Saturday (90%)", "value": 90 },
+                "sunday": { "text": "Sunday (150%)", "value": 150 }
             }
         },
         "adgor": {
@@ -219,13 +219,13 @@
         "daily": {
             "default": "friday",
             "options": {
-                "monday": { "text": "Monday", "value": 30 },
-                "tuesday": { "text": "Tuesday", "value": 30 },
-                "wednesday": { "text": "Wednesday", "value": 0 },
-                "thursday": { "text": "Thursday", "value": 0 },
-                "friday": { "text": "Friday", "value": 50 },
-                "saturday": { "text": "Saturday", "value": 30 },
-                "sunday": { "text": "Sunday", "value": 0 }
+                "monday": { "text": "Monday (60%)", "value": 60 },
+                "tuesday": { "text": "Tuesday (60%)", "value": 60 },
+                "wednesday": { "text": "Wednesday (0%)", "value": 0 },
+                "thursday": { "text": "Thursday (0%)", "value": 0 },
+                "friday": { "text": "Friday (100%)", "value": 100 },
+                "saturday": { "text": "Saturday (60%)", "value": 60 },
+                "sunday": { "text": "Sunday (0%)", "value": 0 }
             }
         },
         "adgor": {
