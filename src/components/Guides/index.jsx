@@ -140,6 +140,15 @@ export default function Guides() {
         return "";
     }
 
+    function authors(guide) {
+        if (guide.authors && guide.authors.length) {
+            const label = guide.authors.length > 1 ? "Authors:" : "Author:";
+            return <div><em>{label}</em> {guide.authors.join(", ")}</div>;
+        }
+
+        return "";
+    }
+
     function fams(guide) {
         if (guide.fams && guide.fams.length) {
             return <div><em>Fams:</em> {guide.fams.join(", ")}</div>;
@@ -314,6 +323,7 @@ export default function Guides() {
                         <ContentCopyIcon fontSize="small" />
                     </button>
                 </div>
+                {authors(guide)}
                 {fams(guide)}
                 {builds(guide)}
                 {roles(guide)}
