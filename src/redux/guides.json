@@ -5502,6 +5502,10 @@
                             "attachmenttype": "html"
                         },
                         {
+                            "attachmenttype": "link",
+                            "link": "https://youtu.be/Rt2UcPh2T1k?si=rBHdb-ueZ3zyiQ13"
+                        },
+                        {
                             "filename": "d4-t19-vicious-build.jpg",
                             "attachmenttype": "image",
                             "contenttype": "image/jpeg"

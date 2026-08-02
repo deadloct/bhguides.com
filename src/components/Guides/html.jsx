@@ -24,7 +24,7 @@ function scopeHtml(raw) {
 
     // Guide HTML files are community-submitted. Strip scripts, event handler
     // attributes, javascript: URLs, etc. before any of it touches the live DOM.
-    const clean = DOMPurify.sanitize(raw, { ADD_TAGS: ["style"] });
+    const clean = DOMPurify.sanitize(raw, { ADD_TAGS: ["style"], ADD_ATTR: ["target", "rel"] });
 
     const template = document.createElement("template");
     template.innerHTML = clean;
