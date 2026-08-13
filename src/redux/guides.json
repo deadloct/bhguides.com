@@ -1696,6 +1696,26 @@
                     ]
                 },
                 {
+                    "name": "Scholaire",
+                    "slug": "event-familiars-scholaire",
+                    "roles": [
+                        "DPS",
+                        "Support"
+                    ],
+                    "revealed_by": "Neflarian",
+                    "attachments": [
+                        {
+                            "filename": "fusion-event-scholaire.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        },
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://www.youtube.com/watch?v=3f7hTosMtYY"
+                        }
+                    ]
+                },
+                {
                     "name": "Shrubbery Shrampz",
                     "slug": "event-familiars-shrubbery-shrampz",
                     "roles": [
