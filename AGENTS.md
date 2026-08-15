@@ -51,12 +51,10 @@ This is a React 18 application for bhguides.com, a community resource for Bit He
 
 ### Data Sources
 
-**Static JSON Files** in `src/redux/`:
+**Static JSON Files** in `src/data/`:
 - `guides.json` - All guide metadata, categories, and file references
 - `familiars.json` - Familiar stats for calculator
 - `calcOptions.json` - Calculator configuration options
-
-(The folder is named `redux` from when the app used Redux for state; it now just holds static data imported directly by components.)
 
 **Public Assets**:
 - `public/guide-files/` - Guide images, PDFs, videos, and markdown/HTML files
@@ -65,7 +63,7 @@ This is a React 18 application for bhguides.com, a community resource for Bit He
 ### Adding New Guides
 
 1. Scan files with antivirus, add to `public/guide-files/` following naming conventions
-2. Add guide entry to `src/redux/guides.json` with metadata (build, familiars, etc.)
+2. Add guide entry to `src/data/guides.json` with metadata (build, familiars, etc.)
 3. Add author credit to `src/components/Guides/index.jsx`
 
 The guides system includes custom in-memory search indexing that processes guide metadata at page load for fast filtering.
@@ -84,4 +82,4 @@ Guide status badges (in-tier, obsolete) in `Guides/index.jsx` render both a text
 
 ### Testing
 
-Limited test coverage currently exists: `src/utils/utils.spec.js` covers calculator utilities, and `src/redux/guidesSlice.spec.js` covers the guide-name natural-sort helper (the filename is a holdover from the pre-Context Redux days — there is no slice there anymore).
+Limited test coverage currently exists: `src/utils/utils.spec.js` covers calculator utilities, and `src/utils/naturalSort.spec.js` covers the `naturalSort` helper exported from `src/utils/utils.js` and used to order guide names in `Guides/index.jsx`.

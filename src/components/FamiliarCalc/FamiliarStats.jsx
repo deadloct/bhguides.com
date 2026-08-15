@@ -10,7 +10,7 @@ import Button from '@mui/material/Button';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import IconButton from '@mui/material/IconButton';
-import familiarsData from '../../redux/familiars.json';
+import familiarsData from '../../data/familiars.json';
 
 import styles from "./index.module.css";
 import WarningAmberIcon from '@mui/icons-material/WarningAmber';
