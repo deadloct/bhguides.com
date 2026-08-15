@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import calcOptions from '../../redux/calcOptions.json';
+import calcOptions from '../../data/calcOptions.json';
 import FormControl from '@mui/material/FormControl';
 import Box from '@mui/material/Box';
 import InputLabel from '@mui/material/InputLabel';

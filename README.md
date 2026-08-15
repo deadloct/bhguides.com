@@ -23,7 +23,7 @@ npm run test
 To add a guide:
 
 1. If there are files, scan them with an antivirus program and then add them to `public/guide-files`. Note the loose naming conventions and try to follow them.
-2. Add an entry for the guide in `src/redux/guides.json`. Some guides have extra metadata, like the build and familiars used, which is loaded at page load in the custom in-memory search index.
+2. Add an entry for the guide in `src/data/guides.json`. Some guides have extra metadata, like the build and familiars used, which is loaded at page load in the custom in-memory search index.
 3. Add the author to the credits section of the About page if needed.
 
 ## Credits

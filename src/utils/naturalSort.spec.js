@@ -1,12 +1,5 @@
 import { expect, test } from 'vitest'
-
-// Natural/alphanumeric sorting function that handles numbers within strings correctly
-const naturalSort = (a, b) => {
-    return a.localeCompare(b, undefined, { 
-        numeric: true, 
-        sensitivity: 'base' 
-    });
-};
+import { naturalSort } from './utils';
 
 [
     {

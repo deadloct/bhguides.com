@@ -1,8 +1,7 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import Container from '@mui/material/Container';
-import rawGuidesData from '../../redux/guides.json';
-
-const naturalSort = (a, b) => a.localeCompare(b, undefined, { numeric: true, sensitivity: 'base' });
+import rawGuidesData from '../../data/guides.json';
+import { naturalSort } from '../../utils/utils';
 
 const guidesData = rawGuidesData.guides;
 Object.keys(guidesData).forEach(k => {
