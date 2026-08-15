@@ -1,4 +1,6 @@
-// Generates public/changelog.json from git history at build time.
+// Generates public/changelog.json from git history at build time. Merge
+// commits are excluded so a PR merge yields one entry per real change
+// rather than the merge commit alongside each of its branch commits.
 // Runs via the `predev` / `prebuild` npm hooks. Fails soft: if git is
 // unavailable (e.g. a shallow CI checkout with no history), it writes an
 // empty changelog rather than breaking the build.
@@ -19,7 +21,7 @@ const FORMAT = ["%H", "%h", "%ad", "%an", "%s", "%b"].join(FIELD) + RECORD;
 function readCommits() {
     const raw = execFileSync(
         "git",
-        ["log", "--date=short", `--pretty=format:${FORMAT}`],
+        ["log", "--no-merges", "--date=short", `--pretty=format:${FORMAT}`],
         { encoding: "utf8", maxBuffer: 32 * 1024 * 1024 }
     );
 
