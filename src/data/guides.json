@@ -4358,6 +4358,27 @@
                     "inTier": false
                 },
                 {
+                    "name": "TwoTone and Mentle88's In-Tier Solo Clover Video",
+                    "slug": "t17d4-twotones-and-mentle88-in-tier-solo-clover-video",
+                    "authors": [
+                        "Mentle88",
+                        "TwoTone"
+                    ],
+                    "builds": [
+                        "Container Bait",
+                        "Container Tank",
+                        "Witchum"
+                    ],
+                    "fams": [],
+                    "attachments": [
+                        {
+                            "attachmenttype": "link",
+                            "link": "https://youtu.be/MvnUjSohSvA"
+                        }
+                    ],
+                    "inTier": true
+                },
+                {
                     "name": "MrRager's Text Guide",
                     "slug": "t17d4-mrragers-text-guide",
                     "authors": [
