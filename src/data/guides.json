@@ -1309,6 +1309,37 @@
                     ]
                 },
                 {
+                    "name": "Bootnir",
+                    "slug": "event-familiars-bootnir",
+                    "roles": [
+                        "DPS"
+                    ],
+                    "revealed_by": "Neflarian",
+                    "attachments": [
+                        {
+                            "filename": "fusion-event-bootnir.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        }
+                    ]
+                },
+                {
+                    "name": "Bor'luna",
+                    "slug": "event-familiars-borluna",
+                    "roles": [
+                        "DPS",
+                        "Support"
+                    ],
+                    "revealed_by": "Bitverse_Andy",
+                    "attachments": [
+                        {
+                            "filename": "fusion-event-borluna.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        }
+                    ]
+                },
+                {
                     "name": "Cpt. Astabeard",
                     "slug": "event-familiars-captain-astabeard",
                     "inFestiviflux": false,
@@ -1385,6 +1416,20 @@
                     ]
                 },
                 {
+                    "name": "Decastaroth",
+                    "slug": "event-familiars-decastaroth",
+                    "roles": [
+                        "DPS"
+                    ],
+                    "attachments": [
+                        {
+                            "filename": "fusion-event-decastaroth.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
+                        }
+                    ]
+                },
+                {
                     "name": "Googie Moogienz",
                     "slug": "event-familiars-googie-moogienz",
                     "inFestiviflux": true,
@@ -1439,6 +1484,21 @@
                         {
                             "attachmenttype": "link",
                             "link": "https://www.youtube.com/watch?v=0ox02HqGNDE"
+                        }
+                    ]
+                },
+                {
+                    "name": "Infernampz",
+                    "slug": "event-familiars-infernampz",
+                    "roles": [
+                        "Tank"
+                    ],
+                    "revealed_by": "WRLD_EATR",
+                    "attachments": [
+                        {
+                            "filename": "fusion-event-infernampz.png",
+                            "attachmenttype": "image",
+                            "contenttype": "image/png"
                         }
                     ]
                 },
