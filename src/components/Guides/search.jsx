@@ -1,101 +1,114 @@
-const MIN_TOKEN_LENGTH = 1;
+const MIN_TOKEN_LENGTH = 1
 
 export default class Search {
-    constructor(categories) {
-        this.index = {};
-        this.guides = [];
+  constructor(categories) {
+    this.index = {}
+    this.guides = []
 
-        this.buildIndex({...categories});
-    }
+    this.buildIndex({ ...categories })
+  }
 
-    buildIndex(categories) {
-        for (const catname in categories) {
-            const cat = categories[catname];
-            for (const guide of categories[catname].guides) {
-                let guideIndex = this.guides.length;
-                this.guides.push({
-                    ...guide,
-                    categoryName: catname,
-                });
+  buildIndex(categories) {
+    for (const catname in categories) {
+      const cat = categories[catname]
+      for (const guide of categories[catname].guides) {
+        let guideIndex = this.guides.length
+        this.guides.push({
+          ...guide,
+          categoryName: catname,
+        })
 
-                const getValues = (object, parents = []) => Object.assign({}, ...Object
-                    .entries(object)
-                    .map(([k, v]) => v && typeof v === 'object'
-                        ? getValues(v, [...parents, k])
-                        : { [[...parents, k].join('.')]: v }
-                    )
-                );
+        const getValues = (object, parents = []) =>
+          Object.assign(
+            {},
+            ...Object.entries(object).map(([k, v]) =>
+              v && typeof v === 'object'
+                ? getValues(v, [...parents, k])
+                : { [[...parents, k].join('.')]: v }
+            )
+          )
 
-                // From https://stackoverflow.com/a/34515563
-                const searchable = Object.values(getValues(guide));
-                const inTierPhrases = guide.inTier ? " in tier in-tier intier" : "";
-                const inFestivifluxPhrases = guide.inFestiviflux ? " festiflux festiviflux invasion" : "";
-                const tokens = searchable
-                    .join(" ")
-                    .concat(" ", catname, " ", cat.description, " ", inTierPhrases, " ", inFestivifluxPhrases)
-                    .toLowerCase()
-                    .replace(/[^a-zA-Z0-9]/g, " ")
-                    .replace(/\s+/g, " ")
-                    .trim()
-                    .split(" ");
+        // From https://stackoverflow.com/a/34515563
+        const searchable = Object.values(getValues(guide))
+        const inTierPhrases = guide.inTier ? ' in tier in-tier intier' : ''
+        const inFestivifluxPhrases = guide.inFestiviflux
+          ? ' festiflux festiviflux invasion'
+          : ''
+        const tokens = searchable
+          .join(' ')
+          .concat(
+            ' ',
+            catname,
+            ' ',
+            cat.description,
+            ' ',
+            inTierPhrases,
+            ' ',
+            inFestivifluxPhrases
+          )
+          .toLowerCase()
+          .replace(/[^a-zA-Z0-9]/g, ' ')
+          .replace(/\s+/g, ' ')
+          .trim()
+          .split(' ')
 
-                for (const token of tokens) {
-                    if (token.length < MIN_TOKEN_LENGTH) {
-                        continue;
-                    }
+        for (const token of tokens) {
+          if (token.length < MIN_TOKEN_LENGTH) {
+            continue
+          }
 
-                    for (let i = MIN_TOKEN_LENGTH; i <= token.length; i++) {
-                        const tokenVariant = token.substring(0, i);
-                        if (tokenVariant in this.index) {
-                            if (!this.index[tokenVariant].includes(guideIndex)) {
-                                this.index[tokenVariant].push(guideIndex);
-                            }
-                        } else {
-                            this.index[tokenVariant] = [guideIndex];
-                        }
-                    }
-                }
+          for (let i = MIN_TOKEN_LENGTH; i <= token.length; i++) {
+            const tokenVariant = token.substring(0, i)
+            if (tokenVariant in this.index) {
+              if (!this.index[tokenVariant].includes(guideIndex)) {
+                this.index[tokenVariant].push(guideIndex)
+              }
+            } else {
+              this.index[tokenVariant] = [guideIndex]
             }
+          }
         }
+      }
+    }
+  }
+
+  Log() {
+    console.log('Search index:', this.index)
+    console.log('All possible search results:', this.guides)
+  }
+
+  Find(query) {
+    query = query.replace(/[^a-zA-Z0-9\s]/g, ' ').toLowerCase()
+    const queries = query.trim().split(/\s+/)
+    const results = []
+    let indices = new Set()
+
+    for (let i = 0; i < queries.length; i++) {
+      if (queries[i].length < MIN_TOKEN_LENGTH) {
+        continue
+      }
+
+      const matches = queries[i] in this.index ? this.index[queries[i]] : []
+      if (matches.length === 0) {
+        indices = new Set()
+        break
+      }
+
+      if (indices.size === 0) {
+        indices = new Set(matches)
+        continue
+      }
+
+      // Intersection of new and old
+      // eslint-disable-next-line
+      indices = new Set(matches.filter((v) => indices.has(v)))
     }
 
-    Log() {
-        console.log("Search index:", this.index);
-        console.log("All possible search results:", this.guides);
+    for (const idx of indices) {
+      results.push(this.guides[idx])
     }
 
-    Find(query) {
-        query = query.replace(/[^a-zA-Z0-9\s]/g, " ").toLowerCase();
-        const queries = query.trim().split(/\s+/);
-        const results = [];
-        let indices = new Set();
-
-        for (let i = 0; i < queries.length; i++) {
-            if (queries[i].length < MIN_TOKEN_LENGTH) {
-                continue;
-            }
-
-            const matches = queries[i] in this.index ? this.index[queries[i]] : [];
-            if (matches.length === 0) {
-                indices = new Set();
-                break;
-            }
-
-            if (indices.size === 0) {
-                indices = new Set(matches);
-                continue;
-            }
-
-            // Intersection of new and old
-            // eslint-disable-next-line
-            indices = new Set(matches.filter(v => indices.has(v)));
-        }
-        
-        for (const idx of indices) {
-            results.push(this.guides[idx]);
-        }
-
-        console.log(`results for ${query}:`, indices, results);
-        return results;
-    }
+    console.log(`results for ${query}:`, indices, results)
+    return results
+  }
 }

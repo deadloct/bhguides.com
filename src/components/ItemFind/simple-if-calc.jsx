@@ -1,108 +1,128 @@
-import React, { useEffect, useRef, useState } from "react";
-import calcOptions from '../../data/calcOptions.json';
+import React, { useEffect, useRef, useState } from 'react'
+import calcOptions from '../../data/calcOptions.json'
 
-import Box from '@mui/material/Box';
-import FormControl from '@mui/material/FormControl';
-import InputLabel from '@mui/material/InputLabel';
-import ListSubheader from '@mui/material/ListSubheader';
-import MenuItem from '@mui/material/MenuItem';
-import Select from '@mui/material/Select';
-import TextField from "@mui/material/TextField";
+import Box from '@mui/material/Box'
+import FormControl from '@mui/material/FormControl'
+import InputLabel from '@mui/material/InputLabel'
+import ListSubheader from '@mui/material/ListSubheader'
+import MenuItem from '@mui/material/MenuItem'
+import Select from '@mui/material/Select'
+import TextField from '@mui/material/TextField'
 
-import styles from "./index.module.css";
-import { cleanVal, getEncounterIFForDisplay, getOptionValue, VerticalSpacing } from "../../utils/utils";
+import styles from './index.module.css'
+import {
+  cleanVal,
+  getEncounterIFForDisplay,
+  getOptionValue,
+  VerticalSpacing,
+} from '../../utils/utils'
 
 export default function SimpleIFCalc() {
-    const options = calcOptions.itemFind;
-    const [output, setOutput] = useState("0%");
-    const [equation, setEquation] = useState("");
-    const [infoIF, setInfoIF] = useState(0);
-    const [encounterBonus, setEncounterBonus] = useState(getOptionValue(options.encounter, options.encounter.default));
+  const options = calcOptions.itemFind
+  const [output, setOutput] = useState('0%')
+  const [equation, setEquation] = useState('')
+  const [infoIF, setInfoIF] = useState(0)
+  const [encounterBonus, setEncounterBonus] = useState(
+    getOptionValue(options.encounter, options.encounter.default)
+  )
 
-    const infoIFRef = useRef(infoIF);
-    const encounterBonusRef = useRef(encounterBonus);
+  const infoIFRef = useRef(infoIF)
+  const encounterBonusRef = useRef(encounterBonus)
 
-    const handleIFChange = e => {
-        let { value } = e.target;
-    
-        if (value.trim().length === 0) {
-            value = 0;
-        } else if (value.indexOf("%") >= 0) {
-            const parts = value.split("%");
-            if (parts.length > 0) {
-                value = parts[0];
-            }
-        }
+  const handleIFChange = (e) => {
+    let { value } = e.target
 
-        setInfoIF(value);
-        infoIFRef.current = value;
-    };
+    if (value.trim().length === 0) {
+      value = 0
+    } else if (value.indexOf('%') >= 0) {
+      const parts = value.split('%')
+      if (parts.length > 0) {
+        value = parts[0]
+      }
+    }
 
-    const handleEncounterChange = e => {
-        const val = getOptionValue(options.encounter, e.target.value);
-        setEncounterBonus(val);
-        encounterBonusRef.current = val;
-    };
+    setInfoIF(value)
+    infoIFRef.current = value
+  }
 
-    useEffect(() => {
-        const timeoutID = setTimeout(() => {
-            const infoIFValue = cleanVal(infoIFRef.current);
-            const encounterValue = encounterBonusRef.current;
-            const result = ((infoIFValue + 100) * encounterValue).toFixed(2);
-            let r = `${result}%`;
-            if (result > 3500) {
-                r += " (exceeds 3500% cap)"
-            }
-            setOutput(r);
-            setEquation(`(info-screen-if:${infoIFValue} + base:100) * (1 + encounter:${(encounterValue-1).toFixed(2)})`);
-        }, 100);
+  const handleEncounterChange = (e) => {
+    const val = getOptionValue(options.encounter, e.target.value)
+    setEncounterBonus(val)
+    encounterBonusRef.current = val
+  }
 
-        return () => clearTimeout(timeoutID);
-    }, [infoIF, encounterBonus]);
+  useEffect(() => {
+    const timeoutID = setTimeout(() => {
+      const infoIFValue = cleanVal(infoIFRef.current)
+      const encounterValue = encounterBonusRef.current
+      const result = ((infoIFValue + 100) * encounterValue).toFixed(2)
+      let r = `${result}%`
+      if (result > 3500) {
+        r += ' (exceeds 3500% cap)'
+      }
+      setOutput(r)
+      setEquation(
+        `(info-screen-if:${infoIFValue} + base:100) * (1 + encounter:${(encounterValue - 1).toFixed(2)})`
+      )
+    }, 100)
 
-    return (
-        <section id="simple-if-calc">
-            <h2>Simple Item Find Calculator</h2>
+    return () => clearTimeout(timeoutID)
+  }, [infoIF, encounterBonus])
 
-            <Box flexDirection="column">
-                <FormControl fullWidth>
-                    <TextField id="info-input"
-                        name="info"
-                        label="Info Screen Item Find"
-                        type="number"
-                        placeholder="i.e. 500"
-                        onChange={handleIFChange}
-                    />
-                </FormControl>
-            </Box>
+  return (
+    <section id="simple-if-calc">
+      <h2>Simple Item Find Calculator</h2>
 
-            <Box mt={VerticalSpacing}>
-                <FormControl fullWidth>
-                    <InputLabel id="encounter-label">Encounter</InputLabel>
-                    <Select
-                        labelId="encounter-label"
-                        id="encounter"
-                        name="encounter"
-                        defaultValue={options.encounter.default}
-                        label="Encounter"
-                        onChange={handleEncounterChange}
-                    >
-                        {Object.entries(options.encounter.groups).map(([groupName, items]) => [
-                            <ListSubheader key={groupName}>{groupName}</ListSubheader>,
-                            ...Object.entries(items).map(([key, item]) => (
-                                <MenuItem key={key} value={key}>{`${item.text} (IF: ${getEncounterIFForDisplay(item.value)}%)`}</MenuItem>
-                            )),
-                        ])}
-                    </Select>
-                </FormControl>
-            </Box>
+      <Box flexDirection="column">
+        <FormControl fullWidth>
+          <TextField
+            id="info-input"
+            name="info"
+            label="Info Screen Item Find"
+            type="number"
+            placeholder="i.e. 500"
+            onChange={handleIFChange}
+          />
+        </FormControl>
+      </Box>
 
-            <p className={styles.results}>
-                Your item find is:<br />
-                <span id="simple-output" className={styles.output}>{output}</span>
-            </p>
+      <Box mt={VerticalSpacing}>
+        <FormControl fullWidth>
+          <InputLabel id="encounter-label">Encounter</InputLabel>
+          <Select
+            labelId="encounter-label"
+            id="encounter"
+            name="encounter"
+            defaultValue={options.encounter.default}
+            label="Encounter"
+            onChange={handleEncounterChange}
+          >
+            {Object.entries(options.encounter.groups).map(
+              ([groupName, items]) => [
+                <ListSubheader key={groupName}>{groupName}</ListSubheader>,
+                ...Object.entries(items).map(([key, item]) => (
+                  <MenuItem
+                    key={key}
+                    value={key}
+                  >{`${item.text} (IF: ${getEncounterIFForDisplay(item.value)}%)`}</MenuItem>
+                )),
+              ]
+            )}
+          </Select>
+        </FormControl>
+      </Box>
 
-            <p className={styles.equation}><strong>Equation:</strong> {equation}</p>
-        </section>
-    );
+      <p className={styles.results}>
+        Your item find is:
+        <br />
+        <span id="simple-output" className={styles.output}>
+          {output}
+        </span>
+      </p>
+
+      <p className={styles.equation}>
+        <strong>Equation:</strong> {equation}
+      </p>
+    </section>
+  )
 }

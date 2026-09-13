@@ -1,15 +1,15 @@
 .wrapper {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 .wrapper p {
-    line-height: 1.6;
+  line-height: 1.6;
 }
 
 .about-logo {
-    text-align: center;
+  text-align: center;
 }
 
 .testimonial {
-    font-style: italic;
+  font-style: italic;
 }
