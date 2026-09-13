@@ -3446,6 +3446,25 @@
           "inTier": false
         },
         {
+          "name": "Fr3sTy7's In-Tier PDF Guide",
+          "slug": "t17d4-fr3sty7s-in-tier-pdf-guide",
+          "authors": ["Fr3sTy7"],
+          "builds": ["?"],
+          "fams": ["Trombargz", "Mir'alg", "Oladus"],
+          "attachments": [
+            {
+              "filename": "d4-t17-fr3sty7.pdf",
+              "attachmenttype": "pdf",
+              "contenttype": "application/pdf"
+            },
+            {
+              "attachmenttype": "link",
+              "link": "https://www.youtube.com/watch?v=9J_ofv8B3hE"
+            }
+          ],
+          "inTier": false
+        },
+        {
           "name": "Fyra's Aeneas Pic Guide",
           "slug": "t17d4-fyras-aeneas-pic-guide",
           "authors": ["Fyra"],
