@@ -1,24 +1,24 @@
 .outer-container {
-    margin-top: 1rem;
-    margin-bottom: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
 }
 
 .outer-container section:not(:first-child) {
-    margin: 3rem 0;
+  margin: 3rem 0;
 }
 
 .size {
-    text-transform: capitalize;
+  text-transform: capitalize;
 }
 
 .roll-button {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .roll-button div {
-    font-size: 1.2rem;
-    margin: 0 1rem;
+  font-size: 1.2rem;
+  margin: 0 1rem;
 }

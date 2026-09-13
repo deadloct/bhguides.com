@@ -1,51 +1,53 @@
 {
-    "name": "bhguides.com",
-    "homepage": "https://bhguides.com",
-    "version": "0.0.6",
-    "private": true,
-    "dependencies": {
-        "@emotion/react": "^11.10.0",
-        "@emotion/styled": "^11.10.0",
-        "@mui/icons-material": "^6.x.x",
-        "@mui/material": "^6.x.x",
-        "dompurify": "^3.4.11",
-        "next": "^15.5.2",
-        "react": "^18.2.0",
-        "react-dom": "^18.2.0",
-        "remark-gfm": "^4.0.1"
-    },
-    "scripts": {
-        "gen-changelog": "node scripts/gen-changelog.mjs",
-        "predev": "node scripts/gen-changelog.mjs",
-        "prebuild": "node scripts/gen-changelog.mjs",
-        "dev": "next dev",
-        "build": "next build",
-        "start": "next start",
-        "export": "next export",
-        "test": "vitest --watch",
-        "test:ci": "vitest run"
-    },
-    "eslintConfig": {
-        "extends": [
-            "next/core-web-vitals"
-        ]
-    },
-    "browserslist": {
-        "production": [
-            ">0.2%",
-            "not dead",
-            "not op_mini all"
-        ],
-        "development": [
-            "last 1 chrome version",
-            "last 1 firefox version",
-            "last 1 safari version"
-        ]
-    },
-    "devDependencies": {
-        "eslint": "^9.34.0",
-        "eslint-config-next": "^15.5.2",
-        "react-markdown": "^9.0.1",
-        "vitest": "^4.1.8"
-    }
+  "name": "bhguides.com",
+  "homepage": "https://bhguides.com",
+  "version": "0.0.6",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.10.0",
+    "@emotion/styled": "^11.10.0",
+    "@mui/icons-material": "^6.x.x",
+    "@mui/material": "^6.x.x",
+    "dompurify": "^3.4.11",
+    "next": "^15.5.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "remark-gfm": "^4.0.1"
+  },
+  "scripts": {
+    "gen-changelog": "node scripts/gen-changelog.mjs",
+    "predev": "node scripts/gen-changelog.mjs",
+    "prebuild": "node scripts/gen-changelog.mjs",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export",
+    "test": "vitest --watch",
+    "test:ci": "vitest run",
+    "prettier": "prettier --write src"
+  },
+  "eslintConfig": {
+    "extends": [
+      "next/core-web-vitals"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^9.34.0",
+    "eslint-config-next": "^15.5.2",
+    "prettier": "^3.0.0",
+    "react-markdown": "^9.0.1",
+    "vitest": "^4.1.8"
+  }
 }

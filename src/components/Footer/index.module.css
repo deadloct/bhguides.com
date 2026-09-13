@@ -1,167 +1,167 @@
 .site-footer {
-    margin: auto 0 0;
-    padding: 2rem 1rem;
-    text-align: center;
-    width: 100%;
-    background-color: var(--footer-background-color);
-    color: var(--footer-text-color) !important;
+  margin: auto 0 0;
+  padding: 2rem 1rem;
+  text-align: center;
+  width: 100%;
+  background-color: var(--footer-background-color);
+  color: var(--footer-text-color) !important;
 }
 
 .site-footer * {
-    color: var(--footer-text-color) !important;
+  color: var(--footer-text-color) !important;
 }
 
 .site-footer a,
 .site-footer a:visited {
-    color: var(--footer-link-color);
+  color: var(--footer-link-color);
 }
 
 .site-footer p {
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .site-footer pre {
-    font-size: 10px;
-    font-family: monospace;
+  font-size: 10px;
+  font-family: monospace;
 }
 
 .footer-content {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 .footer-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    text-align: left;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
 }
 
 .footer-nav li {
-    margin-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .footer-nav a {
-    text-decoration: none;
-    color: var(--footer-link-color);
+  text-decoration: none;
+  color: var(--footer-link-color);
 }
 
 .footer-nav a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .footer-github {
-    text-align: left;
+  text-align: left;
 }
 
 .github-container {
-    background-color: var(--background-color);
-    padding: 0 1rem;
-    border-radius: 8px;
-    border: 1px solid var(--border-color);
+  background-color: var(--background-color);
+  padding: 0 1rem;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
 }
 
 .commit-container {
-    display: flex;
-    justify-content: right;
-    background-color: var(--background-color);
-    border: 1px solid var(--border-color);
-    border-radius: 8px;
+  display: flex;
+  justify-content: right;
+  background-color: var(--background-color);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
 }
 
 .commit-header {
-    display: flex;
-    align-items: center;
-    gap: 0.75rem;
-    padding-right: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding-right: 1rem;
 }
 
 .github-icon {
-    font-size: 48px !important;
-    color: var(--footer-text-color);
+  font-size: 48px !important;
+  color: var(--footer-text-color);
 }
 
 .commit-date {
-    color: var(--footer-link-color);
-    text-decoration: none;
+  color: var(--footer-link-color);
+  text-decoration: none;
 }
 
 .commit-date:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .commit-message {
-    color: var(--footer-text-color);
-    font-size: 0.9rem;
-    line-height: 1.4;
-    word-wrap: break-word;
-    white-space: pre-wrap;
+  color: var(--footer-text-color);
+  font-size: 0.9rem;
+  line-height: 1.4;
+  word-wrap: break-word;
+  white-space: pre-wrap;
 }
 
 .loading-badge,
 .error-badge {
-    display: inline-flex;
-    align-items: center;
-    padding: 0.5rem 0.75rem;
-    background-color: var(--background-color);
-    border: 1px solid var(--border-color);
-    border-radius: 6px;
-    font-size: 0.85rem;
-    color: var(--footer-text-color);
-    margin-bottom: 0.5rem;
+  display: inline-flex;
+  align-items: center;
+  padding: 0.5rem 0.75rem;
+  background-color: var(--background-color);
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  font-size: 0.85rem;
+  color: var(--footer-text-color);
+  margin-bottom: 0.5rem;
 }
 
 .changelog-link {
-    color: var(--footer-link-color);
-    text-decoration: none;
-    font-size: 0.9rem;
-    display: inline-block;
+  color: var(--footer-link-color);
+  text-decoration: none;
+  font-size: 0.9rem;
+  display: inline-block;
 }
 
 .changelog-link:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .footer-logo {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 .footer-logo p {
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 0.9rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 0.9rem;
 }
 
 .non-affiliation {
-    font-size: 0.7rem;
+  font-size: 0.7rem;
 }
 
 @media (max-width: 768px) {
-    .footer-github {
-        text-align: center;
-    }
-    
-    .footer-nav {
-        margin: 0 auto 2rem;
-        text-align: center;
-    }
-    
-    .footer-nav ul {
-        text-align: center;
-    }
+  .footer-github {
+    text-align: center;
+  }
 
-    .footer-github {
-        margin: 0 auto 2rem;
-    }
+  .footer-nav {
+    margin: 0 auto 2rem;
+    text-align: center;
+  }
 
-    .commit-container {
-        flex-direction: column;
-    }
+  .footer-nav ul {
+    text-align: center;
+  }
 
-    .commit-header {
-        justify-content: center;
-        padding-right: 0;
-        padding-bottom: 1rem;
-    }
+  .footer-github {
+    margin: 0 auto 2rem;
+  }
+
+  .commit-container {
+    flex-direction: column;
+  }
+
+  .commit-header {
+    justify-content: center;
+    padding-right: 0;
+    padding-bottom: 1rem;
+  }
 }

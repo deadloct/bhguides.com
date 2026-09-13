@@ -1,4 +1,4 @@
-export const VerticalSpacing = 3;
+export const VerticalSpacing = 3
 
 export function calcIF(vals) {
   const total =
@@ -8,37 +8,37 @@ export function calcIF(vals) {
     vals.guild +
     vals.consumable +
     vals.adgor +
-    vals.daily;
-  return (total * vals.encounter).toFixed(2);
+    vals.daily
+  return (total * vals.encounter).toFixed(2)
 }
 
 export function getIFEquation(vals) {
-  return `(base:100 + rune:${vals.rune1} + rune:${vals.rune2} + guild:${vals.guild} + consumable:${vals.consumable} + adgor:${vals.adgor} + daily:${vals.daily}) * (1 + encounter:${(vals.encounter - 1).toFixed(2)})`;
+  return `(base:100 + rune:${vals.rune1} + rune:${vals.rune2} + guild:${vals.guild} + consumable:${vals.consumable} + adgor:${vals.adgor} + daily:${vals.daily}) * (1 + encounter:${(vals.encounter - 1).toFixed(2)})`
 }
 
 export function cleanVal(val) {
-  if (typeof val === "number") {
-    return val;
+  if (typeof val === 'number') {
+    return val
   }
-  return Number.parseFloat(val);
+  return Number.parseFloat(val)
 }
 
 export function getOptionValue(section, key) {
   if (section.options) {
-    return section.options[key]?.value ?? 0;
+    return section.options[key]?.value ?? 0
   }
   for (const group of Object.values(section.groups)) {
     if (key in group) {
-      return group[key].value;
+      return group[key].value
     }
   }
-  return 0;
+  return 0
 }
 
 export function getEncounterIFForDisplay(val) {
-  return (val - 1).toFixed(2) * 100;
+  return (val - 1).toFixed(2) * 100
 }
 
 export function naturalSort(a, b) {
-  return a.localeCompare(b, undefined, { numeric: true, sensitivity: "base" });
+  return a.localeCompare(b, undefined, { numeric: true, sensitivity: 'base' })
 }
