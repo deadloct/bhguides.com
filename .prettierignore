@@ -7,8 +7,5 @@
 # Dependencies
 /node_modules/
 
-# Generated at build time from git history (see scripts/gen-changelog.mjs)
-/public/changelog.json
-
 # Guide assets are third-party content, not source
-/public/guide-files/
+/public/
