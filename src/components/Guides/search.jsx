@@ -100,7 +100,6 @@ export default class Search {
       }
 
       // Intersection of new and old
-      // eslint-disable-next-line
       indices = new Set(matches.filter((v) => indices.has(v)))
     }
 

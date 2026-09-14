@@ -54,7 +54,15 @@ export default function ExperienceCalc() {
 
     setOutput(`${result}%`)
     setEquation(getIFEquation(params))
-  }, [formValues])
+  }, [
+    formValues,
+    options.adgor,
+    options.consumables,
+    options.daily,
+    options.encounter,
+    options.guild,
+    options.runes,
+  ])
 
   return (
     <section id="experience-calc">

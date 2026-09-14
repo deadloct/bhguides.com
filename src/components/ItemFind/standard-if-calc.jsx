@@ -64,7 +64,15 @@ export default function StandardIFCalc() {
 
     setOutput(r)
     setEquation(getIFEquation(params))
-  }, [formValues])
+  }, [
+    formValues,
+    options.adgor,
+    options.consumables,
+    options.daily,
+    options.encounter,
+    options.guild,
+    options.runes,
+  ])
 
   return (
     <section id="standard-if-calc">

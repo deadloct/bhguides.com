@@ -1,9 +1,10 @@
-import React, { useRef, useEffect } from 'react'
+import CloseIcon from '@mui/icons-material/Close'
+import ShareIcon from '@mui/icons-material/Share'
 import Dialog from '@mui/material/Dialog'
 import DialogContent from '@mui/material/DialogContent'
 import IconButton from '@mui/material/IconButton'
-import CloseIcon from '@mui/icons-material/Close'
-import ShareIcon from '@mui/icons-material/Share'
+import Image from 'next/image'
+import { useEffect, useRef } from 'react'
 import styles from './lightbox.module.css'
 
 export default function Lightbox({
@@ -126,7 +127,21 @@ export default function Lightbox({
             <CloseIcon />
           </IconButton>
         </div>
-        <img src={full} alt={file} className={styles.image} />
+        <Image
+          src={full}
+          alt={file}
+          className={styles.image}
+          width={1200}
+          height={900}
+          style={{
+            display: 'block',
+            maxWidth: '100%',
+            maxHeight: '80vh',
+            width: 'auto',
+            height: 'auto',
+            objectFit: 'contain',
+          }}
+        />
       </div>
     </dialog>
   )
