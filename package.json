@@ -24,6 +24,7 @@
     "export": "next export",
     "test": "vitest --watch",
     "test:ci": "vitest run",
+    "lint": "eslint src",
     "prettier": "prettier --write src"
   },
   "eslintConfig": {
@@ -44,6 +45,7 @@
     ]
   },
   "devDependencies": {
+    "@eslint/eslintrc": "^3.3.5",
     "eslint": "^9.34.0",
     "eslint-config-next": "^15.5.2",
     "prettier": "^3.0.0",

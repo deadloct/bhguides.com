@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
+import Image from 'next/image'
 
 import Container from '@mui/material/Container'
 import Grid from '@mui/material/Grid2'
-import Input from '@mui/material/Input'
-import TextField from '@mui/material/TextField'
 import Slider from '@mui/material/Slider'
+import TextField from '@mui/material/TextField'
 
 import styles from './index.module.css'
 
@@ -224,7 +224,12 @@ export default function TurnRateCalc() {
 
       <h3>Equation</h3>
       <div className={styles.equation}>
-        <img src="/turn-rate-equation.svg" alt="Turn rate equation" />
+        <Image
+          src="/turn-rate-equation.svg"
+          alt="Turn rate equation"
+          width={500}
+          height={100}
+        />
       </div>
       <dl>
         <dt>P</dt>
