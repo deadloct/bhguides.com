@@ -1096,6 +1096,7 @@
         {
           "name": "Admiral Yarrrlag",
           "slug": "event-familiars-admiral-yarrrlag",
+          "inFestiviflux": true,
           "roles": ["DPS"],
           "revealed_by": "WRLD_EATR",
           "attachments": [
@@ -1169,7 +1170,7 @@
         {
           "name": "Cpt. Astabeard",
           "slug": "event-familiars-captain-astabeard",
-          "inFestiviflux": false,
+          "inFestiviflux": true,
           "roles": ["Bait"],
           "revealed_by": "Neflarian",
           "attachments": [
@@ -1265,6 +1266,7 @@
         {
           "name": "Gorbsidian",
           "slug": "event-familiars-gorbsidian",
+          "inFestiviflux": true,
           "roles": ["DPS"],
           "revealed_by": "Bitverse_Andy",
           "attachments": [
@@ -1371,6 +1373,7 @@
         {
           "name": "Kris Gemmgle",
           "slug": "event-familiars-kris-gemmgle",
+          "inFestiviflux": true,
           "roles": ["DPS", "Support"],
           "revealed_by": "WRLD_EATR",
           "attachments": [
@@ -1405,6 +1408,7 @@
         {
           "name": "Mewbbo",
           "slug": "event-familiars-mewbbo",
+          "inFestiviflux": true,
           "roles": ["Tank"],
           "revealed_by": "Neflarian",
           "attachments": [
@@ -1563,6 +1567,7 @@
         {
           "name": "Sir Teavid Alkenborough",
           "slug": "event-familiars-sir-teavid-alkenborough",
+          "inFestiviflux": true,
           "roles": ["DPS"],
           "revealed_by": "Bitverse_Andy",
           "attachments": [
@@ -1580,6 +1585,7 @@
         {
           "name": "Stump\u00e1n",
           "slug": "event-familiars-stump-n",
+          "inFestiviflux": true,
           "roles": ["DPS", "Support"],
           "revealed_by": "WRLD_EATR",
           "attachments": [
@@ -1667,6 +1673,7 @@
         {
           "name": "Woodtaroth",
           "slug": "event-familiars-woodtaroth",
+          "inFestiviflux": true,
           "roles": ["Support"],
           "revealed_by": "Neflarian",
           "attachments": [
@@ -1702,6 +1709,7 @@
         {
           "name": "xX_Darkoverlord_Xx",
           "slug": "event-familiars-xx-darkoverlord-xx",
+          "inFestiviflux": true,
           "roles": ["Tank"],
           "revealed_by": "Neflarian",
           "attachments": [
