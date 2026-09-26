@@ -68,6 +68,7 @@
             "text": "Super Scroll (150%)",
             "value": 150
           },
+          "decagor": { "text": "Decagor (1010%)", "value": 1010 },
           "ultragor": { "text": "Ultragor (1200%)", "value": 1200 },
           "weeklongGor": {
             "text": "Weeklong 168-hour gor (250%)",
@@ -266,6 +267,7 @@
             "text": "Super Scroll (150%)",
             "value": 150
           },
+          "decagor": { "text": "Decagor (1010%)", "value": 1010 },
           "ultragor": { "text": "Ultragor (1200%)", "value": 1200 },
           "weeklongGor": {
             "text": "Weeklong 168-hour gor (250%)",
