@@ -1,13 +1,12 @@
-import React, { useEffect, useState } from 'react'
-import calcOptions from '../../data/calcOptions.json'
-import FormControl from '@mui/material/FormControl'
 import Box from '@mui/material/Box'
+import FormControl from '@mui/material/FormControl'
 import InputLabel from '@mui/material/InputLabel'
 import ListSubheader from '@mui/material/ListSubheader'
 import MenuItem from '@mui/material/MenuItem'
 import Select from '@mui/material/Select'
+import { useEffect, useState } from 'react'
+import calcOptions from '../../data/calcOptions.json'
 
-import styles from './index.module.css'
 import {
   calcIF,
   getEncounterIFForDisplay,
@@ -15,6 +14,7 @@ import {
   getOptionValue,
   VerticalSpacing,
 } from '../../utils/utils'
+import styles from './index.module.css'
 
 export default function StandardIFCalc() {
   const options = calcOptions.itemFind
@@ -29,7 +29,10 @@ export default function StandardIFCalc() {
     daily: options.daily.default,
     adgor: options.adgor.default,
     encounter: options.encounter.default,
+    invasionCommunity: options.invasionCommunity.default,
   })
+
+  const isInvasion = formValues.encounter in options.encounter.groups.Invasion
 
   const handleInputChange = (e) => {
     const { name, value } = e.target
@@ -48,6 +51,12 @@ export default function StandardIFCalc() {
       consumable: getOptionValue(options.consumables, formValues.consumable),
       adgor: getOptionValue(options.adgor, formValues.adgor),
       encounter: getOptionValue(options.encounter, formValues.encounter),
+      invasionCommunity: isInvasion
+        ? getOptionValue(
+            options.invasionCommunity,
+            formValues.invasionCommunity
+          )
+        : undefined,
 
       // ternary is a hack for pvp if
       daily:
@@ -66,11 +75,13 @@ export default function StandardIFCalc() {
     setEquation(getIFEquation(params))
   }, [
     formValues,
+    isInvasion,
     options.adgor,
     options.consumables,
     options.daily,
     options.encounter,
     options.guild,
+    options.invasionCommunity,
     options.runes,
   ])
 
@@ -234,6 +245,32 @@ export default function StandardIFCalc() {
             </Select>
           </FormControl>
         </Box>
+
+        {isInvasion && (
+          <Box mt={VerticalSpacing}>
+            <FormControl fullWidth>
+              <InputLabel id="invasion-community-label">
+                Invasion Community Level
+              </InputLabel>
+              <Select
+                labelId="invasion-community-label"
+                id="invasionCommunity"
+                name="invasionCommunity"
+                value={formValues.invasionCommunity}
+                label="Invasion Community Level"
+                onChange={handleInputChange}
+              >
+                {Object.entries(options.invasionCommunity.options).map(
+                  ([key, v]) => (
+                    <MenuItem key={key} value={key}>
+                      {v.text}
+                    </MenuItem>
+                  )
+                )}
+              </Select>
+            </FormControl>
+          </Box>
+        )}
       </Box>
 
       <p className={styles.results}>

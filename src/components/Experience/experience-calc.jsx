@@ -29,7 +29,10 @@ export default function ExperienceCalc() {
     daily: options.daily.default,
     adgor: options.adgor.default,
     encounter: options.encounter.default,
+    invasionCommunity: options.invasionCommunity.default,
   })
+
+  const isInvasion = formValues.encounter in options.encounter.groups.Invasion
 
   const handleInputChange = (e) => {
     const { name, value } = e.target
@@ -49,6 +52,12 @@ export default function ExperienceCalc() {
       daily: getOptionValue(options.daily, formValues.daily),
       adgor: getOptionValue(options.adgor, formValues.adgor),
       encounter: getOptionValue(options.encounter, formValues.encounter),
+      invasionCommunity: isInvasion
+        ? getOptionValue(
+            options.invasionCommunity,
+            formValues.invasionCommunity
+          )
+        : undefined,
     }
     const result = calcIF(params)
 
@@ -56,11 +65,13 @@ export default function ExperienceCalc() {
     setEquation(getIFEquation(params))
   }, [
     formValues,
+    isInvasion,
     options.adgor,
     options.consumables,
     options.daily,
     options.encounter,
     options.guild,
+    options.invasionCommunity,
     options.runes,
   ])
 
@@ -224,6 +235,32 @@ export default function ExperienceCalc() {
             </Select>
           </FormControl>
         </Box>
+
+        {isInvasion && (
+          <Box mt={VerticalSpacing}>
+            <FormControl fullWidth>
+              <InputLabel id="invasion-community-label">
+                Invasion Community Level
+              </InputLabel>
+              <Select
+                labelId="invasion-community-label"
+                id="invasionCommunity"
+                name="invasionCommunity"
+                value={formValues.invasionCommunity}
+                label="Invasion Community Level"
+                onChange={handleInputChange}
+              >
+                {Object.entries(options.invasionCommunity.options).map(
+                  ([key, v]) => (
+                    <MenuItem key={key} value={key}>
+                      {v.text}
+                    </MenuItem>
+                  )
+                )}
+              </Select>
+            </FormControl>
+          </Box>
+        )}
       </Box>
 
       <p className={styles.results}>

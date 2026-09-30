@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import calcOptions from '../../data/calcOptions.json'
 
 import Box from '@mui/material/Box'
@@ -9,13 +9,13 @@ import MenuItem from '@mui/material/MenuItem'
 import Select from '@mui/material/Select'
 import TextField from '@mui/material/TextField'
 
-import styles from './index.module.css'
 import {
   cleanVal,
   getEncounterIFForDisplay,
   getOptionValue,
   VerticalSpacing,
 } from '../../utils/utils'
+import styles from './index.module.css'
 
 export default function SimpleIFCalc() {
   const options = calcOptions.itemFind
