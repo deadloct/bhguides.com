@@ -67,6 +67,34 @@ import { calcIF } from './utils'
     },
     result: '7565.00',
   },
+  {
+    desc: 'calc if: invasion community level 5',
+    params: {
+      rune1: 0,
+      rune2: 0,
+      guild: 0,
+      consumable: 0,
+      daily: 0,
+      adgor: 0,
+      encounter: 1,
+      invasionCommunity: 50,
+    },
+    result: '150.00',
+  },
+  {
+    desc: 'calc if: invasion community level 3 with 3 badges',
+    params: {
+      rune1: 0,
+      rune2: 0,
+      guild: 10,
+      consumable: 900,
+      daily: 0,
+      adgor: 50,
+      encounter: 3,
+      invasionCommunity: 20,
+    },
+    result: '3240.00',
+  },
 ].forEach((t) => {
   test(t.desc, () => {
     expect(calcIF(t.params)).toEqual(t.result)

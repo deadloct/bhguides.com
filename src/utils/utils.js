@@ -8,12 +8,17 @@ export function calcIF(vals) {
     vals.guild +
     vals.consumable +
     vals.adgor +
-    vals.daily
+    vals.daily +
+    (vals.invasionCommunity ?? 0)
   return (total * vals.encounter).toFixed(2)
 }
 
 export function getIFEquation(vals) {
-  return `(base:100 + rune:${vals.rune1} + rune:${vals.rune2} + guild:${vals.guild} + consumable:${vals.consumable} + adgor:${vals.adgor} + daily:${vals.daily}) * (1 + encounter:${(vals.encounter - 1).toFixed(2)})`
+  const invasion =
+    vals.invasionCommunity !== undefined
+      ? ` + invasion community:${vals.invasionCommunity}`
+      : ''
+  return `(base:100 + rune:${vals.rune1} + rune:${vals.rune2} + guild:${vals.guild} + consumable:${vals.consumable} + adgor:${vals.adgor} + daily:${vals.daily}${invasion}) * (1 + encounter:${(vals.encounter - 1).toFixed(2)})`
 }
 
 export function cleanVal(val) {

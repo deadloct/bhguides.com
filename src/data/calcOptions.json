@@ -175,30 +175,15 @@
         }
       }
     },
-    "encounterBonus": {
-      "default": "none",
+    "invasionCommunity": {
+      "default": "level0",
       "options": {
-        "none": { "text": "No Community Bonus", "value": 1 },
-        "invasionTier1": {
-          "text": "Invasion - Community Tier 1",
-          "value": 1.05
-        },
-        "invasionTier2": {
-          "text": "Invasion - Community Tier 2",
-          "value": 1.1
-        },
-        "invasionTier3": {
-          "text": "Invasion - Community Tier 3",
-          "value": 1.2
-        },
-        "invasionTier4": {
-          "text": "Invasion - Community Tier 4",
-          "value": 1.3
-        },
-        "invasionTier5": {
-          "text": "Invasion - Community Tier 5",
-          "value": 1.5
-        }
+        "level0": { "text": "Level 0 (0%)", "value": 0 },
+        "level1": { "text": "Level 1 (5%)", "value": 5 },
+        "level2": { "text": "Level 2 (10%)", "value": 10 },
+        "level3": { "text": "Level 3 (20%)", "value": 20 },
+        "level4": { "text": "Level 4 (30%)", "value": 30 },
+        "level5": { "text": "Level 5 (50%)", "value": 50 }
       }
     }
   },
@@ -382,30 +367,15 @@
         }
       }
     },
-    "encounterBonus": {
-      "default": "none",
+    "invasionCommunity": {
+      "default": "level0",
       "options": {
-        "none": { "text": "No Community Bonus", "value": 1 },
-        "invasionTier1": {
-          "text": "Invasion - Community Tier 1",
-          "value": 1.05
-        },
-        "invasionTier2": {
-          "text": "Invasion - Community Tier 2",
-          "value": 1.1
-        },
-        "invasionTier3": {
-          "text": "Invasion - Community Tier 3",
-          "value": 1.2
-        },
-        "invasionTier4": {
-          "text": "Invasion - Community Tier 4",
-          "value": 1.3
-        },
-        "invasionTier5": {
-          "text": "Invasion - Community Tier 5",
-          "value": 1.5
-        }
+        "level0": { "text": "Level 0 (0%)", "value": 0 },
+        "level1": { "text": "Level 1 (5%)", "value": 5 },
+        "level2": { "text": "Level 2 (10%)", "value": 10 },
+        "level3": { "text": "Level 3 (20%)", "value": 20 },
+        "level4": { "text": "Level 4 (30%)", "value": 30 },
+        "level5": { "text": "Level 5 (50%)", "value": 50 }
       }
     }
   },
