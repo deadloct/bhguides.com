@@ -2024,7 +2024,18 @@
           "attachments": [
             {
               "attachmenttype": "link",
-              "link": "https://docs.google.com/spreadsheets/d/1jUMCYJLmZ7y0dFXKgW8mqHhG0uz9F-84UQVL4ksYA94/"
+              "link": "https://docs.google.com/spreadsheets/d/1jUMCYJLmZ7y0dFXKgW8mqHhG0uz9F-84UQVL4ksYA94"
+            }
+          ]
+        },
+        {
+          "name": "Ancient Uptier Calculator",
+          "slug": "calculators-ancient-uptier-calculator",
+          "authors": ["Deiru"],
+          "attachments": [
+            {
+              "attachmenttype": "link",
+              "link": "https://dacguide.netlify.app"
             }
           ]
         },
