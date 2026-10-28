@@ -2040,6 +2040,17 @@
           ]
         },
         {
+          "name": "AlbacorePrism's Build Planner",
+          "slug": "calculators-build-planner",
+          "authors": ["AlbacorePrism"],
+          "attachments": [
+            {
+              "attachmenttype": "link",
+              "link": "https://ba4-ai.vercel.app"
+            }
+          ]
+        },
+        {
           "name": "BillyIdol's Calculators (This Site)",
           "slug": "calculators-billyidols-calculators-this-site",
           "authors": ["BillyIdol"],
