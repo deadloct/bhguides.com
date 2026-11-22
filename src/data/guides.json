@@ -2835,20 +2835,6 @@
           "inTier": true
         },
         {
-          "name": "Vanterio's In-Tier Video Guide",
-          "slug": "t08d4-vanterios-in-tier-video-guide",
-          "authors": ["Vanterio"],
-          "builds": ["Obliteration", "Night Walker"],
-          "fams": ["Bobodom", "Drazig"],
-          "attachments": [
-            {
-              "attachmenttype": "link",
-              "link": "https://youtu.be/mXyURlbZLy0?feature=shared"
-            }
-          ],
-          "inTier": true
-        },
-        {
           "name": "Youreprettycute's In-Tier Pic and Text Guide",
           "slug": "t08d4-youreprettycutes-in-tier-pic-and-text-guide",
           "authors": ["Youreprettycute"],
@@ -3174,29 +3160,6 @@
             }
           ],
           "inTier": true
-        },
-        {
-          "name": "Vanterio's Text, Pic, and Video Guide",
-          "slug": "t12d4-vanterios-text-pic-and-video-guide",
-          "authors": ["Vanterio"],
-          "builds": ["Raiju"],
-          "fams": ["Blinka", "Drazig", "Gello", "Grandpa Hef", "Oladus"],
-          "attachments": [
-            {
-              "filename": "d4-t12-vanterio.md",
-              "attachmenttype": "markdown"
-            },
-            {
-              "filename": "d4-t12-vanterio.png",
-              "attachmenttype": "image",
-              "contenttype": "image/png"
-            },
-            {
-              "attachmenttype": "link",
-              "link": "https://youtube.com/playlist?list=PLHpQl7TbewxI3c9kDcHdhrCyd8N3e9rkK&feature=shared"
-            }
-          ],
-          "inTier": false
         }
       ]
     },

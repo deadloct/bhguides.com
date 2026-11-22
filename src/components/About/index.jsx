@@ -100,7 +100,7 @@ export default function About() {
         n1ghtmaree, Olivernoko, Orcaaa, PAINisGOD93, Parad0x, PocketApple8104,
         ponymarc, PrimeDyze, Pristine, RoastyChicken, Rome, ShawnBond, Sizz,
         skye666, Smolder, Sora, Special_Delivery, Talisman, Tarnym, Techno,
-        Toad, Tolton, TooT, TrippyAfro, TwoTone, UnseenAxes, Vanterio, VesaN,
+        Toad, Tolton, TooT, TrippyAfro, TwoTone, UnseenAxes, VesaN,
         Vicious, Winter, WRLD_EATR, Youreprettycute, ZENICKS, and ZombieSlayer13
       </p>
       <p>
