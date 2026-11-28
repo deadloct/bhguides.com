@@ -1234,6 +1234,24 @@
           ]
         },
         {
+          "name": "Deadryad",
+          "slug": "event-familiars-deadryad",
+          "inFestiviflux": false,
+          "roles": ["DPS"],
+          "revealed_by": "Neflarian",
+          "attachments": [
+            {
+              "filename": "fusion-event-deadryad.png",
+              "attachmenttype": "image",
+              "contenttype": "image/png"
+            },
+            {
+              "attachmenttype": "link",
+              "link": "https://www.youtube.com/watch?v=CxiOBz7ZrnA"
+            }
+          ]
+        },
+        {
           "name": "Decastaroth",
           "slug": "event-familiars-decastaroth",
           "roles": ["DPS"],
